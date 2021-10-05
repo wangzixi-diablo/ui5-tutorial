@@ -1,8 +1,0 @@
-specVersion: '2.3'
-metadata:
-  name: "sap.m.tutorial.walkthrough.01"
-type: application
-resources:
-  configuration:
-    paths:
-      webapp: .
