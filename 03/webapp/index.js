@@ -3,8 +3,10 @@ sap.ui.define([
 ], function (Text) {
 	"use strict";
 
-	new Text({
+	var text = new Text({
 		text: "Hello World",
 		tooltip: "我是 Tooltip"
-	}).placeAt("content");
+	});
+	
+	text.placeAt("content");
 });
