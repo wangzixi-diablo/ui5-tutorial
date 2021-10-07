@@ -1,0 +1,29 @@
+{
+	"sap.app": {
+		"id": "sap.viz.sample.Line",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.viz.sample.Line.Line",
+			"type": "XML",
+			"async": true
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "./css/exploredStyle.css"
+				}
+			]
+		},
+		"dependencies": {
+			"libs": {
+				"sap.viz": {},
+				"sap.ui.layout": {},
+				"sap.m": {}
+			}
+		}
+	}
+}
