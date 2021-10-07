@@ -1,11 +1,10 @@
 {
   "name": "sap.m.tutorial.walkthrough.04",
   "version": "1.0.0",
-  "author": "SAP SE",
-  "description": "Sample: Walkthrough - Step 4 - XML Views",
+  "author": "Jerry",
+  "description": "SAP UI5 初学者教程之四：XML 视图初探",
   "scripts": {
-    "start": "ui5 serve",
-    "build": "ui5 build"
+    "start": "ui5 serve"
   },
   "devDependencies": {
     "@ui5/cli": "^2.0.0"
