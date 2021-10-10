@@ -27,3 +27,5 @@ Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始�
 * [SAP UI5 初学者教程之五：视图控制器初探](https://jerry.blog.csdn.net/article/details/120669241)
 
 * [SAP UI5 初学者教程之六 - 了解 SAP UI5 的模块(Module)概念](https://jerry.blog.csdn.net/article/details/120680451)
+
+* [SAP UI5 初学者教程之七 - JSON 模型初探](https://jerry.blog.csdn.net/article/details/120693394)
