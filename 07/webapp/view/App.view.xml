@@ -5,9 +5,10 @@
 	<Button
 		text="Say Hello"
 		press=".onShowHello"/>
-	<Input
+	<Input 
+	    id="myinput"
 		value="{/recipient/name}"
 		description="Hello {/recipient/name}"
-		valueLiveUpdate="true"
+		valueLiveUpdate="false"
 		width="60%"/>
 </mvc:View>
