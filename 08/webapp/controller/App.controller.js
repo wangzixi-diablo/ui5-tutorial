@@ -23,8 +23,8 @@ sap.ui.define([
 			//MessageToast.show("Hello World"); - 步骤7的代码
 			var oBundle = this.getView().getModel("jerryi18n").getResourceBundle();
 			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+			
 			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-			// show message
 			MessageToast.show(sMsg);
 		}
 	});

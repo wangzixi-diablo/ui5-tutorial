@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.09",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 初学者教程之九 - 创建第一个 Component",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
