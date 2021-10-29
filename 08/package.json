@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.08",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 初学者教程之八 - 多语言的支持",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
