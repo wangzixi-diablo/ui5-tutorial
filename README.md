@@ -21,6 +21,9 @@
 
 * [SAP UI5 初学者教程之八 - 多语言的支持](https://jerry.blog.csdn.net/article/details/121039416)
 
+* [SAP UI5 初学者教程之九 - 创建第一个 Component](https://jerry.blog.csdn.net/article/details/121042479)
+
+* [SAP UI5 初学者教程之十 - 什么是 SAP UI5 应用的描述符 Descriptor](https://jerry.blog.csdn.net/article/details/121049973)
 
 ## 说明
 

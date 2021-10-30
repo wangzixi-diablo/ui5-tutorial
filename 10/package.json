@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.10",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 初学者教程之十 - 什么是 SAP UI5 应用的描述符 Descriptor",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
