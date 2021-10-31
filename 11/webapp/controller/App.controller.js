@@ -9,6 +9,10 @@ sap.ui.define([
 		  var sRecipient = this.getView().getModel().getProperty("/recipient/name");
 		  var sMsg = oBundle.getText("helloMsg", [sRecipient]);
 		  MessageToast.show(sMsg);
-	   }
+	   },
+	   onBeforeRendering(){
+        var oView = this.getView();
+        console.log('Jerry App view: ', oView);
+       }
 	});
  });
