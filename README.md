@@ -27,6 +27,8 @@
 
 * [SAP UI5 初学者教程之十一 ：SAP UI5 容器类控件 Page 和 Panel](https://jerry.blog.csdn.net/article/details/121060759)
 
+* [SAP UI5 初学者教程之十二 - 使用 CSS 类对 UI 进行进一步美化](https://jerry.blog.csdn.net/article/details/121063066)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
