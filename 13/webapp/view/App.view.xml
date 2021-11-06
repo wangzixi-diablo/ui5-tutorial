@@ -23,7 +23,7 @@
 									width="60%"/>
 								<FormattedText
 									htmlText="Hello {/recipient/name}"
-									class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+									class="sapUiSmallMargin  myCustomText"/>
 							</content>
 						</Panel>
 					</content>

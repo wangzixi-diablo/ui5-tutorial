@@ -29,6 +29,8 @@
 
 * [SAP UI5 初学者教程之十二 - 使用 CSS 类对 UI 进行进一步美化](https://jerry.blog.csdn.net/article/details/121063066)
 
+* [SAP UI5 初学者教程之十三 - 如何添加自定义 CSS 类](https://jerry.blog.csdn.net/article/details/121180115)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
