@@ -35,6 +35,8 @@
 
 * [SAP UI5 初学者教程之十五 - 对话框和 Fragments 的使用方式](https://blog.csdn.net/i042416/article/details/122450382)
 
+* [SAP UI5 初学者教程之十六 - 图标 icon 的使用](https://jerry.blog.csdn.net/article/details/122453835)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
