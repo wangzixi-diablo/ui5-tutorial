@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.15",
+  "name": "sap.m.tutorial.walkthrough.16",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 对话框和 Fragments 的使用",
+  "description": "SAP UI5 初学者教程之十六 - 图标 icon 的使用",
   "scripts": {
     "start": "ui5 serve"
   },
