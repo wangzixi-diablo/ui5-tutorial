@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.14",
+  "name": "sap.m.tutorial.walkthrough.15",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 嵌入视图",
+  "description": "SAP UI5 对话框和 Fragments 的使用",
   "scripts": {
     "start": "ui5 serve"
   },
