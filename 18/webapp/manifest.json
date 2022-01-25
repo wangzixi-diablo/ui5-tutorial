@@ -32,14 +32,6 @@
 		}
 	  },
 	  "models": {
-		"i18n": {
-		  "type": "sap.ui.model.resource.ResourceModel",
-		  "settings": {
-			"bundleName": "sap.ui5.walkthrough.i18n.i18n",
-			"supportedLocales": [""],
-			"fallbackLocale": ""
-		  }
-		},
 		"invoice": {
 			"type": "sap.ui.model.json.JSONModel",
 			"uri": "Invoices.json"

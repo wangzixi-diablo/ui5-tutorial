@@ -3,25 +3,29 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Panel
-      headerText="{i18n>helloPanelTitle}"
+      headerText="{i18nJerry>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
       <Button
          id="helloDialogButton"
          icon="sap-icon://world"
-         text="{i18n>openDialogButtonText}"
+         text="{i18nJerry>openDialogButtonText}"
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>
 
       <Button
-         text="{i18n>showHelloButtonText}"
+         text="{i18nJerry>showHelloButtonText}"
          press=".onShowHello"
          class="myCustomButton"/>
       <Input
          value="{/recipient/name}"
+         width="50%"/>
+      <Input
+         binding="{/recipient}"
+         value="{name}"
          valueLiveUpdate="true"
-         width="60%"/>
+         width="50%"/>
       <FormattedText
          htmlText="Hello {/recipient/name}"
          class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>

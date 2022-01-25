@@ -12,7 +12,7 @@
       </content>
       <beginButton>
          <Button
-            text="{i18n>dialogCloseButtonText}"
+            text="{i18nJerry>dialogCloseButtonText}"
             press=".onCloseDialog"/>
       </beginButton>
    </Dialog>

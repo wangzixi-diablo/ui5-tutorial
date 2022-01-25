@@ -22,7 +22,7 @@ sap.ui.define([
           var i18nModel = new ResourceModel({
              bundleName: "sap.ui5.walkthrough.i18n.i18n"
           });
-          this.setModel(i18nModel, "i18n");
+          this.setModel(i18nModel, "i18nJerry");
        }
     });
  });

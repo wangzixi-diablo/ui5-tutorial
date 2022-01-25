@@ -7,7 +7,7 @@ sap.ui.define([
 	return Controller.extend("sap.u5.walkthrough.controller.HelloPanel", {
 
 		onShowHello : function () {
-         var oBundle = this.getView().getModel("i18n").getResourceBundle();
+         var oBundle = this.getView().getModel("i18nJerry").getResourceBundle();
           var sRecipient = this.getView().getModel().getProperty("/recipient/name");
           var sMsg = oBundle.getText("helloMsg", [sRecipient]);
           MessageToast.show(sMsg);
