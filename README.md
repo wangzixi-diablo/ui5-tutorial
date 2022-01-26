@@ -41,6 +41,7 @@
 
 * [SAP UI5 初学者教程之十八 - SAP UI5 数据绑定语法里的特殊符号，以及绝对绑定和相对绑定概念详解](https://jerry.blog.csdn.net/article/details/122691944)
 
+* [SAP UI5 初学者教程之十九 - SAP UI5 数据类型和复杂的数据绑定](https://jerry.blog.csdn.net/article/details/122709248)
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
