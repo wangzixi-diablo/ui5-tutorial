@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.18",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 数据绑定语法里的特殊符号，以及绝对绑定和相对绑定概念详解",
+  "description": "SAP UI5 数据类型和复杂的数据绑定",
   "scripts": {
     "start": "ui5 serve"
   },
