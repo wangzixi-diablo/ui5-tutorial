@@ -49,6 +49,10 @@
 
 * [SAP UI5 初学者教程之二十二 - 过滤器 filter 的开发和使用](https://jerry.blog.csdn.net/article/details/122733097)
 
+* [SAP UI5 初学者教程之二十三 - 列表控件的排序 Sort 和分组 Group](https://jerry.blog.csdn.net/article/details/122736505)
+
+* []()
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
