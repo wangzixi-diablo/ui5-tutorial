@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.20",
+  "name": "sap.m.tutorial.walkthrough.21",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 的表达式绑定用法讲解",
+  "description": "SAP UI5 的自定义格式器(Custom Formatter)",
   "scripts": {
     "start": "ui5 serve"
   },
