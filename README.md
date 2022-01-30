@@ -51,7 +51,7 @@
 
 * [SAP UI5 初学者教程之二十三 - 列表控件的排序 Sort 和分组 Group](https://jerry.blog.csdn.net/article/details/122736505)
 
-* []()
+* [SAP UI5 初学者教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
 
 ## 说明
 
