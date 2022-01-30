@@ -16,6 +16,13 @@
 			"settings": {
 				"odataVersion": "2.0"
 			}
+		},
+		"invoiceRemote1": {
+			"uri": "http://localhost:8081/https://services.odata.org/V2/Northwind/Northwind.svc/",
+			"type": "OData",
+			"settings": {
+				"odataVersion": "2.0"
+			}
 		}
 	}
 	},
