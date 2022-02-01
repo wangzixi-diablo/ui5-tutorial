@@ -53,6 +53,8 @@
 
 * [SAP UI5 初学者教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
 
+* [SAP UI5 初学者教程之二十五 - 使用代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
