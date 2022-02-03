@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.27",
+  "name": "sap.m.tutorial.walkthrough.28",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 应用的单元测试工具 QUnit 介绍",
+  "description": "SAP UI5 应用的集成测试工具 OPA 介绍",
   "scripts": {
     "start": "ui5 serve",
     "proxy": "node proxy.js",
