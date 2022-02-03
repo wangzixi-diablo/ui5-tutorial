@@ -57,6 +57,8 @@
 
 * [SAP UI5 初学者教程之二十六 - OData 服务配合 Mock 服务器的使用步骤详解](https://jerry.blog.csdn.net/article/details/122770273)
 
+* [SAP UI5 初学者教程之二十七 - SAP UI5 应用的单元测试工具 QUnit 介绍](https://jerry.blog.csdn.net/article/details/122774349)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
