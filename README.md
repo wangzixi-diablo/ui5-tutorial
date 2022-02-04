@@ -5,61 +5,61 @@
 
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
-* [SAP UI5 初学者教程之一：Hello World](https://jerry.blog.csdn.net/article/details/120612455)
+* [SAP UI5 应用开发教程之一：Hello World](https://jerry.blog.csdn.net/article/details/120612455)
 
-* [SAP UI5 初学者教程之二：SAP UI5 的引导过程 Bootstrap](https://jerry.blog.csdn.net/article/details/120614665)
+* [SAP UI5 应用开发教程之二：SAP UI5 的引导过程 Bootstrap](https://jerry.blog.csdn.net/article/details/120614665)
 
-* [SAP UI5 初学者教程之三：开始接触第一个 SAP UI5 控件](https://jerry.blog.csdn.net/article/details/120619615)
+* [SAP UI5 应用开发教程之三：开始接触第一个 SAP UI5 控件](https://jerry.blog.csdn.net/article/details/120619615)
 
-* [SAP UI5 初学者教程之四：XML 视图初探](https://jerry.blog.csdn.net/article/details/120642096)
+* [SAP UI5 应用开发教程之四：XML 视图初探](https://jerry.blog.csdn.net/article/details/120642096)
 
-* [SAP UI5 初学者教程之五：视图控制器初探](https://jerry.blog.csdn.net/article/details/120669241)
+* [SAP UI5 应用开发教程之五：视图控制器初探](https://jerry.blog.csdn.net/article/details/120669241)
 
-* [SAP UI5 初学者教程之六 - 了解 SAP UI5 的模块(Module)概念](https://jerry.blog.csdn.net/article/details/120680451)
+* [SAP UI5 应用开发教程之六 - 了解 SAP UI5 的模块(Module)概念](https://jerry.blog.csdn.net/article/details/120680451)
 
-* [SAP UI5 初学者教程之七 - JSON 模型初探](https://jerry.blog.csdn.net/article/details/120693394)
+* [SAP UI5 应用开发教程之七 - JSON 模型初探](https://jerry.blog.csdn.net/article/details/120693394)
 
-* [SAP UI5 初学者教程之八 - 多语言的支持](https://jerry.blog.csdn.net/article/details/121039416)
+* [SAP UI5 应用开发教程之八 - 多语言的支持](https://jerry.blog.csdn.net/article/details/121039416)
 
-* [SAP UI5 初学者教程之九 - 创建第一个 Component](https://jerry.blog.csdn.net/article/details/121042479)
+* [SAP UI5 应用开发教程之九 - 创建第一个 Component](https://jerry.blog.csdn.net/article/details/121042479)
 
-* [SAP UI5 初学者教程之十 - 什么是 SAP UI5 应用的描述符 Descriptor](https://jerry.blog.csdn.net/article/details/121049973)
+* [SAP UI5 应用开发教程之十 - 什么是 SAP UI5 应用的描述符 Descriptor](https://jerry.blog.csdn.net/article/details/121049973)
 
-* [SAP UI5 初学者教程之十一 ：SAP UI5 容器类控件 Page 和 Panel](https://jerry.blog.csdn.net/article/details/121060759)
+* [SAP UI5 应用开发教程之十一 ：SAP UI5 容器类控件 Page 和 Panel](https://jerry.blog.csdn.net/article/details/121060759)
 
-* [SAP UI5 初学者教程之十二 - 使用 CSS 类对 UI 进行进一步美化](https://jerry.blog.csdn.net/article/details/121063066)
+* [SAP UI5 应用开发教程之十二 - 使用 CSS 类对 UI 进行进一步美化](https://jerry.blog.csdn.net/article/details/121063066)
 
-* [SAP UI5 初学者教程之十三 - 如何添加自定义 CSS 类](https://jerry.blog.csdn.net/article/details/121180115)
+* [SAP UI5 应用开发教程之十三 - 如何添加自定义 CSS 类](https://jerry.blog.csdn.net/article/details/121180115)
 
-* [SAP UI5 初学者教程之十四 - 嵌入视图的使用方式](https://jerry.blog.csdn.net/article/details/122420230)
+* [SAP UI5 应用开发教程之十四 - 嵌入视图的使用方式](https://jerry.blog.csdn.net/article/details/122420230)
 
-* [SAP UI5 初学者教程之十五 - 对话框和 Fragments 的使用方式](https://blog.csdn.net/i042416/article/details/122450382)
+* [SAP UI5 应用开发教程之十五 - 对话框和 Fragments 的使用方式](https://blog.csdn.net/i042416/article/details/122450382)
 
-* [SAP UI5 初学者教程之十六 - 图标 icon 的使用](https://jerry.blog.csdn.net/article/details/122453835)
+* [SAP UI5 应用开发教程之十六 - 图标 icon 的使用](https://jerry.blog.csdn.net/article/details/122453835)
 
-* [SAP UI5 初学者教程之十七 - 聚合绑定在 UI5 复合控件中的使用](https://blog.csdn.net/i042416/article/details/122458023)
+* [SAP UI5 应用开发教程之十七 - 聚合绑定在 UI5 复合控件中的使用](https://blog.csdn.net/i042416/article/details/122458023)
 
-* [SAP UI5 初学者教程之十八 - SAP UI5 数据绑定语法里的特殊符号，以及绝对绑定和相对绑定概念详解](https://jerry.blog.csdn.net/article/details/122691944)
+* [SAP UI5 应用开发教程之十八 - SAP UI5 数据绑定语法里的特殊符号，以及绝对绑定和相对绑定概念详解](https://jerry.blog.csdn.net/article/details/122691944)
 
-* [SAP UI5 初学者教程之十九 - SAP UI5 数据类型和复杂的数据绑定](https://jerry.blog.csdn.net/article/details/122709248)
+* [SAP UI5 应用开发教程之十九 - SAP UI5 数据类型和复杂的数据绑定](https://jerry.blog.csdn.net/article/details/122709248)
 
-* [SAP UI5 初学者教程之二十 - SAP UI5 的表达式绑定用法讲解](https://jerry.blog.csdn.net/article/details/122719005)
+* [SAP UI5 应用开发教程之二十 - SAP UI5 的表达式绑定用法讲解](https://jerry.blog.csdn.net/article/details/122719005)
 
-* [SAP UI5 初学者教程之二十一 - SAP UI5 的自定义格式器 Custom Formatter](https://jerry.blog.csdn.net/article/details/122727543)
+* [SAP UI5 应用开发教程之二十一 - SAP UI5 的自定义格式器 Custom Formatter](https://jerry.blog.csdn.net/article/details/122727543)
 
-* [SAP UI5 初学者教程之二十二 - 过滤器 filter 的开发和使用](https://jerry.blog.csdn.net/article/details/122733097)
+* [SAP UI5 应用开发教程之二十二 - 过滤器 filter 的开发和使用](https://jerry.blog.csdn.net/article/details/122733097)
 
-* [SAP UI5 初学者教程之二十三 - 列表控件的排序 Sort 和分组 Group](https://jerry.blog.csdn.net/article/details/122736505)
+* [SAP UI5 应用开发教程之二十三 - 列表控件的排序 Sort 和分组 Group](https://jerry.blog.csdn.net/article/details/122736505)
 
-* [SAP UI5 初学者教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
+* [SAP UI5 应用开发教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
 
-* [SAP UI5 初学者教程之二十五 - 使用代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
+* [SAP UI5 应用开发教程之二十五 - 使用代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
 
-* [SAP UI5 初学者教程之二十六 - OData 服务配合 Mock 服务器的使用步骤详解](https://jerry.blog.csdn.net/article/details/122770273)
+* [SAP UI5 应用开发教程之二十六 - OData 服务配合 Mock 服务器的使用步骤详解](https://jerry.blog.csdn.net/article/details/122770273)
 
-* [SAP UI5 初学者教程之二十七 - SAP UI5 应用的单元测试工具 QUnit 介绍](https://jerry.blog.csdn.net/article/details/122774349)
+* [SAP UI5 应用开发教程之二十七 - SAP UI5 应用的单元测试工具 QUnit 介绍](https://jerry.blog.csdn.net/article/details/122774349)
 
-* [SAP UI5 初学者教程之二十八 - SAP UI5 应用的集成测试工具 OPA 介绍](https://jerry.blog.csdn.net/article/details/122777665)
+* [SAP UI5 应用开发教程之二十八 - SAP UI5 应用的集成测试工具 OPA 介绍](https://jerry.blog.csdn.net/article/details/122777665)
 
 ## 说明
 
