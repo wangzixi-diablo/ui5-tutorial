@@ -61,6 +61,8 @@
 
 * [SAP UI5 应用开发教程之二十八 - SAP UI5 应用的集成测试工具 OPA 介绍](https://jerry.blog.csdn.net/article/details/122777665)
 
+* [SAP UI5 应用开发教程之二十九 - SAP UI5 的路由和导航功能介绍](https://jerry.blog.csdn.net/article/details/122782266)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

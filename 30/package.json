@@ -1,0 +1,21 @@
+{
+  "name": "sap.m.tutorial.walkthrough.30",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 的路由过程中进行参数传递",
+  "scripts": {
+    "start": "ui5 serve",
+    "proxy": "node proxy.js",
+    "proxy:debug": "node --inspect-brk proxy.js"
+  },
+  "dependencies": {
+    "@openui5/themelib_sap_fiori_3": "^1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "http-proxy": "^1.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
