@@ -69,7 +69,7 @@
 
 * [SAP UI5 应用开发教程之三十二 - 如何创建一个自定义 SAP UI5 控件](https://jerry.blog.csdn.net/article/details/122789898)
 
-* [SAP UI5 应用开发教程之三十三 - SAP UI5 应用的响应式布局特性(Responsiveness)]()
+* [SAP UI5 应用开发教程之三十三 - SAP UI5 应用的响应式布局特性(Responsiveness)](https://jerry.blog.csdn.net/article/details/122792549)
 
 ## 说明
 
