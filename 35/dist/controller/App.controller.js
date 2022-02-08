@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast"],function(e,r){"use strict";return e.extend("sap.ui5.walkthrough.controller.App",{})});
