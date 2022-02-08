@@ -1,1 +1,0 @@
-sap.ui.define(["sap/ui/core/util/MockServer"],function(t){"use strict";return{init:function(){var r=new t({rootUri:"https://services.odata.org/V2/Northwind/Northwind.svc/"});t.config({autoRespond:true,autoRespondAfter:500});var e=sap.ui.require.toUrl("sap/ui5/walkthrough/localService");r.simulate(e+"/metadata.xml",e+"/mockdata");r.start()}}});
