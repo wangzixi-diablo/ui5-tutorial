@@ -79,7 +79,9 @@
 
 * [SAP UI5 应用开发教程之三十七 - 使用 Chrome 开发者工具 Console 面板进行元素审查](https://blog.csdn.net/i042416/article/details/122997824)
 
-*[SAP UI5 应用开发教程之三十八 - 使用 Chrome 开发者工具查看程序执行出错时的上下文信息](https://jerry.blog.csdn.net/article/details/122999869)
+* [SAP UI5 应用开发教程之三十八 - 使用 Chrome 开发者工具查看程序执行出错时的上下文信息](https://jerry.blog.csdn.net/article/details/122999869)
+
+* [SAP UI5 应用开发教程之三十九 - SAP UI5 应用出现白屏的一些常见错误和分析方法分享](https://jerry.blog.csdn.net/article/details/123024694)
 
 ## 说明
 
