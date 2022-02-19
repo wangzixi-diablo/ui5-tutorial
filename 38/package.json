@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.37",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 应用开发教程之三十八 - 使用 Chrome 开发者工具查看程序执行出错时的上下文信息",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
