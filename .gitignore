@@ -5,3 +5,4 @@ package-lock.json
 ./*/package-lock.json
 .env
 webapp/dist
+**/dist

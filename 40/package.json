@@ -1,0 +1,26 @@
+{
+  "name": "sap.m.tutorial.walkthrough.35",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何把本地开发的 SAP UI5 应用部署到 ABAP 服务器上",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo"
+  },
+  "dependencies": {
+    "@openui5/themelib_sap_fiori_3": "^1",
+    "@sap/ux-ui5-tooling": "1.4.7"
+  },
+  "devDependencies": {
+    "@sap/ux-ui5-tooling": "^1.4.7",
+    "@ui5/cli": "^2.11.1",
+    "@ui5/fs": "^2.0.6",
+    "@ui5/logger": "^2.0.1",
+    "rimraf": "3.0.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling"
+    ]
+  }
+}
