@@ -5,7 +5,7 @@
   "description": "如何制作包含了 component-preload.js 在内的 SAP UI5 发步版本",
   "scripts": {
     "start": "ui5 serve",
-    "build": "ui5 build -a --clean-dest"
+    "build": "ui5 build --clean-dest"
   },
   "dependencies": {
     "@openui5/themelib_sap_fiori_3": "^1"

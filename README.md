@@ -83,6 +83,8 @@
 
 * [SAP UI5 应用开发教程之三十九 - SAP UI5 应用出现白屏的一些常见错误和分析方法分享](https://jerry.blog.csdn.net/article/details/123024694)
 
+* [SAP UI5 应用开发教程之四十 - 如何制作包含了 component-preload.js 在内的 SAP UI5 发布版本](https://jerry.blog.csdn.net/article/details/123071595)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
