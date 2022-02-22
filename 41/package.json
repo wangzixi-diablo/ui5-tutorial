@@ -1,0 +1,19 @@
+{
+  "name": "sap.m.tutorial.walkthrough.41",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "Chrome 扩展 UI5 Inspector 的离线安装和使用方法",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "dependencies": {
+    "@openui5/themelib_sap_fiori_3": "^1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "http-proxy": "^1.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
