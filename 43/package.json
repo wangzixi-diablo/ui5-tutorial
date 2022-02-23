@@ -1,0 +1,15 @@
+{
+  "name": "sap.m.tutorial.walkthrough.43",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 自带的 Support Assistant 工具使用方法介绍",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "dependencies": {
+    "@openui5/themelib_sap_fiori_3": "^1"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
