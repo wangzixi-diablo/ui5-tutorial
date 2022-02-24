@@ -1,0 +1,39 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.ui.layout.form">
+    <Label text="Label1" labelFor="input1"/> 
+	<Input id="input1" value="Input1"/>
+	<f:SimpleForm id="form1" editable="false">
+          <f:content>
+            <Label
+              text="Label2"
+              labelFor="input2" />
+            <Input id="input2"
+              value="Input2" />
+          </f:content>
+    </f:SimpleForm>
+
+	<f:SimpleForm id="form2" editable="true">
+          <f:content>
+            <Label
+              text="Label3"
+              labelFor="input3" />
+            <Input id="input3"
+              value="Input3" />
+          </f:content>
+    </f:SimpleForm>
+
+	<!--
+	<f:SimpleForm id="form3" editable="true">
+          <f:content>
+            <Label
+              text="Label4"
+			  class="jerryLabel"
+              labelFor="input4" />
+            <Input id="input4"
+              value="Input4" />
+          </f:content>
+    </f:SimpleForm>
+	-->
+</mvc:View>

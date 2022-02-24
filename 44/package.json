@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.44",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "Label 和 Input 控件文本没有水平对齐的原因分析和解决方案",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
