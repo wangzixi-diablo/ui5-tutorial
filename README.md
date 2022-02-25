@@ -95,6 +95,8 @@
 
 * [SAP UI5 应用开发教程之四十五 - 如何在 SAP UI5 应用里使用 jQuery 和原生的 DOM API](https://jerry.blog.csdn.net/article/details/123136635)
 
+* [SAP UI5 应用开发教程之四十六 - 使用 Message Manager 实现开箱即用的验证(Validation)信息抛出](https://jerry.blog.csdn.net/article/details/123142913)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
