@@ -91,6 +91,8 @@
 
 * [SAP UI5 应用开发教程之四十三 - SAP UI5 自带的 Support Assistant 工具使用方法介绍](https://jerry.blog.csdn.net/article/details/123101329)
 
+* [SAP UI5 应用开发教程之四十四 - Label 和 Input 控件文本没有水平对齐的原因分析和解决方案](https://blog.csdn.net/i042416/article/details/123122839)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
