@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.46",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何自定义 SAP UI5 输入字段校验失败的错误消息 valueStateText",
+  "description": "如何自定义 SAP UI5 字符串类型输入字段的校验逻辑",
   "scripts": {
     "start": "ui5 serve"
   },
