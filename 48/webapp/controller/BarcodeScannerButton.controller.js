@@ -11,7 +11,7 @@ sap.ui.define([
 		var prefixId;
 		var oScanResultText;
 
-		return Controller.extend("sap.ndc.sample.BarcodeScannerButton.controller.BarcodeScannerButton", {
+		return Controller.extend("sap.ui5.walkthrough.controller.BarcodeScannerButton", {
 			onInit: function () {
 				prefixId = this.createId();
 				if (prefixId){

@@ -1,5 +1,5 @@
 <mvc:View
-        controllerName="sap.ndc.sample.BarcodeScannerButton.controller.BarcodeScannerButton"
+        controllerName="sap.ui5.walkthrough.controller.BarcodeScannerButton"
         xmlns:ndc="sap.ndc"
         xmlns:mvc="sap.ui.core.mvc"
         xmlns="sap.m">

@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(UIComponent) {
 	"use strict";
 
-	return UIComponent.extend("sap.ndc.sample.BarcodeScannerButton.Component", {
+	return UIComponent.extend("sap.ui5.walkthrough.Component", {
 		metadata : {
 			manifest : "json"
 		}
