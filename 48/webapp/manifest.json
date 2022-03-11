@@ -1,0 +1,31 @@
+{
+	"sap.app": {
+		"id": "sap.ndc.sample.BarcodeScannerButton",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ndc.sample.BarcodeScannerButton.view.BarcodeScannerButton",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ndc": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"view/BarcodeScannerButton.view.xml",
+					"controller/BarcodeScannerButton.controller.js",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}

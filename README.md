@@ -97,6 +97,8 @@
 
 * [SAP UI5 应用开发教程之四十六 - 使用 Message Manager 实现开箱即用的验证(Validation)信息抛出](https://jerry.blog.csdn.net/article/details/123142913)
 
+* [SAP UI5 应用开发教程之四十七 - 如何自定义 SAP UI5 字符串类型输入字段的校验逻辑](https://jerry.blog.csdn.net/article/details/123410743)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
