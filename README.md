@@ -99,6 +99,10 @@
 
 * [SAP UI5 应用开发教程之四十七 - 如何自定义 SAP UI5 字符串类型输入字段的校验逻辑](https://jerry.blog.csdn.net/article/details/123410743)
 
+* [SAP UI5 应用开发教程之四十八 - 如何在 SAP UI5 应用里开发条形码扫描功能](https://jerry.blog.csdn.net/article/details/123420376)
+
+* [SAP UI5 应用开发教程之四十九 - 如何在桌面电脑端调试运行在手机上的 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/123433404)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
