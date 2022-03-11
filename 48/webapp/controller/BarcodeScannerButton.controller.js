@@ -2,26 +2,11 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
 ],
-	/**
-	 * @param {typeof sap.ui.core.mvc.Controller} Controller
-	 */
 	function (Controller, MessageToast) {
 		"use strict";
-
-		var prefixId;
 		var oScanResultText;
 
 		return Controller.extend("sap.ui5.walkthrough.controller.BarcodeScannerButton", {
-			onInit: function () {
-				prefixId = this.createId();
-				if (prefixId){
-					prefixId = prefixId.split("--")[0] + "--";
-				} else {
-					prefixId = "";
-				}
-				oScanResultText = sap.ui.getCore().byId(prefixId + 'sampleBarcodeScannerResult');
-			},
-
 			onScanSuccess: function(oEvent) {
 				if (oEvent.getParameter("cancelled")) {
 					MessageToast.show("Scan cancelled", { duration:1000 });
@@ -38,13 +23,9 @@ sap.ui.define([
 				MessageToast.show("Scan failed: " + oEvent, { duration:1000 });
 			},
 
-			onScanLiveupdate: function(oEvent) {
-				// User can implement the validation about inputting value
-			},
-
 			onAfterRendering: function() {
-				// Reset the scan result
-				var oScanButton = sap.ui.getCore().byId(prefixId + 'sampleBarcodeScannerButton');
+				oScanResultText = this.getView().byId("result");
+				var oScanButton = this.getView().byId("button");
 				if (oScanButton) {
 					$(oScanButton.getDomRef()).on("click", function(){
 						oScanResultText.setText('');

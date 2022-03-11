@@ -5,15 +5,14 @@
         xmlns="sap.m">
 	<VBox class="sapUiSmallMargin">
 		<ndc:BarcodeScannerButton
-			id="sampleBarcodeScannerButton"
+			id="button"
 			scanSuccess="onScanSuccess"
 			scanFail="onScanError"
-			inputLiveUpdate="onScanLiveupdate"
 			dialogTitle="Barcode Scanner Button Sample"
 		/>
 		<HBox class="sapUiTinyMarginTop">
 			<Label text="Scan Result:"/>
-			<Text id="sampleBarcodeScannerResult" text="" class="sapUiTinyMarginBegin"/>
+			<Text id="result" text="" class="sapUiTinyMarginBegin"/>
 		</HBox>
 	</VBox>
 </mvc:View>
