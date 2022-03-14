@@ -105,6 +105,8 @@
 
 * [SAP UI5 应用开发教程之五十 - 如何使用 Cordova 将 SAP UI5 应用生成一个能在 Android 手机上安装的混合应用](https://jerry.blog.csdn.net/article/details/123475735)
 
+* [SAP UI5 应用开发教程之五十一 - 如何使用 Chrome 调试运行在手机上的 SAP UI5 Cordova 混合应用试读版](https://jerry.blog.csdn.net/article/details/123489082)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
