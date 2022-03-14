@@ -1,0 +1,1 @@
+本步骤没有具体的代码，介绍的是调试技巧，文章地址：[SAP UI5 应用开发教程之四十九 - 如何在桌面电脑端调试运行在手机上的 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/123433404)。
