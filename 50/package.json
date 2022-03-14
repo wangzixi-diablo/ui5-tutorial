@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.04",
+  "name": "sap.m.tutorial.walkthrough.50",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 初学者教程之四：XML 视图初探",
+  "description": "如何使用 Cordova 将 SAP UI5 应用生成一个能在 Android 手机上安装的混合应用",
   "scripts": {
     "start": "ui5 serve"
   },
