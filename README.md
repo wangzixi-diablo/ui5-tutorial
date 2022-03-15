@@ -105,7 +105,9 @@
 
 * [SAP UI5 应用开发教程之五十 - 如何使用 Cordova 将 SAP UI5 应用生成一个能在 Android 手机上安装的混合应用](https://jerry.blog.csdn.net/article/details/123475735)
 
-* [SAP UI5 应用开发教程之五十一 - 如何使用 Chrome 调试运行在手机上的 SAP UI5 Cordova 混合应用试读版](https://jerry.blog.csdn.net/article/details/123489082)
+* [SAP UI5 应用开发教程之五十一 - 如何使用 Chrome 调试运行在手机上的 SAP UI5 Cordova 混合应用](https://jerry.blog.csdn.net/article/details/123489082)
+
+* [SAP UI5 应用开发教程之五十二 - 如何使用 SAP UI5 的标准控件结合 Cordova 插件调用手机摄像头进行条形码扫描](https://blog.csdn.net/i042416/article/details/123501147)
 
 ## 说明
 
