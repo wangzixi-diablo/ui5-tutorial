@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.53",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何自定义 SAP UI5 数据类型(Data Type)",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
