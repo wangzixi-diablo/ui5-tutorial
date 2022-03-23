@@ -1,0 +1,21 @@
+{
+	"sap.app": {
+		"id": "sap.ui5.walkthrough.BarcodeScannerButton",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.app1.view.BarcodeScannerButton",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ndc": {}
+			}
+		}
+	}
+}
