@@ -1,0 +1,20 @@
+{
+  "name": "ui5serverapp",
+  "version": "0.3.0",
+  "description": "a tool to serve your ui5 app via nodejs",
+  "main": "local.js",
+  "scripts": {
+    "start": "node local.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i042416/jerrylist"
+  },
+  "license": "MIT"
+}
