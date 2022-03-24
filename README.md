@@ -113,6 +113,8 @@
 
 * [SAP UI5 应用开发教程之五十四 - 如何将本地 SAP UI5 应用配置到本地 Fiori Launchpad 中](https://jerry.blog.csdn.net/article/details/123690190)
 
+* [SAP UI5 应用开发教程之五十五 - 如何将本地 SAP UI5 应用通过 Node.js Express 部署到公网上](https://jerry.blog.csdn.net/article/details/123715732)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

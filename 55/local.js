@@ -1,7 +1,5 @@
-var request = require('request');
 var path = require('path'), express = require('express');
 var app = express();
-var url = require("url");
 var DEFAULTPORT = 8089;
 var port = process.env.PORT || DEFAULTPORT;
 
