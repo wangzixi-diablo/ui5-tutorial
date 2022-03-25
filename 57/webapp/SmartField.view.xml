@@ -1,0 +1,16 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="sap.ui5.walkthrough.SmartField"
+	xmlns:form="sap.ui.layout.form"
+	xmlns="sap.m"
+	xmlns:smartField="sap.ui.comp.smartfield">
+	<form:SimpleForm 
+		editable="true"
+		layout="ResponsiveGridLayout"
+		class="editableForm">
+		<form:content>
+			<smartField:SmartLabel labelFor="idPrice"/>
+			<smartField:SmartField value="{Price}" id="idPrice"/>
+		</form:content>
+	</form:SimpleForm>
+</mvc:View>

@@ -14,8 +14,7 @@
                     id="TreeTableBasic"
                     rows="{path:'/catalog/clothing', parameters: {arrayNames:['categories']}}"
                     selectionMode="MultiToggle"
-                    enableSelectAll="false"
-                    ariaLabelledBy="title">
+                    enableSelectAll="false">
                 <extension>
                     <m:OverflowToolbar>
                         <m:Title id="title" text="Clothing"/>
