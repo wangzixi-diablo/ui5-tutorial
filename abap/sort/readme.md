@@ -1,0 +1,1 @@
+for my SCN blog [Eight different sort algorithms implemented in ABAP](https://blogs.sap.com/2017/04/30/eight-different-sort-algorithms-implemented-in-abap/)
