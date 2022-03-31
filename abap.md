@@ -19,7 +19,7 @@
 * [如何创建最简单的 ABAP 数据库表，以及编码从数据库表中读取数据 (上)](https://jerry.blog.csdn.net/article/details/121051795)
 * [如何创建最简单的 ABAP 数据库表，以及编码从数据库表中读取数据 (下)](https://jerry.blog.csdn.net/article/details/121056690)
 * [用 ABAP 读取本地文本文件内容](https://jerry.blog.csdn.net/article/details/123753797)
-
+* [用 ABAP 新建本地 Excel 文件并写入数据](https://jerry.blog.csdn.net/article/details/123762801)
 
 ## ALV 开发专题
 
