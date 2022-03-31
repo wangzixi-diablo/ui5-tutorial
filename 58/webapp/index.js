@@ -5,7 +5,6 @@ sap.ui.require([
 ], function (JSONModel, XMLView, ResourceModel) {
 	"use strict";
 
-	// Attach an anonymous function to the SAPUI5 'init' event
 	sap.ui.getCore().attachInit(function () {
 
 		var oProductModel = new JSONModel();
@@ -27,26 +26,22 @@ sap.ui.require([
 			currencyCode: "EUR"
 		});
 
-		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
 
 		var oResourceModel = new ResourceModel({
-			bundleName: "sap.ui.demo.db.i18n.i18n",
+			bundleName: "sap.ui5.walkthrough.i18n.i18n",
 			fallbackLocale: "",
 			supportedLocales: ["", "de"]
 		});
 
 		sap.ui.getCore().setModel(oResourceModel, "i18n");
 
-		// Display the XML view called "App"
 		var oView = new XMLView({
-			viewName: "sap.ui.demo.db.view.App"
+			viewName: "sap.ui5.walkthrough.view.App"
 		});
 
-		// Register the view with the message manager
 		sap.ui.getCore().getMessageManager().registerObject(oView, true);
 
-		// Insert the view into the DOM
 		oView.placeAt("content");
 	});
 });

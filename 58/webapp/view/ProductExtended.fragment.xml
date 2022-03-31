@@ -16,6 +16,6 @@
 		}"
 		type="Active"
 		numberUnit="{/currencyCode}"
-		press=".onItemSelected">
+		>
 	</ObjectListItem>
 </core:FragmentDefinition>

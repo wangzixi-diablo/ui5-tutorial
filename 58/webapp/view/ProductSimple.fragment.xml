@@ -8,6 +8,6 @@
 		info="{i18n>Discontinued}"
 		type="Active"
 		infoState="Error"
-		press=".onItemSelected">
+		>
 	</StandardListItem>
 </core:FragmentDefinition>
