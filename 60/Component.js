@@ -1,10 +1,9 @@
 sap.ui.define(function() {
 	"use strict";
 
-	var Component = sap.ui.core.UIComponent.extend("sap.ui.vk.sample.MapContainerListPanel.Component", {
-
+	var Component = sap.ui.core.UIComponent.extend("sap.ui5.walkthrough.Component", {
 		metadata : {
-			rootView : "sap.ui.vk.sample.MapContainerListPanel.V",
+			rootView : "sap.ui5.walkthrough.V",
 			dependencies : {
 				libs : [
 					"sap.m"
@@ -22,7 +21,5 @@ sap.ui.define(function() {
 			}
 		}
 	});
-
 	return Component;
-
 });

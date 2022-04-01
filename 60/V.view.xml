@@ -1,6 +1,6 @@
-<mvc:View controllerName="sap.ui.vk.sample.MapContainerListPanel.C"
+<mvc:View controllerName="sap.ui5.walkthrough.C"
 	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
-	xmlns="sap.m" xmlns:viz="sap.viz.ui5.controls" xmlns:vk="sap.ui.vk"
+	xmlns="sap.m" xmlns:vk="sap.ui.vk"
 	xmlns:vbm="sap.ui.vbm" height="100%" displayBlock="true">
 	<l:FixFlex class="fixFlexVertical">
 		<l:fixContent>
@@ -13,7 +13,7 @@
 				</headerToolbar>
 				<content>
 					<VBox class="sapUiTinyMargin">
-						<Text text="The Map Container provides a predefined feature set which is tailored for the map usage. The map container provides a list panel stack which can for instance be used for a legend and/or other application specific content. The list panel stack can be collapsed and expanded.  The collapsed list panel stack serves as quick access to the clicked panel." />
+						<Text text="SAP UI5 地图控件的一个高级用法" />
 					</VBox>
 				</content>
 			</Panel>

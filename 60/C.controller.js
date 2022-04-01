@@ -3,15 +3,13 @@ sap.ui.define([
 				"sap/ui/Device"
                ],function(JSONModel, Device) {
 	"use strict";
-	
 	var oModel;
-
-	sap.ui.controller("sap.ui.vk.sample.MapContainerListPanel.C", {
+	sap.ui.controller("sap.ui5.walkthrough.C", {
 		onInit : function () 
 		{
-			oModel = new sap.ui.model.json.JSONModel("test-resources/sap/ui/vk/demokit/sample/MapContainerListPanel/Data.json");
+			oModel = new sap.ui.model.json.JSONModel("./Data.json");
 			this.getView().setModel(oModel);
-		 // set the device model
+
 			var oDeviceModel = new JSONModel(Device);
 			oDeviceModel.setDefaultBindingMode("OneWay");
 			this.getView().setModel(oDeviceModel, "device");
@@ -21,10 +19,10 @@ sap.ui.define([
 		 {
 			var oList = oEvt.getSource();
 			var aItems = oList.getSelectedItems();
-			for(var j=0;j<3;j++){// loop over first 3 locations in Data.json
-				var locJson = oModel.getProperty("/Spots/"+j+"/tooltip"); // location from Data.json
+			for(var j=0;j<3;j++){
+				var locJson = oModel.getProperty("/Spots/"+j+"/tooltip"); 
 				var flagScaled = false;
-			for(var i=0;i<aItems.length;i++){// loop over all selected locations
+				for(var i=0;i<aItems.length;i++){
 				var locList = aItems[i].getTitle();
 					if(locList == locJson){
 						if(oModel.getProperty("/Spots/"+j+"/scale") == "1;1;1"){
@@ -45,7 +43,4 @@ sap.ui.define([
 			}
 		}
 	});
-
-	
-
 }, /* bExport= */ true);

@@ -12,13 +12,13 @@ sap.ui.require([
 			app : new App ({
 				pages : [
 					new Page({
-						title : "Basic Map Container with list panel",
+						title : "SAP UI5 应用开发教程之六十",
 						enableScrolling : false,
 						content : [
 							new ComponentContainer({
-								height : "100%", name : "sap.ui.vk.sample.MapContainerListPanel",
+								height : "100%", name : "sap.ui5.walkthrough",
 								settings : {
-									id : "sap.ui.vk.sample.MapContainerListPanel"
+									id : "sap.ui5.walkthrough"
 								}
 							})
 						]
