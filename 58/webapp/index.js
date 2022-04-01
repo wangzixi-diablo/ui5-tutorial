@@ -11,27 +11,9 @@ sap.ui.require([
 		oProductModel.loadData("./model/Products.json");
 		sap.ui.getCore().setModel(oProductModel, "products");
 
-		var oModel = new JSONModel({
-			firstName: "Harry",
-			lastName: "Hawk",
-			enabled: true,
-			address: {
-				street: "Dietmar-Hopp-Allee 16",
-				city: "Walldorf",
-				zip: "69190",
-				country: "Germany"
-			},
-			salesAmount: 12345.6789,
-			priceThreshold: 20,
-			currencyCode: "EUR"
-		});
-
-		sap.ui.getCore().setModel(oModel);
-
 		var oResourceModel = new ResourceModel({
 			bundleName: "sap.ui5.walkthrough.i18n.i18n",
-			fallbackLocale: "",
-			supportedLocales: ["", "de"]
+			fallbackLocale: ""
 		});
 
 		sap.ui.getCore().setModel(oResourceModel, "i18n");
