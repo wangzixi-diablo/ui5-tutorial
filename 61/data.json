@@ -1,0 +1,35 @@
+{
+	"root": {
+		"children": [
+			{
+				"id": "line1",
+				"text": "Level 1",
+				"task": [
+					{
+						"id": "rectangle1",
+						"startTime": "20181101090000",
+						"endTime": "20181127090000"
+					}
+				],
+				"children": [
+					{
+						"id": "line2",
+						"text": "Level 2",
+						"subtask": [
+							{
+								"id": "chevron1",
+								"startTime": "20181101090000",
+								"endTime": "20181113090000"
+							},
+							{
+								"id": "chevron2",
+								"startTime": "20181115090000",
+								"endTime": "20181127090000"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
