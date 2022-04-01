@@ -19,24 +19,24 @@ sap.ui.define([
 		 {
 			var oList = oEvt.getSource();
 			var aItems = oList.getSelectedItems();
-			for(var j=0;j<3;j++){
+			for(var j = 0;j < 3;j ++){
 				var locJson = oModel.getProperty("/Spots/"+j+"/tooltip"); 
 				var flagScaled = false;
-				for(var i=0;i<aItems.length;i++){
+				for(var i = 0;i < aItems.length; i++){
 				var locList = aItems[i].getTitle();
 					if(locList == locJson){
 						if(oModel.getProperty("/Spots/"+j+"/scale") == "1;1;1"){
-							oModel.setProperty("/Spots/"+j+"/scale","1.5;1.5;1.5");
-							flagScaled=true;
+							oModel.setProperty("/Spots/"+j+"/scale","2;2;2");
+							flagScaled = true;
 						}
-						else if(oModel.getProperty("/Spots/"+j+"/scale") == "1.5;1.5;1.5"){
-							flagScaled=true;
+						else if(oModel.getProperty("/Spots/"+j+"/scale") == "2;2;2"){
+							flagScaled = true;
 						}
 					}
 					continue;
 				}
 				if(!flagScaled){
-					if(oModel.getProperty("/Spots/"+j+"/scale") == "1.5;1.5;1.5"){
+					if(oModel.getProperty("/Spots/"+j+"/scale") == "2;2;2"){
 						oModel.setProperty("/Spots/"+j+"/scale","1;1;1");
 					}
 				}
