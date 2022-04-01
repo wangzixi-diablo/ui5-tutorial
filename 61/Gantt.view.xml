@@ -12,13 +12,6 @@
 	<GanttChartContainer>
 		<toolbar>
 			<ContainerToolbar>
-				<m:Select id="taskAlignment" forceSelection="false" selectedKey="Middle" change="onTaskAlignmentChange">
-					<m:items>
-						<core:Item key="Top" text="Task Alignment - Top"/>
-						<core:Item key="Middle" text="Task Alignment - Middle"/>
-						<core:Item key="Bottom" text="Task Alignment - Bottom"/>
-					</m:items>
-				</m:Select>
 			</ContainerToolbar>
 		</toolbar>
 		<GanttChartWithTable id="gantt" shapeSelectionMode="Single">
@@ -40,7 +33,7 @@
 				<table:TreeTable
 						selectionMode="Single"
 						visibleRowCountMode="Auto"
-						minAutoRowCount="12"
+						minAutoRowCount="10"
 						selectionBehavior="RowSelector"
 						enableColumnReordering="true"
 						rows="{
@@ -51,11 +44,12 @@
 						}
 					}">
 					<table:columns>
-						<table:Column label="Col 1" template="text" />
+						<table:Column label="任务列表" template="text" />
 					</table:columns>
 					<table:rowSettingsTemplate>
-						<GanttRowSettings rowId="{id}" shapes1="{path: 'task', templateShareable:false}"
-										  shapes2="{path: 'subtask', templateShareable:false}">
+						<GanttRowSettings rowId="{id}" 
+						shapes1="{path: 'task', templateShareable:false}"
+						shapes2="{path: 'subtask', templateShareable:false}">
 							<shapes1>
 								<shapes:Task time="{path: 'startTime', formatter: '.fnTimeConverter'}"
 											   endTime="{path: 'endTime', formatter: '.fnTimeConverter'}"
@@ -63,7 +57,8 @@
 							</shapes1>
 							<shapes2>
 								<shapes:Task time="{path: 'startTime', formatter: '.fnTimeConverter'}"
-											 endTime="{path: 'endTime', formatter: '.fnTimeConverter'}"/>
+								endTime="{path: 'endTime', formatter: '.fnTimeConverter'}"
+								title="111"/>
 							</shapes2>
 						</GanttRowSettings>
 					</table:rowSettingsTemplate>

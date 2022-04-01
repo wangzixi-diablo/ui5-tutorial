@@ -3,18 +3,18 @@
 		"children": [
 			{
 				"id": "line1",
-				"text": "Level 1",
+				"text": "架构设计",
 				"task": [
 					{
 						"id": "rectangle1",
 						"startTime": "20181101090000",
-						"endTime": "20181127090000"
+						"endTime": "20181128090000"
 					}
 				],
 				"children": [
 					{
 						"id": "line2",
-						"text": "Level 2",
+						"text": "调研",
 						"subtask": [
 							{
 								"id": "chevron1",
@@ -25,6 +25,22 @@
 								"id": "chevron2",
 								"startTime": "20181115090000",
 								"endTime": "20181127090000"
+							}
+						]
+					},
+					{
+						"id": "line3",
+						"text": "需求搜集",
+						"subtask": [
+							{
+								"id": "chevron3",
+								"startTime": "20181102090000",
+								"endTime": "20181114090000"
+							},
+							{
+								"id": "chevron4",
+								"startTime": "20181116090000",
+								"endTime": "20181128090000"
 							}
 						]
 					}
