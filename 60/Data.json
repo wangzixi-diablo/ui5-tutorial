@@ -1,0 +1,66 @@
+{
+	"Spots" :
+		[
+			{
+                "pos": "9.98336;53.55024;0",
+                "contentOffset": "0;-6",
+                "type":"Default",
+                "key": "Hamburg",
+                "scale":"1;1;1",
+                "tooltip": "Hamburg",
+                "icon": "factory"
+                	
+            },
+            {
+                "pos": "11.5820;48.1351;0",
+                "contentOffset": "0;-5",
+                "type":"Default",
+                "key": "Munich",
+                "scale":"1;1;1",
+                "tooltip": "Munich",
+                "icon": "factory"
+                	
+            },
+            {
+                "pos": "8.683340000;50.112000000;0",
+                "contentOffset": "0;-6",
+                "type":"Default",
+                "key": "Frankfurt",
+                "scale":"1;1;1",
+                "tooltip": "Frankfurt",
+                "icon": "factory"
+            },
+            {
+                "pos": "10.070206224918365;49.17598790511184;0",
+                "type":"Error",
+                "key": "Train1",
+                "tooltip": "Train",
+                "contentOffset": "0;-5",
+                "icon": "cargo-train"
+            },
+            {
+                "pos": "9.481360000;51.159290000;0",
+                "type":"Warning",
+                "key": "Truck1",
+                "contentOffset": "0;-5",
+                "tooltip": "Truck",
+                "icon": "shipping-status"
+            },
+            {
+                "pos": "10.127570000;51.876480000;0",
+                "type":"Error",
+                "key": "Truck2",
+                "contentOffset": "0;-5",
+                "tooltip": "Truck",
+                "icon": "shipping-status"
+            },
+            {
+                "pos": "9.722240000;52.629720000;0",
+                "type":"Success",
+                "key": "Truck3",
+                "contentOffset": "0;-5",
+                "tooltip": "Truck",
+                "icon": "shipping-status"
+            }
+		]
+}

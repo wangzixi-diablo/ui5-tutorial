@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.59",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何在 SAP UI5 应用里显示世界地图",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
