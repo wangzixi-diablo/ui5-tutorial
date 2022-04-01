@@ -1,6 +1,6 @@
 <mvc:View controllerName="sap.ui5.walkthrough.C"
 	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
-	xmlns="sap.m" xmlns:viz="sap.viz.ui5.controls" xmlns:vk="sap.ui.vk"
+	xmlns="sap.m" xmlns:vk="sap.ui.vk"
 	xmlns:vbm="sap.ui.vbm" height="100%" displayBlock="true">
 	<l:FixFlex class="fixFlexVertical">
 		<l:fixContent>
