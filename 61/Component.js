@@ -3,10 +3,10 @@ sap.ui.define([
 ], function (UIComponent) {
 	"use strict";
 
-	return UIComponent.extend("sap.gantt.sample.GanttChart2JSON.Component", {
+	return UIComponent.extend("sap.ui5.walkthrough.Component", {
 		metadata: {
 			rootView: {
-				"viewName": "sap.gantt.sample.GanttChart2JSON.Gantt",
+				"viewName": "sap.ui5.walkthrough.Gantt",
 				"type": "XML",
 				"async": true
 			},

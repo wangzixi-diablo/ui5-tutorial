@@ -6,9 +6,9 @@ sap.ui.define([
 ], function (Controller, JSONModel, Format, Utility) {
 	"use strict";
 
-	return Controller.extend("sap.gantt.sample.GanttChart2JSON.Gantt", {
+	return Controller.extend("sap.ui5.walkthrough.Gantt", {
 		onInit: function () {
-			var oModel = new JSONModel(sap.ui.require.toUrl("sap/gantt/sample/GanttChart2JSON/data.json"));
+			var oModel = new JSONModel(sap.ui.require.toUrl("sap/ui5/walkthrough/data.json"));
 			this.getView().setModel(oModel);
 			var Items = ['enableNowLine','enableAdhocLine','enableStatusBar'];
 			this.getView().byId("gantt").getParent().setProperty('hideSettingsItem',Items);

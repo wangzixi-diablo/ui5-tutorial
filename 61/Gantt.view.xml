@@ -1,5 +1,5 @@
 <mvc:View
-		controllerName="sap.gantt.sample.GanttChart2JSON.Gantt"
+		controllerName="sap.ui5.walkthrough.Gantt"
 		height="100%"
 		xmlns="sap.gantt.simple"
 		xmlns:axistime="sap.gantt.axistime"

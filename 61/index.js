@@ -16,9 +16,9 @@ sap.ui.require([
 						enableScrolling : false,
 						content : [
 							new ComponentContainer({
-								height : "100%", name : "sap.gantt.sample.GanttChart2JSON",
+								height : "100%", name : "sap.ui5.walkthrough",
 								settings : {
-									id : "sap.gantt.sample.GanttChart2JSON"
+									id : "sap.ui5.walkthrough"
 								}
 							})
 						]
