@@ -1,0 +1,10 @@
+[
+	{
+		"CalendarID": "0",
+		"CalendarName": "workingDays"
+	},
+	{
+		"CalendarID": "1",
+		"CalendarName": "shiftedWorkingDays"
+	}
+]

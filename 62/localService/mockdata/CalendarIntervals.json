@@ -1,0 +1,26 @@
+[
+	{
+		"CalendarIntervalID": "1",
+		"CalendarID": "0",
+		"StartDate": "/Date(1463414400000)/",
+		"EndDate": "/Date(1463846400000)/"
+	},
+	{
+		"CalendarIntervalID": "2",
+		"CalendarID": "0",
+		"StartDate": "/Date(1466524800000)/",
+		"EndDate": "/Date(1467043200000)/"
+	},
+	{
+		"CalendarIntervalID": "3",
+		"CalendarID": "1",
+		"StartDate": "/Date(1483459200000)/",
+		"EndDate": "/Date(1483977600000)/"
+	},
+	{
+		"CalendarIntervalID": "4",
+		"CalendarID": "1",
+		"StartDate": "/Date(1485878400000)/",
+		"EndDate": "/Date(1486396800000)/"
+	}
+]

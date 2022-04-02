@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+	xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+	xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="GANTT_CHART_ODATA_SRV"
+			xml:lang="en" sap:schema-version="1"
+			xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="ProjectElemDetail" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ObjectID" />
+				</Key>
+				<Property Name  ="ObjectID" Type="Edm.String" Nullable="false"
+					sap:label   ="ObjectID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="ParentObjectID" Type="Edm.String" Nullable="false"
+					sap:label   ="ParentObjectID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="HierarchyNodeLevel" Type="Edm.Int32" Nullable="false"
+					sap:label   ="HierarchyNodeLevel" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="DrillDownState" Type="Edm.String" Nullable="false"
+					sap:label   ="DrillDownState" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="Magnitude" Type="Edm.Int32" Nullable="false"
+					sap:label   ="Magnitude" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="StartDate" Type="Edm.DateTime" Precision="7"
+					sap:label   ="Start Date" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="EndDate" Type="Edm.DateTime" Precision="7"
+					sap:label   ="End Date" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<NavigationProperty Name="Relationships"
+					Relationship="GANTT_CHART_ODATA_SRV.Relationship" FromRole="FromRole_Relationship"
+					ToRole="ToRole_Relationship" />
+				<NavigationProperty Name="WorkingTimes"
+					Relationship="GANTT_CHART_ODATA_SRV.WorkingTime" FromRole="FromRole_WorkingTime"
+					ToRole="ToRole_WorkingTime" />
+			</EntityType>
+			<EntityType Name="RelationshipDetail" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ObjectID" />
+				</Key>
+				<Property Name="ObjectID" Type="Edm.String" Nullable="false"
+					sap:label="ObjectID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="RelationID" Type="Edm.String" Nullable="false"
+					sap:label   ="RelationID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="ParentObjectID" Type="Edm.String" Nullable="false"
+					sap:label   ="ParentObjectID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="RelationType" Type="Edm.String" Nullable="false"
+					sap:label   ="RelationType" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="PredecTaskID" Type="Edm.String" Nullable="false"
+					sap:label   ="PredecTaskID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name  ="SuccTaskID" Type="Edm.String" Nullable="false"
+					sap:label   ="SuccTaskID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+			</EntityType>
+
+			<EntityType Name="CalendarDetail" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="CalendarID" />
+				</Key>
+				<Property Name="CalendarID" Type="Edm.String" Nullable="false"
+					sap:label="Calendar ID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name="CalendarName" Type="Edm.String" Nullable="false"
+					sap:label="Calendar Name" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<NavigationProperty Name="CalendarInterval"
+					Relationship="GANTT_CHART_ODATA_SRV.CalendarInterval" FromRole="FromRole_CalendarInterval"
+					ToRole="ToRole_CalendarInterval" />
+			</EntityType>
+			<EntityType Name="CalendarIntervalDetail" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="CalendarIntervalID" />
+				</Key>
+				<Property Name="CalendarIntervalID" Type="Edm.String" Nullable="false"
+					sap:label="ID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name="CalendarID" Type="Edm.String" Nullable="false"
+					sap:label="Calendar ID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name="StartDate" Type="Edm.DateTime" Precision="7"
+					sap:label="Start Date" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name="EndDate" Type="Edm.DateTime" Precision="7"
+					sap:label="End Date" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+			</EntityType>
+			<EntityType Name="WorkingTimeDetail" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="WorkingTimeID" />
+				</Key>
+				<Property Name="WorkingTimeID" Type="Edm.String" Nullable="false"
+					sap:label="ID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+
+				<Property Name="ParentObjectID" Type="Edm.String" Nullable="false"
+					sap:label="Project Element ID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+				<Property Name="CalendarName" Type="Edm.String" Nullable="false"
+					sap:label="Calendar Name" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" />
+			</EntityType>
+
+			<Association Name="Relationship" sap:content-version="1">
+				<End Type="GANTT_CHART_ODATA_SRV.ProjectElemDetail"
+					Multiplicity="1" Role="FromRole_Relationship" />
+				<End Type="GANTT_CHART_ODATA_SRV.RelationshipDetail"
+					Multiplicity="*" Role="ToRole_Relationship" />
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Relationship">
+						<PropertyRef Name="ObjectID" />
+					</Principal>
+					<Dependent Role="ToRole_Relationship">
+						<PropertyRef Name="ParentObjectID" />
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="CalendarInterval" sap:content-version="1">
+				<End Type="GANTT_CHART_ODATA_SRV.CalendarDetail"
+					Multiplicity="1" Role="FromRole_CalendarInterval" />
+				<End Type="GANTT_CHART_ODATA_SRV.CalendarIntervalDetail"
+					Multiplicity="*" Role="ToRole_CalendarInterval" />
+				<ReferentialConstraint>
+					<Principal Role="FromRole_CalendarInterval">
+						<PropertyRef Name="CalendarID" />
+					</Principal>
+					<Dependent Role="ToRole_CalendarInterval">
+						<PropertyRef Name="CalendarID" />
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="WorkingTime" sap:content-version="1">
+				<End Type="GANTT_CHART_ODATA_SRV.ProjectElemDetail"
+					Multiplicity="1" Role="FromRole_WorkingTime" />
+				<End Type="GANTT_CHART_ODATA_SRV.WorkingTimeDetail"
+					Multiplicity="*" Role="ToRole_WorkingTime" />
+				<ReferentialConstraint>
+					<Principal Role="FromRole_WorkingTime">
+						<PropertyRef Name="ObjectID" />
+					</Principal>
+					<Dependent Role="ToRole_WorkingTime">
+						<PropertyRef Name="ParentObjectID" />
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="GANTT_CHART_ODATA_SRV_Entities"
+				m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet Name="ProjectElems"
+					EntityType="GANTT_CHART_ODATA_SRV.ProjectElemDetail"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+				<EntitySet Name="Relationships"
+					EntityType="GANTT_CHART_ODATA_SRV.RelationshipDetail"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+				<EntitySet Name="Calendars"
+					EntityType="GANTT_CHART_ODATA_SRV.CalendarDetail"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+				<EntitySet Name="CalendarIntervals"
+					EntityType="GANTT_CHART_ODATA_SRV.CalendarIntervalDetail"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+				<EntitySet Name="WorkingTimes"
+					EntityType="GANTT_CHART_ODATA_SRV.WorkingTimeDetail"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+
+				<AssociationSet Name="Relationship"
+					Association="GANTT_CHART_ODATA_SRV.Relationship"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:content-version="1">
+					<End EntitySet="ProjectElems" Role="FromRole_Relationship" />
+					<End EntitySet="Relationships" Role="ToRole_Relationship" />
+				</AssociationSet>
+				<AssociationSet Name="CalendarToIntervals"
+					Association="GANTT_CHART_ODATA_SRV.CalendarInterval"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:content-version="1">
+					<End EntitySet="Calendars" Role="FromRole_CalendarInterval" />
+					<End EntitySet="CalendarIntervals" Role="ToRole_CalendarInterval" />
+				</AssociationSet>
+				<AssociationSet Name="WorkingTime"
+					Association="GANTT_CHART_ODATA_SRV.WorkingTime"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:content-version="1">
+					<End EntitySet="ProjectElems" Role="FromRole_WorkingTime" />
+					<End EntitySet="WorkingTimes" Role="ToRole_WorkingTime" />
+				</AssociationSet>
+			</EntityContainer>
+			<atom:link rel="self"
+				href="http://my.test.service.com/sap/opu/odata/sap/GANTT_CHART_ODATA_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom" />
+			<atom:link rel="latest-version"
+				href="http://my.test.service.com/sap/opu/odata/sap/GANTT_CHART_ODATA_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom" />
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
