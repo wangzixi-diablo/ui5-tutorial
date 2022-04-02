@@ -2,13 +2,11 @@
 	"_version": "1.21.0",
 	"sap.app": {
 		"ach" : "CA-UI5-COR",
-		"id": "sap.ui.core.tutorial.odatav4",
+		"id": "sap.ui5.walkthrough.odatav4",
 		"type": "application",
 		"i18n": {
 			"bundleUrl": "i18n/i18n.properties",
-			"supportedLocales": [
-				""
-			],
+			"supportedLocales": [""],
 			"fallbackLocale": ""
 		},
 		"applicationVersion": {

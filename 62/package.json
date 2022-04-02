@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.58",
+  "name": "sap.m.tutorial.walkthrough.62",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "基于 OData 注解的 Smart Field 使用方法学习",
+  "description": "基于 OData V4 的 SAP UI5 表格控件使用方法介绍",
   "scripts": {
     "start": "ui5 serve"
   },

@@ -4,7 +4,6 @@ sap.ui.define([
 	"sap/base/Log"
 ], function (JSONModel, sinon, Log) {
 	"use strict";
-
 	var oSandbox = sinon.sandbox.create(),
 		aUsers, // The array that holds the cached user data
 		sMetadata, // The string that holds the cached mock service metadata
