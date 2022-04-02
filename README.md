@@ -125,6 +125,8 @@
 
 * [SAP UI5 应用开发教程之六十 - SAP UI5 地图控件的一些高级用法](https://jerry.blog.csdn.net/article/details/123905284)
 
+* [SAP UI5 应用开发教程之六十一 - 在 SAP UI5 应用里绘制甘特图 Gantt Chart](https://jerry.blog.csdn.net/article/details/123918417)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

@@ -2,7 +2,7 @@
 	"root": {
 		"children": [
 			{
-				"id": "line1",
+				"id": "linea1",
 				"text": "前端架构设计",
 				"task": [
 					{
@@ -47,7 +47,7 @@
 				]
 			},
 			{
-				"id": "line1",
+				"id": "lineb1",
 				"text": "后端架构设计",
 				"task": [
 					{

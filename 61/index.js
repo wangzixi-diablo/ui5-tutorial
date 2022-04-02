@@ -12,7 +12,7 @@ sap.ui.require([
 			app : new App ({
 				pages : [
 					new Page({
-						title : "Gantt Chart with JSON Binding",
+						title : "在 SAP UI5 应用里绘制甘特图 Gantt Chart",
 						enableScrolling : false,
 						content : [
 							new ComponentContainer({
