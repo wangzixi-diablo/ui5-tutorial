@@ -8,8 +8,8 @@ sap.ui.define([
 	var oSandbox = sinon.sandbox.create(),
 		aUsers, // The array that holds the cached user data
 		sMetadata, // The string that holds the cached mock service metadata
-		sNamespace = "sap/ui/core/tutorial/odatav4",
-		sLogComponent = "sap.ui.core.tutorial.odatav4.mockserver", // Component for writing logs into the console
+		sNamespace = "sap/ui5/walkthrough",
+		sLogComponent = "sap.ui5.walkthrough.mockserver", // Component for writing logs into the console
 		rBaseUrl = /services.odata.org\/TripPinRESTierService/;
 
 	return {

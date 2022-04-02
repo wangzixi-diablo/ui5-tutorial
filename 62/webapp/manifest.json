@@ -36,7 +36,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.core.tutorial.odatav4.view.App",
+			"viewName": "sap.ui5.walkthrough.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "appView"
@@ -57,7 +57,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.core.tutorial.odatav4.i18n.i18n",
+					"bundleName": "sap.ui5.walkthrough.i18n.i18n",
 					"supportedLocales": [
 						""
 					],
