@@ -42,7 +42,7 @@
 							arrayNames: ['children'],
 							numberOfExpandedLevels: 1
 						}
-					}">
+						}">
 					<table:columns>
 						<table:Column label="任务列表" template="text" />
 					</table:columns>
@@ -57,8 +57,7 @@
 							</shapes1>
 							<shapes2>
 								<shapes:Task time="{path: 'startTime', formatter: '.fnTimeConverter'}"
-								endTime="{path: 'endTime', formatter: '.fnTimeConverter'}"
-								title="111"/>
+								endTime="{path: 'endTime', formatter: '.fnTimeConverter'}"/>
 							</shapes2>
 						</GanttRowSettings>
 					</table:rowSettingsTemplate>

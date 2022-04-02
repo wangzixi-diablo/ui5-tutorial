@@ -3,7 +3,7 @@
 		"children": [
 			{
 				"id": "line1",
-				"text": "架构设计",
+				"text": "前端架构设计",
 				"task": [
 					{
 						"id": "rectangle1",
@@ -14,7 +14,7 @@
 				"children": [
 					{
 						"id": "line2",
-						"text": "调研",
+						"text": "前端调研",
 						"subtask": [
 							{
 								"id": "chevron1",
@@ -30,7 +30,7 @@
 					},
 					{
 						"id": "line3",
-						"text": "需求搜集",
+						"text": "前端需求搜集",
 						"subtask": [
 							{
 								"id": "chevron3",
@@ -41,6 +41,56 @@
 								"id": "chevron4",
 								"startTime": "20181116090000",
 								"endTime": "20181128090000"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "line1",
+				"text": "后端架构设计",
+				"task": [
+					{
+						"id": "rectangle1",
+						"startTime": "20181101090000",
+						"endTime": "20181127090000"
+					}
+				],
+				"children": [
+					{
+						"id": "line2",
+						"text": "后端调研",
+						"subtask": [
+							{
+								"id": "chevron1",
+								"startTime": "20181101090000",
+								"endTime": "20181113090000"
+							},
+							{
+								"id": "chevron2",
+								"startTime": "20181115090000",
+								"endTime": "20181127090000"
+							}
+						]
+					},
+					{
+						"id": "line3",
+						"text": "后端需求搜集",
+						"subtask": [
+							{
+								"id": "chevron3",
+								"startTime": "20181102090000",
+								"endTime": "20181114090000"
+							},
+							{
+								"id": "chevron4",
+								"startTime": "20181116090000",
+								"endTime": "20181118090000"
+							},
+							{
+								"id": "chevron5",
+								"startTime": "20181119090000",
+								"endTime": "20181126090000"
 							}
 						]
 					}
