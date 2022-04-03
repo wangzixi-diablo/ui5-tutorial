@@ -129,13 +129,15 @@
 
 * [SAP UI5 应用开发教程之六十二 - 基于 OData V4 的 SAP UI5 表格控件使用方法介绍](https://jerry.blog.csdn.net/article/details/123928235)
 
+* [SAP UI5 应用开发教程之六十三 - 基于 OData V4 的本地 Mock Server 实现的深入介绍](https://jerry.blog.csdn.net/article/details/123932828)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
 
 在 Jerry 这篇文章 [对 SAP UI5 一无所知的新手，从哪些材料开始学习比较好？](https://blog.csdn.net/i042416/article/details/116347763) 曾经提到，Jerry 也是从 SAP UI5 菜鸟一路走过来，深知只有 ABAP 开发背景的开发者，向 SAP UI5 开发领域转型的不易，因此我在业余时间设计了这份适合 SAP UI5 初学者的学习教程，把开发一个完整的 SAP UI5 应用的流程，拆分成若干个步骤，力求每个步骤里，把涉及到的知识点都涵盖到。这些知识点可能不像我的 UI5 源码分析系列文章那么深入，但力求浅显易懂，便于 SAP UI5 初学者理解。
 
-本教程每一个步骤的源代码，都存放在我的 [Github](https://github.com/wangzixi-diablo/ui5-tutorial) 上，分别用文件夹 01，02，03 等等来标识。
+本教程每一个步骤的源代码，都存放在我的 [Github](https://github.com/wangzixi-diablo/ui5-tutorial) 上，分别用文件夹 01，02，03 等等来标识，例如步骤 1 的源代码在[这里](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/01)。
 
 ![](https://img-blog.csdnimg.cn/img_convert/c7bad3447ae1849d56da2f9ae2f4a6e8.png)
 

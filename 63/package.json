@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.63",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "基于 OData V4 的本地 Mock Server 实现的深入介绍",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
