@@ -1,0 +1,17 @@
+{
+  "name": "ODataV4Tutorial",
+  "private": true,
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "基于 OData V4 的 SAP UI5 表格控件如何实现 filter(过滤) 和 sort(排序)功能",
+  "scripts": {
+    "start": "ui5 serve --open 'index.html'"
+  },
+  "dependencies": {
+    "@openui5/sap.f": "^1",
+    "@openui5/sap.m": "^1",
+    "@openui5/sap.ui.core": "^1",
+    "@openui5/sap.ui.layout": "^1",
+    "@openui5/themelib_sap_belize": "^1"
+  }
+}
