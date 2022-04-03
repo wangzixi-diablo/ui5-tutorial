@@ -131,6 +131,8 @@
 
 * [SAP UI5 应用开发教程之六十三 - 基于 OData V4 的本地 Mock Server 实现的深入介绍](https://jerry.blog.csdn.net/article/details/123932828)
 
+* [SAP UI5 应用开发教程之六十四 - 基于 OData V4 的 SAP UI5 表格控件如何实现 filter(过滤) 和 sort(排序)功能](https://jerry.blog.csdn.net/article/details/123946231)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

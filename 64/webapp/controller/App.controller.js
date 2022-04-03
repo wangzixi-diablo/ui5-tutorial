@@ -43,7 +43,6 @@ sap.ui.define([
 				sMessage,
 				iOrder = oView.getModel("appView").getProperty("/order");
 
-			// Cycle between the states
 			iOrder = (iOrder + 1) % aStates.length;
 			var sOrder = aStates[iOrder];
 
