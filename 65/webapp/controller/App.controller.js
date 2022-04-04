@@ -16,12 +16,14 @@ sap.ui.define([
 				oMessageModel = oMessageManager.getMessageModel(),
 				oMessageModelBinding = oMessageModel.bindList("/", undefined, [],
 					new Filter("technical", FilterOperator.EQ, true)),
+
 				oViewModel = new JSONModel({
 					busy : false,
 					hasUIChanges : false,
 					usernameEmpty : true,
 					order : 0
 				});
+
 			this.getView().setModel(oViewModel, "appView");
 			this.getView().setModel(oMessageModel, "message");
 
@@ -31,7 +33,7 @@ sap.ui.define([
 		onCreate : function () {
 			var oList = this.byId("peopleList"),
 				oBinding = oList.getBinding("items"),
-				// Create a new entry through the table's list binding
+				// 创建一条默认的空白行项目数据
 				oContext = oBinding.create({
 					"UserName" : "",
 					"FirstName" : "",
@@ -73,18 +75,12 @@ sap.ui.define([
 			MessageToast.show(this._getText("refreshSuccessMessage"));
 		},
 
-		/**
-		 * Reset any unsaved changes.
-		 */
 		onResetChanges : function () {
 			this.byId("peopleList").getBinding("items").resetChanges();
 			this._bTechnicalErrors = false; // If there were technical errors, cancelling changes resets them.
 			this._setUIChanges(false);
 		},
 
-		/**
-		 * Save changes to the source.
-		 */
 		onSave : function () {
 			var fnSuccess = function () {
 				this._setBusy(false);
@@ -116,7 +112,6 @@ sap.ui.define([
 				sMessage,
 				iOrder = oView.getModel("appView").getProperty("/order");
 
-			// Cycle between the states
 			iOrder = (iOrder + 1) % aStates.length;
 			var sOrder = aStates[iOrder];
 
