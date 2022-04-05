@@ -135,6 +135,8 @@
 
 * [SAP UI5 应用开发教程之六十五 - 基于 OData V4 的 SAP UI5 表格控件如何实现创建，编辑和保存功能](https://jerry.blog.csdn.net/article/details/123951024)
 
+* [SAP UI5 应用开发教程之六十六 - 基于 OData V4 的 SAP UI5 表格控件如何实现删除功能](https://blog.csdn.net/i042416/article/details/123965854)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
