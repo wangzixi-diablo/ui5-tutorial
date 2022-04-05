@@ -174,7 +174,6 @@ sap.ui.define([
 				oLayout = this.byId("defaultLayout"),
 				oUserContext = oEvent.getParameters().listItem.getBindingContext();
 
-			// set binding
 			oDetailArea.setBindingContext(oUserContext);
 			// resize view
 			oDetailArea.setVisible(true);

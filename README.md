@@ -137,6 +137,8 @@
 
 * [SAP UI5 应用开发教程之六十六 - 基于 OData V4 的 SAP UI5 表格控件如何实现删除功能](https://blog.csdn.net/i042416/article/details/123965854)
 
+* [SAP UI5 应用开发教程之六十七 - 基于 OData V4 的 SAP UI5 List-Detail(列表-明细)布局的实现方式](https://jerry.blog.csdn.net/article/details/123969146)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
