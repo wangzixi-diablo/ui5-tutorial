@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.68",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何实现 SAP UI5 路由失败时显示自定义的 404 NOT Found 页面",
+  "description": "如何实现 SAP UI5 路由失败时显示自定义的 NOT Found 页面",
   "scripts": {
     "start": "ui5 serve"
   },

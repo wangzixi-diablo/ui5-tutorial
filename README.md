@@ -139,6 +139,8 @@
 
 * [SAP UI5 应用开发教程之六十七 - 基于 OData V4 的 SAP UI5 List-Detail(列表-明细)布局的实现方式](https://jerry.blog.csdn.net/article/details/123969146)
 
+* [SAP UI5 应用开发教程之六十八 - 如何实现 SAP UI5 路由失败时显示自定义的 NOT Found 页面](https://jerry.blog.csdn.net/article/details/124155362)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
