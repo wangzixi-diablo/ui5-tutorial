@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.69",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何从 SAP UI5 Not Found 页面跳转回到正常的应用页面",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
