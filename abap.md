@@ -23,6 +23,7 @@
 * [26 行 ABAP 代码使用 HTTP_GET 函数下载百度网站的首页数据](https://jerry.blog.csdn.net/article/details/123978542)
 * [ABAP 如何解析 JSON 数据](https://blog.csdn.net/i042416/article/details/124222988)
 * [如何从本地文件里拷贝某个 ABAP 类到 SAP 系统](https://blog.csdn.net/i042416/article/details/124229848)
+* [面向对象的 ABAP 编程初探 - 什么是类，实例，和 Public 方法](https://jerry.blog.csdn.net/article/details/124239023)
 
 ## ALV 开发专题
 
