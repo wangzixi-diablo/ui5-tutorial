@@ -24,6 +24,7 @@
 * [ABAP 如何解析 JSON 数据](https://blog.csdn.net/i042416/article/details/124222988)
 * [如何从本地文件里拷贝某个 ABAP 类到 SAP 系统](https://blog.csdn.net/i042416/article/details/124229848)
 * [面向对象的 ABAP 编程初探 - 什么是类，实例，和 Public 方法](https://jerry.blog.csdn.net/article/details/124239023)
+* [SAP ABAP 报表的用户输入功能](https://jerry.blog.csdn.net/article/details/124261506)
 
 ## ALV 开发专题
 
