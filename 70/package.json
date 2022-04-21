@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.70",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 应用开发教程之七十 - 如何使用按钮控件触发页面路由跳转",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
