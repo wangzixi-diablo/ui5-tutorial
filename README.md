@@ -145,6 +145,8 @@
 
 * [SAP UI5 应用开发教程之七十 - 如何使用按钮控件触发页面路由跳转](https://blog.csdn.net/i042416/article/details/124318650)
 
+* [SAP UI5 应用开发教程之七十一 - SAP UI5 页面的嵌套路由](https://jerry.blog.csdn.net/article/details/124340688)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

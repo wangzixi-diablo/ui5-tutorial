@@ -5,7 +5,6 @@ sap.ui.define([
 	return BaseController.extend("sap.ui5.walkthrough.controller.employee.Employee", {
 		onInit: function () {
 			var oRouter = this.getRouter();
-
 			oRouter.getRoute("employee").attachMatched(this._onRouteMatched, this);
 		},
 
@@ -16,17 +15,10 @@ sap.ui.define([
 			oView.bindElement({
 				path : "/Employees(" + oArgs.employeeId + ")",
 				events : {
-					change: this._onBindingChange.bind(this),
-					dataRequested: function (oEvent) {
-						oView.setBusy(true);
-					},
-					dataReceived: function (oEvent) {
-						oView.setBusy(false);
-					}
+					change: this._onBindingChange.bind(this)
 				}
 			});
 		},
-
 		_onBindingChange : function (oEvent) {
 			if (!this.getView().getBindingContext()) {
 				this.getRouter().getTargets().display("notFound");
