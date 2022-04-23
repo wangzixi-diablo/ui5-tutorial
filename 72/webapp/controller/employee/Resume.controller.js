@@ -16,13 +16,7 @@ sap.ui.define([
 			oView.bindElement({
 				path : "/Employees(" + oArgs.employeeId + ")",
 				events : {
-					change: this._onBindingChange.bind(this),
-					dataRequested: function (oEvent) {
-						oView.setBusy(true);
-					},
-					dataReceived: function (oEvent) {
-						oView.setBusy(false);
-					}
+					change: this._onBindingChange.bind(this)
 				}
 			});
 		},
