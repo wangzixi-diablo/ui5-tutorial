@@ -6,30 +6,21 @@ sap.ui.define([
 	var _aValidTabKeys = ["Info", "Projects", "Hobbies", "Notes"];
 
 	return BaseController.extend("sap.ui5.walkthrough.controller.employee.Resume", {
-
 		onInit: function () {
 			var oRouter = this.getRouter();
 
 			this.getView().setModel(new JSONModel(), "view");
 			oRouter.getRoute("employeeResume").attachMatched(this._onRouteMatched, this);
 		},
-
 		_onRouteMatched : function (oEvent) {
 			var oArgs, oView, oQuery;
 
 			oArgs = oEvent.getParameter("arguments");
 			oView = this.getView();
-
 			oView.bindElement({
 				path : "/Employees(" + oArgs.employeeId + ")",
 				events : {
-					change: this._onBindingChange.bind(this),
-					dataRequested: function (oEvent) {
-						oView.setBusy(true);
-					},
-					dataReceived: function (oEvent) {
-						oView.setBusy(false);
-					}
+					change: this._onBindingChange.bind(this)
 				}
 			});
 
@@ -45,18 +36,11 @@ sap.ui.define([
 				}, true /*no history*/);
 			}
 		},
-
 		_onBindingChange : function (oEvent) {
-			// No data for the binding
 			if (!this.getView().getBindingContext()) {
 				this.getRouter().getTargets().display("notFound");
 			}
 		},
-
-		/**
-		 * We use this event handler to update the hash in case a new tab is selected.
-		 * @param oEvent
-		 */
 		onTabSelect : function (oEvent){
 			var oCtx = this.getView().getBindingContext();
 

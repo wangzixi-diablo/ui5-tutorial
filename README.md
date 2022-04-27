@@ -149,6 +149,8 @@
 
 * [SAP UI5 应用开发教程之七十二 - SAP UI5 页面路由的动画效果设置](https://blog.csdn.net/i042416/article/details/124361471)
 
+* [SAP UI5 应用开发教程之七十三 - 使用自定义 Query 实现 SAP UI5 页面路由的书签功能](https://blog.csdn.net/i042416/article/details/124372674)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
