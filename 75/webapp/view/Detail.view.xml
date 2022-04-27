@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.Detail"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Panel
+      headerText="{i18n>detailTable}"
+      class="sapUiResponsiveMargin"
+      width="auto" >
+      <content>
+         <Table id="detailList" 
+				items="Friends">
+			<columns>
+				<Column id="friendsNameColumn">
+					<Text text="{i18n>userNameLabelText}"/>
+				</Column>
+			</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<Input
+														value="{name}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+				</Table>
+      </content>
+   </Panel>
+</mvc:View>
