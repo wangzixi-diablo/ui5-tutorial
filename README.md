@@ -153,6 +153,8 @@
 
 * [SAP UI5 应用开发教程之七十四 - SAP UI5 应用使用 OData V4 显示 Table 表格数据的一个陷阱](https://blog.csdn.net/i042416/article/details/124458638)
 
+* [SAP UI5 应用开发教程之七十五 - 如何实现 SAP UI5 主从表格的联动效果](https://blog.csdn.net/i042416/article/details/124501745)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

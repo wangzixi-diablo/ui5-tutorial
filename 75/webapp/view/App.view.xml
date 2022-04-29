@@ -116,7 +116,6 @@
 										</items>
 				</Table>
 		</l:SplitPane>
-		<!-- detail table-->
 		<l:SplitPane>
 			<semantic:SemanticPage id="detailArea" visible="false">
 			<semantic:content>
