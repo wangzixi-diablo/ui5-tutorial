@@ -1,0 +1,32 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Panel
+      headerText="{i18n>detailTable}"
+      class="sapUiResponsiveMargin"
+      width="auto" >
+      <content>
+         <Table id="detailList" 
+		        items="{
+					path: 'Friends'
+				}">
+			<columns>
+				<Column id="friendsFirstNameColumn">
+					<Text text="First Name"/>
+				</Column>
+				<Column id="friendsLastNameColumn">
+					<Text text="Last Name"/>
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+				<cells>
+				<Input value="{FirstName}"/>
+				<Input value="{LastName}"/>
+				</cells>
+				</ColumnListItem>
+			</items>
+			</Table>
+      </content>
+   </Panel>
+</mvc:View>
