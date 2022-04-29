@@ -8,6 +8,9 @@
       width="auto" >
       <content>
          <Table id="detailList" 
+		        items="{
+					path: 'Friends'
+				}"
 					>
 			<columns>
 				<Column id="friendsNameColumn">

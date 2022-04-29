@@ -7,9 +7,7 @@
 			"LastName": "Huffman",
 			"UserName": "angelhuffman",
 			"Friends": [
-				"georginabarlow",
-				"marshallgaray",
-				"ursulabright"
+				"georginabarlow"
 			],
 			"BestFriend": "clydeguess",
 			"HomeAddress": {
@@ -27,9 +25,7 @@
 			"LastName": "Guess",
 			"UserName": "clydeguess",
 			"Friends": [
-				"georginabarlow",
-				"marshallgaray",
-				"ursulabright"
+				"marshallgaray"
 			],
 			"BestFriend": "angelhuffman",
 			"HomeAddress": {
@@ -47,8 +43,6 @@
 			"LastName": "Stewart",
 			"UserName": "elainestewart",
 			"Friends": [
-				"georginabarlow",
-				"marshallgaray",
 				"ursulabright"
 			],
 			"BestFriend": "genevievereeves",
