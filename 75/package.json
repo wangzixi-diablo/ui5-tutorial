@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.74",
+  "name": "sap.m.tutorial.walkthrough.75",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 应用使用 OData V4 显示 Table 表格数据的一个陷阱",
+  "description": "如何采用SAP UI5 主从表格的联动技术显示复杂表格内容",
   "scripts": {
     "start": "ui5 serve"
   },

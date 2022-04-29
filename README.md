@@ -153,7 +153,7 @@
 
 * [SAP UI5 应用开发教程之七十四 - SAP UI5 应用使用 OData V4 显示 Table 表格数据的一个陷阱](https://blog.csdn.net/i042416/article/details/124458638)
 
-* [SAP UI5 应用开发教程之七十五 - 如何实现 SAP UI5 主从表格的联动效果](https://blog.csdn.net/i042416/article/details/124501745)
+* [SAP UI5 应用开发教程之七十五 - 如何采用SAP UI5 主从表格的联动技术显示复杂表格内容](https://blog.csdn.net/i042416/article/details/124501745)
 
 ## 说明
 
