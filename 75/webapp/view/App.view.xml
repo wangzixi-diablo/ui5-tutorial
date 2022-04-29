@@ -25,7 +25,7 @@
 						$count: true,
 						$expand: {
 							Friends:{
-								$select: ['FirstName']
+								$select: ['FirstName', 'LastName']
 							}
 						}, 
 						$$updateGroupId : 'peopleGroup'
