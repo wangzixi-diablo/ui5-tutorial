@@ -8,21 +8,20 @@
       width="auto" >
       <content>
          <Table id="detailList" 
-				items="Friends">
+					>
 			<columns>
 				<Column id="friendsNameColumn">
 					<Text text="{i18n>userNameLabelText}"/>
 				</Column>
 			</columns>
-										<items>
-											<ColumnListItem>
-												<cells>
-													<Input
-														value="{name}"/>
-												</cells>
-											</ColumnListItem>
-										</items>
-				</Table>
+			<items>
+				<ColumnListItem>
+				<cells>
+				<Input value="{FirstName}"/>
+				</cells>
+				</ColumnListItem>
+			</items>
+			</Table>
       </content>
    </Panel>
 </mvc:View>

@@ -22,7 +22,13 @@
 				items="{
 					path: '/People',
 					parameters: {
-						$count: true, $$updateGroupId : 'peopleGroup'
+						$count: true,
+						$expand: {
+							Friends:{
+								$select: ['FirstName']
+							}
+						}, 
+						$$updateGroupId : 'peopleGroup'
 					}}"
 					mode="SingleSelectLeft"	selectionChange=".onSelectionChange">
 					<headerToolbar>

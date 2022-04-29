@@ -174,6 +174,12 @@ sap.ui.define([
 				oLayout = this.byId("defaultLayout"),
 				oUserContext = oEvent.getParameters().listItem.getBindingContext();
 
+			console.log('Jerry: ', oUserContext);
+
+			var oDetailTable = this.byId("detailList");
+
+			console.log("table: ", oDetailTable);
+			
 			oDetailArea.setBindingContext(oUserContext);
 			// resize view
 			oDetailArea.setVisible(true);

@@ -13,6 +13,7 @@ sap.ui.define([
 		rBaseUrl = /services.odata.org\/TripPinRESTierService/;
 
 	return {
+
 		/**
 		 * Creates a Sinon fake service, intercepting all http requests to
 		 * the URL defined in variable sBaseUrl above.
@@ -44,6 +45,10 @@ sap.ui.define([
 				Log.info("Running the app with mock data", sLogComponent);
 			});
 		},
+
+		/**
+		 * Stops the request interception and deletes the Sinon fake server.
+		 */
 		stop : function () {
 			sinon.FakeXMLHttpRequest.filters = [];
 			sinon.FakeXMLHttpRequest.useFilters = false;
@@ -206,6 +211,13 @@ sap.ui.define([
 		return Promise.all([oMetadataPromise, oMockDataPromise]);
 	}
 
+	/**
+	 * Reduces a given result set by applying the OData URL parameters 'skip' and 'top' to it.
+	 * Does NOT change the given result set but returns a new array.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 * @param {Array} aResultSet - the result set to be reduced.
+	 * @returns {Array} the reduced result set.
+	 */
 	function applySkipTop(oXhr, aResultSet) {
 		var iSkip,
 			iTop,
@@ -221,6 +233,13 @@ sap.ui.define([
 		return aReducedUsers;
 	}
 
+	/**
+	 * Sorts a given result set by applying the OData URL parameter 'orderby'.
+	 * Does NOT change the given result set but returns a new array.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 * @param {Array} aResultSet - the result set to be sorted.
+	 * @returns {Array} the sorted result set.
+	 */
 	function applySort(oXhr, aResultSet) {
 		var sFieldName,
 			sDirection,
@@ -250,10 +269,18 @@ sap.ui.define([
 				}
 				return 0;
 			});
+
 			return aSortedUsers;
 		}
 	}
 
+	/**
+	 * Filters a given result set by applying the OData URL parameter 'filter'.
+	 * Does NOT change the given result set but returns a new array.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 * @param {Array} aResultSet - the result set to be filtered.
+	 * @returns {Array} the filtered result set.
+	 */
 	function applyFilter(oXhr, aResultSet) {
 		var sFieldName,
 			sQuery,
@@ -277,6 +304,10 @@ sap.ui.define([
 		return aFilteredUsers;
 	}
 
+	/**
+	 * Handles GET requests for metadata.
+	 * @returns {Array} an array with the response information needed by Sinon's respond() function
+	 */
 	function handleGetMetadataRequests() {
 		return [
 			200,
@@ -287,10 +318,20 @@ sap.ui.define([
 		];
 	}
 
+	/**
+	 * Handles GET requests for a pure user count and returns a fitting response.
+	 * @returns {Array} an array with the response information needed by Sinon's respond() function
+	 */
 	function handleGetCountRequests() {
 		return getSuccessResponse(aUsers.length.toString());
 	}
 
+	/**
+	 * Handles GET requests for user data and returns a fitting response.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 * @param {boolean} bCount - true if the request should include a counter
+	 * @returns {Array} an array with the response information needed by Sinon's respond() function
+	 */
 	function handleGetUserRequests(oXhr, bCount) {
 		var iCount,
 			sCount = "",
@@ -303,8 +344,7 @@ sap.ui.define([
 			aResult,
 			aSelect,
 			sSelect,
-			aSubSelects,
-			bGetUserFriends;
+			aSubSelects;
 
 		// Get expand parameter
 		aExpand = oXhr.url.match(/\$expand=([^&]+)/);
@@ -334,21 +374,13 @@ sap.ui.define([
 			aSelect = sSelect.split(',');
 		}
 
-		// 支持 Friends navigation property
-
-		// https://services.odata.org/TripPinRESTierService/(S(id))/People('laurelosborn')/Friends?$skip=0&$top=100
-		var aFriends = oXhr.url.match(/People\('.*'\)\/(.+)\?/);
 		// Check if an individual user or a user range is requested
-
-		if( aFriends && aFriends[1] === 'Friends' ){
-			bGetUserFriends = true;
-		};
 		sKey = getUserKeyFromUrl(oXhr.url);
 		if (sKey) {
 			// specific user was requested
 			//sKey = getUserKeyFromUrl(oXhr.url);
 			iIndex = findUserIndex(sKey);
-			oResponse = getUserObject(iIndex, aSelect, aExpand, aSubSelects, bGetUserFriends);
+			oResponse = getUserObject(iIndex, aSelect, aExpand, aSubSelects);
 
 			if (iIndex > -1) {
 				sResponseBody = '{"@odata.context": "' + getBaseUrl(oXhr.url) +
@@ -393,18 +425,21 @@ sap.ui.define([
 
 	}
 
-	function getUserByIndex(iIndex, aProperties, bGetUserFriends) {
+	/**
+	 * Returns a specific user in the aUsers array.
+	 * @param {Number} iIndex - index of the requested user in the aUsers array
+	 * @param {string[]} aProperties - array with properties from select parameter of request
+	 * @returns {Object} object containing the selected user information
+	 */
+	function getUserByIndex(iIndex, aProperties) {
 		var oHelper = {},
 			oUser = aUsers[iIndex];
 
 		aProperties.forEach(function (selectProperty) {
 			oHelper[selectProperty] = oUser[selectProperty];
+
 		});
 
-		if( bGetUserFriends){
-			oHelper.Friends = oUser.Friends;
-			return ["1","2","3"];
-		}
 		return oHelper;
 	}
 	/**
@@ -415,14 +450,14 @@ sap.ui.define([
 	 * @param  {string[]} aSubSelects select parameters according to the expand parameters
 	 * @returns {Object} user with all its requested information
 	 */
-	function getUserObject(iIndex, aSelect, aExpand, aSubSelects, bGetUserFriends) {
+	function getUserObject(iIndex, aSelect, aExpand, aSubSelects) {
 		var sBestFriend,
 			iFriendIndex,
 			aFriends,
 			oObject = {},
 			oUser;
 
-		oObject = getUserByIndex(iIndex, aSelect, bGetUserFriends);
+		oObject = getUserByIndex(iIndex, aSelect);
 		if (aExpand) {
 			oUser = aUsers[iIndex];
 			for (var i = 0; i < aExpand.length; i++) {
@@ -515,6 +550,12 @@ sap.ui.define([
 		}
 	}
 
+	/**
+	 * Handles DELETE requests for users and returns a fitting response.
+	 * Deletes the user according to the request.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 * @returns {Array} an array with the response information needed by Sinon's respond() function
+	 */
 	function handleDeleteUserRequests(oXhr) {
 		var sKey;
 
@@ -726,6 +767,12 @@ sap.ui.define([
 		return aResponse;
 	}
 
+	/**
+	 * Handles any type of intercepted request and sends a fake response.
+	 * Logs the request and response to the console.
+	 * Manages batch requests.
+	 * @param {Object} oXhr - the Sinon fake XMLHttpRequest
+	 */
 	function handleAllRequests(oXhr) {
 		var aResponse;
 
