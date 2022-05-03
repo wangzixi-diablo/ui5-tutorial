@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.79",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何通过 url 保持 SAP UI5 搜索的状态，让其支持书签功能",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
