@@ -161,6 +161,8 @@
 
 * [SAP UI5 应用开发教程之七十八 - 如何通过 url 保持 SAP UI5 搜索的状态，让其支持书签功能](https://blog.csdn.net/i042416/article/details/124554155)
 
+* [SAP UI5 应用开发教程之七十九 - 采用测试驱动开发理念(Test Driven Development)进行 SAP UI5 应用的功能开发(一)](https://blog.csdn.net/i042416/article/details/124563162)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

@@ -5,13 +5,8 @@ sap.ui.define([
 ], function(Controller, History, UIComponent) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.bulletinboard.controller.BaseController", {
+	return Controller.extend("sap.ui5.walkthrough.controller.BaseController", {
 
-		/**
-		 * Convenience method for accessing the event bus.
-		 * @public
-		 * @returns {sap.ui.core.EventBus} the event bus for this component
-		 */
 		getEventBus: function () {
 			return this.getOwnerComponent().getEventBus();
 		},

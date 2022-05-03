@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.79",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何通过 url 保持 SAP UI5 搜索的状态，让其支持书签功能",
+  "description": "采用测试驱动开发理念(Test Driven Development)进行 SAP UI5 应用的功能开发",
   "scripts": {
     "start": "ui5 serve"
   },

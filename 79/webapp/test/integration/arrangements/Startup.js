@@ -29,7 +29,7 @@ sap.ui.define([
 			// start the app UI component
 			this.iStartMyUIComponent({
 				componentConfig: {
-					name: "sap.ui.demo.bulletinboard",
+					name: "sap.ui5.walkthrough",
 					async: true
 				},
 				hash: oOptions.hash,

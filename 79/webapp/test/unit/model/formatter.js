@@ -8,10 +8,11 @@ sap.ui.define([
 	QUnit.module("Number unit");
 
 	function numberUnitValueTestCase(assert, sValue, fExpectedNumber) {
-		// Act
+		// 计算实际值
 		var fNumber = formatter.numberUnit(sValue);
 
-		// Assert
+		// 调用 assert.strictEqual 将实际值同期望值做比对
+		// 如果成功，打印 The rounding was correct
 		assert.strictEqual(fNumber, fExpectedNumber, "The rounding was correct");
 	}
 
