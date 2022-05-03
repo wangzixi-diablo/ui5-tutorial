@@ -159,6 +159,8 @@
 
 * [SAP UI5 应用开发教程之七十七 - SAP UI5 动态页面路由的高级用法：路由记录 routes 和 target 的一对多关系](https://blog.csdn.net/i042416/article/details/124548400)
 
+* [SAP UI5 应用开发教程之七十八 - 如何通过 url 保持 SAP UI5 搜索的状态，让其支持书签功能](https://blog.csdn.net/i042416/article/details/124554155)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
