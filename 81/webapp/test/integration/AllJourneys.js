@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "sap.ui.demo.bulletinboard.view.",
+		viewNamespace: "sap.ui5.walkthrough.view.",
 		autoWait: true
 	});
 });
