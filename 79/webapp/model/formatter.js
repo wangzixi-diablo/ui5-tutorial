@@ -6,7 +6,6 @@ sap.ui.define([], function () {
 			if (!sValue) {
 				return "";
 			}
-
 			return parseFloat(sValue).toFixed(2);
 		},
 		priceState: function () {

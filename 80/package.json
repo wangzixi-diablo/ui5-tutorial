@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.80",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "采用测试驱动开发理念(Test Driven Development)进行 SAP UI5 应用的功能开发(二)",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
