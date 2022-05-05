@@ -3,11 +3,7 @@ sap.ui.define([
 		'sap/ui/test/matchers/AggregationLengthEquals',
 		'sap/ui/test/matchers/I18NText',
 		'sap/ui/test/actions/Press'
-	],
-	function (Opa5,
-			  AggregationLengthEquals,
-			  I18NText,
-			  Press) {
+	],function (Opa5, AggregationLengthEquals,I18NText,Press) {
 		"use strict";
 
 		var sViewName = "Worklist",
@@ -17,7 +13,8 @@ sap.ui.define([
 			onTheWorklistPage: {
 				actions: {
 					iPressOnMoreData: function () {
-						// Press action hits the "more" trigger on a table
+						// 新的 Press 实例会触发 viewName 和 id 指定的控件上发生
+						// 一个点击操作
 						return this.waitFor({
 							id: sTableId,
 							viewName: sViewName,

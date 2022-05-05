@@ -9,10 +9,7 @@ sap.ui.define([
 	QUnit.module("Posts");
 
 	opaTest("Should see the table with all posts", function (Given, When, Then) {
-		// Arrangements
 		Given.iStartMyApp();
-
-		// Assertions
 		Then.onTheWorklistPage.theTableShouldHavePagination().
 			and.theTitleShouldDisplayTheTotalAmountOfItems();
 	});

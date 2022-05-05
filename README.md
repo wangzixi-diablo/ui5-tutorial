@@ -165,6 +165,8 @@
 
 * [SAP UI5 应用开发教程之八十 - 采用测试驱动开发理念(Test Driven Development)进行 SAP UI5 应用的功能开发(二)](https://blog.csdn.net/i042416/article/details/124567472)
 
+* [SAP UI5 应用开发教程之八十一 - 采用 OPA5 进行 SAP UI5 集成测试(Integration Test)的一个例子](https://blog.csdn.net/i042416/article/details/124584580)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
