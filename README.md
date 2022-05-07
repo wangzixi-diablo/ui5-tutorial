@@ -2,7 +2,7 @@
 
 ## 作者简介
 
-Jerry Wang，2007 年从电子科技大学计算机专业硕士毕业后加入 SAP 成都研究院工作至今。Jerry 是 SAP 社区导师，SAP 中国技术大使。在长达 `15` 年的 SAP 标准产品开发生涯里，Jerry 曾经先后参与 SAP Business ByDesign,SAP CRM,SAP Cloud for Customer,SAP S/4HANA,SAP Commerce Cloud(电商云)等标准产品的研发工作。
+Jerry Wang，2007 年从电子科技大学计算机专业硕士毕业后加入 SAP 成都研究院工作至今。Jerry 是 SAP 社区导师，SAP 中国技术大使。在长达 15 年的 SAP 标准产品开发生涯里，Jerry 曾经先后参与 SAP Business ByDesign, SAP CRM, SAP Cloud for Customer, SAP S/4HANA, SAP Commerce Cloud(电商云)等标准产品的研发工作。
 
 Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包括 SAP UI5 在内的多款 SAP 自研框架有深入的研究。
 
