@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.82",
+  "name": "sap.m.tutorial.walkthrough.83",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "采用 OPA5 开发支持页面跳转的 SAP UI5 集成测试用例",
+  "description": "SAP UI5 的自动化测试套件页面的开发步骤介绍",
   "scripts": {
     "start": "ui5 serve"
   },

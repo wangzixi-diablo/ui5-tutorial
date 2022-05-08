@@ -22,7 +22,10 @@
         if (b === null) {
             throw new Error("qunit-redirect.js: The script tag seems to be malformed!");
         }
-        window.location=b+"test-resources/sap/ui/qunit/testrunner.html?testpage="+encodeURIComponent(T)+"&autostart=true"+(t?"&test-timeout="+encodeURIComponent(t):"");
+
+        var newLocation = b+"test-resources/sap/ui/qunit/testrunner.html?testpage="+encodeURIComponent(T)+"&autostart=true"+(t?"&test-timeout="+encodeURIComponent(t):"");
+        
+        window.location= newLocation;
     }
 }
 )();
