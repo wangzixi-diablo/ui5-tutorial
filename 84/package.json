@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.84",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何用 OPA5 编写测试用例来测试用户输入文本的功能",
+  "description": "SAP UI5 初学者教程之六 - 如何指定 SAP UI5 应用程序基于某个特定的版本运行",
   "scripts": {
     "start": "ui5 serve"
   },

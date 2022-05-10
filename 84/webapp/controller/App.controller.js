@@ -1,21 +1,11 @@
 sap.ui.define([
-	'./BaseController',
-	'sap/ui/model/json/JSONModel'
-], function (BaseController, JSONModel) {
+	"sap/ui/core/mvc/Controller",
+	"sap/m/MessageToast"
+], function (Controller, MyMessageToast) {
 	"use strict";
-	return BaseController.extend("sap.ui5.walkthrough.controller.App", {
-
-		onInit: function () {
-			var oViewModel = new JSONModel({
-					busy: true,
-					delay: 0
-				});
-
-			this.setModel(oViewModel, "appView");
-
-			this.getOwnerComponent().getModel().metadataLoaded().then(function () {
-				oViewModel.setProperty("/busy", false);
-			});
+	return Controller.extend("sap.ui5.walkthrough.controller.App", {
+		onShowHello : function () {
+			MyMessageToast.show("Hello World");
 		}
 	});
 });
