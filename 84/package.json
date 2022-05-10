@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.84",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何用 OPA5 编写测试用例来测试用户输入文本的功能",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
