@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.86",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "动手开发一个最简单的本地 Mock 数据服务器",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
