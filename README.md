@@ -178,6 +178,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之八十四 - 如何指定 SAP UI5 应用程序基于某个特定的版本运行](https://blog.csdn.net/i042416/article/details/124698789)
 
+* [SAP UI5 应用开发教程之八十五 - 如何用 OPA5 编写测试用例来测试用户输入文本的功能](https://blog.csdn.net/i042416/article/details/124709547)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
