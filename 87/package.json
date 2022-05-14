@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.87",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何让 SAP UI5 Mock 服务器支持自定义 url 参数",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
