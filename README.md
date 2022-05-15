@@ -186,6 +186,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之八十八 - SAP UI5 Mock 服务器如何实现自定义 Function Import](https://blog.csdn.net/i042416/article/details/124765653)
 
+* [SAP UI5 应用开发教程之八十九 - 如何给 SAP UI5 列表控件增添多个图形界面的过滤器](https://blog.csdn.net/i042416/article/details/124789417)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

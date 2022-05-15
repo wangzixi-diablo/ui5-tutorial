@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.89",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何给 SAP UI5 列表控件增添多个图形界面的过滤器",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
