@@ -21,8 +21,6 @@
 				<Property Name="UnitsOnOrder" Type="Edm.Int16" Nullable="true"/>
 				<Property Name="ReorderLevel" Type="Edm.Int16" Nullable="true"/>
 				<Property Name="Discontinued" Type="Edm.Boolean" Nullable="false"/>
-				<NavigationProperty Name="Category" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Products" ToRole="Categories"/>
-				<NavigationProperty Name="Order_Details" Relationship="NorthwindModel.FK_Order_Details_Products" FromRole="Products" ToRole="Order_Details"/>
 				<NavigationProperty Name="Supplier" Relationship="NorthwindModel.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers"/>
 			</EntityType>
 			<EntityType Name="Supplier">
