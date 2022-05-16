@@ -21,9 +21,7 @@
 				<Panel backgroundDesign="Transparent">
 					<ObjectAttribute
 						title="{i18n>ObjectProductIdText}"
-						text="{
-						path: 'ProductID',
-						formatter: '.formatter.numberUnit'}"/>
+						text="{ProductID}"/>
 					<ObjectAttribute
 						title="{i18n>ObjectPriceTitle}"
 						text="{

@@ -121,25 +121,16 @@ sap.ui.define([
 			this.getModel("worklistView").setProperty("/worklistTableTitle", sTitle);
 		},
 
-		/**
-		 * Event handler when a table item gets pressed
-		 * @param {sap.ui.base.Event} oEvent the table selectionChange event
-		 * @public
-		 */
 		onPress : function (oEvent) {
-			// The source is the list item that got pressed
-			this._showObject(oEvent.getSource());
+			var oPressedLineItem = oEvent.getSource();
+			this.getRouter().navTo("object", {
+				objectId: oPressedLineItem.getBindingContext().getProperty("ProductID")
+			});
 		},
 
-		/**
-		 * Event handler for navigating back.
-		 * We navigate back in the browser history
-		 * @public
-		 */
 		onNavBack : function() {
 			history.go(-1);
 		},
-
 
 		onSearch : function (oEvent) {
 			if (oEvent.getParameters().refreshButtonPressed) {
@@ -168,22 +159,6 @@ sap.ui.define([
 		onRefresh : function () {
 			var oTable = this.byId("table");
 			oTable.getBinding("items").refresh();
-		},
-
-		/* =========================================================== */
-		/* internal methods                                            */
-		/* =========================================================== */
-
-		/**
-		 * Shows the selected item on the object page
-		 * On phones a additional history entry is created
-		 * @param {sap.m.ObjectListItem} oItem selected Item
-		 * @private
-		 */
-		_showObject : function (oItem) {
-			this.getRouter().navTo("object", {
-				objectId: oItem.getBindingContext().getProperty("ProductID")
-			});
 		},
 
 		/**
