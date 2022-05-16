@@ -4,6 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	return BaseController.extend("sap.ui5.walkthrough.controller.NotFound", {
+
 		onLinkPressed : function () {
 			this.getRouter().navTo("worklist");
 		}
