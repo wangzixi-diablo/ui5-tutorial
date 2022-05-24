@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.90",
+  "name": "sap.m.tutorial.walkthrough.91",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "基于 OData V2 的 SAP UI5 List-Detail(列表-明细)布局的实现方式",
+  "description": "如何给 SAP UI5 列表控件增添多个图形界面的过滤器",
   "scripts": {
     "start": "ui5 serve"
   },
