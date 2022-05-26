@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.91",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何给 SAP UI5 列表控件增添多个图形界面的过滤器",
+  "description": "如何使用客户端 JSON 模型构建一个 Master-Detail-Detail 布局中的列表页面",
   "scripts": {
     "start": "ui5 serve"
   },

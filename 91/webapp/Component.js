@@ -15,7 +15,6 @@ sap.ui.define([
 			UIComponent.prototype.init.apply(this, arguments);
 
 			oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui5/walkthrough/mockdata/products.json'));
-			oProductsModel.setSizeLimit(1000);
 			this.setModel(oProductsModel, 'products');
 		}
 	});

@@ -4,7 +4,6 @@
 	xmlns:f="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
 	<f:DynamicPage id="dynamicPageId" toggleHeaderOnTitleClick="false">
-		<!-- DynamicPage Title -->
 		<f:title>
 			<f:DynamicPageTitle>
 				<f:heading>
@@ -12,8 +11,6 @@
 				</f:heading>
 			</f:DynamicPageTitle>
 		</f:title>
-
-		<!-- DynamicPage Content -->
 		<f:content>
 			<VBox fitContainer="true">
 				<OverflowToolbar class="sapFDynamicPageAlignContent">
@@ -61,14 +58,5 @@
 				</Table>
 			</VBox>
 		</f:content>
-
-		<!-- DynamicPage Footer -->
-		<f:footer>
-			<OverflowToolbar>
-				<ToolbarSpacer/>
-				<Button type="Accept" text="Accept"/>
-				<Button type="Reject" text="Reject"/>
-			</OverflowToolbar>
-		</f:footer>
 	</f:DynamicPage>
 </mvc:View>
