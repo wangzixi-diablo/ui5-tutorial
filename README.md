@@ -196,6 +196,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之九十三 - 基于 JSONModel 数据模型的列表控件显示数据的深入讨论](https://blog.csdn.net/i042416/article/details/125011617)
 
+* [SAP UI5 应用开发教程之九十四 - 基于 JSONModel 数据模型的 SAP UI5 列表控件分页显示数据的完整解决方案](https://blog.csdn.net/i042416/article/details/125031649)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

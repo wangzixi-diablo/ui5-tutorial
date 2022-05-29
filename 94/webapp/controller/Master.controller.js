@@ -19,7 +19,6 @@ sap.ui.define([
 			this.oPageButtonControlModel = new JSONModel(this.oPageButtonControl);
 			this.getView().setModel(this.oPageButtonControlModel, "pageControl");
 		},
-		// return value: should NOT trigger page change
 		calculateNewPageIndex: function(bIsPrevious){
 			if( bIsPrevious){ // previous page
 				if( this.currentPageIndex === 1){

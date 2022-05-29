@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.94",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "基于 SAP UI5 JSONModel 客户端模型的列表分页显示(Table Pagination)前提",
+  "description": "基于 JSONModel 数据模型的 SAP UI5 列表控件分页显示数据的完整解决方案",
   "scripts": {
     "start": "ui5 serve"
   },
