@@ -14,7 +14,7 @@ sap.ui.define([
 
 			this._oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui5/walkthrough/mockdata/products.json'));
 
-			this._oProductsModel.setSizeLimit(100);
+			this._oProductsModel.setSizeLimit(this.PAGE_SIZE);
 
 			var handleLoaded = function(oLoadedData){
 				var oLoadedData = oLoadedData.oSource.oData;

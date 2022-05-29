@@ -11,34 +11,46 @@ sap.ui.define([
 	return Controller.extend("sap.ui5.walkthrough.controller.Master", {
 		currentPageIndex: 0,
 		onInit: function () {
-			this.oView = this.getView();
-			this._bDescendingSort = false;
-			this.oProductsTable = this.oView.byId("productsTable");
+			this.oPageButtonControl = {
+				previousEnabled: false,
+				nextEnabled: true,
+				currentPageNumber: 1
+			};
+			this.oPageButtonControlModel = new JSONModel(this.oPageButtonControl);
+			this.getView().setModel(this.oPageButtonControlModel, "pageControl");
 		},
 		// return value: should NOT trigger page change
 		calculateNewPageIndex: function(bIsPrevious){
-			if( bIsPrevious){
-				if( this.currentPageIndex === 0){
-					return true;
+			if( bIsPrevious){ // previous page
+				if( this.currentPageIndex === 1){
+					this.oPageButtonControl.previousEnabled = false;
+				}
+				else {
+					this.oPageButtonControl.previousEnabled = true;
+					this.oPageButtonControl.nextEnabled = true;
 				}
 				this.currentPageIndex--;
 			}
-			else{
-				if( this.currentPageIndex === this.getOwnerComponent().getPageNumber() - 1 ){
-					return true;
+			else{ // next page
+				if( this.currentPageIndex + 1 === this.getOwnerComponent().getPageNumber() - 1 ){
+					this.oPageButtonControl.nextEnabled = false;
+				}
+				else{ 
+					this.oPageButtonControl.previousEnabled = true;
+					this.oPageButtonControl.nextEnabled = true;
 				}
 				this.currentPageIndex++;
-			}			
+			}	
+			this.oPageButtonControl.currentPageNumber = this.currentPageIndex + 1;
+			this.oPageButtonControlModel.setData(this.oPageButtonControl);		
 		},
 		onPrevious: function(){
-			if( !this.calculateNewPageIndex(true) ){
-				this.getOwnerComponent().updateWithPageIndex(this.currentPageIndex);
-			}
+			this.calculateNewPageIndex(true);
+			this.getOwnerComponent().updateWithPageIndex(this.currentPageIndex);
 		},
 		onNext: function(){
-			if( !this.calculateNewPageIndex(false) ){
-				this.getOwnerComponent().updateWithPageIndex(this.currentPageIndex);
-			}
+			this.calculateNewPageIndex(false);
+			this.getOwnerComponent().updateWithPageIndex(this.currentPageIndex);
 		}
 	});
 });

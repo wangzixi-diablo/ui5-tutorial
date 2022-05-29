@@ -7,7 +7,7 @@
 		<f:title>
 			<f:DynamicPageTitle>
 				<f:heading>
-					<Title text="Products ({products>/ProductCollectionStats/Counts/Total})"/>
+					<Title text="Products 第 ({pageControl>/currentPageNumber}) 页数据"/>
 				</f:heading>
 			</f:DynamicPageTitle>
 		</f:title>
@@ -15,17 +15,18 @@
 			<VBox fitContainer="true">
 				<OverflowToolbar class="sapFDynamicPageAlignContent">
 					<ToolbarSpacer/>
-					<OverflowToolbarButton icon="sap-icon://arrow-left" text="Previous" type="Transparent" press=".onPrevious"/>
-					<OverflowToolbarButton icon="sap-icon://arrow-right" text="Next" type="Transparent" press=".onNext"/>
+					<OverflowToolbarButton icon="sap-icon://arrow-left" text="Previous" type="Transparent" press=".onPrevious"
+					enabled="{pageControl>/previousEnabled}"/>
+					<OverflowToolbarButton icon="sap-icon://arrow-right" text="Next" type="Transparent" press=".onNext"
+					enabled="{pageControl>/nextEnabled}"/>
 				</OverflowToolbar>
 				<Table
 					id="productsTable"
 					inset="false"
-					growing="true"
 					items="{
 						path: 'products>/ProductCollection',
 						sorter: {
-							path: 'Name'
+							path: 'ProductId'
 						}
 					}"
 					class="sapFDynamicPageAlignContent"
