@@ -1,0 +1,36 @@
+<mvc:View
+	height="100%"
+	controllerName="sap.ui5.walkthrough.Page"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Page
+		showHeader="false"
+		class="sapUiContentPadding">
+		<content>
+			<HBox justifyContent="SpaceAround">
+				<Select
+						enabled="{/Enabled}"
+						editable="{/Editable}"
+						selectedKey="{/SelectedProduct}"
+						items="{
+							path: '/ProductCollection',
+							sorter: { path: 'Name' }
+						}"
+						change=".onChange">
+					<core:Item key="{ProductId}" text="{Name}" />
+				</Select>
+				<VBox>
+					<HBox alignItems="Center">
+						<Label text="Enabled:" class="sapUiTinyMarginEnd"/>
+						<Switch type="AcceptReject" state="{/Enabled}"/>
+					</HBox>
+					<HBox alignItems="Center">
+						<Label text="Editable:" class="sapUiTinyMarginEnd"/>
+						<Switch type="AcceptReject" state="{/Editable}"/>
+					</HBox>
+				</VBox>
+			</HBox>
+		</content>
+	</Page>
+</mvc:View>
