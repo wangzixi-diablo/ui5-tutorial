@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.95",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "基于 JSONModel 数据模型的 SAP UI5 列表控件分页显示数据的完整解决方案",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
