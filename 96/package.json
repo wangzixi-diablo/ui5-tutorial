@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.95",
+  "name": "sap.m.tutorial.walkthrough.96",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "基于 JSONModel 数据模型的 SAP UI5 列表控件分页显示数据的完整解决方案",
+  "description": "SAP UI5 列表控件分页显示数据时，如何自定义分页大小",
   "scripts": {
     "start": "ui5 serve"
   },

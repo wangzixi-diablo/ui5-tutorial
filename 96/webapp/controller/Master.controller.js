@@ -37,6 +37,7 @@ sap.ui.define([
 			this.currentPageIndex = 0;
 			this.getOwnerComponent().setNewPageSize(sNewPageSize);
 			this.getOwnerComponent().updateWithPageIndex(this.currentPageIndex);
+			
 			this.oPageButtonControl = {
 				previousEnabled: false,
 				nextEnabled: true,

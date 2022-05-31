@@ -200,6 +200,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之九十五 - SAP UI5 下拉菜单(Select) 控件的使用方式](https://jerry.blog.csdn.net/article/details/125044943)
 
+* [SAP UI5 应用开发教程之九十六 - SAP UI5 列表控件分页显示数据时，如何自定义分页大小](https://blog.csdn.net/i042416/article/details/125055559)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
