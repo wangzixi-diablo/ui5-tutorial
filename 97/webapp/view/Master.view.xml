@@ -13,7 +13,6 @@
 			</f:DynamicPageTitle>
 		</f:title>
 
-		<!-- DynamicPage Content -->
 		<f:content>
 			<VBox fitContainer="true">
 				<OverflowToolbar class="sapFDynamicPageAlignContent">
