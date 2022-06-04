@@ -202,6 +202,10 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之九十六 - SAP UI5 列表控件分页显示数据时，如何自定义分页大小](https://blog.csdn.net/i042416/article/details/125055559)
 
+* [SAP UI5 应用开发教程之九十七 - 如何使用客户端 JSON 模型构建一个 Master-Detail-Detail 布局中的明细页面](https://blog.csdn.net/i042416/article/details/125114902)
+
+* [SAP UI5 应用开发教程之九十八 - 从 viewId 这个属性谈起，聊聊 SAP UI5 的 HTML 源代码生成机制](https://blog.csdn.net/i042416/article/details/125119020)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
