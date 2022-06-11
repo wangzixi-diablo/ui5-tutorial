@@ -26,6 +26,10 @@
 * [面向对象的 ABAP 编程初探 - 什么是类，实例，和 Public 方法](https://jerry.blog.csdn.net/article/details/124239023)
 * [SAP ABAP 报表的用户输入功能](https://jerry.blog.csdn.net/article/details/124261506)
 * [使用 ABAP 事物码 SM59 创建 Destination 来读取外网的数据](https://blog.csdn.net/i042416/article/details/124610251)
+* [通过一个具体的例子，讲解 SAP BDC 技术的使用步骤](https://jerry.blog.csdn.net/article/details/125112087)
+* [从解读 BDC 自动生成的代码谈起，讲解 SAPGUI 的程序组成部分](https://blog.csdn.net/i042416/article/details/125216274)
+* [如何查询 SAPGUI 屏幕上某个字段对应的数据库表存储](https://blog.csdn.net/i042416/article/details/125226098)
+* [如何使用事物码 SAT 查找某个 SAPGUI 屏幕字段对应的后台存储数据库表的名称](https://blog.csdn.net/i042416/article/details/125238865)
 
 ## ALV 开发专题
 
