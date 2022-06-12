@@ -30,6 +30,7 @@
 * [从解读 BDC 自动生成的代码谈起，讲解 SAPGUI 的程序组成部分](https://blog.csdn.net/i042416/article/details/125216274)
 * [如何查询 SAPGUI 屏幕上某个字段对应的数据库表存储](https://blog.csdn.net/i042416/article/details/125226098)
 * [如何使用事物码 SAT 查找某个 SAPGUI 屏幕字段对应的后台存储数据库表的名称](https://blog.csdn.net/i042416/article/details/125238865)
+* [一步步创建包含自定义 Screen 的 ABAP 程序的详细步骤](https://blog.csdn.net/i042416/article/details/125245129)
 
 ## ALV 开发专题
 
