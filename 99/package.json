@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.99",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "深入探讨 SAP UI5 本地开发环境里的 package.json 和 ui5.yaml",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
