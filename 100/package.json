@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.100",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何修改 SAP UI5 框架的源代码实现，以及使用本地部署的 SAP UI5 SDK",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

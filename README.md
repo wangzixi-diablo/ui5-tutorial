@@ -208,6 +208,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之九十九 - 深入探讨 SAP UI5 本地开发环境里的 package.json 和 ui5.yaml](https://blog.csdn.net/i042416/article/details/125353133)
 
+* [SAP UI5 应用开发教程之一百 - 如何修改 SAP UI5 框架的源代码实现，以及使用本地部署的 SAP UI5 SDK](https://blog.csdn.net/i042416/article/details/125356519)
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
