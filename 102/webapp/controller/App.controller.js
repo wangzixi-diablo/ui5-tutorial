@@ -68,7 +68,6 @@ sap.ui.define([
 			var aColumns = oTable.getColumns();
 			for( var i = 0; i < aColumns.length; i++){
 				sTableHTML = sTableHTML + '<th>' + aColumns[i].getHeader().getText() + '</th>';
-				//console.log(aColumns[i].getHeader().getText());
 			}
 			sTableHTML += '</tr>';
 
@@ -78,7 +77,7 @@ sap.ui.define([
 				var oItem = aItems[j];
 				for( var k = 0 ; k < 4; k++){
 					sTableHTML = sTableHTML + '<td>' + 
-					oItem.getCells()[0].getValue() + '</td>';
+					oItem.getCells()[k].getValue() + '</td>';
 				}
 				sTableHTML += '</tr>';
 			}
