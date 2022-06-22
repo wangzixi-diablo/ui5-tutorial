@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.103",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "",
+  "description": "如何在 SAP UI5 应用中消费第三方库",
   "scripts": {
     "start": "ui5 serve"
   },

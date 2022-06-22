@@ -17,7 +17,7 @@ sap.ui.define([
           UIComponent.prototype.init.apply(this, arguments);
           var oData = {
              recipient : {
-                name : "SAP UI5 初学者教程之九 - 创建第一个 Component"
+                name : "如何在 SAP UI5 应用中消费第三方库"
              }
           };
           var oModel = new JSONModel(oData);
