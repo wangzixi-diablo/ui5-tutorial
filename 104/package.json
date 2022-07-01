@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.104",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 表格控件的支持复选(Multi-Select)以及如何用代码一次选中多个表格行项目",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
