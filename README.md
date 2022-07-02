@@ -216,7 +216,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百零三 - 如何在 SAP UI5 应用中消费第三方库](https://blog.csdn.net/i042416/article/details/125415071)
 
-* [SAP UI5 应用开发教程之一百零四 - 如何在 SAP UI5 应用中消费第三方库](https://blog.csdn.net/i042416/article/details/125564041)
+* [SAP UI5 应用开发教程之一百零四 - SAP UI5 表格控件的支持复选(Multi-Select)以及如何用代码一次选中多个表格行项目](https://blog.csdn.net/i042416/article/details/125564041)
 
 ## 说明
 

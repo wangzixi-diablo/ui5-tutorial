@@ -1,0 +1,13 @@
+{
+  "name": "sap.f.tutorial.fiori2.08",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 Master-Detail 布局模式的联动效果实现明细介绍",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
