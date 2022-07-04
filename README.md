@@ -218,6 +218,11 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百零四 - SAP UI5 表格控件的支持复选(Multi-Select)以及如何用代码一次选中多个表格行项目](https://blog.csdn.net/i042416/article/details/125564041)
 
+* [SAP UI5 应用开发教程之一百零五 - SAP UI5 Master-Detail 布局模式的联动效果实现明细介绍](https://blog.csdn.net/i042416/article/details/125577667)
+
+* [SAP UI5 应用开发教程之一百零六 - 如何提高 SAP UI5 应用路由 url 的可读性](https://blog.csdn.net/i042416/article/details/125583012)
+
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
