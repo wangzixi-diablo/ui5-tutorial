@@ -222,6 +222,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百零六 - 如何提高 SAP UI5 应用路由 url 的可读性](https://blog.csdn.net/i042416/article/details/125583012)
 
+* [SAP UI5 应用开发教程之一百零七 - SAP UI5 OverflowToolbar 容器控件以及 resize 事件处理的一些细节介绍](https://jerry.blog.csdn.net/article/details/125609805)
 
 ## 说明
 

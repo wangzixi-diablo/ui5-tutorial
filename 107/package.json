@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.107",
   "version": "1.0.0",
   "author": "SAP SE",
-  "description": "SAP UI5 视图里的浮动工具栏 Floating Toolbar",
+  "description": "SAP UI5 OverflowToolbar 容器控件介绍",
   "scripts": {
     "start": "ui5 serve",
     "build": "ui5 build"
