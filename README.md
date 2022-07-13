@@ -226,6 +226,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百零八 - SAP UI5 图片显示控件 Avatar 的使用方式介绍](https://jerry.blog.csdn.net/article/details/125759976)
 
+* SAP UI5 应用开发教程之一百零九 - 正在写作中......
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
