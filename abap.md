@@ -33,6 +33,9 @@
 * [一步步创建包含自定义 Screen 的 ABAP 程序的详细步骤](https://blog.csdn.net/i042416/article/details/125245129)
 * [SAP ABAP 字符串变量容易疏忽和混淆的一些知识点](https://jerry.blog.csdn.net/article/details/125340395)
 * [SAP ABAP 处理 Excel 的标准函数 TEXT_CONVERT_XLS_TO_SAP 介绍](https://jerry.blog.csdn.net/article/details/125357542)
+* [授人以渔-在 SAP MM 物料显示界面上看到一个字段，如何查找哪张数据库表的哪个字段进行的存储](https://jerry.blog.csdn.net/article/details/125800843)
+* [SAP ABAP 系统进行数据库表查询的几种常用方法](https://jerry.blog.csdn.net/article/details/125807772)
+* 更多文章正在写作中 
 
 ## ALV 开发专题
 
