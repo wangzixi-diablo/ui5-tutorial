@@ -35,6 +35,8 @@
 * [SAP ABAP 处理 Excel 的标准函数 TEXT_CONVERT_XLS_TO_SAP 介绍](https://jerry.blog.csdn.net/article/details/125357542)
 * [授人以渔-在 SAP MM 物料显示界面上看到一个字段，如何查找哪张数据库表的哪个字段进行的存储](https://jerry.blog.csdn.net/article/details/125800843)
 * [SAP ABAP 系统进行数据库表查询的几种常用方法](https://jerry.blog.csdn.net/article/details/125807772)
+* [如何让 ABAP 服务器能够响应通过浏览器发起的自定义 HTTP 请求](https://blog.csdn.net/i042416/article/details/125834777)
+
 * 更多文章正在写作中 
 
 ## ALV 开发专题
