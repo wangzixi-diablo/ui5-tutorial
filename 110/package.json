@@ -1,0 +1,19 @@
+{
+  "name": "sap.m.tutorial.walkthrough.110",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 FileUploader 控件深入介绍 - 为什么需要一个隐藏的 iframe",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "express": "^4.12.4",
+    "http-proxy": "latest"
+  },
+  "dependencies": {
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3"
+  }
+}
