@@ -1,0 +1,19 @@
+{
+  "name": "sap.m.tutorial.walkthrough.112",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "使用自开发的代理服务器解决 SAP UI5 FileUploader 上传文件时遇到的跨域访问错误",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "express": "^4.12.4",
+    "http-proxy": "latest"
+  },
+  "dependencies": {
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3"
+  }
+}
