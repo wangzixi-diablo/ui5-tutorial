@@ -230,7 +230,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十 - SAP UI5 FileUploader 控件深入介绍 - 为什么需要一个隐藏的 iframe](https://blog.csdn.net/i042416/article/details/126024207)
 
-* SAP UI5 应用开发教程之一百一十一 - 正在写作中......
+* [SAP UI5 应用开发教程之一百一十一 - SAP UI5 FileUploader 控件实现本地文件上传，接收服务器端的响应时遇到跨域访问错误](https://blog.csdn.net/i042416/article/details/126024207)
+
+* SAP UI5 应用开发教程之一百一十二 - 正在写作中......
 
 ## 说明
 
