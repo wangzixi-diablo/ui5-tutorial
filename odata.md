@@ -14,6 +14,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [2. 在 SAP ABAP 系统对事物码 SEGW 创建的 OData 服务进行配置并测试](https://blog.csdn.net/i042416/article/details/125781692)
 
+- [3. SAP ABAP OData 服务诊断工具 /IWFND/ERROR_LOG 的使用方法](https://jerry.blog.csdn.net/article/details/126054502)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
