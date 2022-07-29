@@ -16,6 +16,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [3. SAP ABAP OData 服务诊断工具 /IWFND/ERROR_LOG 的使用方法](https://jerry.blog.csdn.net/article/details/126054502)
 
+- [4. SAP ABAP OData 服务 Data Provider Class 的 GET_ENTITYSET 方法实现指南](https://blog.csdn.net/i042416/article/details/126062166)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
