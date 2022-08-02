@@ -28,6 +28,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [9. SAP ABAP OData 服务如何支持删除(Delete)操作](https://blog.csdn.net/i042416/article/details/126108785)
 
+- [10. SAP ABAP OData 服务如何支持修改(Update)操作](https://blog.csdn.net/i042416/article/details/126130059)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
