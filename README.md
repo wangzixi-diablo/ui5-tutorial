@@ -236,7 +236,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十三 - 授人以渔 - 如何自行查询任意 SAP UI5 控件属性的文档和技术实现细节](https://blog.csdn.net/i042416/article/details/126147615)
 
-* SAP UI5 应用开发教程之一百一十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百一十四 - 如何通过单步调试的方式找到引入 Fiori Launchpad 路由错误的原因](https://blog.csdn.net/i042416/article/details/126150529)
+
+* SAP UI5 应用开发教程之一百一十五 - 正在写作中......
 
 ## 说明
 
