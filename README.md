@@ -234,7 +234,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十二 - 使用自开发的代理服务器解决 SAP UI5 FileUploader 上传文件时遇到的跨域访问错误](https://blog.csdn.net/i042416/article/details/126034853)
 
-* SAP UI5 应用开发教程之一百一十三 - 正在写作中......
+* [SAP UI5 应用开发教程之一百一十三 - 授人以渔 - 如何自行查询任意 SAP UI5 控件属性的文档和技术实现细节](https://blog.csdn.net/i042416/article/details/126147615)
+
+* SAP UI5 应用开发教程之一百一十四 - 正在写作中......
 
 ## 说明
 
