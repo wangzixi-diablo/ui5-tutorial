@@ -32,6 +32,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [11. 使用 HTTP PUT, PATCH 以及 MERGE 请求消费 SAP ABAP OData 服务修改操作的实现及其区别](https://jerry.blog.csdn.net/article/details/126142762)
 
+- [12. SAP ABAP OData 服务如何支持 $select 有选择性地仅读取部分模型字段值](https://jerry.blog.csdn.net/article/details/126163273)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
