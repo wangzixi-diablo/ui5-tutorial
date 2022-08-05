@@ -238,7 +238,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十四 - 如何通过单步调试的方式找到引起 Fiori Launchpad 路由错误的原因](https://blog.csdn.net/i042416/article/details/126150529)
 
-* SAP UI5 应用开发教程之一百一十五 - 正在写作中......
+* [SAP UI5 应用开发教程之一百一十五 - 关于将本地 SAP UI5 应用配置到本地 Fiori Launchpad 的技术实现深入讲解](https://blog.csdn.net/i042416/article/details/126175449)
+
+* SAP UI5 应用开发教程之一百一十六 - 正在写作中......
 
 ## 说明
 
