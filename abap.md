@@ -69,11 +69,13 @@
 
 * [ABAP 报表中如何给报表的输入参数增添 F4 Value Help](https://jerry.blog.csdn.net/article/details/126230809)
 
+* [ABAP 报表中如何以二进制方式上传本地文件](https://jerry.blog.csdn.net/article/details/126237539)
+
 * 更多文章正在写作中
 
 ## Office 专题
 
-* [用 ABAP 新建本地 Excel 文件并写入数据](https://jerry.blog.csdn.net/article/details/123762801)
+* [用 ABAP 新建本地 Excel 文件并写入数据](https://jerry.blog.csdn.net/article/details/123761027)
 
 * [如何使用 ABAP 创建包含不同字体大小的 Word 文档](https://jerry.blog.csdn.net/article/details/126214988)
 
