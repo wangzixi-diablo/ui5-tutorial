@@ -67,6 +67,8 @@
 
 * [如何使用 saplink 安装其他网站上提供的 ABAP 程序](https://jerry.blog.csdn.net/article/details/126200575)
 
+* [ABAP 报表中如何给报表的输入参数增添 F4 Value Help](https://jerry.blog.csdn.net/article/details/126230809)
+
 * 更多文章正在写作中
 
 ## Office 专题
