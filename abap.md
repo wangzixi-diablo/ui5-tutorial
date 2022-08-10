@@ -71,6 +71,8 @@
 
 * [ABAP 报表中如何以二进制方式上传本地文件](https://jerry.blog.csdn.net/article/details/126237539)
 
+* [ABAP 里文件操作涉及到中文字符集的问题和解决方案](https://blog.csdn.net/i042416/article/details/126256423)
+
 * 更多文章正在写作中
 
 ## Office 专题
