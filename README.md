@@ -244,7 +244,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十七 - 本地开发好的 SAP UI5 应用部署到 ABAP 服务器时，中文字符变成乱码的原因分析和解决方案](https://blog.csdn.net/i042416/article/details/126276440)
 
-* SAP UI5 应用开发教程之一百一十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百一十八 - 如何分析因为 SAP UI5 版本差异带来的问题](https://jerry.blog.csdn.net/article/details/126282933)
+
+* SAP UI5 应用开发教程之一百一十九 - 正在写作中......
 
 ## 说明
 
