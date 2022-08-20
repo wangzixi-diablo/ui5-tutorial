@@ -42,6 +42,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [16. 如何修改 SAP ABAP OData 模型，使其支持 $expand 操作](https://jerry.blog.csdn.net/article/details/126402523)
 
+- [17. 如何通过 SAP ABAP OData $expand 操作在同一个 HTTP 请求中返回多个节点的数据](https://jerry.blog.csdn.net/article/details/126445641)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
