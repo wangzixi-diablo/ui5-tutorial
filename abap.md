@@ -88,6 +88,8 @@
 * [27 行代码开发一个最简单的 SAP ALV 报表](https://jerry.blog.csdn.net/article/details/123010291)
 * [48 行代码给 ABAP ALV 报表的数据行增添颜色效果](https://jerry.blog.csdn.net/article/details/123017241)
 * [77 行代码实现ABAP ALV 中的双击事件处理](https://jerry.blog.csdn.net/article/details/123020730)
+* [SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
+
 * 更多文章正在写作中
 
 ## 更多文章正在写作中 
