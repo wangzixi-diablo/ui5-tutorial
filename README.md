@@ -248,7 +248,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百一十九 - 关于 SAP UI5 Container 控件 aggregation 的深入分析](https://blog.csdn.net/i042416/article/details/126291238)
 
-* SAP UI5 应用开发教程之一百二十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十 - 如何根据 SAP UI5 框架代码抛出的错误消息，反查出是哪一行代码引起的错误消息](https://jerry.blog.csdn.net/article/details/126443633)
+
+* SAP UI5 应用开发教程之一百二十一 - 正在写作中......
 
 ## 说明
 

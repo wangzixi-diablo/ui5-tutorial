@@ -90,6 +90,4 @@
 * [77 行代码实现ABAP ALV 中的双击事件处理](https://jerry.blog.csdn.net/article/details/123020730)
 * [SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
 
-* 更多文章正在写作中
-
 ## 更多文章正在写作中 
