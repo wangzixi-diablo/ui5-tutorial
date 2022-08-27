@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.122",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "在 SAP UI5 应用中使用浏览器原生的 Fetch API 发起网络请求",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}

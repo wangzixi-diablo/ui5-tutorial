@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.24",
+  "name": "sap.m.tutorial.walkthrough.121",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何使用 OData 数据模型",
+  "description": "一键部署开箱即用的代理服务器，解决 SAP UI5 应用开发过程中访问远端 OData 服务的跨域问题",
   "scripts": {
     "start": "ui5 serve"
   },

@@ -252,7 +252,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十一 - 一键部署开箱即用的代理服务器，解决 SAP UI5 应用开发过程中访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/126556257)
 
-* SAP UI5 应用开发教程之一百二十二 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十二 - 在 SAP UI5 应用中使用浏览器原生的 Fetch API 发起网络请求](https://jerry.blog.csdn.net/article/details/126558757)
+
+* SAP UI5 应用开发教程之一百二十三 - 正在写作中......
 
 ## 说明
 
