@@ -58,7 +58,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
 
-* [SAP UI5 应用开发教程之二十五 - 使用代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
+* [SAP UI5 应用开发教程之二十五 - 使用自开发的代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
 
 * [SAP UI5 应用开发教程之二十六 - OData 服务配合 Mock 服务器的使用步骤详解](https://jerry.blog.csdn.net/article/details/122770273)
 
@@ -250,7 +250,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十 - 如何根据 SAP UI5 框架代码抛出的错误消息，反查出是哪一行代码引起的错误消息](https://jerry.blog.csdn.net/article/details/126443633)
 
-* SAP UI5 应用开发教程之一百二十一 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十一 - 一键部署开箱即用的代理服务器，解决 SAP UI5 应用开发过程中访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/126556257)
+
+* SAP UI5 应用开发教程之一百二十二 - 正在写作中......
 
 ## 说明
 
