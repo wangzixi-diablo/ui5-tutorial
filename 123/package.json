@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.123",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "使用 Busy Dialog 动画阻止 SAP UI5 应用按钮短时间内快速被点击",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}

@@ -254,7 +254,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十二 - 在 SAP UI5 应用中使用浏览器原生的 Fetch API 发起网络请求](https://jerry.blog.csdn.net/article/details/126558757)
 
-* SAP UI5 应用开发教程之一百二十三 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十三 - 使用 Busy Dialog 动画阻止 SAP UI5 应用按钮短时间内快速被点击](https://jerry.blog.csdn.net/article/details/126569190)
+
+* SAP UI5 应用开发教程之一百二十四 - 正在写作中......
 
 ## 说明
 

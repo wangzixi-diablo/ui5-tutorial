@@ -1,0 +1,7 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<BusyDialog
+		text="正在从百度首页获取数据，请稍后......"
+	 />
+</core:FragmentDefinition>
