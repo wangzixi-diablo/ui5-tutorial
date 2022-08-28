@@ -256,7 +256,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十三 - 使用 Busy Dialog 动画阻止 SAP UI5 应用按钮短时间内快速被点击](https://jerry.blog.csdn.net/article/details/126569190)
 
-* SAP UI5 应用开发教程之一百二十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十四 - 使用函数节流思想避免 SAP UI5 应用里按钮短时间内被高频重复点击](https://blog.csdn.net/i042416/article/details/126571982)
+
+* SAP UI5 应用开发教程之一百二十五 - 正在写作中......
 
 ## 说明
 

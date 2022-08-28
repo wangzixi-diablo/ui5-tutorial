@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.124",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "使用函数节流思想避免 SAP UI5 应用里按钮短时间内被高频重复点击",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}
