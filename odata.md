@@ -46,6 +46,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [18. SAP ABAP OData 服务嵌套创建功能的实现步骤(Create Deep)](https://jerry.blog.csdn.net/article/details/126601507)
 
+- [19. 如何使用 ABAP 程序消费 SAP ABAP OData 服务](https://jerry.blog.csdn.net/article/details/126613213)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
