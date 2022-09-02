@@ -73,6 +73,8 @@
 
 * [ABAP 里文件操作涉及到中文字符集的问题和解决方案](https://blog.csdn.net/i042416/article/details/126256423)
 
+* [如何对 ABAP 数据库表通过 ABAP 代码进行更新和删除操作](https://jerry.blog.csdn.net/article/details/126668999)
+
 * 更多文章正在写作中
 
 ## Office 专题
