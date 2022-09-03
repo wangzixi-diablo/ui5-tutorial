@@ -75,6 +75,8 @@
 
 * [如何对 ABAP 数据库表通过 ABAP 代码进行更新和删除操作](https://jerry.blog.csdn.net/article/details/126668999)
 
+* [如何让 ABAP 报表在后台作业的模式下运行](https://jerry.blog.csdn.net/article/details/126674872)
+
 * 更多文章正在写作中
 
 ## Office 专题
@@ -91,5 +93,6 @@
 * [48 行代码给 ABAP ALV 报表的数据行增添颜色效果](https://jerry.blog.csdn.net/article/details/123017241)
 * [77 行代码实现ABAP ALV 中的双击事件处理](https://jerry.blog.csdn.net/article/details/123020730)
 * [SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
+* [如何在 SAP ABAP ALV 报表里以交通灯的方式显示某一列的值](https://jerry.blog.csdn.net/article/details/126676314)
 
 ## 更多文章正在写作中 
