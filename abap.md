@@ -81,6 +81,8 @@
 
 * [如何使用 ABAP 代码发送邮件到指定邮箱](https://jerry.blog.csdn.net/article/details/126726199)
 
+* [如何使用 ABAP 代码发送带有 PDF 附件的电子邮件](https://jerry.blog.csdn.net/article/details/126735005)
+
 * 更多文章正在写作中
 
 ## Office 专题
