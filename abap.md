@@ -77,6 +77,8 @@
 
 * [如何让 ABAP 报表在后台作业的模式下运行](https://jerry.blog.csdn.net/article/details/126674872)
 
+* [如何使用 ABAP 代码解析 XML 文件](https://blog.csdn.net/i042416/article/details/126682246)
+
 * 更多文章正在写作中
 
 ## Office 专题
