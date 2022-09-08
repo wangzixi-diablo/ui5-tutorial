@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.125",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "XML 视图里定义的 UI 控件，运行时实例化的技术细节剖析",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

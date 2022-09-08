@@ -258,7 +258,10 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十四 - 使用函数节流思想避免 SAP UI5 应用里按钮短时间内被高频重复点击](https://blog.csdn.net/i042416/article/details/126571982)
 
-* SAP UI5 应用开发教程之一百二十五 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十五 - SAP UI5 进阶 - XML 视图里定义的 UI 控件，运行时实例化的技术细节剖析](https://blog.csdn.net/i042416/article/details/126571982)
+
+
+* SAP UI5 应用开发教程之一百二十六 - 正在写作中......
 
 ## 说明
 
