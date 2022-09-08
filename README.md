@@ -260,8 +260,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十五 - SAP UI5 进阶 - XML 视图里定义的 UI 控件，运行时实例化的技术细节剖析](https://blog.csdn.net/i042416/article/details/126760938)
 
+* [SAP UI5 应用开发教程之一百二十六 - SAP UI5 进阶 - JSON 模型字段里的值，显示在最终 UI5 界面上的奥秘分析](https://blog.csdn.net/i042416/article/details/126774135)
 
-* SAP UI5 应用开发教程之一百二十六 - 正在写作中......
+* SAP UI5 应用开发教程之一百二十七 - 正在写作中......
 
 ## 说明
 
