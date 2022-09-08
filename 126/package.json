@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.126",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 进阶 - JSON 模型字段里的值，显示在最终 UI5 界面上的奥秘分析",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
