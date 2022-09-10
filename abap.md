@@ -102,5 +102,6 @@
 * [46. 77 行代码实现ABAP ALV 中的双击事件处理](https://jerry.blog.csdn.net/article/details/123020730)
 * [47. SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
 * [48. 如何在 SAP ABAP ALV 报表里以交通灯的方式显示某一列的值](https://jerry.blog.csdn.net/article/details/126676314)
+* [49. 在弹出对话框窗口里显示 SAP ABAP ALV 列表](https://jerry.blog.csdn.net/article/details/126795526)
 
 ## 更多文章正在写作中 
