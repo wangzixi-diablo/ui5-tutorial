@@ -85,6 +85,8 @@
 
 * [41. 如何使用 ABAP 代码发送带有 PDF 附件的电子邮件](https://jerry.blog.csdn.net/article/details/126735005)
 
+* [50. 如何在 SAPGUI 里显示上传到 ABAP 服务器的 PDF 文件](https://jerry.blog.csdn.net/article/details/126810978)
+
 * 更多文章正在写作中
 
 ## Office 专题
