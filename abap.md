@@ -87,6 +87,8 @@
 
 * [50. 如何在 SAPGUI 里显示上传到 ABAP 服务器的 PDF 文件](https://jerry.blog.csdn.net/article/details/126810978)
 
+* [51. 如何在 SAP ABAP 系统中使用 Adobe Form](https://jerry.blog.csdn.net/article/details/126817904)
+
 * 更多文章正在写作中
 
 ## Office 专题
