@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `150` 篇左右，到 `2022年9月9日`为止，目前已经更新了 `48` 篇，专栏完成度为 `32%`
+## 本专栏计划的文章数在 `150` 篇左右，到 `2022年9月12日`为止，目前已经更新了 `51` 篇，专栏完成度为 `34%`
 
 # 零基础 ABAP 学习教程系列文章的目录
 
@@ -88,6 +88,12 @@
 * [50. 如何在 SAPGUI 里显示上传到 ABAP 服务器的 PDF 文件](https://jerry.blog.csdn.net/article/details/126810978)
 
 * [51. 如何在 SAP ABAP 系统中使用 Adobe Form](https://jerry.blog.csdn.net/article/details/126817904)
+
+* [52. 使用 SAP ABAP 代码生成 PDF 文件，填充以业务数据并显示在 SAPGUI 里](https://jerry.blog.csdn.net/article/details/126823388)
+
+* [53. 如何把 SAP ABAP 系统里一张数据库表的内容，显示在 Adobe PDF Form 里](https://jerry.blog.csdn.net/article/details/126830619)
+
+* [54. 使用 ABAP 代码制作手机能够扫描的二维码(QRCode)](https://jerry.blog.csdn.net/article/details/126843222)
 
 * 更多文章正在写作中
 
