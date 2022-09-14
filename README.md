@@ -264,7 +264,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十七 - SAP UI5 应用的全局配置(Global Configuration) 的设计和使用](https://blog.csdn.net/i042416/article/details/126780878)
 
-* SAP UI5 应用开发教程之一百二十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百二十八- SAP UI5 智能控件 Smart Controls 的初步认识](https://jerry.blog.csdn.net/article/details/126856301)
+
+* SAP UI5 应用开发教程之一百二十九 - 正在写作中......
 
 ## 说明
 
