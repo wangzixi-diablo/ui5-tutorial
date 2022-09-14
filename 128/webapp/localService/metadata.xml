@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+		   xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+		   xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+		   xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="EPM_REF_APPS_PROD_MAN_SRV"
+				sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="Product">
+				<Key>
+					<PropertyRef Name="ProductId"/>
+				</Key>
+				<Property Name="ProductId" Type="Edm.String"/>
+				<Property Name="Price" Type="Edm.Decimal"
+						  sap:unit="CurrencyCode" sap:label="Price"
+						  sap:updatable="true"/>
+				<Property Name="CurrencyCode" Type="Edm.String"
+						  MaxLength="3" sap:label="Currency" sap:semantics="currency-code"
+						  sap:updatable="true"/>
+			</EntityType>
+			<EntityContainer m:IsDefaultEntityContainer="true"
+							 sap:supported-formats="atom json">
+				<EntitySet Name="Products" EntityType="EPM_REF_APPS_PROD_MAN_SRV.Product"
+						   sap:updatable="true"/>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
