@@ -8,7 +8,6 @@ sap.ui.define([
 			manifest: "json"
 		},
 		init: function() {
-			FakeLrepConnectorLocalStorage.enableFakeConnector(sap.ui.require.toUrl("sap/ui5/walkthrough/lrep/component-test-changes.json"));
 			UIComponent.prototype.init.apply(this, arguments);
 		},
 		destroy: function() {
@@ -16,5 +15,4 @@ sap.ui.define([
 			UIComponent.prototype.destroy.apply(this, arguments);
 		}
 	});
-
 });

@@ -8,5 +8,4 @@ sap.ui.define([
 			this.getView().bindElement("/Products('4711')");
 		}
 	});
-
 });
