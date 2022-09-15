@@ -2,7 +2,7 @@
   "name": "sap.ui.comp.tutorial.smartControls.01",
   "version": "1.0.0",
   "author": "SAP SE",
-  "description": "Sample: Smart Controls - Step 1 - Smart Field",
+  "description": "SAP UI5 智能控件 Smart Controls 的初步认识",
   "scripts": {
     "start": "ui5 serve",
     "build": "ui5 build"

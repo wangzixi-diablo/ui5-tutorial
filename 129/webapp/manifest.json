@@ -4,7 +4,7 @@
 		"id": "sap.ui.demo.smartControls",
 		"type": "application",
 		"title": "SAPUI5 Smart Controls",
-		"description": "A simple app that explains the most important concepts of smart controls in SAPUI5",
+		"description": "如何给 SAP UI5 SmartField 添加 Value Help 功能",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
