@@ -266,7 +266,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十八 - SAP UI5 智能控件 Smart Controls 的初步认识](https://jerry.blog.csdn.net/article/details/126856301)
 
-* [SAP UI5 应用开发教程之一百二十九 - SAP UI5 智能控件 Smart Controls 的初步认识](https://jerry.blog.csdn.net/article/details/126866036)
+* [SAP UI5 应用开发教程之一百二十九 - 如何给 SAP UI5 SmartField 添加 Value Help 功能](https://jerry.blog.csdn.net/article/details/126866036)
 
 
 * SAP UI5 应用开发教程之一百三十 - 正在写作中......
