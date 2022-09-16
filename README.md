@@ -268,8 +268,11 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百二十九 - 如何给 SAP UI5 SmartField 添加 Value Help 功能](https://jerry.blog.csdn.net/article/details/126866036)
 
+* [SAP UI5 应用开发教程之一百三十 - 如何使 SAP UI5 SmartField 在运行时渲染成超链接的形式并支持跳转](https://jerry.blog.csdn.net/article/details/126884579)
 
-* SAP UI5 应用开发教程之一百三十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百三十一 - SAP UI5 Cross Application Navigation (跨应用间跳转)的本地模拟实现](https://jerry.blog.csdn.net/article/details/126890405)
+
+* SAP UI5 应用开发教程之一百三十二 - 正在写作中......
 
 ## 说明
 
