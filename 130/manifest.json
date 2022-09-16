@@ -1,0 +1,30 @@
+{
+	"sap.app": {
+		"id": "sap.ui.comp.tutorial.smartControls.03",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"config": {
+			"sample": {
+				"iframe": "webapp/index.html",
+				"stretch": true,
+				"files": [
+					"webapp/localService/metadata.xml",
+					"webapp/localService/mockdata/Products.json",
+					"webapp/localService/mockserver.js",
+					"webapp/shellMock/UShellCrossApplicationNavigationMock.js",
+					"webapp/lrep/component-test-changes.json",
+					"webapp/Component.js",
+					"webapp/index.html",
+					"webapp/initMockServer.js",
+					"webapp/manifest.json",
+					"webapp/SmartLink.controller.js",
+					"webapp/SmartLink.view.xml",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}

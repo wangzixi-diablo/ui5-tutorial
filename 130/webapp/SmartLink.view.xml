@@ -1,0 +1,23 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.SmartLink"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:smartForm="sap.ui.comp.smartform"
+	xmlns:sap.ui.layout="sap.ui.layout"
+	xmlns:smartField="sap.ui.comp.smartfield">
+	<smartForm:SmartForm editable="true">
+		<smartForm:layout>
+			<smartForm:ColumnLayout 
+				emptyCellsLarge="4"
+				labelCellsLarge="4"
+				columnsM="1"
+				columnsL="1"
+				columnsXL="1"/>
+		</smartForm:layout>
+		<smartForm:Group>
+			<smartForm:GroupElement>
+				<smartField:SmartField value="{Name}" id="idName" editable="false"/>
+			</smartForm:GroupElement>
+		</smartForm:Group>
+	</smartForm:SmartForm>
+</mvc:View>

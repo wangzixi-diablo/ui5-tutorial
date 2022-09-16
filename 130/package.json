@@ -1,0 +1,13 @@
+{
+  "name": "sap.ui.comp.tutorial.smartControls.03",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "如何使 SAP UI5 SmartField 在运行时渲染成超链接的形式并支持跳转",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
