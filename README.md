@@ -1,5 +1,7 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年9月16日`为止，目前已经更新了 `131` 篇，专栏完成度为 `43.6%`
+
 ## 作者简介
 
 Jerry Wang，2007 年从电子科技大学计算机专业硕士毕业后加入 SAP 成都研究院工作至今。Jerry 是 SAP 社区导师，SAP 中国技术大使。在长达 15 年的 SAP 标准产品开发生涯里，Jerry 曾经先后参与 SAP Business ByDesign, SAP CRM, SAP Cloud for Customer, SAP S/4HANA, SAP Commerce Cloud(电商云)等标准产品的研发工作。
