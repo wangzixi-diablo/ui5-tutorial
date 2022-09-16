@@ -8,15 +8,15 @@
 			editable="true"
 			layout="ResponsiveGridLayout"
 			title="Address"
-			labelSpanXL="3"
-			labelSpanL="3"
-			labelSpanM="3"
-			labelSpanS="12"
+			labelSpanXL="2"
+			labelSpanL="2"
+			labelSpanM="2"
+			labelSpanS="2"
 			adjustLabelSpan="false"
-			emptySpanXL="4"
-			emptySpanL="4"
-			emptySpanM="4"
-			emptySpanS="0"
+			emptySpanXL="1"
+			emptySpanL="1"
+			emptySpanM="1"
+			emptySpanS="1"
 			columnsXL="1"
 			columnsL="1"
 			columnsM="1"
@@ -28,15 +28,9 @@
 				<Input value="{Street}">
 				</Input>
 				<Input value="{HouseNumber}">
-					<layoutData>
-						<l:GridData span="XL1 L2 M2 S4" />
-					</layoutData>
 				</Input>
 				<Label text="ZIP Code/City" />
 				<Input value="{ZIPCode}">
-					<layoutData>
-						<l:GridData span="XL1 L2 M2 S4" />
-					</layoutData>
 				</Input>
 				<Input value="{City}" />
 				<Label text="Country" />

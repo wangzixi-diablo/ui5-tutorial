@@ -5,27 +5,24 @@ sap.ui.define([
 	], function(Fragment, Controller, JSONModel) {
 	"use strict";
 	var PageController = Controller.extend("sap.ui5.walkthrough.Page", {
-
+		
 		onInit: function (oEvent) {
-
 			var oModel = new JSONModel(sap.ui.require.toUrl("sap/ui5/walkthrough/mockdata/supplier.json"));
+
 			oModel.attachRequestCompleted(function() {
 				this.byId('edit').setEnabled(true);
 			}.bind(this));
-			this.getView().setModel(oModel);
 
+			this.getView().setModel(oModel);
 			this.getView().bindElement("/SupplierCollection/0");
 
 			this._formFragments = {};
-
 			this._showFormFragment("Display");
 		},
-
 		handleEditPress : function () {
 			this._oSupplier = Object.assign({}, this.getView().getModel().getData().SupplierCollection[0]);
 			this._toggleButtonsAndView(true);
 		},
-
 		handleCancelPress : function () {
 			var oModel = this.getView().getModel();
 			var oData = oModel.getData();
