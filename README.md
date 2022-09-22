@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年9月16日`为止，目前已经更新了 `131` 篇，专栏完成度为 `43.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年9月22日`为止，目前已经更新了 `133` 篇，专栏完成度为 `44.3%`.
 
 ## 作者简介
 
@@ -274,11 +274,15 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百三十一 - SAP UI5 Cross Application Navigation (跨应用间跳转)的本地模拟实现](https://jerry.blog.csdn.net/article/details/126890405)
 
-* SAP UI5 应用开发教程之一百三十二 - 正在写作中......
+* [SAP UI5 应用开发教程之一百三十二 - SAP UI5 Simple Form 控件的使用方法介绍](https://jerry.blog.csdn.net/article/details/126901757)
+
+* [SAP UI5 应用开发教程之一百三十三 - SAP UI5 应用元数据文件 manifest.json 的加载和解析原理讲解](https://blog.csdn.net/i042416/article/details/126997848)
+
+* SAP UI5 应用开发教程之一百三十四 - 正在写作中......
 
 ## 说明
 
-Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和“汪子熙”微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
+Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
 
 在 Jerry 这篇文章 [对 SAP UI5 一无所知的新手，从哪些材料开始学习比较好？](https://blog.csdn.net/i042416/article/details/116347763) 曾经提到，Jerry 也是从 SAP UI5 菜鸟一路走过来，深知只有 ABAP 开发背景的开发者，向 SAP UI5 开发领域转型的不易，因此我在业余时间设计了这份适合 `SAP UI5 不同水平`的学习者的学习教程，把开发一个完整的 SAP UI5 应用的流程，拆分成若干个步骤，力求每个步骤里，把涉及到的知识点都涵盖到。
 
