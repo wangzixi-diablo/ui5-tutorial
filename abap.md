@@ -95,6 +95,8 @@
 
 * [54. 使用 ABAP 代码制作手机能够扫描的二维码(QRCode)](https://jerry.blog.csdn.net/article/details/126843222)
 
+* [55. ABAP 是一门支持面向过程和面向对象的混合型编程语言，实际开发中用哪种？](https://jerry.blog.csdn.net/article/details/127005502)
+
 * 更多文章正在写作中
 
 ## Office 专题
