@@ -278,7 +278,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百三十三 - SAP UI5 应用元数据文件 manifest.json 的加载和解析原理讲解](https://blog.csdn.net/i042416/article/details/126997848)
 
-* SAP UI5 应用开发教程之一百三十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百三十四 - SAP UI5 Simple Form 属性 columnsL，columnsM，columnsXL 的属性深入剖析](https://jerry.blog.csdn.net/article/details/127052324)
+
+* SAP UI5 应用开发教程之一百三十五 - 正在写作中......
 
 ## 说明
 
