@@ -9,13 +9,13 @@
 			layout="ResponsiveGridLayout"
 			title="Address"
 			labelSpanXL="1"
-			labelSpanL="1"
-			labelSpanM="1"
-			labelSpanS="1"
+			labelSpanL="2"
+			labelSpanM="3"
+			labelSpanS="4"
 			adjustLabelSpan="false"
-			columnsXL="1"
-			columnsL="1"
-			columnsM="1"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="2"
 			singleContainerFullSize="false" >
 			<f:content>
 				<Label text="Name" />
