@@ -1,0 +1,12 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 控件库里 Form 控件和 SimpleForm 控件的区别和联系讲解",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

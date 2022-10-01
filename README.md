@@ -286,7 +286,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百三十七 - SAP UI5 SimpleForm 里在水平方向显示多组 Form 元素的实现方法](https://blog.csdn.net/i042416/article/details/127120111)
 
-* SAP UI5 应用开发教程之一百三十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百三十八 - SAP UI5 控件库里 Form 控件和 SimpleForm 控件的区别和联系讲解](https://blog.csdn.net/i042416/article/details/127137242)
+
+* SAP UI5 应用开发教程之一百三十九 - 正在写作中......
 
 ## 说明
 
