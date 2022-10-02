@@ -1,0 +1,49 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "sap.ui5.walkthrough",
+		"type": "application",
+		"title": "SAPUI5 Smart Controls",
+		"description": "A simple app that explains the most important concepts of smart controls in SAPUI5",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "CA-UI5-FST",
+		"dataSources": {
+			"mainService": {
+				"uri": "/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5"
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.SmartForm",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"minUI5Version": "1.60",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.comp": {}
+			}
+		},
+		"models": {
+			"": {
+				"dataSource": "mainService",
+				"settings": {
+					"defaultBindingMode": "TwoWay"
+				}
+			}
+		}
+	}
+}

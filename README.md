@@ -288,7 +288,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百三十八 - SAP UI5 控件库里 Form 控件和 SimpleForm 控件的区别和联系讲解](https://blog.csdn.net/i042416/article/details/127137242)
 
-* SAP UI5 应用开发教程之一百三十九 - 正在写作中......
+* [SAP UI5 应用开发教程之一百三十九 - SAP UI5 SmartForm 智能表单控件的使用方法介绍](https://blog.csdn.net/i042416/article/details/127144122)
+
+* SAP UI5 应用开发教程之一百四十 - 正在写作中......
 
 ## 说明
 
