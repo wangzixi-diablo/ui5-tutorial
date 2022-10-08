@@ -8,6 +8,8 @@ Jerry Wang，2007 年从电子科技大学计算机专业硕士毕业后加入 S
 
 Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包括 SAP UI5 在内的多款 SAP 自研框架有深入的研究。
 
+大家在学习过程中对本套教程有任何疑问和写作意见，可以在教程文章下评论，或者在这个[《一套适合 SAP UI5 开发人员循序渐进的学习教程》读者意见反馈和下一步写作计划表](https://blog.csdn.net/i042416/article/details/127204204)里评论。我在写作过程中，会根据大家的反馈，对教程的内容进行补充和修订。
+
 ## 教程目录
 
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
