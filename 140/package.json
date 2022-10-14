@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.122",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何使用 JavaScript 代码连接部署在 SAP ABAP 服务器上的 OData 服务",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}
