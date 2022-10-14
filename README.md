@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年9月22日`为止，目前已经更新了 `133` 篇，专栏完成度为 `44.3%`.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年10月14日`为止，目前已经更新了 `141` 篇，专栏完成度为 `47%`.
 
 ## 作者简介
 
@@ -294,7 +294,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十 - 如何使用 JavaScript 代码连接部署在 SAP ABAP 服务器上的 OData 服务](https://jerry.blog.csdn.net/article/details/127321673)
 
-* SAP UI5 应用开发教程之一百四十一 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十一 - 如何在 SAP UI5 应用里安全存储一些敏感的数据，避免被上传到 Github 去的风险](https://jerry.blog.csdn.net/article/details/127327184)
+
+* SAP UI5 应用开发教程之一百四十二 - 正在写作中......
 
 ## 说明
 
