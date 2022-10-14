@@ -1,6 +1,5 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/m/MessageToast"
+	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
 	"use strict";
 
