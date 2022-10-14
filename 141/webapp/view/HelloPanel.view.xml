@@ -1,0 +1,24 @@
+<mvc:View
+   controllerName="sap.ui5.walkthrough.controller.HelloPanel"
+   xmlns="sap.m"
+   xmlns:form="sap.ui.layout.form"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Panel
+      headerText="{i18n>helloPanelTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto" >
+      <content>
+      <Button
+         id="helloDialogButton"
+         text="{i18n>sendRequest}"
+         press=".onFire"
+         class="sapUiSmallMarginEnd"/>
+      <form:SimpleForm
+				editable="true"
+				layout="ResponsiveGridLayout" >
+				<Label text="Comment" />
+				<TextArea id="result" growing="true" width="100%"/>
+			</form:SimpleForm>
+      </content>
+   </Panel>
+</mvc:View>

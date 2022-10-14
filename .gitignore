@@ -8,3 +8,5 @@ webapp/dist
 **/dist
 resources/
 .bat
+*.bat
+settings.js

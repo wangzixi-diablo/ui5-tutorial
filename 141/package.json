@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.141",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何在 SAP UI5 应用里安全存储一些敏感的数据，避免被上传到 Github 去的风险",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}
