@@ -101,6 +101,10 @@
 
 * [55. ABAP 是一门支持面向过程和面向对象的混合型编程语言，实际开发中用哪种？](https://jerry.blog.csdn.net/article/details/127005502)
 
+* [57. SAPGUI 里 F1 功能键的用法专题讲解](https://jerry.blog.csdn.net/article/details/127347151)
+
+* [58. 通俗易懂的 SAP ABAP 会话管理(Session Management)概念讲解，包含具体的实例](https://jerry.blog.csdn.net/article/details/127360829)
+
 * 更多文章正在写作中
 
 ## Office 专题
@@ -119,9 +123,6 @@
 * [47. SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
 * [48. 如何在 SAP ABAP ALV 报表里以交通灯的方式显示某一列的值](https://jerry.blog.csdn.net/article/details/126676314)
 * [49. 在弹出对话框窗口里显示 SAP ABAP ALV 列表](https://jerry.blog.csdn.net/article/details/126795526)
-
 * [56. 动手开发一个有用的 ABAP ALV 工具 - 查看指定用户的 ABAP 传输请求,模拟 SE10 事物码](https://jerry.blog.csdn.net/article/details/127181885)
-
-* [57. SAPGUI 里 F1 功能键的用法专题讲解](https://jerry.blog.csdn.net/article/details/127347151)
 
 ## 更多文章正在写作中 
