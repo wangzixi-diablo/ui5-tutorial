@@ -15,18 +15,6 @@
 			"libs": {
 				"sap.ui.layout": {}
 			}
-		},
-		"config": {
-			"sample": {
-				"stretch": true,
-				"files": [
-					"Page.view.xml",
-					"Page.controller.js",
-					"Change.fragment.xml",
-					"Display.fragment.xml",
-					"manifest.json"
-				]
-			}
 		}
 	}
 }
