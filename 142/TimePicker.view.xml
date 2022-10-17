@@ -15,20 +15,17 @@
 			<HBox alignItems="Center">
 				<Text
 					renderWhitespace="true"
-					text="maskMode is  " />
+					text="maskMode:" />
 				<Switch state="{/maskMode/state}" />
-				<Text
-					renderWhitespace="true"
-					text="  for all TimePickers below" />
 			</HBox>
 			<Text
 				class="sapUiSmallMarginTop"
 				visible="{/maskMode/state}"
-				text="When maskMode is 'On', the TimePicker field accepts only the time format predefined by the mask." />
+				text="TimePicker 控件只接受 mask 定义的样式时间." />
 			<Text
 				class="sapUiSmallMarginTop"
 				visible="{= !${/maskMode/state}}"
-				text="When maskMode is 'Off', the users can enter anything in the TimePicker field. The field is still validated. The 'change' event returns two parameters - 'value' (that is entered) and 'valid' (true or false depending on the validity of the 'value')." />
+				text="用户可以在 TimePicker 里维护任意样式的时间. change 事件返回两个值，value(用户输入的时间) 和 valid(true 或者 false)." />
 		</content>
 	</Panel>
 
