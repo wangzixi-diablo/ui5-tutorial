@@ -1,0 +1,12 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "Jerry Wang",
+  "description": "SAP UI5 时间选择控件 Time Picker 的用法",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
