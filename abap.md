@@ -105,6 +105,8 @@
 
 * [58. 通俗易懂的 SAP ABAP 会话管理(Session Management)概念讲解，包含具体的实例](https://jerry.blog.csdn.net/article/details/127360829)
 
+* [59. 案例分析 - 如何通过 F1 和单步调试，找到 SE10 事物码里用户名字段的初始值填充逻辑](https://blog.csdn.net/i042416/article/details/127390737)
+
 * 更多文章正在写作中
 
 ## Office 专题
