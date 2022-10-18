@@ -296,7 +296,11 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十一 - 如何在 SAP UI5 应用里安全存储一些敏感的数据，避免被上传到 Github 去的风险](https://jerry.blog.csdn.net/article/details/127327184)
 
-* SAP UI5 应用开发教程之一百四十二 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十二 - SAP UI5 的 TimePicker ，一个钟表外观的时间选择控件](https://blog.csdn.net/i042416/article/details/127378713)
+
+* [SAP UI5 应用开发教程之一百四十三 - SAP UI5 的声明式初始化 Component 定义(Declarative API for Initial Components)](https://blog.csdn.net/i042416/article/details/127383252)
+
+* SAP UI5 应用开发教程之一百四十四 - 正在写作中......
 
 ## 说明
 
