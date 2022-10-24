@@ -107,6 +107,8 @@
 
 * [59. 案例分析 - 如何通过 F1 和单步调试，找到 SE10 事物码里用户名字段的初始值填充逻辑](https://blog.csdn.net/i042416/article/details/127390737)
 
+* [60. 如何通过 ABAP RFC 远程函数调用来跨系统消费远端服务器的 ABAP 函数](https://blog.csdn.net/i042416/article/details/127497500)
+
 * 更多文章正在写作中
 
 ## Office 专题
