@@ -6,6 +6,8 @@
 
 # 零基础 ABAP 学习教程系列文章的目录
 
+* [0. 自学 ABAP 和自学 SAP 的差别](https://jerry.blog.csdn.net/article/details/127581186)
+
 * [1. ABAP 标准培训教程 BC400 学习笔记之一：ABAP 服务器的架构和一个典型的 ABAP 程序结构介绍](https://jerry.blog.csdn.net/article/details/116206859)
 * [2. ABAP 标准培训教程 BC400 学习笔记之二：Cross-client 和 Client-specific 的区别](https://jerry.blog.csdn.net/article/details/116210632)
 * [3. ABAP 标准培训教程 BC400 学习笔记之三：ABAP 编程语言的特性和基本构成要素](https://jerry.blog.csdn.net/article/details/116720010)
