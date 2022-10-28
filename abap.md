@@ -111,6 +111,8 @@
 
 * [61. 如何使用 Java 程序通过 SAP Java Connector 调用 ABAP 系统的函数](https://blog.csdn.net/i042416/article/details/127523003)
 
+* [62. 如何通过增强(Enhancement) 的方式给 SAP ABAP 标准程序增添新功能](https://jerry.blog.csdn.net/article/details/127571379)
+
 * 更多文章正在写作中
 
 ## Office 专题
