@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年10月14日`为止，目前已经更新了 `141` 篇，专栏完成度为 `47%`.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年10月28日`为止，目前已经更新了 `144` 篇，专栏完成度为 `48%`.
 
 ## 作者简介
 
@@ -300,7 +300,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十三 - SAP UI5 的声明式初始化 Component 定义(Declarative API for Initial Components)](https://blog.csdn.net/i042416/article/details/127383252)
 
-* SAP UI5 应用开发教程之一百四十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十四 - 授人以渔 - 如何查找 SAP UI5 官网上没有提到的控件属性的使用明细](https://blog.csdn.net/i042416/article/details/127589242)
+
+* SAP UI5 应用开发教程之一百四十五 - 正在写作中......
 
 ## 说明
 

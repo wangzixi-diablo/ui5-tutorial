@@ -10,6 +10,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 # 基于 SEGW - Gateway Service Builder 的开发教程
 
+- [0. SAP 标准产品里使用 OData 服务的一些细节分享](https://jerry.blog.csdn.net/article/details/127593757)
+
 - [1. 在 SAP ABAP 事物码 SEGW 里创建 SAP OData 项目](https://jerry.blog.csdn.net/article/details/125768423)
 
 - [2. 在 SAP ABAP 系统对事物码 SEGW 创建的 OData 服务进行配置并测试](https://blog.csdn.net/i042416/article/details/125781692)
