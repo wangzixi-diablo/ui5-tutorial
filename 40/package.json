@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.40",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何制作包含了 component-preload.js 在内的 SAP UI5 发步版本",
+  "description": "如何制作包含了 component-preload.js 在内的 SAP UI5 发布版本",
   "scripts": {
     "start": "ui5 serve",
     "build": "ui5 build --clean-dest"
