@@ -302,7 +302,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十四 - 授人以渔 - 如何查找 SAP UI5 官网上没有提到的控件属性的使用明细](https://blog.csdn.net/i042416/article/details/127589242)
 
-* SAP UI5 应用开发教程之一百四十五 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十五 - SAP UI5 本地开发时 ui5.yaml 文件对构建 Release 版本应用目录的影响分析](https://jerry.blog.csdn.net/article/details/127638779)
+
+* SAP UI5 应用开发教程之一百四十六 - 正在写作中......
 
 ## 说明
 
