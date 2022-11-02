@@ -8,9 +8,9 @@ sap.ui.define([
 		  alert("Hello");
 	   },
 	   onInit: function(){
-		var oModel = new ODataModel("http://services.odata.org/Northwind/Northwind.svc/");
+		var oModel = new ODataModel("http://localhost:8089/Northwind/Northwind.svc/");
 		oModel.attachMetadataLoaded((data) =>{
-			alert('metadata loaded: ', data);
+			console.log('metadata loaded: ', data);
 		});
 	   }
 	});
