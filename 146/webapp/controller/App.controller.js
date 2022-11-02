@@ -8,10 +8,14 @@ sap.ui.define([
 		  alert("Hello");
 	   },
 	   onInit: function(){
-		var oModel = new ODataModel("http://localhost:8089/Northwind/Northwind.svc/");
-		oModel.attachMetadataLoaded((data) =>{
-			console.log('metadata loaded: ', data);
-		});
+		   // https://sapui5.hana.ondemand.com/#/topic/6c47b2b39db9404582994070ec3d57a2#loio218afa0780da42fd982b72e992fb57d2
+		var fnMetadataLoaded = function (data) {
+			var oMetadata = this.oModel.getServiceMetadata();
+			console.log('metadata loaded: ', oMetadata);
+		}.bind(this);
+
+		this.oModel = new ODataModel("http://localhost:8089/Northwind/Northwind.svc/");
+		this.oModel.attachMetadataLoaded(fnMetadataLoaded);
 	   }
 	});
  });
