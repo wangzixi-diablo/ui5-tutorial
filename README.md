@@ -14,15 +14,15 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
-* [SAP UI5 应用开发教程之一：Hello World](https://jerry.blog.csdn.net/article/details/120612455)
+* [SAP UI5 应用开发教程之一 - Hello World](https://jerry.blog.csdn.net/article/details/120612455)
 
-* [SAP UI5 应用开发教程之二：SAP UI5 的引导过程 Bootstrap](https://jerry.blog.csdn.net/article/details/120614665)
+* [SAP UI5 应用开发教程之二 - SAP UI5 的引导过程 Bootstrap](https://jerry.blog.csdn.net/article/details/120614665)
 
-* [SAP UI5 应用开发教程之三：开始接触第一个 SAP UI5 控件](https://jerry.blog.csdn.net/article/details/120619615)
+* [SAP UI5 应用开发教程之三 - 开始接触第一个 SAP UI5 控件](https://jerry.blog.csdn.net/article/details/120619615)
 
-* [SAP UI5 应用开发教程之四：XML 视图初探](https://jerry.blog.csdn.net/article/details/120642096)
+* [SAP UI5 应用开发教程之四 - XML 视图初探](https://jerry.blog.csdn.net/article/details/120642096)
 
-* [SAP UI5 应用开发教程之五：视图控制器初探](https://jerry.blog.csdn.net/article/details/120669241)
+* [SAP UI5 应用开发教程之五 - 视图控制器初探](https://jerry.blog.csdn.net/article/details/120669241)
 
 * [SAP UI5 应用开发教程之六 - 了解 SAP UI5 的模块(Module)概念](https://jerry.blog.csdn.net/article/details/120680451)
 
