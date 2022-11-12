@@ -1,6 +1,6 @@
-## 本专栏计划的文章数在 `150` 篇左右，到 `2022年10月24日`为止，目前已经更新了 `60` 篇，专栏完成度为 `40%`
+## 本专栏计划的文章数在 `150` 篇左右，到 `2022年11月9日`为止，目前已经更新了 `63` 篇，专栏完成度为 `42%`
 
-笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者的支持，目前已经更新了 `56` 篇。本教程计划花费 `150` 以上的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
+笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
 大家在学习教程过程中，如果有任何关于 SAP ABAP 开发方面想了解的内容，可以直接在教程各篇文章下评论留言，也可以在[《零基础快速学习 ABAP 读者意见反馈和下一步写作计划表》](https://blog.csdn.net/i042416/article/details/127204857)里留言。我会将大家的意见统一汇总，作为我更新教程的内容参考来源之一。
 
@@ -114,6 +114,10 @@
 * [61. 如何使用 Java 程序通过 SAP Java Connector 调用 ABAP 系统的函数](https://blog.csdn.net/i042416/article/details/127523003)
 
 * [62. 如何通过增强(Enhancement) 的方式给 SAP ABAP 标准程序增添新功能](https://jerry.blog.csdn.net/article/details/127571379)
+
+* [63. 如何使用 Visual Studio Code 查看和浏览 ABAP 代码](https://jerry.blog.csdn.net/article/details/127777629)
+
+* [64. 如何在浏览器里执行 SAPGUI 的事务](https://jerry.blog.csdn.net/article/details/127820090)
 
 * 更多文章正在写作中
 
