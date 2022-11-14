@@ -119,6 +119,8 @@
 
 * [64. 如何在浏览器里执行 SAPGUI 的事务](https://jerry.blog.csdn.net/article/details/127820090)
 
+* [65. 使用事物码 SAT 查找某个 SAPGUI 事物码操作调用的 Function Module 列表](https://jerry.blog.csdn.net/article/details/127846222)
+
 * 更多文章正在写作中
 
 ## Office 专题
