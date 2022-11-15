@@ -306,7 +306,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十六 - 通过 SAP UI5 ODataModel API 在 JavaScript 代码里访问 OData 元数据](https://jerry.blog.csdn.net/article/details/127669929)
 
-* [SAP UI5 应用开发教程之一百四十七 - SAP UI5 SmartTable 控件的使用介绍](https://jerry.blog.csdn.net/article/details/127669929)
+* [SAP UI5 应用开发教程之一百四十七 - SAP UI5 SmartTable 控件的使用介绍](https://jerry.blog.csdn.net/article/details/127871253)
 
 * SAP UI5 应用开发教程之一百四十八 - 正在写作中......
 
