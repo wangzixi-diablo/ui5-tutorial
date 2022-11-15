@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年11月3日`为止，目前已经更新了 `146` 篇，专栏完成度为 `48.6%`.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年11月15日`为止，目前已经更新了 `147` 篇，专栏完成度为 `48.6%`.
 
 ## 作者简介
 
@@ -306,7 +306,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十六 - 通过 SAP UI5 ODataModel API 在 JavaScript 代码里访问 OData 元数据](https://jerry.blog.csdn.net/article/details/127669929)
 
-* SAP UI5 应用开发教程之一百四十七 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十七 - SAP UI5 SmartTable 控件的使用介绍](https://jerry.blog.csdn.net/article/details/127669929)
+
+* SAP UI5 应用开发教程之一百四十八 - 正在写作中......
 
 ## 说明
 

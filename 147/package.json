@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.147",
   "version": "1.0.0",
   "author": "SAP SE",
-  "description": "如何使 SAP UI5 SmartField 在运行时渲染成超链接的形式并支持跳转",
+  "description": "147. SAP UI5 SmartTable 控件的使用介绍",
   "scripts": {
     "start": "ui5 serve"
   },
