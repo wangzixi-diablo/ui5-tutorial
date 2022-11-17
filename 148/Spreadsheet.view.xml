@@ -1,0 +1,48 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui5.walkthrough.Spreadsheet" height="100%">
+	<Page title="Spreadsheet Export using sap.m.Table" showHeader="false">
+		<Table id="exportTable" inset="false" items="{path:'/Users'}" growing="true" growingThreshold="50">
+			<headerToolbar>
+				<OverflowToolbar>
+					<ToolbarSpacer />
+					<Button icon="sap-icon://excel-attachment" press="onExport"/>
+				</OverflowToolbar>
+			</headerToolbar>
+			<columns>
+				<Column>
+					<Text text="ID" />
+				</Column>
+				<Column>
+					<Text text="Firstname" />
+				</Column>
+				<Column>
+					<Text text="Lastname" />
+				</Column>
+				<Column hAlign="End">
+					<Text text="Birthdate" />
+				</Column>
+				<Column>
+					<Text text="Salary" />
+				</Column>
+				<Column>
+					<Text text="Currency" />
+				</Column>
+				<Column>
+					<Text text="Active" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier title="{UserID}" />
+						<Text text="{Firstname}" />
+						<Text text="{Lastname}" />
+						<Text text="{path: 'Birthdate', type: 'sap.ui.model.type.Date'}" />
+						<Text text="{path: 'Salary', type: 'sap.ui.model.type.Float'}" />
+						<Text text="{Currency}" />
+						<Text text="{path: 'Active', type: 'sap.ui.model.type.Boolean'}" />
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</mvc:View>

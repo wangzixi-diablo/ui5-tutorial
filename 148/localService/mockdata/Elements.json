@@ -1,0 +1,122 @@
+[
+	{
+		"__metadata": {
+			"id": "foo/Element('0001')",
+			"uri": "foo/Element('0001')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0001",
+		"Region": "United States of America",
+		"SampleString": "Sample Text",
+		"SampleInteger": "1000000",
+		"SampleDecimal": "10.7",
+		"SampleCurrency": "USD",
+		"SampleDate": "/Date(70959600000)/",
+		"SampleBoolean": "true",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "a",
+		"SampleBigNumber": "12345678901234567890",
+		"SampleFraction": "0.066",
+		"TimezoneID": "America/New_York"
+	},
+	{
+		"__metadata": {
+			"id": "foo/Element('0002')",
+			"uri": "foo/Element('0002')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0002",
+		"Region": "Peoples Republic of China",
+		"SampleString": "示例文字",
+		"SampleInteger": "2000000",
+		"SampleDecimal": "100.75",
+		"SampleCurrency": "CNY",
+		"SampleDate": "/Date(-70959600000)/",
+		"SampleBoolean": "false",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "a",
+		"SampleBigNumber": "123456789012345678.9",
+		"SampleFraction": "0.0645",
+		"TimezoneID": "Asia/Shanghai"
+	},
+	{
+		"__metadata": {
+			"id": "foo/Element('0003')",
+			"uri": "foo/Element('0003')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0003",
+		"Region": "Federal Republic of Germany",
+		"SampleString": "Beispieltext",
+		"SampleInteger": "3000000",
+		"SampleDecimal": "1000.752",
+		"SampleCurrency": "EUR",
+		"SampleDate": "/Date(70959600000)/",
+		"SampleBoolean": "false",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "b",
+		"SampleBigNumber": "12345678901234567.89",
+		"SampleFraction": "0.0024",
+		"TimezoneID": "Europe/Berlin"
+	},
+	{
+		"__metadata": {
+			"id": "foo/Element('0004')",
+			"uri": "foo/Element('0004')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0004",
+		"Region": "Russian Federation",
+		"SampleString": "Пример текста",
+		"SampleInteger": "4000000",
+		"SampleDecimal": "10000.7528",
+		"SampleCurrency": "RUB",
+		"SampleDate": "/Date(70959600000)/",
+		"SampleBoolean": "true",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "c",
+		"SampleBigNumber": "1234567890123456.789",
+		"SampleFraction": "0.1148",
+		"TimezoneID": "Europe/Moscow"
+	},
+	{
+		"__metadata": {
+			"id": "foo/Element('0005')",
+			"uri": "foo/Element('0005')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0005",
+		"Region": "State of Israel",
+		"SampleString": "טקסט לדוגמא",
+		"SampleInteger": "-5000000",
+		"SampleDecimal": "-100000.75286",
+		"SampleCurrency": "ILS",
+		"SampleDate": "/Date(70959600000)/",
+		"SampleBoolean": "true",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "a",
+		"SampleBigNumber": "123456789012345.6789",
+		"SampleFraction": "0.00015",
+		"TimezoneID": "Asia/Jerusalem"
+	},
+	{
+		"__metadata": {
+			"id": "foo/Element('0006')",
+			"uri": "foo/Element('0006')",
+			"type": "com.sap.demokit.Element"
+		},
+		"ElementID": "0006",
+		"Region": "State of Japan",
+		"SampleString": "テキストの例",
+		"SampleInteger": "-6000000",
+		"SampleDecimal": "-1000000.752864",
+		"SampleCurrency": "JPY",
+		"SampleDate": "/Date(70959600000)/",
+		"SampleBoolean": "true",
+		"SampleDateString": "19720401",
+		"SampleEnumeration": "a",
+		"SampleBigNumber": "123456789012345.6789",
+		"SampleFraction": "0.00254",
+		"TimezoneID": "Asia/Tokyo"
+	}
+]
