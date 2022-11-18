@@ -308,7 +308,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十七 - SAP UI5 SmartTable 控件的使用介绍](https://jerry.blog.csdn.net/article/details/127871253)
 
-* SAP UI5 应用开发教程之一百四十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十八 - SAP UI5 表格数据如何导出成 Excel 文件(Table Export As Excel)](https://jerry.blog.csdn.net/article/details/127924604)
+
+* SAP UI5 应用开发教程之一百四十九 - 正在写作中......
 
 ## 说明
 

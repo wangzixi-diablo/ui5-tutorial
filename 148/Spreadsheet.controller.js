@@ -6,11 +6,8 @@ sap.ui.define([
 	'sap/ui/model/odata/v2/ODataModel'
 ], function(Controller, MockServer, exportLibrary, Spreadsheet, ODataModel) {
 	'use strict';
-
 	var EdmType = exportLibrary.EdmType;
-
 	return Controller.extend('sap.ui5.walkthrough.Spreadsheet', {
-
 		onInit: function() {
 			var oModel, oView, sServiceUrl;
 
@@ -26,7 +23,6 @@ sap.ui.define([
 			this._oMockServer.start();
 
 			oModel = new ODataModel(sServiceUrl);
-
 			oView = this.getView();
 			oView.setModel(oModel);
 		},
