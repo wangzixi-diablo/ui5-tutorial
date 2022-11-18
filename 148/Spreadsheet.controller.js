@@ -45,21 +45,25 @@ sap.ui.define([
 			});
 
 			aCols.push({
+				label: 'First Name',
 				property: 'Firstname',
 				type: EdmType.String
 			});
 
 			aCols.push({
+				label: 'Last Name',
 				property: 'Lastname',
 				type: EdmType.String
 			});
 
 			aCols.push({
+				label: 'Birth Date',
 				property: 'Birthdate',
 				type: EdmType.Date
 			});
 
 			aCols.push({
+				label: 'Salary',
 				property: 'Salary',
 				type: EdmType.Number,
 				scale: 2,
@@ -67,11 +71,13 @@ sap.ui.define([
 			});
 
 			aCols.push({
+				label: 'Currency',
 				property: 'Currency',
 				type: EdmType.String
 			});
 
 			aCols.push({
+				label: 'Active',
 				property: 'Active',
 				type: EdmType.Boolean,
 				trueValue: 'YES',
