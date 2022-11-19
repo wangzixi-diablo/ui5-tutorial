@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年11月15日`为止，目前已经更新了 `147` 篇，专栏完成度为 `48.6%`.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年11月19日`为止，目前已经更新了 `149` 篇，专栏完成度为 `49.6%`.
 
 ## 作者简介
 
@@ -310,7 +310,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十八 - SAP UI5 表格数据如何导出成 Excel 文件(Table Export As Excel)](https://jerry.blog.csdn.net/article/details/127924604)
 
-* SAP UI5 应用开发教程之一百四十九 - 正在写作中......
+* [SAP UI5 应用开发教程之一百四十九 - SAP UI5 Table 控件数据进行 Excel 导出时如何进行格式控制](https://blog.csdn.net/i042416/article/details/127941398)
+
+* SAP UI5 应用开发教程之一百五十 - 正在写作中......
 
 ## 说明
 

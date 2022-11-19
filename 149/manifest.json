@@ -1,0 +1,31 @@
+{
+	"sap.app": {
+		"id": "sap.ui5.walkthrough",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.Spreadsheet",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"Spreadsheet.view.xml",
+					"Spreadsheet.controller.js",
+					"./localService/metadata.xml",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}

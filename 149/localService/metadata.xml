@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx Version="1.0"
+		   xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+		   xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+		   xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema
+				xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="com.sap.demokit">
+			<EntityType Name="Element">
+				<Key>
+					<PropertyRef Name="ElementID"/>
+				</Key>
+				<Property Name="ElementID" Nullable="false" Type="Edm.Int32" sap:label="ID"/>
+				<Property MaxLength="40" Name="SampleString" Nullable="false" Type="Edm.String" sap:label="Text"/>
+				<Property Name="SampleInteger" Type="Edm.Int32" sap:label="Integer"/>
+				<Property Name="SampleDecimal" Scale="2" Type="Edm.Decimal" sap:label="Float"/>
+				<Property Name="SampleCurrency" Type="Edm.String" sap:label="Currency"/>
+				<Property Name="SampleDate" Type="Edm.DateTimeOffset" sap:label="Date"/>
+				<Property Name="SampleBoolean" Type="Edm.Boolean" sap:label="Boolean"/>
+				<Property Name="SampleDateString" Type="Edm.String" sap:label="DateString"/>
+				<Property Name="SampleEnumeration" Type="Edm.String" sap:label="Enumeration"/>
+				<Property Name="SampleBigNumber" Type="Edm.String" sap:label="BigNumber"/>
+			</EntityType>
+			<EntityType Name="User">
+				<Key>
+					<PropertyRef Name="UserID"/>
+				</Key>
+				<Property Name="UserID" Nullable="false" Type="Edm.Int32" sap:label="ID"/>
+				<Property MaxLength="15" Name="Firstname" Nullable="false" Type="Edm.String" sap:label="Firstname"/>
+				<Property MaxLength="20" Name="Lastname" Nullable="false" Type="Edm.String" sap:label="Lastname"/>
+				<Property Name="Birthdate" Type="Edm.DateTime" sap:label="Birthdate"/>
+				<Property Name="Salary" Scale="2" Type="Edm.Decimal" sap:label="Salary"/>
+				<Property Name="Currency" Type="Edm.String" sap:label="Currency"/>
+				<Property Name="Active" Type="Edm.Boolean" sap:label="Active"/>
+				<Property Name="Level" Type="Edm.Byte" sap:label="Level"/>
+			</EntityType>
+			<EntityContainer Name="default" m:IsDefaultEntityContainer="true">
+				<EntitySet EntityType="com.sap.demokit.Element" Name="Elements"/>
+				<EntitySet EntityType="com.sap.demokit.User" Name="Users"/>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

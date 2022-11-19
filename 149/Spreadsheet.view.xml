@@ -1,0 +1,68 @@
+<mvc:View controllerName="sap.ui5.walkthrough.Spreadsheet" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" height="100%" xmlns="sap.m">
+	<Page title="Spreadsheet Export using sap.m.Table" showHeader="false">
+		<Table id="exportTable" inset="false" items="{path:'/Elements'}" growing="true" growingThreshold="50" ariaLabelledBy="title">
+			<headerToolbar>
+				<OverflowToolbar>
+					<Title id="title" text="Sample Data"></Title>
+					<ToolbarSpacer />
+					<Button icon="sap-icon://excel-attachment" press="onExport" tooltip="Export Formatting Example"/>
+				</OverflowToolbar>
+			</headerToolbar>
+			<columns>
+				<Column>
+					<Text text="Text" />
+				</Column>
+				<Column hAlign="End">
+					<Text text="Integer" />
+				</Column>
+				<Column hAlign="End">
+					<Text text="Float" />
+				</Column>
+				<Column>
+					<Text text="Currency" />
+				</Column>
+				<Column>
+					<Text text="Date" />
+				</Column>
+				<Column>
+					<Text text="Boolean" />
+				</Column>
+				<Column>
+					<Text text="DateString" />
+				</Column>
+				<Column>
+					<Text text="Enumeration" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<Text text="{SampleString}" />
+						<Text text="{
+								path:'SampleInteger',
+								type: 'sap.ui.model.type.Integer'
+							}" />
+						<Text text="{
+								path:'SampleDecimal',
+								type: 'sap.ui.model.type.Float'
+							}" />
+						<Text text="{SampleCurrency}" />
+						<Text text="{
+								path:'SampleDate',
+								type: 'sap.ui.model.type.Date'
+							}" />
+						<Text text="{
+								path:'SampleBoolean',
+								type: 'sap.ui.model.type.Boolean'
+							}" />
+						<Text text="{SampleDateString}" />
+						<Text text="{
+								path: 'SampleEnumeration',
+								formatter: '.formatter'
+							}" />
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</mvc:View>
