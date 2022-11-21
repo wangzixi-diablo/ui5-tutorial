@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button
+		text="按钮1"
+		press=".controllerLocal1"/>
+	<Button
+		text="按钮2"
+		press="saptest.global1"/>
+	<Button
+		text="按钮3"
+		press="controllerLocal2"/>
+	<Button
+		text="按钮4"
+		press="saptestglobal2"/>
+</mvc:View>

@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.151",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "关于 SAP UI5 XML 视图里控件事件处理函数名称中的 . (点号) 问题的讨论",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
