@@ -312,7 +312,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百四十九 - SAP UI5 Table 控件数据进行 Excel 导出时如何进行格式控制](https://blog.csdn.net/i042416/article/details/127941398)
 
-* SAP UI5 应用开发教程之一百五十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十 - 以前编写好能够正常运行的 SAP UI5 代码，几个月后忽然不能运行了该怎么办？](https://jerry.blog.csdn.net/article/details/127961503)
+
+* SAP UI5 应用开发教程之一百五十一 - 正在写作中......
 
 ## 说明
 
