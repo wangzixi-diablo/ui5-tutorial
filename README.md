@@ -314,7 +314,11 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十 - 以前编写好能够正常运行的 SAP UI5 代码，几个月后忽然不能运行了该怎么办？](https://jerry.blog.csdn.net/article/details/127961503)
 
-* SAP UI5 应用开发教程之一百五十一 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十一 - 关于 SAP UI5 XML 视图里控件事件处理函数名称中的 . (点号) 问题的讨论](https://jerry.blog.csdn.net/article/details/127965101)
+
+* [SAP UI5 应用开发教程之一百五十二 - 谈谈 SAP UI5 变量和方法的命名规范](https://jerry.blog.csdn.net/article/details/127965351)
+
+* SAP UI5 应用开发教程之一百五十三 - 正在写作中......
 
 ## 说明
 
