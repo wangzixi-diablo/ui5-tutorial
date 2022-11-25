@@ -121,6 +121,8 @@
 
 * [65. 使用事物码 SAT 查找某个 SAPGUI 事物码操作调用的 Function Module 列表](https://jerry.blog.csdn.net/article/details/127846222)
 
+* [66. SAP ABAP Function Module 的动态调用方式使用方式介绍](https://jerry.blog.csdn.net/article/details/128018784)
+
 * 更多文章正在写作中
 
 ## Office 专题
