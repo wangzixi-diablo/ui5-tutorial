@@ -123,6 +123,8 @@
 
 * [66. SAP ABAP Function Module 的动态调用方式使用方式介绍](https://jerry.blog.csdn.net/article/details/128018784)
 
+* [67. SAP ABAP 监控用户事物码和程序执行的工具介绍](https://jerry.blog.csdn.net/article/details/128046072)
+
 * 更多文章正在写作中
 
 ## Office 专题
