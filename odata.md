@@ -70,4 +70,6 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 * [1. SAP Business Application Studio 里创建一个基于 CAP 模型的最简单的 OData 服务](https://blog.csdn.net/i042416/article/details/128058748)
 
+* [2. 如何给在 SAP Business Application Studio 里开发的 OData 服务准备测试数据](https://blog.csdn.net/i042416/article/details/128063472)
+
 - 正在写作中，敬请期待
