@@ -60,6 +60,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [24. SAP 标准产品里使用 OData 服务的一些细节分享](https://blog.csdn.net/i042416/article/details/127593757)
 
+- [25. 答疑 - SAP OData 框架处理 Metadata 元数据请求的实现细节，前后端组件部署在同一台物理服务器](https://jerry.blog.csdn.net/article/details/128158298)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
