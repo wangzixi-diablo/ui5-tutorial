@@ -125,6 +125,8 @@
 
 * [67. SAP ABAP 监控用户事物码和程序执行的工具介绍](https://jerry.blog.csdn.net/article/details/128046072)
 
+* [68. 关于 SAP ABAP 报表的多语言显示问题](https://jerry.blog.csdn.net/article/details/128244700)
+
 * 更多文章正在写作中
 
 ## Office 专题
