@@ -1,0 +1,34 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:smartchart="sap.ui.comp.smartchart"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:sl="sap.ui.comp.navpopover"
+	xmlns:data="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	xmlns="sap.m"
+	controllerName="sap.ui5.walkthrough.SmartChart"
+height="100%">
+
+	<VBox fitContainer="true">
+		<smartchart:SmartChart id ="smartChartGeneral" enableAutoBinding="true"
+			entitySet="ProductCollection" useVariantManagement="false"
+			persistencyKey="PKeyChartExample9" useChartPersonalisation="false"
+			header="" showFullScreenButton="true" selectionMode="Multi"
+			showChartTooltip="true" showDrillBreadcrumbs="false"
+			showDetailsButton="false" showDrillButtons="false"
+			showSemanticNavigationButton="false"
+			height="100%"
+			data:dateFormatSettings='\{"pattern":"y MMMM d"\}'
+			uiStateChange="onUiStateChange">
+			<smartchart:toolbar>
+				<OverflowToolbar>
+					<ToolbarSpacer/>
+					<OverflowToolbarButton icon="sap-icon://activate" tooltip="Sort by name in ascending order via UI state" press="applyUIState" type="Transparent"/>
+				</OverflowToolbar>
+			</smartchart:toolbar>
+			<smartchart:semanticObjectController>
+				<sl:SemanticObjectController
+					navigationTargetsObtained="onNavigationTargetsObtained" navigate="onNavigate" />
+			</smartchart:semanticObjectController>
+		</smartchart:SmartChart>
+	</VBox>
+</mvc:View>

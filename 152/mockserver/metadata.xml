@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+	xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+	xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="EPM_DEVELOPER_SCENARIO_SRV"
+			sap:schema-version="0" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="Product" sap:service-schema-version="1"
+				sap:service-version="1" sap:semantics="aggregate"
+				sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ProductId" />
+				</Key>
+				<Property Name="ProductId" Type="Edm.String" Nullable="false"
+					MaxLength="10" sap:aggregation-role="dimension" sap:label="Product ID"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Category" Type="Edm.String" Nullable="false"
+					MaxLength="40" sap:aggregation-role="dimension" sap:label="Product Category"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Name" Type="Edm.String" Nullable="false"
+					MaxLength="255" sap:aggregation-role="dimension" sap:label="Name"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Description" Type="Edm.String" Nullable="false"
+					MaxLength="255" sap:aggregation-role="dimension" sap:label="Description"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="SupplierName" Type="Edm.String" Nullable="false"
+					MaxLength="80" sap:aggregation-role="dimension" sap:label="Company Name"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Quantity" Type="Edm.Decimal" Nullable="false"
+					MaxLength="3" sap:aggregation-role="measure" sap:label="Quantity"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="WeightMeasure" Type="Edm.Decimal" Nullable="false"
+					Precision="13" Scale="3" sap:aggregation-role="measure" sap:label="Weight"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="WeightUnit" Type="Edm.String" Nullable="false"
+					MaxLength="3" sap:aggregation-role="dimension" sap:label="Weight Unit"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Price" Type="Edm.Decimal" Nullable="false"
+					Precision="23" Scale="4" sap:aggregation-role="measure" sap:label="Price"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Status" Type="Edm.String" Nullable="false"
+					MaxLength="20" sap:aggregation-role="dimension" sap:label="Status"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="CurrencyCode" Type="Edm.String" Nullable="false"
+					MaxLength="5" sap:aggregation-role="dimension" sap:label="Currency Code"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Width" Type="Edm.Decimal" Nullable="false"
+					Precision="13" Scale="3" sap:aggregation-role="measure" sap:label="Dimension Width"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Depth" Type="Edm.Decimal" Nullable="false"
+					Precision="13" Scale="3" sap:aggregation-role="measure" sap:label="Dimension Depth"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Height" Type="Edm.Decimal" Nullable="false"
+					Precision="13" Scale="3" sap:aggregation-role="measure" sap:label="Dimension Height"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="DimUnit" Type="Edm.String" Nullable="false"
+					MaxLength="3" sap:aggregation-role="dimension" sap:label="Dimension Unit"
+					sap:sortable="true" sap:filterable="true" />
+				<Property Name="Date" Type="Edm.DateTime" Nullable="false"
+					sap:display-format="Date" sap:aggregation-role="dimension"
+					sap:label="Date" Precision="0" sap:sortable="true" sap:filterable="true" />
+				<Property Name="ProductPicUrl" Type="Edm.String" Nullable="false"
+					MaxLength="255" sap:aggregation-role="dimension" sap:label="Product Image URL"
+					sap:sortable="false" sap:filterable="false" />
+			</EntityType>
+			<EntityContainer Name="EPM_DEVELOPER_SCENARIO_SRV"
+				m:IsDefaultEntityContainer="true">
+				<EntitySet Name="ProductCollection" EntityType="EPM_DEVELOPER_SCENARIO_SRV.Product"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1" />
+			</EntityContainer>
+			<Annotations Target="EPM_DEVELOPER_SCENARIO_SRV.Product"
+				xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.UI.v1.Chart">
+					<Record>
+						<PropertyValue Property="ChartType"
+							EnumMember="com.sap.vocabularies.UI.v1.ChartType/Column" />
+						<PropertyValue Property="Dimensions">
+							<Collection>
+								<PropertyPath>Name</PropertyPath>
+								<PropertyPath>Category</PropertyPath>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="Measures">
+							<Collection>
+								<PropertyPath>Price</PropertyPath>
+								<PropertyPath>Quantity</PropertyPath>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="EPM_DEVELOPER_SCENARIO_SRV.Product/Category"
+				xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.SemanticObject"
+					String="demokit_personalization_example9_SemanticObjectCategory" />
+				<Annotation Term="com.sap.vocabularies.Common.v1.SemanticObject"
+					Qualifier="additional" String="demokit_personalization_example9_SemanticObjectName" />
+			</Annotations>
+			<Annotations Target="EPM_DEVELOPER_SCENARIO_SRV.Product/Name"
+				xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.SemanticObject"
+					String="demokit_personalization_example9_SemanticObjectName" />
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

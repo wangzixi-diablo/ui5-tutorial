@@ -1,0 +1,33 @@
+{
+	"sap.app": {
+		"id": "sap.ui5.walkthrough",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.SmartChart",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ui.comp": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"files": [
+					"SmartChart.view.xml",
+					"SmartChart.controller.js",
+					"mockserver/metadata.xml",
+					"mockserver/ProductCollection.json",
+					"manifest.json"
+				],
+				"stretch": true
+			}
+		}
+	}
+}
