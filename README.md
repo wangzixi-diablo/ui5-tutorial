@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年11月19日`为止，目前已经更新了 `149` 篇，专栏完成度为 `49.6%`.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年12月14日`为止，目前已经更新了 `153` 篇，专栏完成度为 `51%`，完成度已经超过了`一半`了.
 
 ## 作者简介
 
@@ -318,7 +318,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十二 - 谈谈 SAP UI5 变量和方法的命名规范](https://jerry.blog.csdn.net/article/details/127965351)
 
-* SAP UI5 应用开发教程之一百五十三 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十三 - 使用 SAP UI5 Smart Chart 控件轻松绘制十数种不同类型的专业图表](https://jerry.blog.csdn.net/article/details/128322764)
+
+* SAP UI5 应用开发教程之一百五十四 - 正在写作中......
 
 ## 说明
 

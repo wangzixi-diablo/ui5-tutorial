@@ -12,12 +12,11 @@ height="100%">
 		<smartchart:SmartChart id ="smartChartGeneral" enableAutoBinding="true"
 			entitySet="ProductCollection" useVariantManagement="false"
 			persistencyKey="PKeyChartExample9" useChartPersonalisation="false"
-			header="" showFullScreenButton="true" selectionMode="Multi"
+			header="Jerry 教程" showFullScreenButton="true" selectionMode="Multi"
 			showChartTooltip="true" showDrillBreadcrumbs="false"
 			showDetailsButton="false" showDrillButtons="false"
 			showSemanticNavigationButton="false"
 			height="100%"
-			data:dateFormatSettings='\{"pattern":"y MMMM d"\}'
 			uiStateChange="onUiStateChange">
 			<smartchart:toolbar>
 				<OverflowToolbar>
@@ -25,10 +24,6 @@ height="100%">
 					<OverflowToolbarButton icon="sap-icon://activate" tooltip="Sort by name in ascending order via UI state" press="applyUIState" type="Transparent"/>
 				</OverflowToolbar>
 			</smartchart:toolbar>
-			<smartchart:semanticObjectController>
-				<sl:SemanticObjectController
-					navigationTargetsObtained="onNavigationTargetsObtained" navigate="onNavigate" />
-			</smartchart:semanticObjectController>
 		</smartchart:SmartChart>
 	</VBox>
 </mvc:View>
