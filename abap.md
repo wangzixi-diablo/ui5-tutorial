@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `150` 篇左右，到 `2022年11月9日`为止，目前已经更新了 `63` 篇，专栏完成度为 `42%`
+## 本专栏计划的文章数在 `150` 篇左右，到 `2022年12月15日`为止，目前已经更新了 `69` 篇，专栏完成度为 `46%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -140,11 +140,21 @@
 ## ALV 开发专题
 
 * [44. 27 行代码开发一个最简单的 SAP ALV 报表](https://jerry.blog.csdn.net/article/details/123010291)
+
 * [45. 48 行代码给 ABAP ALV 报表的数据行增添颜色效果](https://jerry.blog.csdn.net/article/details/123017241)
+
 * [46. 77 行代码实现ABAP ALV 中的双击事件处理](https://jerry.blog.csdn.net/article/details/123020730)
+
 * [47. SAP ABAP ALV 层次顺序表如何使用双表头(Multiple Headers)进行数据输出](https://jerry.blog.csdn.net/article/details/126443398)
+
 * [48. 如何在 SAP ABAP ALV 报表里以交通灯的方式显示某一列的值](https://jerry.blog.csdn.net/article/details/126676314)
+
 * [49. 在弹出对话框窗口里显示 SAP ABAP ALV 列表](https://jerry.blog.csdn.net/article/details/126795526)
+
 * [56. 动手开发一个有用的 ABAP ALV 工具 - 查看指定用户的 ABAP 传输请求,模拟 SE10 事物码](https://jerry.blog.csdn.net/article/details/127181885)
+
+* [69. 利用 ALV 实现增删改查系列之一：让 ALV 报表进入可编辑状态](https://jerry.blog.csdn.net/article/details/128334599)
+
+* [70. 利用 ALV 实现增删改查系列之二：仅让 ALV 报表某一列允许被编辑](https://jerry.blog.csdn.net/article/details/128347145)
 
 ## 更多文章正在写作中 
