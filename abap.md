@@ -127,6 +127,8 @@
 
 * [68. 关于 SAP ABAP 报表的多语言显示问题](https://jerry.blog.csdn.net/article/details/128244700)
 
+* [71. SAP ABAP 报表屏幕输入字段如何实现联动效果](https://jerry.blog.csdn.net/article/details/128375323)
+
 * 更多文章正在写作中
 
 ## Office 专题
