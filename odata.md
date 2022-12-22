@@ -66,6 +66,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [27. SAP OData 框架里的缓存(Cache)设计专题讲座](https://jerry.blog.csdn.net/article/details/128365532)
 
+- [28. 如何使用 SAP OData 服务向 ABAP 服务器上传文件](https://jerry.blog.csdn.net/article/details/128405227)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
