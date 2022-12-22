@@ -320,7 +320,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十三 - 使用 SAP UI5 Smart Chart 控件轻松绘制十数种不同类型的专业图表](https://jerry.blog.csdn.net/article/details/128322764)
 
-* SAP UI5 应用开发教程之一百五十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十四 - SAP UI5 Smart Table 和 Smart Filter Bar 的联合使用方法介绍](https://jerry.blog.csdn.net/article/details/128414664)
+
+* SAP UI5 应用开发教程之一百五十五 - 正在写作中......
 
 ## 说明
 
