@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.154",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "154. SAP UI5 Smart Table 和 Smart Filter Bar 的联合使用方法介绍",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

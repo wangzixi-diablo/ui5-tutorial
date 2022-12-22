@@ -1,0 +1,30 @@
+{
+	"sap.app": {
+		"id": "sap.m.tutorial.walkthrough.154",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"config": {
+			"sample": {
+				"iframe": "webapp/index.html",
+				"stretch": true,
+				"files": [
+					"webapp/localService/metadata.xml",
+					"webapp/localService/mockdata/Category.json",
+					"webapp/localService/mockdata/Currency.json",
+					"webapp/localService/mockdata/Products.json",
+					"webapp/localService/mockserver.js",
+					"webapp/Component.js",
+					"webapp/index.html",
+					"webapp/initMockServer.js",
+					"webapp/manifest.json",
+					"webapp/SmartTable.controller.js",
+					"webapp/SmartTable.view.xml",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}
