@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2022年12月14日`为止，目前已经更新了 `153` 篇，专栏完成度为 `51%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2022年12月23日`为止，目前已经更新了 `155` 篇，专栏完成度为 `51.6%`，完成度已经超过了`一半`了.
 
 ## 作者简介
 
@@ -322,7 +322,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十四 - SAP UI5 Smart Table 和 Smart Filter Bar 的联合使用方法介绍](https://jerry.blog.csdn.net/article/details/128414664)
 
-* SAP UI5 应用开发教程之一百五十五 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十五 - SAP Smart Table 的 Personalization(个性化配置)](https://jerry.blog.csdn.net/article/details/128418557)
+
+* SAP UI5 应用开发教程之一百五十六 - 正在写作中......
 
 ## 说明
 
