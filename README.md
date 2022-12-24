@@ -324,7 +324,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十五 - SAP Smart Table 的 Personalization(个性化配置)](https://jerry.blog.csdn.net/article/details/128418557)
 
-* SAP UI5 应用开发教程之一百五十六 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十六 - 如何在 SAP UI5 应用里显示 PDF 文件](https://jerry.blog.csdn.net/article/details/128427511)
+
+* SAP UI5 应用开发教程之一百五十七 - 正在写作中......
 
 ## 说明
 
