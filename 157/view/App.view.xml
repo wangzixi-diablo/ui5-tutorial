@@ -32,25 +32,6 @@
 									<f:formElements>
 										<f:FormElement>
 											<f:fields>
-												<Input value="{source>/remoteUrl}" valueLiveUpdate="true" placeholder="{i18n>formRemoteURL}">
-													<layoutData>
-														<f:GridElementData hCells="auto"/>
-													</layoutData>
-												</Input>
-												<Button text="{i18n>buttonLoadModel}" press="onPressLoadRemoteModel">
-													<layoutData>
-														<f:GridElementData hCells="2"/>
-													</layoutData>
-												</Button>
-												<Button text="{i18n>buttonLoadImage}" press="onPressLoadRemoteImage">
-													<layoutData>
-														<f:GridElementData hCells="3"/>
-													</layoutData>
-												</Button>
-											</f:fields>
-										</f:FormElement>
-										<f:FormElement>
-											<f:fields>
 												<u:FileUploader fileType="vds,png,jpg,jpeg,gif" placeholder="{i18n>formLocalFileName}" width="100%" change="onChangeFileUploader">
 												</u:FileUploader>
 												<Button text="{i18n>buttonLoadSample}" press="onPressLoadSampleFile">
