@@ -326,7 +326,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十六 - 如何在 SAP UI5 应用里显示 PDF 文件](https://jerry.blog.csdn.net/article/details/128427511)
 
-* SAP UI5 应用开发教程之一百五十七 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十七 - 答读者疑问：为什么我的 manifest.json 文件无法正确被加载？](https://jerry.blog.csdn.net/article/details/128434329)
+
+* SAP UI5 应用开发教程之一百五十八 - 正在写作中......
 
 ## 说明
 

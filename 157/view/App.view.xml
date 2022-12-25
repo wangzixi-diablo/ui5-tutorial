@@ -1,0 +1,72 @@
+<mvc:View controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:vk="sap.ui.vk"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:u="sap.ui.unified"
+	displayBlock="true">
+	<Shell>
+		<App id="singleFile">
+			<Page title="{i18n>pageTitle}">
+				<VBox height="100%">
+					<items>
+						<HBox>
+							<layoutData>
+								<FlexItemData growFactor="1" />
+							</layoutData>
+							<items>
+								<vk:Viewer id="viewer" toolbarTitle="{i18n>viewerToolbarTitle}">
+									<vk:layoutData>
+										<FlexItemData growFactor="1" />
+									</vk:layoutData>
+								</vk:Viewer>
+							</items>
+						</HBox>
+						<f:Form editable="true">
+							<f:layout>
+								<f:GridLayout/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer>
+									<f:formElements>
+										<f:FormElement>
+											<f:fields>
+												<Input value="{source>/remoteUrl}" valueLiveUpdate="true" placeholder="{i18n>formRemoteURL}">
+													<layoutData>
+														<f:GridElementData hCells="auto"/>
+													</layoutData>
+												</Input>
+												<Button text="{i18n>buttonLoadModel}" press="onPressLoadRemoteModel">
+													<layoutData>
+														<f:GridElementData hCells="2"/>
+													</layoutData>
+												</Button>
+												<Button text="{i18n>buttonLoadImage}" press="onPressLoadRemoteImage">
+													<layoutData>
+														<f:GridElementData hCells="3"/>
+													</layoutData>
+												</Button>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement>
+											<f:fields>
+												<u:FileUploader fileType="vds,png,jpg,jpeg,gif" placeholder="{i18n>formLocalFileName}" width="100%" change="onChangeFileUploader">
+												</u:FileUploader>
+												<Button text="{i18n>buttonLoadSample}" press="onPressLoadSampleFile">
+													<layoutData>
+														<f:GridElementData hCells="3"/>
+													</layoutData>
+												</Button>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</items>
+				</VBox>
+			</Page>
+		</App>
+	</Shell>
+</mvc:View>
