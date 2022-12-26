@@ -2,12 +2,31 @@
 	<VBox>
 		<Panel headerText="Upper left">
 			<FlexBox
-				height="100px"
-				alignItems="Start"
-				justifyContent="Start">
+				height="100px">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Growing Factor">
+			<FlexBox
+				height="100px">
+				<Button text="1" type="Emphasized"  width="100%" class="sapUiSmallMarginEnd customButton">
+				<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+				</Button>
+				<Button text="2" type="Reject"  width="100%" class="sapUiSmallMarginEnd customButton">
+				<layoutData>
+						<FlexItemData growFactor="2" />
+					</layoutData>
+				</Button>
+				<Button text="3" type="Accept"  width="100%" class="sapUiSmallMarginEnd customButton">
+				<layoutData>
+						<FlexItemData growFactor="3" />
+					</layoutData>
+				</Button>
 			</FlexBox>
 		</Panel>
 
