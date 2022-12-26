@@ -1,0 +1,102 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<VBox>
+		<Panel headerText="Upper left">
+			<FlexBox
+				height="100px"
+				alignItems="Start"
+				justifyContent="Start">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Upper center">
+			<FlexBox
+				height="100px"
+				alignItems="Start"
+				justifyContent="Center">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Upper right">
+			<FlexBox
+				height="100px"
+				alignItems="Start"
+				justifyContent="End">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Middle left">
+			<FlexBox
+				height="100px"
+				alignItems="Center"
+				justifyContent="Start">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Middle center">
+			<FlexBox
+				height="100px"
+				alignItems="Center"
+				justifyContent="Center">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Middle right">
+			<FlexBox
+				height="100px"
+				alignItems="Center"
+				justifyContent="End">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Lower left">
+			<FlexBox
+				height="100px"
+				alignItems="End"
+				justifyContent="Start">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Lower center">
+			<FlexBox
+				height="100px"
+				alignItems="End"
+				justifyContent="Center">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+
+		<Panel headerText="Lower right">
+			<FlexBox
+				height="100px"
+				alignItems="End"
+				justifyContent="End">
+				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+				<Button text="3" type="Accept" />
+			</FlexBox>
+		</Panel>
+	</VBox>
+</mvc:View>
