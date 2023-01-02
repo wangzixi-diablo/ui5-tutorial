@@ -2,7 +2,7 @@
   "name": "sap.ui5.walkthrough",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "157. 使用 SAP UI5 3D Viewer 控件显示 3D 模型效果",
+  "description": "159. 使用 SAP UI5 3D Viewer 控件显示 3D 模型效果",
   "scripts": {
     "start": "ui5 serve"
   },

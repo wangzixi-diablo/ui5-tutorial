@@ -2,13 +2,13 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/vk/ContentResource"
-], function(Controller, JSONModel, ContentResource) {
+], function (Controller, JSONModel, ContentResource) {
 	"use strict";
 
-	var loadModelIntoViewer = function(viewer, sourceType, localFile) {
+	var loadModelIntoViewer = function (viewer, sourceType, localFile) {
 		viewer.destroyContentResources();
 		var source = localFile;
-		
+
 		if (source) {
 			var contentResource = new ContentResource({
 				source: source,
@@ -20,25 +20,23 @@ sap.ui.define([
 	};
 
 	return Controller.extend("sap.ui5.walkthrough.controller.App", {
+		onInit: function () {
+			var sourceData = {
+				localFile: undefined
+			};
 
-	onInit: function() {
-		var sourceData = {
-			localFile: undefined,
-			remoteUrl: undefined
-		};
-		
-		var model = new JSONModel();
-		model.setData(sourceData);
-		this.getView().setModel(model, "source");
-	},
+			var model = new JSONModel();
+			model.setData(sourceData);
+			this.getView().setModel(model, "source");
+		},
 
-	onPressLoadSampleFile: function(event) {
-		var view = this.getView();
-		var viewer = view.byId("viewer");
-		loadModelIntoViewer(viewer, "vds","models/test.vds");
-	},
+		onPressLoadSampleFile: function (event) {
+			var view = this.getView();
+			var viewer = view.byId("viewer");
+			loadModelIntoViewer(viewer, "vds", "models/test.vds");
+		},
 
-	onChangeFileUploader: function(event) {
+		onChangeFileUploader: function (event) {
 			var view = this.getView();
 			var viewer = view.byId("viewer");
 			var localFile = event.getParameter("files")[0];

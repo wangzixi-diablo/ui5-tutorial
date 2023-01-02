@@ -4,7 +4,6 @@ sap.ui.define([
     "use strict";
 
     return UIComponent.extend("sap.ui5.walkthrough.Component", {
-
         metadata: {
             manifest: "json"
         },
