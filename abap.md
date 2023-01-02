@@ -129,6 +129,8 @@
 
 * [71. SAP ABAP 报表屏幕输入字段如何实现联动效果](https://jerry.blog.csdn.net/article/details/128375323)
 
+* [73. 如何手动通过增强的方式，给 SAP ABAP 数据库表增添新的字段](https://jerry.blog.csdn.net/article/details/128521082)
+
 * 更多文章正在写作中
 
 ## Office 专题

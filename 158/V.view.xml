@@ -1,8 +1,7 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<VBox>
 		<Panel headerText="Upper left">
-			<FlexBox
-				height="100px">
+			<FlexBox height="100px">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -10,31 +9,27 @@
 		</Panel>
 
 		<Panel headerText="Growing Factor">
-			<FlexBox
-				height="100px">
-				<Button text="1" type="Emphasized"  width="100%" class="sapUiSmallMarginEnd customButton">
-				<layoutData>
+			<FlexBox height="100px">
+				<Button text="1" type="Emphasized" width="100%" class="sapUiSmallMarginEnd customButton">
+					<layoutData>
 						<FlexItemData growFactor="1" />
 					</layoutData>
 				</Button>
-				<Button text="2" type="Reject"  width="100%" class="sapUiSmallMarginEnd customButton">
-				<layoutData>
-						<FlexItemData growFactor="2" />
+				<Button text="2" type="Reject" width="100%" class="sapUiSmallMarginEnd customButton">
+					<layoutData>
+						<FlexItemData growFactor="1" />
 					</layoutData>
 				</Button>
-				<Button text="3" type="Accept"  width="100%" class="sapUiSmallMarginEnd customButton">
-				<layoutData>
-						<FlexItemData growFactor="3" />
+				<Button text="3" type="Accept" width="100%" class="sapUiSmallMarginEnd customButton">
+					<layoutData>
+						<FlexItemData growFactor="1" />
 					</layoutData>
 				</Button>
 			</FlexBox>
 		</Panel>
 
 		<Panel headerText="Upper center">
-			<FlexBox
-				height="100px"
-				alignItems="Start"
-				justifyContent="Center">
+			<FlexBox height="100px" alignItems="Start" justifyContent="Center">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -42,10 +37,7 @@
 		</Panel>
 
 		<Panel headerText="Upper right">
-			<FlexBox
-				height="100px"
-				alignItems="Start"
-				justifyContent="End">
+			<FlexBox height="100px" alignItems="Start" justifyContent="End">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -53,10 +45,7 @@
 		</Panel>
 
 		<Panel headerText="Middle left">
-			<FlexBox
-				height="100px"
-				alignItems="Center"
-				justifyContent="Start">
+			<FlexBox height="100px" alignItems="Center" justifyContent="Start">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -64,10 +53,7 @@
 		</Panel>
 
 		<Panel headerText="Middle center">
-			<FlexBox
-				height="100px"
-				alignItems="Center"
-				justifyContent="Center">
+			<FlexBox height="100px" alignItems="Center" justifyContent="Center">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -75,10 +61,7 @@
 		</Panel>
 
 		<Panel headerText="Middle right">
-			<FlexBox
-				height="100px"
-				alignItems="Center"
-				justifyContent="End">
+			<FlexBox height="100px" alignItems="Center" justifyContent="End">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -86,10 +69,7 @@
 		</Panel>
 
 		<Panel headerText="Lower left">
-			<FlexBox
-				height="100px"
-				alignItems="End"
-				justifyContent="Start">
+			<FlexBox height="100px" alignItems="End" justifyContent="Start">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -97,10 +77,7 @@
 		</Panel>
 
 		<Panel headerText="Lower center">
-			<FlexBox
-				height="100px"
-				alignItems="End"
-				justifyContent="Center">
+			<FlexBox height="100px" alignItems="End" justifyContent="Center">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
@@ -108,10 +85,7 @@
 		</Panel>
 
 		<Panel headerText="Lower right">
-			<FlexBox
-				height="100px"
-				alignItems="End"
-				justifyContent="End">
+			<FlexBox height="100px" alignItems="End" justifyContent="End">
 				<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
 				<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
 				<Button text="3" type="Accept" />
