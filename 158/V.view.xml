@@ -17,12 +17,12 @@
 				</Button>
 				<Button text="2" type="Reject" width="100%" class="sapUiSmallMarginEnd customButton">
 					<layoutData>
-						<FlexItemData growFactor="1" />
+						<FlexItemData growFactor="2" />
 					</layoutData>
 				</Button>
 				<Button text="3" type="Accept" width="100%" class="sapUiSmallMarginEnd customButton">
 					<layoutData>
-						<FlexItemData growFactor="1" />
+						<FlexItemData growFactor="3" />
 					</layoutData>
 				</Button>
 			</FlexBox>
