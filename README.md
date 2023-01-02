@@ -328,7 +328,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十七 - 答读者疑问：为什么我的 manifest.json 文件无法正确被加载？](https://jerry.blog.csdn.net/article/details/128434329)
 
-* SAP UI5 应用开发教程之一百五十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百五十八 - SAP UI5 FlexBox Layout 布局的概念和具体使用案例介绍](https://blog.csdn.net/i042416/article/details/128524888)
+
+* SAP UI5 应用开发教程之一百五十九 - 正在写作中......
 
 ## 说明
 

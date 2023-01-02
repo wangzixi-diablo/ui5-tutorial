@@ -2,7 +2,7 @@
   "name": "sap.ui5.walkthrough",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "sap.ui5.walkthrough",
+  "description": "SAP UI5 FlexBox Layout 布局的概念和具体使用案例介绍",
   "scripts": {
     "start": "ui5 serve"
   },
