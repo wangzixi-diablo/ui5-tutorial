@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `150` 篇左右，到 `2022年12月25日`为止，目前已经更新了 `72` 篇，专栏完成度为 `48%`
+## 本专栏计划的文章数在 `150` 篇左右，到 `2023年1月4日`为止，目前已经更新了 `74` 篇，专栏完成度为 `49%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -130,6 +130,8 @@
 * [71. SAP ABAP 报表屏幕输入字段如何实现联动效果](https://jerry.blog.csdn.net/article/details/128375323)
 
 * [73. 如何手动通过增强的方式，给 SAP ABAP 数据库表增添新的字段](https://jerry.blog.csdn.net/article/details/128521082)
+
+* [74. 学会使用 SAP ABAP Application Log 在代码里添加应用日志记录功能](https://jerry.blog.csdn.net/article/details/128542936)
 
 * 更多文章正在写作中
 
