@@ -72,6 +72,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [30. 如何使用 SEGW 的 redefine 功能对 SAP 标准 OData 服务进行扩展](https://jerry.blog.csdn.net/article/details/128516573)
 
+- [31. SAP UI5 Fiori 应用在启动时向 ABAP 后台发起的 OData 请求序列的顺序和作用分析](https://jerry.blog.csdn.net/article/details/128575198)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
