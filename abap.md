@@ -138,6 +138,8 @@
 
 * [77. 简单聊聊 ABAP 变量消耗的内存空间这个话题](https://jerry.blog.csdn.net/article/details/128615663)
 
+* [78. 浅谈 ABAP 程序运行时出现『内存耗尽』错误的问题试读版](https://jerry.blog.csdn.net/article/details/128621247)
+
 * 更多文章正在写作中
 
 ## Office 专题
