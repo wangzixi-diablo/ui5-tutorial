@@ -109,7 +109,6 @@
 
 * [59. 案例分析 - 如何通过 F1 和单步调试，找到 SE10 事物码里用户名字段的初始值填充逻辑](https://blog.csdn.net/i042416/article/details/127390737)
 
-* [60. 如何通过 ABAP RFC 远程函数调用来跨系统消费远端服务器的 ABAP 函数](https://blog.csdn.net/i042416/article/details/127497500)
 
 * [61. 如何使用 Java 程序通过 SAP Java Connector 调用 ABAP 系统的函数](https://blog.csdn.net/i042416/article/details/127523003)
 
@@ -136,6 +135,8 @@
 * [75. SAP ABAP 一个有用的程序正确性辅助工具，Checkpoint group 的使用方法介绍](https://jerry.blog.csdn.net/article/details/128551824)
 
 * [76. 如何使用 ST05 事物码，快速找到访问指定数据库表的 ABAP 代码](https://jerry.blog.csdn.net/article/details/128602328)
+
+* [77. 简单聊聊 ABAP 变量消耗的内存空间这个话题](https://jerry.blog.csdn.net/article/details/128615663)
 
 * 更多文章正在写作中
 
