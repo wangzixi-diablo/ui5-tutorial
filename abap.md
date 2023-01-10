@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年1月8日`为止，目前已经更新了 `78` 篇，专栏完成度为 `26%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年1月10日`为止，目前已经更新了 `79` 篇，专栏完成度为 `26%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -139,6 +139,8 @@
 * [77. 简单聊聊 ABAP 变量消耗的内存空间这个话题](https://jerry.blog.csdn.net/article/details/128615663)
 
 * [78. 浅谈 ABAP 程序运行时出现『内存耗尽』错误的问题](https://jerry.blog.csdn.net/article/details/128621247)
+
+* [79. 使用 OPEN CURSOR 和 FETCH NEXT CURSOR 对 SAP 数据库表进行分块读写](https://jerry.blog.csdn.net/article/details/128630990)
 
 * 更多文章正在写作中
 
