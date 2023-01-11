@@ -290,8 +290,9 @@ sap.ui.define([
 		// If the request contains a filter command, apply the filter
 		if (Array.isArray(aMatches) && aMatches.length >= 3) {
 			sFieldName = aMatches[1];
-			sQuery = aMatches[2];
-
+			// sQuery = aMatches[2];
+			// 修改不支持中文关键字查询的问题
+			sQuery = decodeURI(aMatches[2]);
 			if (sFieldName !== "LastName") {
 				throw new Error("Filters on field " + sFieldName + " are not supported.");
 			}

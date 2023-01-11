@@ -22,6 +22,26 @@
 			}
 		},
 		{
+			"Age": 40,
+			"FirstName": "子熙",
+			"LastName": "汪",
+			"UserName": "汪子熙",
+			"Friends": [
+				"georginabarlow",
+				"marshallgaray",
+				"ursulabright"
+			],
+			"BestFriend": "clydeguess",
+			"HomeAddress": {
+				"Address": "187 Suffolk Ln.",
+				"City": {
+					"Name": "Boise",
+					"CountryRegion": "United States",
+					"Region": "ID"
+				}
+			}
+		},
+		{
 			"Age": 44,
 			"FirstName": "Clyde",
 			"LastName": "Guess",
