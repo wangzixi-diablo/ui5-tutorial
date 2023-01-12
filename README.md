@@ -168,6 +168,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之七十七 - SAP UI5 动态页面路由的高级用法：路由记录 routes 和 target 的一对多关系](https://blog.csdn.net/i042416/article/details/124548400)
 
+* [SAP UI5 应用开发教程之七十七番外篇 - SAP UI5 应用 manifest.json 文件里 Routes 数组元素的相对顺序，不可忽视](https://jerry.blog.csdn.net/article/details/128654511)
+
 * [SAP UI5 应用开发教程之七十八 - 如何通过 url 保持 SAP UI5 搜索的状态，让其支持书签功能](https://blog.csdn.net/i042416/article/details/124554155)
 
 * [SAP UI5 应用开发教程之七十九 - 采用测试驱动开发理念(Test Driven Development)进行 SAP UI5 应用的功能开发(一)](https://blog.csdn.net/i042416/article/details/124563162)
