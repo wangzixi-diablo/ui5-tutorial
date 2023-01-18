@@ -334,7 +334,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十九 - 使用 SAP UI5 3D Viewer 控件显示 3D 模型效果](https://blog.csdn.net/i042416/article/details/128526448)
 
-* SAP UI5 应用开发教程之一百六十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百六十 - 如何根据 SAP Fiori UI 界面上的错误消息，找到后台 ABAP 对应的消息 ID](https://jerry.blog.csdn.net/article/details/128728436)
+
+* SAP UI5 应用开发教程之一百六十一 - 正在写作中......
 
 ## 说明
 
