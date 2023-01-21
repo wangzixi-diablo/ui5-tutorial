@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年1月16日`为止，目前已经更新了 `81` 篇，专栏完成度为 `26%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年1月21日`为止，目前已经更新了 `82` 篇，专栏完成度为 `27.3%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -145,6 +145,8 @@
 * [80. 使用事务码 SAT 比较传统的 SELECT SQL 语句和 OPEN / FETCH CURSOR 分块读取 ABAP 数据库表两种方式的性能差异](https://jerry.blog.csdn.net/article/details/128690728)
 
 * [81. 使用 SAP ABAP Memory Inspector 对应用程序消耗内存进行检测时常犯的错误](https://jerry.blog.csdn.net/article/details/128708580)
+
+* [82. 让要检索的 ABAP 源代码无所遁形 - 介绍一款 ABAP 代码搜索工具 RS_ABAP_SOURCE_SCAN](https://jerry.blog.csdn.net/article/details/128745935)
 
 * 更多文章正在写作中
 
