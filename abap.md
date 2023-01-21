@@ -148,6 +148,8 @@
 
 * [82. 让要检索的 ABAP 源代码无所遁形 - 介绍一款 ABAP 代码搜索工具 RS_ABAP_SOURCE_SCAN](https://jerry.blog.csdn.net/article/details/128745935)
 
+* [83. 一静一动，一张一弛 - 通过具体的两个例子，学习 ABAP 动态断点的使用诀窍](https://jerry.blog.csdn.net/article/details/128747185)
+
 * 更多文章正在写作中
 
 ## Office 专题
