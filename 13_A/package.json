@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.13",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 自定义 CSS",
+  "description": "SAP UI5 应用的暗黑模式 - SAP Fiori 3 Quartz Dark 模式",
   "scripts": {
     "start": "ui5 serve"
   },

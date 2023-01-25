@@ -40,6 +40,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之十三 - 如何添加自定义 CSS 类](https://jerry.blog.csdn.net/article/details/121180115)
 
+* [SAP UI5 应用开发教程之十三番外篇 - SAP UI5 应用的暗黑模式 - Fiori 3 Quartz Dark 主题的使用](https://jerry.blog.csdn.net/article/details/128762337)
+
 * [SAP UI5 应用开发教程之十四 - 嵌入视图的使用方式](https://jerry.blog.csdn.net/article/details/122420230)
 
 * [SAP UI5 应用开发教程之十五 - 对话框和 Fragments 的使用方式](https://blog.csdn.net/i042416/article/details/122450382)
