@@ -150,6 +150,8 @@
 
 * [83. 一静一动，一张一弛 - 通过具体的两个例子，学习 ABAP 动态断点的使用诀窍](https://jerry.blog.csdn.net/article/details/128747185)
 
+* [84. ABAP 数据字典里数据元素(Data Element)，结构(Structure)和表类型(Table Type)三者的使用辨析](https://jerry.blog.csdn.net/article/details/128770049)
+
 * 更多文章正在写作中
 
 ## Office 专题
