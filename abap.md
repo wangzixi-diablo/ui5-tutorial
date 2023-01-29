@@ -152,6 +152,8 @@
 
 * [84. ABAP 数据字典里数据元素(Data Element)，结构(Structure)和表类型(Table Type)三者的使用辨析](https://jerry.blog.csdn.net/article/details/128770049)
 
+* [85. ABAP 创建数据类型的三种方式，各自的使用场合和优缺点辨析](https://jerry.blog.csdn.net/article/details/128787814)
+
 * 更多文章正在写作中
 
 ## Office 专题
