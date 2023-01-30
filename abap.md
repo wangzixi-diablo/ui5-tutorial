@@ -154,6 +154,8 @@
 
 * [85. ABAP 创建数据类型的三种方式，各自的使用场合和优缺点辨析](https://jerry.blog.csdn.net/article/details/128787814)
 
+* [86. 有没有设置能够限制 ABAP 数据库表能够存储的最大记录数？](https://jerry.blog.csdn.net/article/details/128805157)
+
 * 更多文章正在写作中
 
 ## Office 专题
