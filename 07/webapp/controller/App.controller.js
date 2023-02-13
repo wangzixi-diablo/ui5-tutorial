@@ -16,6 +16,8 @@ sap.ui.define([
 		},
 		onShowHello : function () {
 			MessageToast.show("Hello World");
+			var oInput = this.byId("myinput");
+			console.log(oInput);
 		}
 	});
 });
