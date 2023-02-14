@@ -343,7 +343,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 ## 说明
 
-Jerry 从 2014 年加入 SAP成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
+Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
 
 在 Jerry 这篇文章 [对 SAP UI5 一无所知的新手，从哪些材料开始学习比较好？](https://blog.csdn.net/i042416/article/details/116347763) 曾经提到，Jerry 也是从 SAP UI5 菜鸟一路走过来，深知只有 ABAP 开发背景的开发者，向 SAP UI5 开发领域转型的不易，因此我在业余时间设计了这份适合 `SAP UI5 不同水平`的学习者的学习教程，把开发一个完整的 SAP UI5 应用的流程，拆分成若干个步骤，力求每个步骤里，把涉及到的知识点都涵盖到。
 
