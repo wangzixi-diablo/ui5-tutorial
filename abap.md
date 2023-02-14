@@ -157,6 +157,8 @@
 
 * [86. 有没有设置能够限制 ABAP 数据库表能够存储的最大记录数？](https://jerry.blog.csdn.net/article/details/128805157)
 
+* [87. SAP ABAP 方法调用里传值(Pass Value)和传引用(Pass Reference)的区别](https://jerry.blog.csdn.net/article/details/129033772)
+
 * 更多文章正在写作中
 
 ## Office 专题
