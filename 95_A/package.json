@@ -1,0 +1,13 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 应用开发教程之九十五 - SAP UI5 下拉菜单(Select) 控件的使用方式",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
