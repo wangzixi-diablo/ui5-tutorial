@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.162",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "通过一个具体的例子，深入了解 SAP UI5 控件数据双向绑定的工作原理和问题排查方法",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
