@@ -159,6 +159,8 @@
 
 * [87. SAP ABAP 方法调用里传值(Pass Value)和传引用(Pass Reference)的区别](https://jerry.blog.csdn.net/article/details/129033772)
 
+* [88. ABAP 方法调用的参数传递里，通过引用传递的方式，能修改原始参数值吗？](https://jerry.blog.csdn.net/article/details/129094158)
+
 * 更多文章正在写作中
 
 ## Office 专题
