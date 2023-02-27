@@ -1,0 +1,14 @@
+{
+  "name": "sap.m.tutorial.walkthrough.164",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "通过 sap.ui.model.odata.v2.ODataModel 的 read 方法，读取 OData 数据的编程方式讲解",
+  "scripts": {
+    "start": "ui5 serve",
+    "start-proxy": "npx cors-http-proxy -t https://services.odata.org -p 8089"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}

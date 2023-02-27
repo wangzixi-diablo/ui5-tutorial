@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年2月26日`为止，目前已经更新了 `163` 篇，专栏完成度为 `53%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年2月26日`为止，目前已经更新了 `164` 篇，专栏完成度为 `53%`，完成度已经超过了`一半`了.
 
 ## 作者简介
 
@@ -343,7 +343,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百六十三 - 通过一个实际例子，讲解 SAP UI5 Compatibility Version 的概念和运行时绑定解析器的选择逻辑](https://jerry.blog.csdn.net/article/details/129225304)
 
-* SAP UI5 应用开发教程之一百六十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百六十四 - 通过 sap.ui.model.odata.v2.ODataModel 的 read 方法，读取 OData 数据的编程方式讲解](https://jerry.blog.csdn.net/article/details/129232494)
+
+* SAP UI5 应用开发教程之一百六十五 - 正在写作中......
 
 ## 说明
 
