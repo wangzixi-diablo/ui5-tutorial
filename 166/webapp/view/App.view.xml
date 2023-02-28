@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button
+		text="返回1998年5月之后的 Invoice"
+		press=".onGTFilter"/>
+	<Button
+		text="返回1998年5月一个月间的 Invoice"
+		press=".onBTFilter"/>
+</mvc:View>

@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年2月27日`为止，目前已经更新了 `165` 篇，专栏完成度为 `53%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年2月28日`为止，目前已经更新了 `166` 篇，专栏完成度为 `55.3%`，完成度已经超过了`一半`了.
 
 ## 作者简介
 
@@ -347,7 +347,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百六十五 - SAP UI5 应用如何采取 JavaScript 代码调用 OData API 读取满足过滤条件的业务数据($filter 操作)](https://jerry.blog.csdn.net/article/details/129252582)
 
-* SAP UI5 应用开发教程之一百六十六 - 正在写作中......
+* [SAP UI5 应用开发教程之一百六十六 - SAP UI5 OData API 中针对 Edm.DateTime 日期时间类型的操作详解](https://jerry.blog.csdn.net/article/details/129264962)
+
+* SAP UI5 应用开发教程之一百六十七 - 正在写作中......
 
 ## 说明
 
