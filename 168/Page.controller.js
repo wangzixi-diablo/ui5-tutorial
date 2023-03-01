@@ -8,7 +8,6 @@ sap.ui.define([
 
 		onInit: function () {
 			this.oRawData = {
-				"SelectedBook": "A001",
 				"BookCollection": [
 					{
 						"BookId": "A001",
