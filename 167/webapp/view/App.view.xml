@@ -5,7 +5,4 @@
 	<Button
 		text="读取 id 为 10248 的 Order 数据"
 		press=".onRead"/>
-	<Button
-		text="返回1998年5月一个月间的 Invoice"
-		press=".onBTFilter"/>
 </mvc:View>
