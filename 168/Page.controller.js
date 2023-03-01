@@ -5,49 +5,18 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("sap.ui5.walkthrough.Page", {
-
 		onInit: function () {
-			this.oRawData = {
-				"BookCollection": [
-					{
-						"BookId": "A001",
-						"Name": "射雕英雄传",
-						"Author":"金庸"
-					},
-					{
-						"BookId": "A002",
-						"Name": "神雕侠侣",
-						"Author":"金庸"
-					},
-					{
-						"BookId": "A003",
-						"Name": "倚天屠龙记",
-						"Author":"金庸"
-					},
-					{
-						"BookId": "A004",
-						"Name": "风云第一刀",
-						"Author":"古龙"
-					},
-					{
-						"BookId": "A005",
-						"Name": "绝代双骄",
-						"Author":"古龙"
-					},
-					{
-						"BookId": "A006",
-						"Name": "笑傲江湖",
-						"Author":"金庸"
-					}
-				]
-			};
-			var aUniqueAuthor = this.getUniqueAuthor(this.oRawData.BookCollection);
+			this.oJSONModel = new JSONModel();
+			this.oJSONModel.loadData("books.json", null, false);
+			this.oRawData = this.oJSONModel.oData;
+			var aUniqueAuthor = this.getUniqueAuthor(this.oJSONModel.oData.BookCollection);
+
 			var oModelData = {
 				AuthorCollection: aUniqueAuthor,
 				Books: this.getBooksByAuthor(aUniqueAuthor[0].AuthorName)
 			};
+			this.oJSONModel.setData(oModelData);
 
-			this.oJSONModel = new JSONModel(oModelData);
 			this.getView().setModel(this.oJSONModel);
 		},
 
