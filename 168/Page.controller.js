@@ -8,27 +8,37 @@ sap.ui.define([
 
 		onInit: function () {
 			var oData = {
-				"SelectedProduct": "HT-1001",
-				"ProductCollection": [
+				"SelectedBook": "A001",
+				"BookCollection": [
 					{
-						"ProductId": "HT-1000",
-						"Name": "Notebook Basic 15"
+						"BookId": "A001",
+						"Name": "射雕英雄传",
+						"Author":"金庸"
 					},
 					{
-						"ProductId": "HT-1001",
-						"Name": "Notebook Basic 17"
+						"BookId": "A002",
+						"Name": "神雕侠侣",
+						"Author":"金庸"
 					},
 					{
-						"ProductId": "HT-1002",
-						"Name": "Notebook Basic 18"
+						"BookId": "A003",
+						"Name": "倚天屠龙记",
+						"Author":"金庸"
 					},
 					{
-						"ProductId": "HT-1003",
-						"Name": "Notebook Basic 19"
+						"BookId": "A004",
+						"Name": "风云第一刀",
+						"Author":"古龙"
 					},
 					{
-						"ProductId": "HT-1007",
-						"Name": "ITelO Vault"
+						"BookId": "A005",
+						"Name": "绝代双骄",
+						"Author":"金庸"
+					},
+					{
+						"BookId": "A006",
+						"Name": "笑傲江湖",
+						"Author":"金庸"
 					}
 				]
 			};

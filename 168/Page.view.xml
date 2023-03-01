@@ -10,13 +10,13 @@
 		<content>
 			<HBox justifyContent="SpaceAround">
 				<Select
-						selectedKey="{/SelectedProduct}"
+						selectedKey="{/SelectedBook}"
 						items="{
-							path: '/ProductCollection',
+							path: '/BookCollection',
 							sorter: { path: 'Name' }
 						}"
 						change=".onChange">
-					<core:Item key="{ProductId}" text="{Name}" />
+					<core:Item key="{BookId}" text="{Name}" />
 				</Select>
 			</HBox>
 		</content>
