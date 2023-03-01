@@ -7,7 +7,7 @@ sap.ui.define([
 	return Controller.extend("sap.ui5.walkthrough.Page", {
 
 		onInit: function () {
-			var oData = {
+			this.oRawData = {
 				"SelectedBook": "A001",
 				"BookCollection": [
 					{
@@ -33,7 +33,7 @@ sap.ui.define([
 					{
 						"BookId": "A005",
 						"Name": "绝代双骄",
-						"Author":"金庸"
+						"Author":"古龙"
 					},
 					{
 						"BookId": "A006",
@@ -42,14 +42,40 @@ sap.ui.define([
 					}
 				]
 			};
-			var oModel = new JSONModel(oData);
-			this.getView().setModel(oModel);
+			var aUniqueAuthor = this.getUniqueAuthor(this.oRawData.BookCollection);
+			var oModelData = {
+				AuthorCollection: aUniqueAuthor,
+				Books: this.getBooksByAuthor(aUniqueAuthor[0].AuthorName)
+			};
+
+			this.oJSONModel = new JSONModel(oModelData);
+			this.getView().setModel(this.oJSONModel);
+		},
+
+		getUniqueAuthor: function(aBooks){
+			const uniqueAuthors = new Set();
+			let index = 0;
+			aBooks.forEach(book => uniqueAuthors.add(book.Author));
+			var aAuthorForSelect = [];
+			Array.from(uniqueAuthors).forEach(author => {
+				aAuthorForSelect.push(
+				{
+					AuthorID: 'Author' + index,
+					AuthorName: author
+				});
+				index++});
+			return aAuthorForSelect;
+		},
+
+		getBooksByAuthor:function(sAuthorName){
+			return this.oRawData.BookCollection.filter(book => book.Author === sAuthorName);
 		},
 		onChange: function(oEvent){
 			var oSelected = oEvent.getParameter("selectedItem");
-			var sSelectedKey = oSelected.getKey();
 			var sSelectedText = oSelected.getText();
-			alert('selected key: ' + sSelectedKey + ' selected text: ' + sSelectedText);
+			var aFilteredBooks = this.getBooksByAuthor(sSelectedText);
+			this.oJSONModel.getData().Books = aFilteredBooks;
+			this.oJSONModel.refresh();
 		}
 	});
 });

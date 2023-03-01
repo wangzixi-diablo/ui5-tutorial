@@ -1,24 +1,33 @@
-<mvc:View
-	height="100%"
-	controllerName="sap.ui5.walkthrough.Page"
-	xmlns:core="sap.ui.core"
-	xmlns:mvc="sap.ui.core.mvc"
+<mvc:View height="100%" controllerName="sap.ui5.walkthrough.Page" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
-	<Page
-		showHeader="false"
-		class="sapUiContentPadding">
+	<Page showHeader="false" class="sapUiContentPadding">
 		<content>
-			<HBox justifyContent="SpaceAround">
-				<Select
-						selectedKey="{/SelectedBook}"
-						items="{
-							path: '/BookCollection',
-							sorter: { path: 'Name' }
-						}"
-						change=".onChange">
-					<core:Item key="{BookId}" text="{Name}" />
+			<VBox justifyContent="SpaceAround">
+				<Select selectedKey="{/SelectedBook}" items="{
+							path: '/AuthorCollection'
+						}" change=".onChange">
+					<core:Item key="{AuthorID}" text="{AuthorName}" />
 				</Select>
-			</HBox>
+
+				<Table items="{/Books}">
+					<columns>
+						<Column>
+							<Text text="Book ID" />
+						</Column>
+						<Column>
+							<Text text="Name" />
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{BookId}" />
+								<Text text="{Name}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
 		</content>
 	</Page>
 </mvc:View>
