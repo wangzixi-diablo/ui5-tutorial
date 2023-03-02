@@ -3,7 +3,7 @@
 	<Page showHeader="false" class="sapUiContentPadding">
 		<content>
 			<VBox justifyContent="SpaceAround">
-				<Select selectedKey="{/SelectedBook}" items="{
+				<Select items="{
 							path: '/AuthorCollection'
 						}" change=".onChange">
 					<core:Item key="{AuthorID}" text="{AuthorName}" />

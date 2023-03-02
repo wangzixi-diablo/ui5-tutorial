@@ -9,6 +9,7 @@ sap.ui.define([
 			this.oJSONModel = new JSONModel();
 			this.oJSONModel.loadData("books.json", null, false);
 			this.oRawData = this.oJSONModel.oData;
+			
 			var aUniqueAuthor = this.getUniqueAuthor(this.oJSONModel.oData.BookCollection);
 
 			var oModelData = {

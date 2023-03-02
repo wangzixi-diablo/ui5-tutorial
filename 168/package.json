@@ -2,7 +2,7 @@
   "name": "sap.ui5.walkthrough",
   "version": "1.0.0",
   "author": "SAP SE",
-  "description": "",
+  "description": "用 SAP UI5 Select 控件(下拉列表)，来驱动表格控件(Table)刷新的一个实战例子",
   "scripts": {
     "start": "ui5 serve"
   },

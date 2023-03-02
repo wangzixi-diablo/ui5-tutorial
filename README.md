@@ -351,7 +351,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百六十七 - 通过一个实际例子，理解 SAP UI5 sap.ui.model.odata.v2.ODataModel API 中 BindingContext 绑定上下文的概念和用法](https://jerry.blog.csdn.net/article/details/129291322)
 
-* SAP UI5 应用开发教程之一百六十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百六十八 - 用 SAP UI5 Select 控件(下拉列表)，来驱动表格控件(Table)刷新的一个实战例子](https://jerry.blog.csdn.net/article/details/129304516)
+
+* SAP UI5 应用开发教程之一百六十九 - 正在写作中......
 
 ## 说明
 
