@@ -4,7 +4,7 @@
 		"id": "sap.ui5.walkthrough",
 		"type": "application",
 		"title": "SAPUI5 Smart Controls",
-		"description": "A simple app that explains the most important concepts of smart controls in SAPUI5",
+		"description": "147. SAP UI5 SmartTable 控件的使用介绍",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
