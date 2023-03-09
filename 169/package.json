@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.169",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "使用 Chrome 开发者工具分析 SAP UI5 应用的 JavaScript 代码执行性能瓶颈",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
