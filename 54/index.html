@@ -30,7 +30,11 @@
 		}' 
 		data-sap-ui-frameOptions="allow"></script>
 	<script>
-		sap.ui.getCore().attachInit(() => sap.ushell.Container.createRenderer().placeAt("content"))
+		sap.ui.getCore().attachInit(() => sap.ushell.Container.createRenderer("fiori2", true).then(
+			(oRenderer) => {
+				oRenderer.placeAt("content");
+			}
+		));
 	</script>
 </head>
 
