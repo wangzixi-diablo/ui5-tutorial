@@ -16,6 +16,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
 
+* [SAP UI5 本地开发如何实现 XML 和 JavaScript 代码的自动完成和嵌入式 API 文档自动显示](https://jerry.blog.csdn.net/article/details/129632974)
+
 * [SAP UI5 应用开发教程之一 - Hello World](https://jerry.blog.csdn.net/article/details/120612455)
 
 * [SAP UI5 应用开发教程之二 - SAP UI5 的引导过程 Bootstrap](https://jerry.blog.csdn.net/article/details/120614665)
@@ -193,7 +195,6 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 * [SAP UI5 应用开发教程之八十六 - 动手开发一个最简单的本地 Mock 数据服务器](https://jerry.blog.csdn.net/article/details/124715670)
 
 * [SAP UI5 应用开发教程之八十七 - 如何让 SAP UI5 Mock 服务器支持自定义 url 参数](https://blog.csdn.net/i042416/article/details/124751818)
-
 
 * [SAP UI5 应用开发教程之八十九 - 如何给 SAP UI5 列表控件增添多个图形界面的过滤器](https://blog.csdn.net/i042416/article/details/124789417)
 
