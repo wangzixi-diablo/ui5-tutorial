@@ -288,7 +288,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百三十四 - SAP UI5 Simple Form 属性 columnsL，columnsM，columnsXL 的属性深入剖析](https://jerry.blog.csdn.net/article/details/127052324)
 
-* [SAP UI5 应用开发教程之一百三十五 - SAP UI5 应用的屏幕尺寸检测工作原理深入剖析](https://jerry.blog.csdn.net/article/details/127052324)
+* [SAP UI5 应用开发教程之一百三十五 - SAP UI5 应用的屏幕尺寸检测工作原理深入剖析](https://jerry.blog.csdn.net/article/details/127097214)
 
 * [SAP UI5 应用开发教程之一百三十六 - SAP UI5 应用 SimpleForm 控件 ResponsiveGridLayout 布局的工作原理深入剖析](https://blog.csdn.net/i042416/article/details/127106414)
 
