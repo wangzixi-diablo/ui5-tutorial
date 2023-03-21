@@ -358,7 +358,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百六十九 - 使用 Chrome 开发者工具分析 SAP UI5 应用的 JavaScript 代码执行性能瓶颈](https://jerry.blog.csdn.net/article/details/129432234)
 
-* SAP UI5 应用开发教程之一百七十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百七十 - 澄清一些对 SAP UI5 响应式表格 sap.m.Table 的常见理解误区](https://jerry.blog.csdn.net/article/details/129688992)
+
+* SAP UI5 应用开发教程之一百七十一 - 正在写作中......
 
 ## 说明
 

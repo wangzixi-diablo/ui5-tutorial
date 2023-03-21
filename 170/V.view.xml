@@ -1,25 +1,34 @@
 <mvc:View
-	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
-	<l:VerticalLayout class="sapUiContentPadding equalColumns" width="100%">
-		<FlexBox class="columns">
-			<Table>
+	<Table>
           <columns>
-            <Column>
-              <Text text="ID"/>
+            <Column minScreenWidth="600px" demandPopin="true">
+              <Text text="ID" />
             </Column>
-            <Column>
+            <Column minScreenWidth="600px" demandPopin="true">
               <Text text="Name"/>
             </Column>
             <Column>
               <Text text="Age"/>
+            </Column>
+			<Column>
+              <Text text="column4"/>
+            </Column>
+			<Column>
+              <Text text="column5"/>
+            </Column>
+			<Column>
+              <Text text="column6"/>
             </Column>
           </columns>
           <items>
             <ColumnListItem>
               <cells>
                 <Text text="1"/>
+                <Text text="John"/>
+                <Text text="25"/>
+				<Text text="1"/>
                 <Text text="John"/>
                 <Text text="25"/>
               </cells>
@@ -29,6 +38,9 @@
                 <Text text="2"/>
                 <Text text="Lisa"/>
                 <Text text="32"/>
+				<Text text="1"/>
+                <Text text="John"/>
+                <Text text="25"/>
               </cells>
             </ColumnListItem>
             <ColumnListItem>
@@ -36,46 +48,42 @@
                 <Text text="3"/>
                 <Text text="Mark"/>
                 <Text text="41"/>
-              </cells>
-            </ColumnListItem>
-          </items>
-        </Table>
-			<Table>
-          <columns>
-            <Column>
-              <Text text="ID"/>
-            </Column>
-            <Column>
-              <Text text="Name"/>
-            </Column>
-            <Column>
-              <Text text="Age"/>
-            </Column>
-          </columns>
-          <items>
-            <ColumnListItem>
-              <cells>
-                <Text text="1"/>
+				<Text text="1"/>
                 <Text text="John"/>
                 <Text text="25"/>
               </cells>
             </ColumnListItem>
-            <ColumnListItem>
-              <cells>
-                <Text text="2"/>
-                <Text text="Lisa"/>
-                <Text text="32"/>
-              </cells>
-            </ColumnListItem>
-            <ColumnListItem>
+			<ColumnListItem>
               <cells>
                 <Text text="3"/>
                 <Text text="Mark"/>
-                <Text text="4111111111111111111111111111111111111"/>
+                <Text text="41"/>
+				<Text text="1"/>
+                <Text text="John"/>
+                <Text text="25"/>
+              </cells>
+            </ColumnListItem>
+			<ColumnListItem>
+              <cells>
+                <Text text="3"/>
+                <Text text="Mark"/>
+                <Text text="41"/>
+				<Text text="1"/>
+                <Text text="John"/>
+                <Text text="25"/>
+              </cells>
+            </ColumnListItem>
+			<ColumnListItem>
+              <cells>
+                <Text text="3"/>
+                <Text text="Mark"/>
+                <Text text="41"/>
+				<Text text="1"/>
+                <Text text="John"/>
+                <Text text="25"/>
               </cells>
             </ColumnListItem>
           </items>
         </Table>
-		</FlexBox>
-	</l:VerticalLayout>
+			
 </mvc:View>
