@@ -368,7 +368,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十 - 澄清一些对 SAP UI5 响应式表格 sap.m.Table 的常见理解误区](https://jerry.blog.csdn.net/article/details/129688992)
 
-* SAP UI5 应用开发教程之一百七十一 - 正在写作中......
+[SAP UI5 应用开发教程之一百七十一 - SAP UI5 响应式表格 sap.m.Table 根据不同宽度的屏幕动态决定显示或隐藏 Column 的实现源代码讲解](https://jerry.blog.csdn.net/article/details/129705517)
+
+* SAP UI5 应用开发教程之一百七十二 - 正在写作中......
 
 ## 说明
 

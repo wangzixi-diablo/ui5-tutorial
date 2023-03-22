@@ -1,0 +1,35 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+  <Table>
+    <columns>
+      <Column minScreenWidth="600px" demandPopin="true">
+        <Text text="ID" />
+      </Column>
+      <Column>
+        <Text text="Name" />
+      </Column>
+    </columns>
+    <items>
+      <ColumnListItem>
+        <cells>
+          <Text text="1" />
+          <Text text="John" />
+          <Text text="25" />
+          <Text text="1" />
+          <Text text="John" />
+          <Text text="25" />
+        </cells>
+      </ColumnListItem>
+      <ColumnListItem>
+        <cells>
+          <Text text="2" />
+          <Text text="Lisa" />
+          <Text text="32" />
+          <Text text="1" />
+          <Text text="John" />
+          <Text text="25" />
+        </cells>
+      </ColumnListItem>
+    </items>
+  </Table>
+
+</mvc:View>
