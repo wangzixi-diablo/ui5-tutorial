@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年1月29日`为止，目前已经更新了 `85` 篇，专栏完成度为 `27.3%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年3月27日`为止，目前已经更新了 `95` 篇，专栏完成度为 `31.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -160,6 +160,10 @@
 * [87. SAP ABAP 方法调用里传值(Pass Value)和传引用(Pass Reference)的区别](https://jerry.blog.csdn.net/article/details/129033772)
 
 * [88. ABAP 方法调用的参数传递里，通过引用传递的方式，能修改原始参数值吗？](https://jerry.blog.csdn.net/article/details/129094158)
+
+* [89. SAP ABAP MIME Repository 和 API 介绍](https://jerry.blog.csdn.net/article/details/129785805)
+
+* [90. 将 SAP ABAP 内表内容本地导出成 Excel 文件](https://jerry.blog.csdn.net/article/details/129805496)
 
 * 更多文章正在写作中
 
