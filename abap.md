@@ -165,6 +165,8 @@
 
 * [90. 将 SAP ABAP 内表内容本地导出成 Excel 文件](https://jerry.blog.csdn.net/article/details/129805496)
 
+* [91. SAP 系统里的中文数据，用 ABAP 导出成 Excel 文件时遇到乱码的分析和解决办法](https://jerry.blog.csdn.net/article/details/129827218)
+
 * 更多文章正在写作中
 
 ## Office 专题
