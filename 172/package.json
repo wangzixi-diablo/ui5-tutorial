@@ -1,0 +1,13 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "Sample: Basic",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
