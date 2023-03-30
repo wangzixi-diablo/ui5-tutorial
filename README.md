@@ -64,6 +64,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之十八 - SAP UI5 数据绑定语法里的特殊符号，以及绝对绑定和相对绑定概念详解](https://jerry.blog.csdn.net/article/details/122691944)
 
+* [SAP UI5 XML 视图中数据绑定路径语法的难点和易混淆点的专题讲解](https://jerry.blog.csdn.net/article/details/129865575)
+
 * [SAP UI5 应用开发教程之十九 - SAP UI5 数据类型和复杂的数据绑定](https://jerry.blog.csdn.net/article/details/122709248)
 
 * [SAP UI5 应用开发教程之二十 - SAP UI5 的表达式绑定用法讲解](https://jerry.blog.csdn.net/article/details/122719005)
@@ -368,9 +370,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十 - 澄清一些对 SAP UI5 响应式表格 sap.m.Table 的常见理解误区](https://jerry.blog.csdn.net/article/details/129688992)
 
-[SAP UI5 应用开发教程之一百七十一 - SAP UI5 响应式表格 sap.m.Table 根据不同宽度的屏幕动态决定显示或隐藏 Column 的实现源代码讲解](https://jerry.blog.csdn.net/article/details/129705517)
+* [SAP UI5 应用开发教程之一百七十一 - SAP UI5 响应式表格 sap.m.Table 根据不同宽度的屏幕动态决定显示或隐藏 Column 的实现源代码讲解](https://jerry.blog.csdn.net/article/details/129705517)
 
-[SAP UI5 应用开发教程之一百七十二 - SAP UI5 两大表格控件 sap.ui.table.Table 和 sap.m.Table 的使用场景辨析](https://jerry.blog.csdn.net/article/details/129846484)
+* [SAP UI5 应用开发教程之一百七十二 - SAP UI5 两大表格控件 sap.ui.table.Table 和 sap.m.Table 的使用场景辨析](https://jerry.blog.csdn.net/article/details/129846484)
 
 * SAP UI5 应用开发教程之一百七十三 - 正在写作中......
 
