@@ -78,6 +78,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [33. 如何找出 SAP Fiori Launchpad 里点击 tile 之后，读取业务数据调用的是哪个 SAP 后台系统的 OData 服务](https://jerry.blog.csdn.net/article/details/129910190)
 
+- [34. 如何使用 Postman 发送 SAP OData Batch 请求到 ABAP 后台服务器](https://jerry.blog.csdn.net/article/details/129925734)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
