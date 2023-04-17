@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年3月29日`为止，目前已经更新了 `177` 篇，专栏完成度为 `55.3%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年3月30日`为止，目前已经更新了 `180` 篇，专栏完成度为 `55.3%`，完成度已经超过了`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
 
@@ -44,7 +44,7 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之九 - 创建第一个 Component](https://jerry.blog.csdn.net/article/details/121042479)
 
-* [SAP UI5 应用开发教程之十 - 什么是 SAP UI5 应用的描述符 Descriptor](https://jerry.blog.csdn.net/article/details/121049973)
+* [SAP UI5 应用开发教程之十 - 什么是 SAP UI5 应用的描述符文件 manifest.json](https://jerry.blog.csdn.net/article/details/121049973)
 
 * [SAP UI5 应用开发教程之十一 ：SAP UI5 容器类控件 Page 和 Panel](https://jerry.blog.csdn.net/article/details/121060759)
 
