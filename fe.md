@@ -4,4 +4,6 @@
 
 - [2. 在 ES5 系统注册用户以获得 Fiori Elements 开发教程测试 OData 服务的访问账号](https://jerry.blog.csdn.net/article/details/130449920)
 
+- [3. 动手运行第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/130451031)
+
 - 正在写作中
