@@ -2,4 +2,6 @@
 
 - [1. SAP Fiori Elements 开发环境的搭建和开发准备工作](https://jerry.blog.csdn.net/article/details/130210653)
 
+- [2. 在 ES5 系统注册用户以获得 Fiori Elements 开发教程测试 OData 服务的访问账号](https://jerry.blog.csdn.net/article/details/130449920)
+
 - 正在写作中
