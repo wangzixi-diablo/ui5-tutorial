@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年3月27日`为止，目前已经更新了 `95` 篇，专栏完成度为 `31.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年4月30日`为止，目前已经更新了 `96` 篇，专栏完成度为 `31.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -166,6 +166,8 @@
 * [90. 将 SAP ABAP 内表内容本地导出成 Excel 文件](https://jerry.blog.csdn.net/article/details/129805496)
 
 * [91. SAP 系统里的中文数据，用 ABAP 导出成 Excel 文件时遇到乱码的分析和解决办法](https://jerry.blog.csdn.net/article/details/129827218)
+
+* [92. SAP ABAP 系统里长文本 Long Text 的设计和读取函数 READ_TEXT 解析](https://jerry.blog.csdn.net/article/details/130447463)
 
 * 更多文章正在写作中
 
