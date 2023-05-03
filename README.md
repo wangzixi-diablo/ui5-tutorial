@@ -24,6 +24,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
 
+* [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475360)
+
 * [SAP UI5 本地开发如何实现 XML 和 JavaScript 代码的自动完成和嵌入式 API 文档自动显示](https://jerry.blog.csdn.net/article/details/129632974)
 
 * [使用 UI5 Tools 这款 Visual Studio Code 扩展来管理和运行本地 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/130444400)
