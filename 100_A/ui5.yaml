@@ -1,0 +1,14 @@
+specVersion: "2.6"
+metadata:
+  name: jerrytest
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-servestatic
+      afterMiddleware: compression
+      configuration:
+        paths:
+        - path: /resources
+          src: sapui5-rt-1.112.1/resources
+        - path: /test-resources
+          src: sapui5-rt-1.112.1/resources

@@ -1,0 +1,21 @@
+{
+  "name": "sap.ui5.walkthrough.100",
+  "version": "0.0.1",
+  "private": true,
+  "description": "如何修改 SAP UI5 框架的源代码实现，以及使用本地部署的 SAP UI5 SDK",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "@sap/ux-ui5-tooling": "1"
+  },
+  "scripts": {
+    "start": "fiori run"
+  },
+  "sapux": true
+}
