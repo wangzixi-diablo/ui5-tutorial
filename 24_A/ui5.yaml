@@ -1,0 +1,18 @@
+specVersion: "2.6"
+metadata:
+  name: jerrytest
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        ui5:
+          path:
+            - /resources
+            - /test-resources
+          url: https://sapui5.hana.ondemand.com
+        backend:
+          - path: /sap
+            url: https://sapes5.sapdevcenter.com
