@@ -14,5 +14,5 @@ server:
             - /test-resources
           url: https://sapui5.hana.ondemand.com
         backend:
-          - path: /sap
-            url: https://sapes5.sapdevcenter.com
+          - path: /V2
+            url: https://services.odata.org
