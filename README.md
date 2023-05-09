@@ -236,6 +236,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百 - 如何修改 SAP UI5 框架的源代码实现，以及使用本地部署的 SAP UI5 SDK](https://blog.csdn.net/i042416/article/details/125356519)
 
+* [SAP UI5 应用开发教程之一百番外篇 - 使用 SAP Fiori Tools 提供的中间件导入本地下载的 SAP UI5 库文件来启动 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/130576622)
+
 * [SAP UI5 应用开发教程之一百零一 - SAP UI5 应用的 Locale 决定机制](https://jerry.blog.csdn.net/article/details/125381962)
 
 * [SAP UI5 应用开发教程之一百零二 - SAP UI5 应用的打印(Print)功能实现详解](https://blog.csdn.net/i042416/article/details/125411347)
