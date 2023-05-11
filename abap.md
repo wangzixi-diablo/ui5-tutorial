@@ -173,6 +173,8 @@
 
 * [94. 使用事务码 ST05 对 SAP ABAP 数据库表访问性能调优的一个具体例子](https://jerry.blog.csdn.net/article/details/130620431)
 
+* [95. 使用 FOR ALL ENTRIES 将 ABAP 内表内容作为数据库表的读取条件之一](https://jerry.blog.csdn.net/article/details/130627649)
+
 * 更多文章正在写作中
 
 ## Office 专题
