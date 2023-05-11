@@ -169,7 +169,9 @@
 
 * [92. SAP ABAP 系统里长文本 Long Text 的设计和读取函数 READ_TEXT 解析](https://jerry.blog.csdn.net/article/details/130447463) 
 
-* [使用 ABAP 代码调用 READ_TEXT 读取 SAP 系统业务对象的长文本(Long Text)内容](https://jerry.blog.csdn.net/article/details/130448406)
+* [93. 使用 ABAP 代码调用 READ_TEXT 读取 SAP 系统业务对象的长文本(Long Text)内容](https://jerry.blog.csdn.net/article/details/130448406)
+
+* [94. 使用事务码 ST05 对 SAP ABAP 数据库表访问性能调优的一个具体例子](https://jerry.blog.csdn.net/article/details/130620431)
 
 * 更多文章正在写作中
 
