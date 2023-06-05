@@ -10,4 +10,6 @@
 
 - [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475423)
 
+- [5. 动手开发第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/131025412)
+
 - 正在写作中
