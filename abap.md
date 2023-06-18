@@ -179,6 +179,8 @@
 
 * [97. 将 SAP ABAP 数据库表里存储的文件二进制内容下载成为本地文件](https://jerry.blog.csdn.net/article/details/131018132)
 
+* [98. 如何用 ABAP 生成带有水印(Watermark)的 PDF 文件](https://jerry.blog.csdn.net/article/details/131276558)
+
 * 更多文章正在写作中
 
 ## Office 专题
