@@ -1,6 +1,6 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月3日`为止，目前已经更新了 `98` 篇，专栏完成度为 `31.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月19日`为止，目前已经更新了 `99` 篇，专栏完成度为 `31.6%`
 
-笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `150` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
+笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
 大家在学习教程过程中，如果有任何关于 SAP ABAP 开发方面想了解的内容，可以直接在教程各篇文章下评论留言，也可以在[《零基础快速学习 ABAP 读者意见反馈和下一步写作计划表》](https://blog.csdn.net/i042416/article/details/127204857)里留言。我会将大家的意见统一汇总，作为我更新教程的内容参考来源之一。
 
@@ -180,6 +180,8 @@
 * [97. 将 SAP ABAP 数据库表里存储的文件二进制内容下载成为本地文件](https://jerry.blog.csdn.net/article/details/131018132)
 
 * [98. 如何用 ABAP 生成带有水印(Watermark)的 PDF 文件](https://jerry.blog.csdn.net/article/details/131276558)
+
+* [99. 什么是 ABAP 的 Message Class，Message Number 和 Message Text](https://jerry.blog.csdn.net/article/details/131289296)
 
 * 更多文章正在写作中
 
