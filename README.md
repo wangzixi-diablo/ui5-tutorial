@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年4月29日`为止，目前已经更新了 `183` 篇，专栏完成度为 `61%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月19日`为止，目前已经更新了 `185` 篇，专栏完成度为 `61%`，完成度已经超过了`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
 
@@ -23,6 +23,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
+
+* [SAP UI5 开发的四大开发工具综述](https://jerry.blog.csdn.net/article/details/131292097)
 
 * [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475360)
 
