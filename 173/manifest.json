@@ -1,42 +1,29 @@
 {
 	"sap.app": {
-		"id": "sap.ui5.walkthrough",
+		"id": "sap.m.sample.ObjectStatus",
 		"applicationVersion": {
 			"version": "1.0.0"
 		}
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui5.walkthrough.SmartTable",
+			"viewName": "sap.ui5.walkthrough.V",
 			"type": "XML",
 			"async": true
 		},
 		"dependencies": {
 			"libs": {
-				"sap.m": {},
-				"sap.ui.comp": {}
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
 			}
-		},
-		"resourceRoots": {
-			"sap/ui5/walkthrough/refAppMockServer": "./refAppMockServer"
 		},
 		"config": {
 			"sample": {
-				"stretch": true,
 				"files": [
-					"SmartTable.view.xml",
-					"SmartTable.controller.js",
-					"manifest.json",
-
-					"./refAppMockServer/DemoMockServer.js",
-					"./refAppMockServer/metadata.xml",
-					"./refAppMockServer/STTA_PROD_MAN_ANNO_MDL.xml",
-					"./refAppMockServer/STTA_C_MP_Supplier.json",
-					"./refAppMockServer/STTA_C_MP_StockAvailability.json",
-					"./refAppMockServer/STTA_C_MP_Product.json",
-					"./refAppMockServer/SEPMRA_I_StockAvailability.json",
-					"./refAppMockServer/SAP__UnitsOfMeasure.json",
-					"./refAppMockServer/SAP__Currencies.json"
+					"V.view.xml",
+					"C.controller.js",
+					"manifest.json"
 				]
 			}
 		}
