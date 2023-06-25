@@ -1,0 +1,60 @@
+{
+	"sap.app": {
+		"id": "sap.ui5.walkthrough.smarttable",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.SmartTable",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ui.comp": {}
+			}
+		},
+		"resourceRoots": {
+			"sap/ui5/walkthrough/mockserver": "mockserver"
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"SmartTable.view.xml",
+					"SmartTable.controller.js",
+					"manifest.json",
+
+					"mockserver/DemoMockServer.js",
+					"mockserver/metadata.xml",
+					"mockserver/LineItemsSet.json",
+					"mockserver/Companies.json",
+					"mockserver/DateTimeSet.json",
+
+					"mockserver/VL_SH_AANLA.json",
+					"mockserver/VL_FV_SHKZG.json",
+					"mockserver/VL_SH_H_T001.json",
+					"mockserver/VL_SH_DEBIA.json",
+					"mockserver/VL_SH_DEBID.json",
+					"mockserver/VL_SH_DEBIE.json",
+					"mockserver/VL_SH_DEBIL.json",
+					"mockserver/VL_SH_DEBIS.json",
+					"mockserver/VL_SH_H_T074U.json",
+					"mockserver/VL_SH_H_T003.json",
+					"mockserver/VL_CT_TCURC.json",
+					"mockserver/VL_SH_FICEPC.json",
+					"mockserver/VL_SH_GL_ACCT_CA_NO.json",
+					"mockserver/VL_SH_GL_ACCT_CA_TEXT.json",
+					"mockserver/VL_SH_GL_ACCT_CA_KEY.json",
+					"mockserver/VL_SH_GL_ACCT_CC_NO.json",
+					"mockserver/VL_SH_GL_ACCT_CC_TEXT.json",
+					"mockserver/VL_SH_H_TGSB.json",
+					"mockserver/VL_CH_AUFK.json"
+				]
+			}
+		}
+	}
+}

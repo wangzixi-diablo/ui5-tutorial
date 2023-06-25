@@ -1,0 +1,13 @@
+{
+  "name": "sap-ui-comp-sample-smarttable",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "Sample: Smart Table",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}

@@ -1,0 +1,29 @@
+{"d": {
+	"__count": "3",
+	"results": [
+			{
+				"__metadata": { "uri": "testService.Times/Times('0001')", "type": "com.sap.GL.zrha.DateTimeType" },
+				"Id": "0001",
+				"TripStartDateTimeOffSet": "/Date(1645815874000+0000)/",
+				"TripStartDateTime": "/Date(1646815874000)/",
+				"TripStartTime": "PT03H05M00S",
+				"TripStartTimeString": "20080405"
+			},
+			{
+				"__metadata": { "uri": "testService.Times/Times('0002')", "type": "com.sap.GL.zrha.DateTimeType" },
+				"Id": "0002",
+				"TripStartDateTimeOffSet": "/Date(1645694274000+0000)/",
+				"TripStartDateTime": "/Date(1645754254000)/",
+				"TripStartTime": "PT06H07M32S",
+				"TripStartTimeString": "20150303"
+			},
+			{
+				"__metadata": { "uri": "testService.Times/Times('0003')", "type": "com.sap.GL.zrha.DateTimeType" },
+				"Id": "0003",
+				"TripStartDateTimeOffSet": "/Date(1647815874000+0000)/",
+				"TripStartDateTime": "/Date(1646845844000)/",
+				"TripStartTime": "PT07H08M00S",
+				"TripStartTimeString": "20190201"
+			}
+		]
+}}
