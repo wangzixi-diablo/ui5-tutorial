@@ -1,0 +1,13 @@
+{
+  "name": "sap-ui-comp-sample-smarttable-smart-table-with-criticality",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "Sample: Smart (Grid) Table with Criticality",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}
