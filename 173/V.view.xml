@@ -6,7 +6,7 @@
 	<l:VerticalLayout
 		class="sapUiContentPadding"
 		width="100%">
-		<Label text="ObjectStatus with different value states" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
+		<Label text="sap.ui.core.ValueState 枚举类型所有的值" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
 		<ObjectStatus
 			class="sapUiSmallMarginBottom"
 			text="Unknown"
@@ -53,7 +53,7 @@
 	<l:VerticalLayout
 		class="sapUiContentPadding"
 		width="100%">
-		<Label text="ObjectStatus with different indication states" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
+		<Label text="sap.ui.core.IndicationColor 所有可能的值" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
 		<ObjectStatus
 			class="sapUiSmallMarginBottom"
 			text="Indication 1"
@@ -90,7 +90,7 @@
 	<l:VerticalLayout
 		class="sapUiContentPadding"
 		width="100%">
-		<Label text="Inverted ObjectStatus with different states and indication states." design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
+		<Label text="Inverted 属性效果演示" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
 		<ObjectStatus
 			class="sapUiSmallMarginBottom"
 			text="Unknown"
