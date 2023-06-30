@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月19日`为止，目前已经更新了 `99` 篇，专栏完成度为 `31.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月30日`为止，目前已经更新了 `101` 篇，专栏完成度为 `33.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -184,6 +184,8 @@
 * [99. 什么是 ABAP 的 Message Class，Message Number 和 Message Text](https://jerry.blog.csdn.net/article/details/131289296)
 
 * [100. 实际案例分析 - 根据应用程序日志的记录，反查出哪一行 ABAP 代码产生的这条日志](https://jerry.blog.csdn.net/article/details/131352000)
+
+* [101. 仅仅 49 行代码就能使用 ABAP 函数发送邮件到指定邮箱](https://jerry.blog.csdn.net/article/details/131472393)
 
 * 更多文章正在写作中
 
