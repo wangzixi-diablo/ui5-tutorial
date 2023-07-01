@@ -90,6 +90,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之二十六 - OData 服务配合 Mock 服务器的使用步骤详解](https://jerry.blog.csdn.net/article/details/122770273)
 
+* [SAP UI5 应用开发教程之二十六补充 - 如何获得 SAP UI5 列表控件选中行项目的 Index 索引](https://jerry.blog.csdn.net/article/details/131494098)
+
 * [SAP UI5 应用开发教程之二十七 - SAP UI5 应用的单元测试工具 QUnit 介绍](https://jerry.blog.csdn.net/article/details/122774349)
 
 * [SAP UI5 应用开发教程之二十八 - SAP UI5 应用的集成测试工具 OPA 介绍](https://jerry.blog.csdn.net/article/details/122777665)

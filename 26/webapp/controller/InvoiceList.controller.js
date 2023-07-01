@@ -15,6 +15,12 @@ sap.ui.define([
 			});
 			this.getView().setModel(oViewModel, "view");
 		},
+		onSelectionChange:function(oEvent){
+			var oSelected = oEvent.getSource().getSelectedItem();
+			var oList = this.byId("jerryinvoiceList");
+			var aItems = oList.getItems();
+			alert(aItems.indexOf(oSelected));
+		},
 		onFilterInvoices : function (oEvent) {
 			var aFilter = [];
 			var sQuery = oEvent.getParameter("query");

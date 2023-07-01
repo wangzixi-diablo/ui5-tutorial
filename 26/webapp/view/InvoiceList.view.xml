@@ -7,6 +7,8 @@
       headerText="{i18n>invoiceListTitle}"
       class="sapUiResponsiveMargin"
       width="auto"
+      mode="SingleSelect"
+      selectionChange="onSelectionChange"
       items="{
          path : 'invoice>/Invoices',
          sorter : {
