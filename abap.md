@@ -194,6 +194,8 @@
 
 * [103. 授人以渔：如何获得当前登录 SAP ABAP 系统用户的主机名](https://jerry.blog.csdn.net/article/details/131500277)
 
+* [104. SAP ABAP PDF 如果生成失败，应该如何搜集 Trace 信息进行错误排查](https://jerry.blog.csdn.net/article/details/131503611)
+
 * 更多文章正在写作中
 
 ## Office 专题
