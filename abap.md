@@ -9,8 +9,11 @@
 * [0. 自学 ABAP 和自学 SAP 的差别](https://jerry.blog.csdn.net/article/details/127581186)
 
 * [1. ABAP 标准培训教程 BC400 学习笔记之一：ABAP 服务器的架构和一个典型的 ABAP 程序结构介绍](https://jerry.blog.csdn.net/article/details/116206859)
+
 * [2. ABAP 标准培训教程 BC400 学习笔记之二：Cross-client 和 Client-specific 的区别](https://jerry.blog.csdn.net/article/details/116210632)
+
 * [3. ABAP 标准培训教程 BC400 学习笔记之三：ABAP 编程语言的特性和基本构成要素](https://jerry.blog.csdn.net/article/details/116720010)
+
 * [4. ABAP 标准培训教程 BC400 学习笔记之四：ABAP 编程语言的数据类型](https://jerry.blog.csdn.net/article/details/116897898)
 
 * [5. ABAP 标准培训教程 BC400 学习笔记之五：ABAP 编程语言的变量，常量和字面量，以及文本符号](https://jerry.blog.csdn.net/article/details/116904032)
@@ -186,6 +189,10 @@
 * [100. 实际案例分析 - 根据应用程序日志的记录，反查出哪一行 ABAP 代码产生的这条日志](https://jerry.blog.csdn.net/article/details/131352000)
 
 * [101. 仅仅 49 行代码就能使用 ABAP 函数发送邮件到指定邮箱](https://jerry.blog.csdn.net/article/details/131472393)
+
+* [102. 创建 ABAP Data Element 时，应该选择 Domain 还是 Predefined Type?](https://jerry.blog.csdn.net/article/details/131498486)
+
+* [103. 授人以渔：如何获得当前登录 SAP ABAP 系统用户的主机名](https://jerry.blog.csdn.net/article/details/131500277)
 
 * 更多文章正在写作中
 
