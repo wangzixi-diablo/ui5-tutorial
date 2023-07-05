@@ -216,6 +216,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之八十七 - 如何让 SAP UI5 Mock 服务器支持自定义 url 参数](https://blog.csdn.net/i042416/article/details/124751818)
 
+* [SAP UI5 应用开发教程之八十八 - SAP UI5 Mock 服务器如何实现自定义 Function Import](https://jerry.blog.csdn.net/article/details/124765653)
+
 * [SAP UI5 应用开发教程之八十九 - 如何给 SAP UI5 列表控件增添多个图形界面的过滤器](https://blog.csdn.net/i042416/article/details/124789417)
 
 * [SAP UI5 应用开发教程之九十 - 基于 OData V2 的 SAP UI5 List-Detail(列表-明细)布局的实现方式](https://blog.csdn.net/i042416/article/details/124815531)
