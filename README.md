@@ -44,6 +44,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之六 - 了解 SAP UI5 的模块(Module)概念](https://jerry.blog.csdn.net/article/details/120680451)
 
+* [SAP UI5 应用开发教程之六番外篇 - 什么是 SAP UI5 应用的 UI Area](https://jerry.blog.csdn.net/article/details/131702906)
+
 * [SAP UI5 应用开发教程之七 - JSON 模型初探](https://jerry.blog.csdn.net/article/details/120693394)
 
 * [SAP UI5 应用开发教程之八 - 多语言的支持](https://jerry.blog.csdn.net/article/details/121039416)
