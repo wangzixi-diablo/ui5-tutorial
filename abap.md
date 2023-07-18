@@ -198,6 +198,8 @@
 
 * [105. 如何把 SAP ABAP 字符串变量的值下载成本地文件，以及文件路径 F4 Value Help 的实现方式](https://jerry.blog.csdn.net/article/details/131556354)
 
+* [106. 什么是 SAP ABAP 系统里的传输请求(Transport Request)](https://jerry.blog.csdn.net/article/details/131783385)
+
 * 更多文章正在写作中
 
 ## Office 专题
