@@ -12,4 +12,6 @@
 
 - [5. 动手开发第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/131025412)
 
+- [6. 知其然知其所以然 - 使用向导生成的 Fiori Elements 应用的文件结构分析](https://jerry.blog.csdn.net/article/details/131917250)
+
 - 正在写作中
