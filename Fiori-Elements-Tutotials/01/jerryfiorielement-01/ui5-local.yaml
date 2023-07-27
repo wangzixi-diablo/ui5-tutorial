@@ -38,7 +38,9 @@ server:
             metadataPath: ./webapp/localService/metadata.xml
             mockdataPath: ./webapp/localService/data
             generateMockData: true
-        annotations: []
+        annotations: 
+          - localPath: './webapp/localService/SEPMRA_PROD_MAN_ANNO_MDL.xml'
+            urlPath: '/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations*'
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:

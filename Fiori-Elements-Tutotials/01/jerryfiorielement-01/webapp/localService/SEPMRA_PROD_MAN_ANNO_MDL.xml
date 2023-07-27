@@ -523,7 +523,7 @@
                 <Annotation Term="UI.HeaderInfo">
                     <Record>
                         <PropertyValue Property="TypeName" String="Product"/>
-                        <PropertyValue Property="TypeNamePlural" String="Products"/>
+                        <PropertyValue Property="TypeNamePlural" String="产品"/>
                         <PropertyValue Property="TypeImageUrl" String="sap-icon://product"/>
                         <PropertyValue Property="ImageUrl" Path="ProductPictureURL"/>
                         <PropertyValue Property="Title">
