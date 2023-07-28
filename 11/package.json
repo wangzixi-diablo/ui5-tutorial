@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.11",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 容器类控件 Page 和 Panel",
+  "description": "11. SAP UI5 容器类控件 Page 和 Panel",
   "scripts": {
     "start": "ui5 serve"
   },
