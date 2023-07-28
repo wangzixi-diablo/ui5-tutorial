@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年6月26日`为止，目前已经更新了 `186` 篇，专栏完成度为 `61%`，完成度已经超过了`一半`了.
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年7月14日`为止，目前已经更新了 `189` 篇，专栏完成度为 `63%`，完成度已经超过了`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
 
@@ -346,6 +346,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百五十 - 以前编写好能够正常运行的 SAP UI5 代码，几个月后忽然不能运行了该怎么办？](https://jerry.blog.csdn.net/article/details/127961503)
 
+* [SAP UI5 应用开发教程之一百五十番外篇 - 因为 SAP UI5 版本升级引起的问题又一例 - 如何分析问题根源](https://jerry.blog.csdn.net/article/details/131987772)
+
 * [SAP UI5 应用开发教程之一百五十一 - 关于 SAP UI5 XML 视图里控件事件处理函数名称中的 . (点号) 问题的讨论](https://jerry.blog.csdn.net/article/details/127965101)
 
 * [SAP UI5 应用开发教程之一百五十二 - 谈谈 SAP UI5 变量和方法的命名规范](https://jerry.blog.csdn.net/article/details/127965351)
@@ -392,7 +394,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十三 - SAP UI5 控件 ObjectStatus 的使用方法介绍](https://jerry.blog.csdn.net/article/details/131400891)
 
-* SAP UI5 应用开发教程之一百七十四 - 正在写作中......
+* [SAP UI5 应用开发教程之一百七十四 - SAP UI5 的 Unified Shell 发展历史和用法介绍](https://jerry.blog.csdn.net/article/details/131725952)
+
+* SAP UI5 应用开发教程之一百七十五 - 正在写作中......
 
 ## 说明
 
