@@ -4,7 +4,7 @@
 
 - [2. 在 ES5 系统注册用户以获得 Fiori Elements 开发教程测试 OData 服务的访问账号](https://jerry.blog.csdn.net/article/details/130449920)
 
-- [3. 动手运行第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/130451031)
+- [3. 动手运行第一个 SAP Fiori Elements 应用(ListReport 类型)](https://jerry.blog.csdn.net/article/details/130451031)
 
 - [4. SAP Fiori Elements 本地应用启动的三种模式辨析](https://jerry.blog.csdn.net/article/details/130461703)
 
@@ -13,5 +13,7 @@
 - [5. 动手开发第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/131025412)
 
 - [6. 知其然知其所以然 - 使用向导生成的 Fiori Elements 应用的文件结构分析](https://jerry.blog.csdn.net/article/details/131917250)
+
+- [7. SAP Fiori Elements 应用里的 ui5.yaml 文件详解](https://jerry.blog.csdn.net/article/details/131991740)
 
 - 正在写作中
