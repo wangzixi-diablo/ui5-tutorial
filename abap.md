@@ -202,6 +202,8 @@
 
 * [107. SAP ABAP 传输请求背后的读取函数和存储数据库表讲解](https://jerry.blog.csdn.net/article/details/131805053)
 
+* [108. SAP ABAP 报表进度显示控件的使用详解](https://jerry.blog.csdn.net/article/details/132031314)
+
 * 更多文章正在写作中
 
 ## Office 专题
