@@ -1,4 +1,4 @@
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023年7月5日`为止，目前已经更新了 `110` 篇，专栏完成度为 `36.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023年7月31日`为止，目前已经更新了 `113` 篇，专栏完成度为 `36.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -199,6 +199,8 @@
 * [105. 如何把 SAP ABAP 字符串变量的值下载成本地文件，以及文件路径 F4 Value Help 的实现方式](https://jerry.blog.csdn.net/article/details/131556354)
 
 * [106. 什么是 SAP ABAP 系统里的传输请求(Transport Request)](https://jerry.blog.csdn.net/article/details/131783385)
+
+* [107. SAP ABAP 传输请求背后的读取函数和存储数据库表讲解](https://jerry.blog.csdn.net/article/details/131805053)
 
 * 更多文章正在写作中
 
