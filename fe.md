@@ -36,6 +36,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [8. 如何找到 SAP Fiori Elements 应用某个字段显示值具体的数据源](https://jerry.blog.csdn.net/article/details/132009910)
 
+- [9. 如何修改 Fiori Elements 工程包含的本地注解(annotations)文件](https://jerry.blog.csdn.net/article/details/132022040)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
