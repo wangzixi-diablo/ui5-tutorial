@@ -1,3 +1,4 @@
+
 笔者从 2007 年电子科技大学计算机专业硕士毕业后加入 SAP 成都研究院，一直从事 SAP 产品设计和研发工作至今，对 SAP 多项技术有着深入透彻的研究，尤其精通 ABAP 编程，SAP UI5(Fiori) 应用开发和 SAP OData 服务开发。
 
 笔者将自己在 SAP 领域 `16年`(2007～2023) 的技术沉淀，进行了系统的归纳和总结，分别写成了三套由浅入深的学习教程，收到了不错的反响：
@@ -34,18 +35,33 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [7. SAP Fiori Elements 应用里的 ui5.yaml 文件详解](https://jerry.blog.csdn.net/article/details/131991740)
 
-- [8. 如何找到 SAP Fiori Elements 应用某个字段显示值具体的数据源](https://jerry.blog.csdn.net/article/details/132009910)
-
-- [9. 如何修改 Fiori Elements 工程包含的本地注解(annotations)文件](https://jerry.blog.csdn.net/article/details/132022040)
-
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
 
 - [1. ListReport 应用](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/01/jerryfiorielement-01)
 
+List Report 应用的外观：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/36d5e126e8804bb0b865eb4f748f2027.png)
+
 - 2. Overview Page 应用 - 正在编写中
+
+Overview Page 的外观：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/6a3340cae1054655ba7359cdffb49074.png)
 
 - 3. Object Page 应用 - 正在编写中
 
+Object Page 应用的外观：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
+
 - 4. WorkList 应用 - 正在编写中
+
+Work List 应用的外观：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/ed59a3792b3340a79a79c7808a692feb.png)
+
+
+- 5. Analytical List Page - 正在编写中
+
+Analytical List Page 的外观：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/ffbc6b2be38146788278e2e14522e097.png)
