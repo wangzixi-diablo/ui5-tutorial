@@ -396,7 +396,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十四 - SAP UI5 的 Unified Shell 发展历史和用法介绍](https://jerry.blog.csdn.net/article/details/131725952)
 
-* SAP UI5 应用开发教程之一百七十五 - 正在写作中......
+* [SAP UI5 应用开发教程之一百七十五 - SAP UI5 进度条控件的使用方法介绍](https://jerry.blog.csdn.net/article/details/132039499)
+
+* SAP UI5 应用开发教程之一百七十六 - 正在写作中......
 
 ## 说明
 
