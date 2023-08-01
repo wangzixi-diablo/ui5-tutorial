@@ -1,0 +1,13 @@
+{
+  "name": "sap-m-sample--progress-indicator",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "175. SAP UI5 进度条控件的使用方法介绍",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}
