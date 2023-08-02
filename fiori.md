@@ -20,5 +20,9 @@
 
 - [3. Fiori 版本号和 SAP UI5 版本号的关联关系](https://jerry.blog.csdn.net/article/details/131751836)
 
+- [4. 关于 SAP Fiori Tools 的一些误解澄清](https://jerry.blog.csdn.net/article/details/132050485)
+
+- [5. 通过一个实例的例子，学习 SAP Fiori 应用中的 Draft Handling(草稿机制)](https://jerry.blog.csdn.net/article/details/132059374)
+
 - [正在写作中]()
 
