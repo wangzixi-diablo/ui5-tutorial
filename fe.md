@@ -39,6 +39,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [9. 如何修改 Fiori Elements 工程包含的本地注解(annotations)文件](https://jerry.blog.csdn.net/article/details/132022040)
 
+- [10. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列](https://blog.csdn.net/i042416/article/details/132113251)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
