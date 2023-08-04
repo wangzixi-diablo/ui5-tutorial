@@ -130,7 +130,8 @@ var bundleResources = function () {
         url: "i18n/i18n.properties",
         locale: sLocale
     });
-    document.title = oBundle.getText("appTitle");
+    if( !document.title )
+        document.title = oBundle.getText("appTitle");
 };
 sap.registerComponentDependencyPaths(manifestUri)
     .catch(function (error) {
