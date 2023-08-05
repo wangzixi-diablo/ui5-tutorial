@@ -2,7 +2,7 @@
     <Column id="FioriTools::ext2-column1">
         <Text text="Extension Column1"/>
         <customData>
-            <core:CustomData key="p13nData" value='\{"columnIndex": "3","leadingProperty": "Price", "columnKey": "ext2-column1"}'/>
+            <core:CustomData key="p13nData" value='{"columnIndex": "3","leadingProperty": "Price", "columnKey": "ext2-column1"}'/>
         </customData>
     </Column>
 </core:FragmentDefinition>
