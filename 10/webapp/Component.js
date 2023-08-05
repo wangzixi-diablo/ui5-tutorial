@@ -6,7 +6,7 @@ sap.ui.define([
     "use strict";
     return UIComponent.extend("sap.ui5.walkthrough.Component", {
        metadata : {
-          "interfaces": ["sap.ui.core.IAsyncContentCreation"],
+          interfaces: ["sap.ui.core.IAsyncContentCreation"],
           manifest: "json"
        },
        init : function () {
