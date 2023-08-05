@@ -24,5 +24,7 @@
 
 - [5. 通过一个实例的例子，学习 SAP Fiori 应用中的 Draft Handling(草稿机制)](https://jerry.blog.csdn.net/article/details/132059374)
 
+- [6.SAP Fiori Client 从 Public 应用市场下架之后，之前使用它的客户该怎么办](https://blog.csdn.net/i042416/article/details/132119739)
+
 - [正在写作中]()
 
