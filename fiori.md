@@ -26,5 +26,7 @@
 
 - [6.SAP Fiori Client 从 Public 应用市场下架之后，之前使用它的客户该怎么办](https://blog.csdn.net/i042416/article/details/132119739)
 
+- [7. SAP Fiori 应用在 ABAP 系统的存储介质介绍 - SAP UI5 ABAP repository](https://blog.csdn.net/i042416/article/details/132124309)
+
 - [正在写作中]()
 
