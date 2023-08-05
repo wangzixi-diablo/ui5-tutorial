@@ -236,4 +236,10 @@
 
 * [72. 利用 ALV 实现增删改查系列之三：如何给 SAP ABAP ALV 报表的修改功能添加自定义校验逻辑](https://jerry.blog.csdn.net/article/details/128394760)
 
+## 问题解答
+
+本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
+
+- [SAP ABAP 系统 Lock Table 最多支持对多少条数据库记录进行上锁操作](https://blog.csdn.net/i042416/article/details/132116964)
+
 ## 更多文章正在写作中  
