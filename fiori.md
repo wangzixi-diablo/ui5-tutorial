@@ -29,4 +29,7 @@
 - [7. SAP Fiori 应用在 ABAP 系统的存储介质介绍 - SAP UI5 ABAP repository](https://blog.csdn.net/i042416/article/details/132124309)
 
 - [正在写作中]()
+# 学习资料和参考文献
+
+- [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)
 
