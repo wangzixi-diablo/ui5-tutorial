@@ -204,6 +204,8 @@
 
 * [108. SAP ABAP 报表进度显示控件的使用详解](https://jerry.blog.csdn.net/article/details/132031314)
 
+* [109. SAP ABAP 应用程序中的锁机制和工作原理介绍](https://blog.csdn.net/i042416/article/details/132228576)
+
 * 更多文章正在写作中
 
 ## Office 专题
