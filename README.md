@@ -425,3 +425,6 @@ t
 - [1. 关于在 SAP UI5 应用里显示 Word 文档的需求实现](https://blog.csdn.net/i042416/article/details/132122597)
 
 - [2. 问题解答：关于 SAP UI5 控制器(Controller) JavaScript 编码里单引号和双引号的用法澄清](https://jerry.blog.csdn.net/article/details/132125830)
+
+- [3. 问题解答：关于 SAP UI5 学习教程示例代码里 Chrome 开发者工具 Console 面板里一些错误消息的说明](https://jerry.blog.csdn.net/article/details/132309357)
+
