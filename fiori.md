@@ -28,6 +28,8 @@
 
 - [7. SAP Fiori 应用在 ABAP 系统的存储介质介绍 - SAP UI5 ABAP repository](https://blog.csdn.net/i042416/article/details/132124309)
 
+- [8. 关于 SAP Fiori 新的 Horizon 主题支持的 SAP 产品及其版本](https://jerry.blog.csdn.net/article/details/132330965)
+
 - [正在写作中]()
 # 学习资料和参考文献
 
