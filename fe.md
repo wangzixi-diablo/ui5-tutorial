@@ -42,11 +42,14 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 - [10. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列](https://blog.csdn.net/i042416/article/details/132113251)
 
 - [11. SAP Fiori Elements List Report 表格新增列扩展方式的工作原理](https://blog.csdn.net/i042416/article/details/132164977)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
 
 - [1. ListReport 应用](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/01/jerryfiorielement-01)
+
+- [2. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列 - 例子的完整源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/02/jerryfiorielement-02)
 
 List Report 应用的外观：
 
