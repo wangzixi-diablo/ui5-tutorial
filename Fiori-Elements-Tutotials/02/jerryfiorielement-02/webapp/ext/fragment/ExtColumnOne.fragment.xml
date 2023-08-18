@@ -1,8 +1,8 @@
 <core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns="sap.m">
-    <Column id="FioriTools::ColumnExtension">
+    <Column id="FioriTools::ext2-column1">
         <Text text="Extension Column1"/>
         <customData>
-            <core:CustomData key="p13nData" value="\{&quot;columnIndex&quot;: &quot;3&quot;, &quot;leadingProperty&quot;: &quot;Price&quot;, &quot;columnKey&quot;: &quot;ColumnExtension&quot;}"/>
+            <core:CustomData key="p13nData" value='\{"columnIndex": "3","leadingProperty": "Price", "columnKey": "ext2-column1"}'/>
         </customData>
     </Column>
 </core:FragmentDefinition>
