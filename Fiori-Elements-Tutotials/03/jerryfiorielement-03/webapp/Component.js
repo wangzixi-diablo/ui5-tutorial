@@ -3,7 +3,7 @@ sap.ui.define(
     function (Component) {
         "use strict";
 
-        return Component.extend("jerryfiorielement01.Component", {
+        return Component.extend("jerryfiorielement03.Component", {
             metadata: {
                 manifest: "json"
             }

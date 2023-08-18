@@ -1,7 +1,7 @@
 {
   "_version": "1.49.0",
   "sap.app": {
-    "id": "jerryfiorielement01",
+    "id": "jerryfiorielement03",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -82,7 +82,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "jerryfiorielement01.i18n.i18n"
+          "bundleName": "jerryfiorielement03.i18n.i18n"
         }
       },
       "": {

@@ -1,6 +1,6 @@
 specVersion: "2.6"
 metadata:
-  name: jerryfiorielement01
+  name: jerryfiorielement03
 type: application
 server:
   customMiddleware:
