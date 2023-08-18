@@ -43,6 +43,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [11. SAP Fiori Elements List Report 表格新增列扩展方式的工作原理](https://blog.csdn.net/i042416/article/details/132164977)
 
+- [12. SAP Fiori Tools Page Map 的实现详解和故障排除](https://jerry.blog.csdn.net/article/details/132365735)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
