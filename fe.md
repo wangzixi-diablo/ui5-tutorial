@@ -45,17 +45,31 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [12. SAP Fiori Tools Page Map 的实现详解和故障排除](https://jerry.blog.csdn.net/article/details/132365735)
 
+- [13. 如何使用 Guided Development 给 Fiori Elements List Report 的工具栏添加自定义按钮](https://jerry.blog.csdn.net/article/details/132372058)
+
+- [14. SAP Fiori Elements List Report 如何在扩展开发里使用代码获得当前选中的表格行项目行项目](https://jerry.blog.csdn.net/article/details/132389350)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
 
 - [1. ListReport 应用](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/01/jerryfiorielement-01)
 
-- [2. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列 - 例子的完整源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/02/jerryfiorielement-02)
-
 List Report 应用的外观：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/36d5e126e8804bb0b865eb4f748f2027.png)
+
+- [2. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列 - 例子的完整源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/02/jerryfiorielement-02)
+
+新增的自定义列的截图如下：
+
+![](https://img-blog.csdnimg.cn/img_convert/e222e8f1e921f161e77c491c3992741e.webp?x-oss-process=image/format,png)
+
+- [List Report Table 工具栏区域自定义按钮的源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/03/jerryfiorielement-03)
+
+自定义按钮的效果图：
+
+![](https://img-blog.csdnimg.cn/img_convert/24bbd698085d03b292b371bdce673a91.webp?x-oss-process=image/format,png)
 
 - 2. Overview Page 应用 - 正在编写中
 

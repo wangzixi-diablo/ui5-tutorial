@@ -1,6 +1,6 @@
 specVersion: "2.6"
 metadata:
-  name: jerryfiorielement03
+  name: jerryfiorielement04
 type: application
 framework:
   name: SAPUI5
@@ -44,5 +44,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: jerryfiorielement03
+        component: jerryfiorielement04
         ui5Theme: sap_horizon
