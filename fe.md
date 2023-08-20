@@ -49,6 +49,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [14. SAP Fiori Elements List Report 如何在扩展开发里使用代码获得当前选中的表格行项目行项目](https://jerry.blog.csdn.net/article/details/132389350)
 
+- [15. 通过一个实际的 Fiori Elements 扩展开发需求，介绍什么是 SAP Fiori Extension API](https://jerry.blog.csdn.net/article/details/132395205)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
@@ -75,6 +77,7 @@ List Report 应用的外观：
 
 - [4. List Report Table 工具栏自定义按钮点击后，如何获取选中行项目的数据](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/04/jerryfiorielement-04)
 
+- [5. 使用 List Report Extension API 获取当前选中的表格行项目的例子源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/05/jerryfiorielement-05)
 ## Overview Page 应用 - 正在编写中
 
 Overview Page 的外观：

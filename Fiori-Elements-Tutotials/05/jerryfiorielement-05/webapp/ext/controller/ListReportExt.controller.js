@@ -6,12 +6,10 @@ sap.ui.define([
     return {
         testAction: function(oEvent) {
             MessageToast.show("Custom handler invoked.");
-            var oButton = oEvent.oSource;
-            var oToolBar = oButton.getParent();
-            var oTable = oToolBar.getParent();
-            var oSelectedItem = oTable.getSelectedItem();
-            var aSelectedItemData = oSelectedItem.getAggregation("cells");
-            alert(aSelectedItemData[2].getProperty("text"));
+            var aContexts = this.extensionAPI.getSelectedContexts();
+            var oSelectedItem = aContexts[0];
+            var data = oSelectedItem.getModel().getObject(oSelectedItem.getPath());
+            console.log('Selected Rows are => ', data);
         }
     };
 });
