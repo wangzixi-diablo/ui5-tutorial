@@ -30,6 +30,8 @@
 
 - [8. 关于 SAP Fiori 新的 Horizon 主题支持的 SAP 产品及其版本](https://jerry.blog.csdn.net/article/details/132330965)
 
+- [9. 什么是 SAP ABAP 为 Fiori 专门设计的编程模型(Programming Model)](https://jerry.blog.csdn.net/article/details/132468894)
+
 - [正在写作中]()
 # 学习资料和参考文献
 
