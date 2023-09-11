@@ -15,3 +15,7 @@
 smartfilter bar 对应的 suggestion 功能实现介绍|知识星球里的提问|[知识星球里朋友提问](https://t.zsxq.com/08qflniJY)|待写作
 ui5 控制器里方法名称的命名规范|[DeveloperMrMeng](https://blog.csdn.net/i042416/article/details/122784284#comments_24197943)|[问题链接](https://blog.csdn.net/i042416/article/details/122784284#comments_24197943)|已完成，解答[链接](https://jerry.blog.csdn.net/article/details/127965101)
 SAP UI5 应用 index.html 文件里这行语句 data-sap-ui-compatVersion="edge" 的作用是什么？|[网友提问](https://blog.csdn.net/i042416/article/details/120693394#comments_25168333)||已完成：[SAP UI5 应用开发教程之一百六十三 - 通过一个实际例子，讲解 SAP UI5 Compatibility Version 的概念和运行时绑定解析器的选择逻辑](https://jerry.blog.csdn.net/article/details/129225304)
+
+# 写作参考文献
+
+1. [UI5ers Buzz #51: UI5 Tooling 2.0: How to develop and run SAP Fiori elements locally!](https://blogs.sap.com/2020/04/15/ui5ers-buzz-51-ui5-tooling-2.0-how-to-develop-and-run-sap-fiori-elements-locally/)
