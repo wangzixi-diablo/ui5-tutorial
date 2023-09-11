@@ -250,4 +250,6 @@
 
 - [SAP ABAP 系统 Lock Table 最多支持对多少条数据库记录进行上锁操作](https://blog.csdn.net/i042416/article/details/132116964)
 
+- [如何使用 SAP ABAP Development Tool 连接 SAP BTP 上的免费 ABAP 编程环境](https://jerry.blog.csdn.net/article/details/132801599)
+
 ## 更多文章正在写作中  
