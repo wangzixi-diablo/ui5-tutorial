@@ -19,3 +19,5 @@ SAP UI5 应用 index.html 文件里这行语句 data-sap-ui-compatVersion="edge"
 # 写作参考文献
 
 1. [UI5ers Buzz #51: UI5 Tooling 2.0: How to develop and run SAP Fiori elements locally!](https://blogs.sap.com/2020/04/15/ui5ers-buzz-51-ui5-tooling-2.0-how-to-develop-and-run-sap-fiori-elements-locally/)
+
+2. [在 Mock Server 里添加新的 Mock Service](https://developers.sap.com/tutorials/fiori-tools-mockserver-opa.html)
