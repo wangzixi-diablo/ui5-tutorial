@@ -1,3 +1,7 @@
+曾几何时，ABAP 就是 SAP 的代名词。ABAP 这门编程语言造就了 SAP 名噪一时的 R/3 产品，同时也是如今 SAP 旗舰级产品，SAP S/4HANA 底层的实现语言。
+
+ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过去，ABAP 自身也在不断地进化着。SAP 不仅在本地部署(On-Premise)领域继续保持着自己绝对的统治地位，而且在云应用领域（Software-as-a-Service, 简称 SaaS), 也推出了自己的解决方案，比如 SAP S/4HANA Cloud，SAP Cloud for Customer，SAP Business-by-Design 等等。而这些 SAP 推出的云端软件，其后台的实现语言依旧是 ABAP.
+
 ## 本专栏计划的文章数在 `300` 篇左右，到 `2023年9月26日`为止，目前已经更新了 `121` 篇，专栏完成度为 `40%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 2021年4月10日写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
