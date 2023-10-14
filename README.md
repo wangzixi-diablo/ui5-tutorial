@@ -22,6 +22,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
+* [本地 SAP UI5 开发环境搭建好之后，运行 ui5 serve 仍然不能正常工作，该怎么办](https://jerry.blog.csdn.net/article/details/133822544)
+
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
 
 * [SAP UI5 开发的四大开发工具综述](https://jerry.blog.csdn.net/article/details/131292097)
