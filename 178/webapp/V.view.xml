@@ -1,26 +1,17 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
-	<IconTabBar
-		id="idIconTabBarMulti"
-		expanded="{device>/isNoPhone}"
-		class="sapUiResponsiveContentPadding">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f">
+	<IconTabBar id="idIconTabBarMulti" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
 		<items>
 			<IconTabFilter icon="sap-icon://hint" key="info">
-				<Text text="Info content goes here ..." />
+				<Text text="这里显示 Information" />
 			</IconTabFilter>
-			<IconTabFilter
-				icon="sap-icon://attachment"
-				key="attachments"
-				count="3">
-				<Text text="Attachments go here ..." />
+			<IconTabFilter icon="sap-icon://attachment" key="attachments" count="3">
+<mvc:XMLView id="beginView" viewName="sap.ui5.walkthrough.view.Master" />
 			</IconTabFilter>
-			<IconTabFilter
-				icon="sap-icon://notes"
-				key="notes"
-				count="12">
-				<Text text="Notes go here ..." />
+			<IconTabFilter icon="sap-icon://notes" key="notes" count="12">
+				<Text text="这里显示 Note" />
 			</IconTabFilter>
 			<IconTabFilter icon="sap-icon://group" key="people">
-				<Text text="People content goes here ..." />
+				<Text text="这里显示 Group" />
 			</IconTabFilter>
 		</items>
 	</IconTabBar>
