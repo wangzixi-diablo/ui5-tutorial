@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2023年10月14日`为止，目前已经更新了 `197` 篇，专栏完成度为 `49%`，完成度马上就快到达`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2023年10月15日`为止，目前已经更新了 `198` 篇，专栏完成度为 `49%`，完成度马上就快到达`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
 
@@ -404,7 +404,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十七 - SAP UI5 官网上提供的例子，如何下载到本地运行](https://jerry.blog.csdn.net/article/details/133800698)
 
-* SAP UI5 应用开发教程之一百七十八 - 正在写作中......
+* [SAP UI5 应用开发教程之一百七十八 - 通过 SAP UI5 IconTabBar 控件结合 FlexibleColumnLayout 实现多页面 Master-Detail 布局](https://jerry.blog.csdn.net/article/details/133842546)
+
+* SAP UI5 应用开发教程之一百七十九 - 正在写作中......
 ## 说明
 
 Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
