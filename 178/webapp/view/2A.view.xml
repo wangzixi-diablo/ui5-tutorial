@@ -1,0 +1,40 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<ScrollContainer
+		height="100%"
+		width="100%"
+		vertical="true"
+		focusable="true">
+		<Button
+		text="这是第二个 Tab 的 First Column"/>
+	<TextArea value="测试1"/>
+	<TextArea value="测试2"/>
+	<TextArea value="测试3"/>
+	<TextArea value="测试4"/>
+	<TextArea value="测试5"/>
+	<TextArea value="测试6"/>
+	<TextArea value="测试7"/>
+	<TextArea value="测试8"/>
+	<TextArea value="测试9"/>
+	<TextArea value="测试10"/>
+	<TextArea value="测试11"/>
+	<TextArea value="测试12"/>
+	<TextArea value="测试13"/>
+	<TextArea value="测试14"/>
+	<TextArea value="测试15"/>
+	<TextArea value="测试16"/>
+	<TextArea value="测试17"/>
+	<TextArea value="测试18"/>
+	<TextArea value="测试19"/>
+	<TextArea value="测试20"/>
+	<TextArea value="测试21"/>
+	<TextArea value="测试22"/>
+	<TextArea value="测试23"/>
+	<TextArea value="测试24"/>
+	<TextArea value="测试25"/>
+	<TextArea value="测试26"/>
+	<TextArea value="测试27"/>
+	</ScrollContainer>
+	
+</mvc:View>

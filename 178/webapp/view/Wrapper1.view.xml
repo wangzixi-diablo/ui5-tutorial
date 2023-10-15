@@ -1,0 +1,14 @@
+<mvc:View
+	xmlns="sap.f"
+    width="100%"
+	xmlns:mvc="sap.ui.core.mvc">
+	<FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid"
+    layout="TwoColumnsBeginExpanded">
+		<beginColumnPages>
+			<mvc:XMLView id="2AView" viewName="sap.ui5.walkthrough.view.2A"/>
+		</beginColumnPages>
+		<midColumnPages>
+			<mvc:XMLView id="2BView" viewName="sap.ui5.walkthrough.view.2B"/>
+		</midColumnPages>
+	</FlexibleColumnLayout>
+</mvc:View>

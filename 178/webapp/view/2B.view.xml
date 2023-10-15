@@ -1,0 +1,6 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button
+		text="这是第二个 Tab 的 Second Column"/>
+</mvc:View>
