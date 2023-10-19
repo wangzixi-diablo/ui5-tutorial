@@ -94,4 +94,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 * [2. 如何给在 SAP Business Application Studio 里开发的 OData 服务准备测试数据](https://blog.csdn.net/i042416/article/details/128063472)
 
+# 教程学习者问题解答
+
+* [3. 问题解答：SAP OData V2 和 V4 里针对日期类型的字段进行过滤操作(filter)的正确语法](https://jerry.blog.csdn.net/article/details/133925187)
+
 - 正在写作中，敬请期待
