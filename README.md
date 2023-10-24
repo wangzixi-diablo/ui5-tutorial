@@ -20,6 +20,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 ## 教程目录
 
+* [网友向 Jerry Wang 发起咨询的 SAP UI5 和 Fiori 问题列表](https://blog.csdn.net/i042416/article/details/134008357)
+
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
 * [本地 SAP UI5 开发环境搭建好之后，运行 ui5 serve 仍然不能正常工作，该怎么办](https://jerry.blog.csdn.net/article/details/133822544)
