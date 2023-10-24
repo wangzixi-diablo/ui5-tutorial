@@ -96,6 +96,10 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 # 教程学习者问题解答
 
+## 问题合集
+
+[网友向 Jerry Wang 发起咨询的 SAP OData 问题列表](https://blog.csdn.net/i042416/article/details/134008212)
+
 * [1. 问题解答：SAP OData V2 和 V4 里针对日期类型的字段进行过滤操作(filter)的正确语法](https://jerry.blog.csdn.net/article/details/133925187)
 
 - 正在写作中，敬请期待
