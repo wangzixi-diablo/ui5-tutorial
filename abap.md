@@ -270,6 +270,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [119. 小技巧分享 - 找出 SAP ABAP SPRO 配置项后台对应配置表的两种办法](https://blog.csdn.net/i042416/article/details/134422525)
 
+* [120. SAP ABAP 动态生成 ABAP 程序并动态调用的例子代码](https://blog.csdn.net/i042416/article/details/134430137)
+
 * 更多文章正在写作中
 
 ## Office 专题
