@@ -268,6 +268,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [118. 使用现实生活的具体例子，讲解 SAP ABAP 系统 Client 的概念和用途](https://blog.csdn.net/i042416/article/details/134417951)
 
+* [119. 小技巧分享 - 找出 SAP ABAP SPRO 配置项后台对应配置表的两种办法](https://blog.csdn.net/i042416/article/details/134422525)
+
 * 更多文章正在写作中
 
 ## Office 专题
