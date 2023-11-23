@@ -276,6 +276,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [122. SAP ABAP 各种增强技术(Enhancement)概述 - 所谓第一代，第二代，第三代增强技术的出处是？](https://blog.csdn.net/i042416/article/details/134558667)
 
+* [123. SAP ABAP 显式增强技术之 New BAdI 的技术原理介绍](https://blog.csdn.net/i042416/article/details/134574295)
+
 * 更多文章正在写作中
 
 ## Office 专题
