@@ -1,0 +1,10 @@
+{
+  "name": "ODataV4Tutorial",
+  "private": true,
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 应用的打印(Print)功能实现详解",
+  "scripts": {
+    "start": "ui5 serve --open 'index.html'"
+  }
+}
