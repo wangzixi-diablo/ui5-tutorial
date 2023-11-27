@@ -408,7 +408,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百七十八 - 通过 SAP UI5 IconTabBar 控件结合 FlexibleColumnLayout 实现多页面 Master-Detail 布局](https://jerry.blog.csdn.net/article/details/133842546)
 
-* SAP UI5 应用开发教程之一百七十九 - 正在写作中......
+* [SAP UI5 应用开发教程之一百七十九 - 如何给 SAP UI5 应用设置背景图片](https://blog.csdn.net/i042416/article/details/134642121)
+
+* SAP UI5 应用开发教程之一百八十 - 正在写作中......
 ## 说明
 
 Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

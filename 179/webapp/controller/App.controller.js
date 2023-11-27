@@ -20,7 +20,6 @@ sap.ui.define([
 			this.getView().setModel(oModel, "appView");
 			var oPage = this.getView().byId("homepage");
 			oPage.addStyleClass("myBackgroundStyle");
-			debugger;
 		},
 		onRefresh : function () {
 			var oBinding = this.byId("peopleList").getBinding("items");
