@@ -280,6 +280,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [124. SAP ABAP 显式增强技术之 New BAdI 的实战介绍 - 如何创建和激活增强实现](https://blog.csdn.net/i042416/article/details/134620985)
 
+* [125. SAP ABAP 里如何高效找到修改某个数据库表字段的 ABAP 程序的三种思路介绍](https://blog.csdn.net/i042416/article/details/134698649)
+
 * 更多文章正在写作中
 
 ## Office 专题
