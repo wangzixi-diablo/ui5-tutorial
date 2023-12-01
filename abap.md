@@ -282,6 +282,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [125. SAP ABAP 里如何高效找到修改某个数据库表字段的 ABAP 程序的三种思路介绍](https://blog.csdn.net/i042416/article/details/134698649)
 
+* [126. 答知识星球朋友疑问：执行 ABAP 代码出现超时的原因，背后的理论和解决方案](https://blog.csdn.net/i042416/article/details/134734766)
+
 * 更多文章正在写作中
 
 ## Office 专题
