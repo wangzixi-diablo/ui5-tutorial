@@ -7,9 +7,6 @@
     "start": "ui5 serve",
     "build": "ui5 build --clean-dest"
   },
-  "dependencies": {
-    "@openui5/themelib_sap_fiori_3": "^1"
-  },
   "devDependencies": {
     "@ui5/cli": "^2.11.1",
     "@ui5/fs": "^2.0.6",

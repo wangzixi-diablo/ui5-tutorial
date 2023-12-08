@@ -9,7 +9,6 @@
     "proxy:debug": "node --inspect-brk proxy.js"
   },
   "dependencies": {
-    "@openui5/themelib_sap_fiori_3": "^1",
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
     "http-proxy": "^1.18.1",
