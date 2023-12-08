@@ -443,6 +443,7 @@ t
 
 - [3. 问题解答：关于 SAP UI5 学习教程示例代码里 Chrome 开发者工具 Console 面板里一些错误消息的说明](https://jerry.blog.csdn.net/article/details/132309357)
 
+- [4. 问题解答：关于本教程源代码 index.html 里指定的 sap_fiori_3 和 ui5 serve 出错的消息](https://blog.csdn.net/i042416/article/details/134885164)
 # 使用技巧
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧。
