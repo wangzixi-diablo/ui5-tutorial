@@ -1,3 +1,4 @@
+
 曾几何时，ABAP 就是 SAP 的代名词。ABAP 这门编程语言造就了 SAP 名噪一时的 R/3 产品，同时也是如今 SAP 旗舰级产品，SAP S/4HANA 底层的实现语言。
 
 ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过去，ABAP 自身也在不断地进化着。SAP 不仅在本地部署(On-Premise)领域继续保持着自己绝对的统治地位，而且在云应用领域（Software-as-a-Service, 简称 SaaS), 也推出了自己的解决方案，比如 SAP S/4HANA Cloud，SAP Cloud for Customer，SAP Business-by-Design 等等。而这些 SAP 推出的云端软件，其后台的实现语言依旧是 ABAP.
@@ -8,7 +9,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023 年 12 月 8 日`为止，目前已经更新了 `136` 篇，专栏完成度为 `40%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2023 年 12 月 11 日`为止，目前已经更新了 `137` 篇，专栏完成度为 `40%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -41,6 +42,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 - 国内 ABAP 开发项目中，Excel / Word 文件的读写，ALV 报表的设计，XML / JSON 文件的解析，带水印 PDF 文件的生成，邮件发送，这些都是常见的需求。本教程对这些常见需求的实现做了详细介绍。
 
 - 熟练掌握 ST05，SAT，ST22 和一系列的 ABAP 系统分析和(性能)监控工具的使用。
+
+- 能学习到 ABAP 框架开发人员使用的 `RTTI` 和 `RTTC` 技术来实现解决工作中的实际需求。ABAP RTTI 的全称是 `Runtime Type Identification`. 使用 RTTI，ABAP 开发人员可以在运行时获取关于数据对象的各种信息，包括其数据类型、字段列表（如果数据是Structure 或者内表的话）以及这些字段的技术属性，比如字段名称，字段数据类型，长度等等。对于这些字段信息，ABAP 提供了一组特殊的类和接口，包括 CL_ABAP_TYPEDESCR、CL_ABAP_STRUCTDESCR、CL_ABAP_TABLEDESCR 等等。ABAP RTTI 通常伴随着 RTTC 一起使用。`RTTC（Run Time Type Creation)`是 ABAP 语言的一个特性，它允许 ABAP 开发人员在运行时动态地创建和修改数据类型，而不必在编译时提前定义它们。
 
 # 本专栏适合哪些学习者
 
@@ -286,6 +289,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [127. 答网友疑问：ABAP Function Module 如何支持内表结构不确定的动态输入参数](https://blog.csdn.net/i042416/article/details/134886645)
 
+* [128. 工作实战：SAP ABAP 动态创建类型在实际工作中的一个应用场合分享](https://blog.csdn.net/i042416/article/details/134930687)
+
 * 更多文章正在写作中
 
 ## Office 专题
@@ -331,3 +336,5 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 ## 更多文章正在写作中  
 
 祝大家学习愉快。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/cecdf61174274e0192a79318ed813be9.png#pic_center)
