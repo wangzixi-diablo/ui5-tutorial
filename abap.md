@@ -293,6 +293,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [129. SAP ABAP Update Process(更新进程)的概念和设计动机解析](https://blog.csdn.net/i042416/article/details/135141283)
 
+* [130. SAP ABAP 更新函数（Update Function Module）执行出错的原因分析](https://blog.csdn.net/i042416/article/details/135175453)
+
 * 更多文章正在写作中
 
 ## Office 专题
