@@ -337,6 +337,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [如何使用 SAP ABAP Development Tool 连接 SAP BTP 上的免费 ABAP 编程环境](https://jerry.blog.csdn.net/article/details/132801599)
 
+- [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
+
 ## 更多文章正在写作中  
 
 祝大家学习愉快。
