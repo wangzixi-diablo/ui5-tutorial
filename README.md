@@ -446,6 +446,8 @@ t
 - [4. 问题解答：关于本教程源代码 index.html 里指定的 sap_fiori_3 和 ui5 serve 出错的消息](https://blog.csdn.net/i042416/article/details/134885164)
 
 - [5. 问题解答：SAP Fiori Launchpad 点了 Logout 之后，背后都运行了哪些代码](https://blog.csdn.net/i042416/article/details/135200278)
+
+- [关于 SAP Fiori 应用里如何处理名称包含中文的附件文件上传](https://blog.csdn.net/i042416/article/details/135324452)
 # 使用技巧
 
 
