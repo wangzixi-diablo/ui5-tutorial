@@ -99,8 +99,10 @@ Work List 应用的外观：
 Analytical List Page 的外观：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/ffbc6b2be38146788278e2e14522e097.png)
 
-# 工具和 Extension 使用技巧篇
+# 工具和 Extension 使用技巧和故障排查指南
 
-本区域列出了笔者进行 SAP Fiori Elements 开发过程中日积月累搜集到的一些开发小技巧。
+本区域列出了笔者进行 SAP Fiori Elements 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
 
 - [SAP Fiori Tools Extension Pack 的使用技巧汇总](https://blog.csdn.net/i042416/article/details/134741772)
+
+- [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
