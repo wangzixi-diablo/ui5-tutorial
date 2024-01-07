@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.jerry.jerrymodule.controller.main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <Text text="你好"/>
+        </content>
+    </Page>
+</mvc:View>
