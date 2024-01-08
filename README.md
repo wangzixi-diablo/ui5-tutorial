@@ -453,6 +453,8 @@ t
 
 - [使用 Visual Studio Code 从零开始创建一个最简单的 SAP UI5 应用](https://blog.csdn.net/i042416/article/details/135438532)
 
+- [6. 问题解答：SAP UI5 应用设置禁止被其他应用嵌入运行的工作原理解析](https://blog.csdn.net/i042416/article/details/135460213)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
