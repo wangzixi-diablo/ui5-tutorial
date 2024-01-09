@@ -1,0 +1,22 @@
+<mvc:View
+	height="100%"
+	controllerName="sap.ui5.walkthrough.Page"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Page
+		showHeader="false" class="sapUiContentPadding">
+		<content>
+			<VBox justifyContent="SpaceAround" id="selectContainer">
+				<Select
+						items="{
+							path: '/PageCollection',
+							sorter: { path: 'Name' }
+						}"
+						change=".onChange">
+					<core:Item key="{PageId}" text="{Name}" />
+				</Select>
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,13 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 应用如何使用 iframe 嵌入其他 HTML 页面",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
