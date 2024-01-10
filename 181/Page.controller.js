@@ -12,7 +12,7 @@ sap.ui.define([
 					{
 						"PageId": "p1",
 						"Name": "百度",
-						"Url": 'http://localhost:8080/baidu.html'
+						"Url": 'http://www.baidu.com'
 					},
 					{
 						"PageId": "p2",
@@ -29,13 +29,8 @@ sap.ui.define([
 			var oModel = new JSONModel(this.oPageData);
 			this.getView().setModel(oModel);
 		},
-		onChange: function(oEvent){
-			var oSelected = oEvent.getParameter("selectedItem");
-			var sSelectedKey = oSelected.getKey();
-
+		includeSelectedHTML: function(sSelectedKey){
 			var oContainer = this.getView().byId("selectContainer");
-			var sIFrameId = "iFrameId1";
-
 			var sUrl = "";
 			for( var i = 0; i < this.oPageData.PageCollection.length; i++){
 				var oSelectedPage = this.oPageData.PageCollection[i];
@@ -43,6 +38,7 @@ sap.ui.define([
 					sUrl = oSelectedPage.Url;
 				}
 			}
+			var sIFrameId = "iFrameId1";
 			var sContent = '<iframe id="' + sIFrameId + '" height="98%" width="100%" frameborder="0" src="' + sUrl + '" ></iframe>';
 
 			if( this.oPageHtmliFrame != null){
@@ -53,6 +49,11 @@ sap.ui.define([
 				content: sContent
 			});
 			oContainer.addItem(this.oPageHtmliFrame);
+		},
+		onChange: function(oEvent){
+			var oSelected = oEvent.getParameter("selectedItem");
+			var sSelectedKey = oSelected.getKey();
+			this.includeSelectedHTML(sSelectedKey);
 		}
 	});
 });
