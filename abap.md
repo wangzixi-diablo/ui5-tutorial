@@ -297,6 +297,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [130. SAP ABAP 更新函数（Update Function Module）执行出错的原因分析](https://blog.csdn.net/i042416/article/details/135175453)
 
+* [131. 聊聊 SAP ABAP 系统的 ABAP 对象注册表 TADIR](https://blog.csdn.net/i042416/article/details/135561480)
+
 * 更多文章正在写作中
 
 ## Office 专题
