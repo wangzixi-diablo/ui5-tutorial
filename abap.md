@@ -9,7 +9,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2023 年 12 月 25 日`为止，目前已经更新了 `140` 篇，专栏完成度为 `46.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 1 月 12 日`为止，目前已经更新了 `141` 篇，专栏完成度为 `46.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -166,6 +166,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [61. 如何使用 Java 程序通过 SAP Java Connector 调用 ABAP 系统的函数](https://blog.csdn.net/i042416/article/details/127523003)
 
 * [62. 如何通过增强(Enhancement) 的方式给 SAP ABAP 标准程序增添新功能](https://jerry.blog.csdn.net/article/details/127571379)
+
+* [62 番外篇：如何通过增强(Enhancement)的方式，给 ABAP Function Module 增添新的功能](https://blog.csdn.net/i042416/article/details/135550214)
 
 * [63. 如何使用 Visual Studio Code 查看和浏览 ABAP 代码](https://jerry.blog.csdn.net/article/details/127777629)
 
