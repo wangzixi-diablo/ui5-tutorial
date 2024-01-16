@@ -1,0 +1,21 @@
+specVersion: '2.3'
+metadata:
+  name: "sap.m.tutorial.walkthrough.05"
+type: application
+resources:
+  configuration:
+    paths:
+      webapp: .
+server:
+  customMiddleware:
+    - name: myhandler
+      beforeMiddleware: serveResources
+      mountPath: /
+---
+specVersion: '3.0'
+kind: extension
+type: server-middleware
+metadata:
+  name: myhandler
+middleware:
+  path: webapp/lib/myhandler.js
