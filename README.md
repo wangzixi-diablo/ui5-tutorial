@@ -459,6 +459,7 @@ t
 
 - [6. 问题解答：SAP UI5 应用设置禁止被其他应用嵌入运行的工作原理解析](https://blog.csdn.net/i042416/article/details/135460213)
 
+- [7. 问题解答：关于 SAP UI5 运行时使用的版本问题](https://blog.csdn.net/i042416/article/details/135658429)
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
