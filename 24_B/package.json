@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.24",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何使用 OData 数据模型",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0"
+  }
+}
