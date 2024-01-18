@@ -462,6 +462,8 @@ t
 - [7. 问题解答：关于 SAP UI5 运行时使用的版本问题](https://blog.csdn.net/i042416/article/details/135658429)
 
 - [使用 SAP UI5 Custom Middleware 解决前端跨域问题的一次失败尝试](https://blog.csdn.net/i042416/article/details/135670867)
+
+- [如何解决命令行 ui5 serve 执行后报错 Unsupported specVersion 的问题](https://blog.csdn.net/i042416/article/details/135682490)
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
