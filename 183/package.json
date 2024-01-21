@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.183",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 初学者教程之五：视图控制器初探",
+  "description": "183. SAP UI5 应用如何实现类似百度首页一样的访问方式",
   "scripts": {
     "start": "ui5 serve"
   },

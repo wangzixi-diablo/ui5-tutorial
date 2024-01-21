@@ -12,3 +12,4 @@ server:
     afterMiddleware: compression
     configuration:
       welcomeFile: "jerry.html"
+      debug: "true"
