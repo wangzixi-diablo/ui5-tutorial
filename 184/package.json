@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.184",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "184. 如何使用本地部署的 SAP UI5 库文件来启动 SAP UI5 应用，实现离线可用的需求",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "ui5-middleware-servestatic": "*"
+  }
+}

@@ -418,6 +418,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百八十三 - SAP UI5 应用如何实现类似百度首页一样的访问方式](https://blog.csdn.net/i042416/article/details/135729686)
 
+* [SAP UI5 应用开发教程之一百八十四 - 如何使用本地部署的 SAP UI5 库文件来启动 SAP UI5 应用](https://blog.csdn.net/i042416/article/details/135757320)
+
 * SAP UI5 应用开发教程之一百八十四 - 正在写作中......
 ## 说明
 
