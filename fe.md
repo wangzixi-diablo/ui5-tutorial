@@ -47,7 +47,7 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [13. 如何使用 Guided Development 给 Fiori Elements List Report 的工具栏添加自定义按钮](https://jerry.blog.csdn.net/article/details/132372058)
 
-- [14. SAP Fiori Elements List Report 如何在扩展开发里使用代码获得当前选中的表格行项目行项目](https://jerry.blog.csdn.net/article/details/132389350)
+- [14. SAP Fiori Elements List Report 如何在扩展开发里使用代码获得当前选中的表格行项目](https://jerry.blog.csdn.net/article/details/132389350)
 
 - [15. 通过一个实际的 Fiori Elements 扩展开发需求，介绍什么是 SAP Fiori Extension API](https://jerry.blog.csdn.net/article/details/132395205)
 
