@@ -51,6 +51,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [15. 通过一个实际的 Fiori Elements 扩展开发需求，介绍什么是 SAP Fiori Extension API](https://jerry.blog.csdn.net/article/details/132395205)
 
+- [16. SAP Fiori Elements 应用里图片字段(Image)的显示原理介绍](https://blog.csdn.net/i042416/article/details/135779315)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
@@ -106,3 +108,7 @@ Analytical List Page 的外观：
 - [SAP Fiori Tools Extension Pack 的使用技巧汇总](https://blog.csdn.net/i042416/article/details/134741772)
 
 - [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
+
+# 问题解答
+
+- [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
