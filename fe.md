@@ -53,6 +53,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [16. SAP Fiori Elements 应用里图片字段(Image)的显示原理介绍](https://blog.csdn.net/i042416/article/details/135779315)
 
+- [17. SAP Fiori Elements 源码分析系列：注解 UI.IsImageURL 的工作原理剖析](https://jerry.blog.csdn.net/article/details/135819678)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
