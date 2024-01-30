@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.185",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "让 SAP UI5 应用的日志打印变得五彩缤纷",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
