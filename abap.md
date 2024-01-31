@@ -298,6 +298,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [131. 聊聊 SAP ABAP 系统的 ABAP 对象注册表 TADIR](https://blog.csdn.net/i042416/article/details/135561480)
 
+* [132. 通过一个最简单的例子，学习在 ABAP 类里编写 SQLScript 的技术 - AMDP](https://blog.csdn.net/i042416/article/details/135963356)
+
 * 更多文章正在写作中
 
 ## Office 专题
