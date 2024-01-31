@@ -1,4 +1,3 @@
-
 曾几何时，ABAP 就是 SAP 的代名词。ABAP 这门编程语言造就了 SAP 名噪一时的 R/3 产品，同时也是如今 SAP 旗舰级产品，SAP S/4HANA 底层的实现语言。
 
 ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过去，ABAP 自身也在不断地进化着。SAP 不仅在本地部署(On-Premise)领域继续保持着自己绝对的统治地位，而且在云应用领域（Software-as-a-Service, 简称 SaaS), 也推出了自己的解决方案，比如 SAP S/4HANA Cloud，SAP Cloud for Customer，SAP Business-by-Design 等等。而这些 SAP 推出的云端软件，其后台的实现语言依旧是 ABAP.
@@ -9,7 +8,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 1 月 12 日`为止，目前已经更新了 `141` 篇，专栏完成度为 `46.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 1 月 30 日`为止，目前已经更新了 `143` 篇，专栏完成度为 `46.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -344,6 +343,11 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
 
 - [问题解答：如何查询 SAP ABAP 系统做过的基于源代码的增强信息](https://blog.csdn.net/i042416/article/details/135560120)
+
+- [问题解答：通过 SAP MRP Live 案例，解释什么是 SAP AMDP BADI](https://blog.csdn.net/i042416/article/details/135942070)
+
+- [问题解答：如何使用 SAP ABAP Development Tool 创建和修改 BAdI](https://blog.csdn.net/i042416/article/details/135961516)
+
 ## 更多文章正在写作中  
 
 祝大家学习愉快。
