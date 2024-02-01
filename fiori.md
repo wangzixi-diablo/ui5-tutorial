@@ -33,6 +33,8 @@
 - [9. 什么是 SAP ABAP 为 Fiori 专门设计的编程模型(Programming Model)](https://jerry.blog.csdn.net/article/details/132468894)
 
 - [关于 SAP Fiori 应用里如何处理名称包含中文的附件文件上传](https://blog.csdn.net/i042416/article/details/135324452)
+
+- [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
 # 学习资料和参考文献
 
 - [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)

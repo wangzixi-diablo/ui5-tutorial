@@ -55,6 +55,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [17. SAP Fiori Elements 源码分析系列：注解 UI.IsImageURL 的工作原理剖析](https://jerry.blog.csdn.net/article/details/135819678)
 
+- [18. 从 SAP Fiori Elements List Report 中的图片显示，谈谈背后的 XML Template 设计机制]()
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
@@ -114,3 +116,5 @@ Analytical List Page 的外观：
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
+
+- [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)

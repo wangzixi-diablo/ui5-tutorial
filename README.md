@@ -472,6 +472,8 @@ t
 - [如何解决命令行 ui5 serve 执行后报错 Unsupported specVersion 的问题](https://blog.csdn.net/i042416/article/details/135682490)
 
 - [8. 问题解答：如何通过 SAP UI5 Tooling 的 Custom Middleware 打印出 HTTP 请求的响应头部字段](https://blog.csdn.net/i042416/article/details/135705540)
+
+- [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
