@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2024年1月30日`为止，目前已经更新了 `217` 篇，专栏完成度为 `52.5%`，完成度已经超过`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2024年2月2日`为止，目前已经更新了 `218` 篇，专栏完成度为 `52.5%`，完成度已经超过`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
 
@@ -239,6 +239,8 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 * [SAP UI5 应用开发教程之九十五 - SAP UI5 下拉菜单(Select) 控件的使用方式](https://jerry.blog.csdn.net/article/details/125044943)
 
 * [SAP UI5 应用开发教程之九十六 - SAP UI5 列表控件分页显示数据时，如何自定义分页大小](https://blog.csdn.net/i042416/article/details/125055559)
+
+* [SAP UI5 应用开发教程之九十六番外实战篇 - 使用 SAP UI5 Event Bus 机制，修复 SAP UI5 分页显示数据的一个 bug](https://blog.csdn.net/i042416/article/details/135996820)
 
 * [SAP UI5 应用开发教程之九十七 - 如何使用客户端 JSON 模型构建一个 Master-Detail-Detail 布局中的明细页面](https://blog.csdn.net/i042416/article/details/125114902)
 
