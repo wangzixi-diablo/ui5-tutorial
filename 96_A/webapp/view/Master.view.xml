@@ -1,0 +1,69 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.Master"
+	xmlns="sap.m"
+	xmlns:f="sap.f"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<f:DynamicPage id="dynamicPageId" toggleHeaderOnTitleClick="false">
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="第 {pageControl>/currentPageNumber} 页数据,总共  {pageControl>/totalPageNumber} 页"/>
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:content>
+			<VBox fitContainer="true">
+				<OverflowToolbar class="sapFDynamicPageAlignContent">
+					<ToolbarSpacer/>
+					<OverflowToolbarButton icon="sap-icon://arrow-left" text="Previous" type="Transparent" press=".onPrevious"
+					enabled="{pageControl>/previousEnabled}"/>
+					<OverflowToolbarButton icon="sap-icon://arrow-right" text="Next" type="Transparent" press=".onNext"
+					enabled="{pageControl>/nextEnabled}"/>
+					<Select id="pageOptions"
+						items="{/items}"
+						change=".onChange">
+					<core:Item key="{key}" text="{text}" />
+				</Select>
+				</OverflowToolbar>
+				<Table
+					id="productsTable"
+					inset="false"
+					items="{
+						path: 'products>/ProductCollection',
+						sorter: {
+							path: 'ProductId'
+						}
+					}"
+					class="sapFDynamicPageAlignContent"
+					width="auto">
+					<columns>
+						<Column width="12em">
+							<Text text="Product"/>
+						</Column>
+						<Column	hAlign="End">
+							<Text text="Price"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem type="Navigation">
+							<cells>
+								<ObjectIdentifier title="{products>Name}" text="{products>ProductId}"/>
+								<ObjectNumber
+									number="{
+										parts:[
+											{path:'products>Price'},
+											{path:'products>CurrencyCode'}
+										],
+										type: 'sap.ui.model.type.Currency',
+										formatOptions: {showMeasure: false}
+									}"
+									unit="{products>CurrencyCode}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
+		</f:content>
+	</f:DynamicPage>
+</mvc:View>
