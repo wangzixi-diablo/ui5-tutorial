@@ -8,7 +8,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 2 月 1 日`为止，目前已经更新了 `145` 篇，专栏完成度为 `46.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 2 月 5 日`为止，目前已经更新了 `146` 篇，专栏完成度为 `46.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -304,6 +304,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [134. 如何把一个 ABAP 类的实例，序列化成 XML 字符串](https://blog.csdn.net/i042416/article/details/136038030)
 
+* [135. 如何使用 Pre-Exit 和 Post-Exit 的方式，增强一个 ABAP 类的方法](https://blog.csdn.net/i042416/article/details/136060208)
+
 * 更多文章正在写作中
         
 ## Office 专题
@@ -353,6 +355,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 - [问题解答：通过 SAP MRP Live 案例，解释什么是 SAP AMDP BADI](https://blog.csdn.net/i042416/article/details/135942070)
 
 - [问题解答：如何使用 SAP ABAP Development Tool 创建和修改 BAdI](https://blog.csdn.net/i042416/article/details/135961516)
+
+- [问题解答：什么是 ABAP SYSTEM-EXIT, 什么是 Conversion Routine(转换历程)](https://blog.csdn.net/i042416/article/details/136045349)
 
 ## 更多文章正在写作中  
 
