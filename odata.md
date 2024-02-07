@@ -106,4 +106,6 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [3. 问题解答：从 SAP Gateway 后台错误日志，如何定位和调试抛出错误的准确代码位置](https://blog.csdn.net/i042416/article/details/135413257)
 
+- [4. 网友提问：关于 SAP OData 服务支持业务数据批量创建与否的问题](https://blog.csdn.net/i042416/article/details/136074106)
+
 - 正在写作中，敬请期待
