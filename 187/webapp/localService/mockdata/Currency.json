@@ -1,0 +1,32 @@
+[{
+	"CURR": "EUR",
+	"DESCR": "European Euro"
+},
+{
+	"CURR": "USD",
+	"DESCR": "United States Dollar"
+},
+{
+	"CURR": "GBP",
+	"DESCR": "British Pound"
+},
+{
+	"CURR": "DKK",
+	"DESCR": "Danish Krone"
+},
+{
+	"CURR": "INR",
+	"DESCR": "Indian Rupee"
+},
+{
+	"CURR": "NOK",
+	"DESCR": "Norwegian Krone"
+},
+{
+	"CURR": "SEK",
+	"DESCR": "Swedish Krona"
+},
+{
+	"CURR": "CHF",
+	"DESCR": "Swiss Franc"
+}]

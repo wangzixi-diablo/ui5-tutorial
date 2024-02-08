@@ -1,0 +1,30 @@
+[
+	{
+		"CAT": "PRO",
+		"DESCR": "Projector"
+	},
+	{
+		"CAT": "GCD",
+		"DESCR": "Graphics Card"
+	},
+	{
+		"CAT": "ACC",
+		"DESCR": "Accessory"
+	},
+	{
+		"CAT": "PRI",
+		"DESCR": "Printer"
+	},
+	{
+		"CAT": "MON",
+		"DESCR": "Monitor"
+	},
+	{
+		"CAT": "LAP",
+		"DESCR": "Laptop"
+	},
+	{
+		"CAT": "KBD",
+		"DESCR": "Keyboard"
+	}
+]

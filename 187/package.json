@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.187",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "187. SAP UI5 FreeStyle 开发方式下，Smart Table 控件如何添加自定义按钮",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

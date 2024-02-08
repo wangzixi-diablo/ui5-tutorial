@@ -426,7 +426,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百八十六 - 如何让 SAP UI5 Smart Table 支持多项选择(Multiple-Selection)](https://blog.csdn.net/i042416/article/details/136078320)
 
-* SAP UI5 应用开发教程之一百八十七 - 正在写作中......
+* [SAP UI5 应用开发教程之一百八十七 - SAP UI5 FreeStyle 开发方式下，Smart Table 控件如何添加自定义按钮](https://blog.csdn.net/i042416/article/details/136079544)
+
+* SAP UI5 应用开发教程之一百八十八 - 正在写作中......
 ## 说明
 
 Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

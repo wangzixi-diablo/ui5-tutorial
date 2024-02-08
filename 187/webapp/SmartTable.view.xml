@@ -1,0 +1,28 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.SmartTable"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:smartTable="sap.ui.comp.smarttable">
+	<smartTable:SmartTable
+		id="smartTable_ResponsiveTable"
+		tableType="ResponsiveTable"
+		editable="false"
+		entitySet="Products"
+		useVariantManagement="false"
+		useTablePersonalisation="true"
+		header="Products"
+		showRowCount="true"
+		useExportToExcel="false"
+		enableAutoBinding="true"
+		enableAutoColumnWidth="true">
+		<smartTable:customToolbar>
+			<OverflowToolbar design="Transparent">
+				<ToolbarSpacer/>
+				<OverflowToolbarButton icon="sap-icon://activate" tooltip="Deselect" press="onDeselect"/>
+			</OverflowToolbar>
+		</smartTable:customToolbar>
+		
+			<Table id= "jerrytable" mode="MultiSelect" growingThreshold="100" growing="true" growingScrollToLoad="true">
+     		</Table>
+	</smartTable:SmartTable>
+</mvc:View>
