@@ -1,0 +1,48 @@
+{
+	"sap.app": {
+		"id": "applicationForTest",
+		"type": "application",
+		"title": "SAPUI5 Custom Field in SmartFilterBar",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "CA-UI5-CMP"
+	},
+	"sap.ui": {
+		"technology": "UI5"
+	},
+	"sap.ui5": {
+		"rootView": {
+			"id": "IDView",
+			"viewName": "sap.ui5.walkthrough.SmartFilterBar",
+			"type": "XML",
+			"async": true
+		},
+		"resourceRoots": {
+			"mockserver": "mockserver"
+		},
+		"dependencies": {
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.comp": {},
+				"sap.ui.fl": {},
+				"sap.ui.mdc": {},
+				"sap.ui.table": {},
+			  	"sap.f": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"SmartFilterBar.controller.js",
+					"SmartFilterBar.view.xml",
+					"mockserver/MainEntitySet.json",
+					"mockserver/metadata.xml",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}

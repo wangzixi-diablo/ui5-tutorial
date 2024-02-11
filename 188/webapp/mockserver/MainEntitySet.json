@@ -1,0 +1,37 @@
+[
+	{
+		"RaterId": "1239102",
+		"CompanyName": "SAP",
+		"CompanyCode": "ONE",
+		"CompanyRating": 3,
+		"DeliveredOrder": true
+	},
+	{
+		"RaterId": "1239103",
+		"CompanyName": "IBM",
+		"CompanyCode": "TWO",
+		"CompanyRating": 1,
+		"DeliveredOrder": false
+	},
+	{
+		"RaterId": "1239104",
+		"CompanyName": "Oracle",
+		"CompanyCode": "ONE",
+		"CompanyRating": 2,
+		"DeliveredOrder": false
+	},
+	{
+		"RaterId": "1239105",
+		"CompanyName": "AWS",
+		"CompanyCode": "ONE",
+		"CompanyRating": 3,
+		"DeliveredOrder": true
+	},
+	{
+		"RaterId": "1239105",
+		"CompanyName": "Lenovo",
+		"CompanyCode": "ONE",
+		"CompanyRating": 2,
+		"DeliveredOrder": false
+	}
+]

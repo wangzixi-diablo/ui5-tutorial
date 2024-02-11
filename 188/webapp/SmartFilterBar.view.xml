@@ -1,0 +1,88 @@
+<mvc:View
+	xmlns="sap.ui.comp.smartfilterbar"
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.f"
+	xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:st="sap.ui.comp.smarttable"
+	xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	controllerName="sap.ui5.walkthrough.SmartFilterBar" height="100%">
+
+	<f:DynamicPage id="dynamicPage" fitContent="true">
+		<f:header>
+			<f:DynamicPageHeader>
+				<SmartFilterBar
+					id="smartFilterBar"
+					entitySet="MainEntitySet"
+					persistencyKey="UniqueAndStablePersistencyKey"
+					beforeVariantFetch="onBeforeVariantFetch"
+					afterVariantLoad="onAfterVariantLoad">
+
+					<controlConfiguration>
+						<ControlConfiguration
+							key="CompanyCode"
+							index="1"
+							label="Company Code 的别名"
+							width="300px"
+							visibleInAdvancedArea="true">
+							<customControl>
+								<m:MultiComboBox
+									id="multiComboBox"
+									customData:hasValue="false"
+									selectionChange="customFieldChange">
+									<core:Item key="1" text="ONE"/>
+									<core:Item key="2" text="TWO"/>
+									<core:Item key="3" text="THREE"/>
+								</m:MultiComboBox>
+							</customControl>
+						</ControlConfiguration>
+						<ControlConfiguration
+							key="CompanyRating"
+							label="Company Rating 的别名"
+							visibleInAdvancedArea="true">
+							<customControl>
+								<m:Select
+									id="customSelect"
+									customData:hasValue="true"
+									width="300px">
+									<core:Item key="1" text="1"/>
+									<core:Item key="2" text="2"/>
+									<core:Item key="3" text="3"/>
+								</m:Select>
+							</customControl>
+						</ControlConfiguration>
+						<ControlConfiguration
+							key="DeliveredOrder"
+							label="Delivered Order?"
+							visibleInAdvancedArea="true">
+							<customControl>
+								<m:Switch
+									id="customSwitch"
+									customData:hasValue="true"/>
+							</customControl>
+						</ControlConfiguration>
+					</controlConfiguration>
+					<!-- layout data used to make the table growing but the filter bar fixed -->
+					<layoutData>
+						<m:FlexItemData shrinkFactor="0"/>
+					</layoutData>
+				</SmartFilterBar>
+			</f:DynamicPageHeader>
+		</f:header>
+		<f:content>
+			<st:SmartTable
+				id="smartTable"
+				entitySet="MainEntitySet"
+				smartFilterId="smartFilterBar"
+				beforeRebindTable="onBeforeRebindTable"
+				tableType="Table"
+				header="Companies Rating"
+				showRowCount="true"
+				enableAutoColumnWidth="true">
+				<st:layoutData>
+					<m:FlexItemData growFactor="1" baseSize="0%"/>
+				</st:layoutData>
+			</st:SmartTable>
+		</f:content>
+	</f:DynamicPage>
+</mvc:View>

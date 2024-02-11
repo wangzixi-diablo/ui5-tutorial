@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.188",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Smart Filter Bar with custom field",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}
