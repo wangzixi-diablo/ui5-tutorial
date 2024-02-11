@@ -105,7 +105,7 @@
                 <Property Name="Width" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="DimensionUnit" sap:label="Width" sap:quickinfo="EPM: Width"/>
                 <Property Name="Depth" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="DimensionUnit" sap:label="Depth" sap:quickinfo="EPM: Depth"/>
                 <Property Name="DimensionUnit" Type="Edm.String" MaxLength="3" sap:text="to_DimensionUnit/UnitOfMeasure_Text" sap:label="Dimension Unit" sap:quickinfo="EPM: Dimension Unit" sap:value-list="fixed-values" sap:semantics="unit-of-measure"/>
-                <Property Name="ProductPictureURL" Type="Edm.String" MaxLength="255" sap:display-format="UpperCase" sap:label="Image" sap:quickinfo="Image of the product" sap:creatable="false" sap:updatable="false"/>
+                <Property Name="ProductPictureURL" Type="Edm.String" MaxLength="255" sap:display-format="UpperCase" sap:label="图片" sap:quickinfo="Image of the product" sap:creatable="false" sap:updatable="false"/>
                 <Property Name="Supplier" Type="Edm.String" MaxLength="10" sap:display-format="UpperCase" sap:text="to_Supplier/CompanyName" sap:label="Supplier" sap:quickinfo="Supplier ID" sap:value-list="fixed-values"/>
                 <Property Name="ProductBaseUnit" Type="Edm.String" MaxLength="3" sap:text="to_ProductBaseUnit/UnitOfMeasure_Text" sap:label="Base Unit" sap:quickinfo="Base Unit of Measurement for Product Quantities" sap:value-list="fixed-values" sap:semantics="unit-of-measure"/>
                 <Property Name="Weight" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="WeightUnit" sap:label="Weight" sap:quickinfo="EPM: Weight Measure"/>

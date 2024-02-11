@@ -2,7 +2,7 @@
 
 specVersion: "2.6"
 metadata:
-  name: jerryfiorielement01
+  name: jerryfiorielement06
 type: application
 server:
   customMiddleware:
@@ -27,5 +27,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: jerryfiorielement01
+        component: jerryfiorielement06
         ui5Theme: sap_horizon
