@@ -306,6 +306,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [135. 如何使用 Pre-Exit 和 Post-Exit 的方式，增强一个 ABAP 类的方法](https://blog.csdn.net/i042416/article/details/136060208)
 
+* [136. 如何使用动态 ABAP 程序生成技术，对 ABAP 系统标准的报表行为进行微调](https://blog.csdn.net/i042416/article/details/136096190)
+
 * 更多文章正在写作中
         
 ## Office 专题
