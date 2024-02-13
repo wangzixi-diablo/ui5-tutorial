@@ -8,7 +8,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 2 月 5 日`为止，目前已经更新了 `146` 篇，专栏完成度为 `46.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 2 月 12 日`为止，目前已经更新了 `150` 篇，专栏完成度为 `50%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -306,8 +306,13 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [135. 如何使用 Pre-Exit 和 Post-Exit 的方式，增强一个 ABAP 类的方法](https://blog.csdn.net/i042416/article/details/136060208)
 
-* [136. 如何使用动态 ABAP 程序生成技术，对 ABAP 系统标准的报表行为进行微调](https://blog.csdn.net/i042416/article/details/136096190)
+* [136. 聊聊 SAP ABAP 系统里除了 TADIR 之外的其他注册表](https://jerry.blog.csdn.net/article/details/136088359)
 
+* [137. 如何使用动态 ABAP 程序生成技术，对 ABAP 系统标准的报表行为进行微调](https://blog.csdn.net/i042416/article/details/136096190)
+
+* [138. 第三方系统或者工具通过 HTTP 请求发送给 ABAP 系统的数据，应该如何解析](https://blog.csdn.net/i042416/article/details/136100912)
+
+* [139. 如何获取一个 ABAP 类所有方法源代码行数的列表](https://blog.csdn.net/i042416/article/details/136106092)
 * 更多文章正在写作中
         
 ## Office 专题
