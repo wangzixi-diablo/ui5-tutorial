@@ -38,6 +38,7 @@
 
 - [如何在 Fiori Launchpad 上将自己需要的 Tile 配置出来](https://blog.csdn.net/i042416/article/details/136106666)
 
+- [什么是 SAP Fiori 的 Technical Catalog](https://blog.csdn.net/i042416/article/details/136109714)
 # 学习资料和参考文献
 
 - [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)
