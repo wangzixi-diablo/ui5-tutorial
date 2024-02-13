@@ -35,6 +35,9 @@
 - [关于 SAP Fiori 应用里如何处理名称包含中文的附件文件上传](https://blog.csdn.net/i042416/article/details/135324452)
 
 - [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
+
+- [如何在 Fiori Launchpad 上将自己需要的 Tile 配置出来](https://blog.csdn.net/i042416/article/details/136106666)
+
 # 学习资料和参考文献
 
 - [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)
