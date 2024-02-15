@@ -8,7 +8,29 @@
 
 [一套适合 SAP UI5 开发人员循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-`SAP UI5` 这套教程很受欢迎，截至 `2023年7月16日`为止，已经有 `440` 个学习者订阅学习。
+`SAP UI5` 这套教程很受欢迎，截至 `2024 年 2 月 15 日`为止，已经有 `617` 个学习者订阅学习。
+
+SAP UI5 和 Fiori 二者有什么关系？这就要从 Fiori 的发展历史说起。
+
+SAP Fiori 1.0 于 2013 年推出，以其淡蓝色素雅背景的 Blue Crystal 主题惊艳了世人。Fiori 1.0 问世后，在 2014 和 2015 年间持续演进，从最初的`一系列应用程序的集合`, 逐渐发展成为 SAP 软件的`新一代用户体验标准`。SAP Fiori 现在广泛用于 SAP 公司的旗舰级产品 SAP S/4HANA，以及 SAP SuccessFactors Employee Central 解决方案、SAP Ariba 移动解决方案、SAP Hybris Cloud for Customer 等等。
+
+![](https://img-blog.csdnimg.cn/img_convert/a780289c3812ee66895f3cbb2e966e92.webp?x-oss-process=image/format,png)
+
+2016 年 10 月，`SAP Fiori 2.0` 发布，从 1.0 到 2.0 这个重大版本的迭代，代表了 SAP S/4HANA 和 SAP Business Suite 用户体验的演变。 SAP Fiori 2.0 基于 `SAP UI5` 技术（版本 1.40 及更高版本），更加关注用户及其工作方式。 SAP Fiori 2.0 是当时指导几乎所有 SAP 标准应用程序的领先设计，可在 On-Premise 本地部署和云解决方案中，提供 PC，Tablet 和智能手机上协调的用户体验。
+
+![](https://img-blog.csdnimg.cn/img_convert/e8fa7485a653fe148f5e1d192be398de.webp?x-oss-process=image/format,png)
+
+2019 年 9 月，最新 SAP Fiori 3 设计的第一部分，随 SAP S/4HANA 1909 和 SAP S/4HANA Cloud 1908 一起发布。SAP Fiori 3 的核心动机之一，是开发一种可以跨行业，跨 SAP 产品采用的设计，从而在整个产品组合中提供更加和谐一致的体验。 
+
+SAP Fiori 3 设计的一些优点包括新主题 Quartz（作为 SAP Fiori 2.0 中使用的 Belize 主题的继承者），以及具有统一功能的新 shell 标题栏。
+
+Fiori 3 仍然基于 `SAP UI5` 技术（1.65 及更高版本），新设计与背景更完美地地融合，整个系统设计提供了高度的可定制化，将重点放在应用程序内容上，使其更加突出醒目。所有这些都使得各种On-Premise 和云端解决方案的用户体验得到进一步的改善与调和。
+
+![](https://img-blog.csdnimg.cn/img_convert/a20b002c8e6ed280ed20a7da44b8b33b.webp?x-oss-process=image/format,png)
+
+3 代 Fiori 演化史的时间节点，如下图所示：
+
+![](https://img-blog.csdnimg.cn/img_convert/e98d87fcc53a3f5da20757165196459b.webp?x-oss-process=image/format,png)
 
 而本套教材取名 `SAP Fiori 知识点大全`，即笔者会通过超过 `400` 篇的文章篇幅，详细向大家介绍 `SAP Fiori` 的方方面面。
 
@@ -45,3 +67,4 @@
 
 - [Fiori Launchpad in SAP ABAP Platform](https://help.sap.com/docs/ABAP_PLATFORM_NEW/a7b390faab1140c087b8926571e942b7/f951b50a07ce41deb08ced62711fe8b5.html)
 
+- [Fiori Overview](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/22bbe89ef68b4d0e98d05f0d56a7f6c8/4275a5114ddf4e1f8b5f7696a3b2ee6a.html)
