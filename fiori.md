@@ -32,6 +32,49 @@ Fiori 3 仍然基于 `SAP UI5` 技术（1.65 及更高版本），新设计与�
 
 ![](https://img-blog.csdnimg.cn/img_convert/e98d87fcc53a3f5da20757165196459b.webp?x-oss-process=image/format,png)
 
+
+# SAP Fiori 到底指什么？
+
+SAP Fiori 包含了三个维度的内容：
+
+- SAP Fiori concept
+- SAP Fiori design
+- SAP Fiori technology
+
+## SAP Fiori Concept
+
+SAP Fiori Concept(概念)，从根本上来说是基于现代前端业界的设计原则，再结合 SAP 应用实际使用业务场景所提炼出来的一种用户体验理念，其概念的核心有以下五个要点：
+
+- Role-based 基于角色
+- Coherent 风格一致性
+- Adaptive 自适应
+- Simple 简约
+- Delightful 令人愉快
+
+![](https://img-blog.csdnimg.cn/img_convert/fcc5c543fc82eea9af8954221d51b3c5.webp?x-oss-process=image/format,png)
+
+## SAP Fiori Design
+
+The SAP Fiori design is the visual design, information architecture, colors, and interaction patterns that are defined in the SAP Fiori design guidelines.
+
+SAP Fiori Design 即 SAP Fiori 设计指南中定义的视觉设计、信息架构(Information Architecture)、颜色和交互模式。
+
+Fiori Design guideline 的官网[如下](https://experience.sap.com/fiori-design/), 对于应用的用户体验设计师们来说，这个 guideline 就是其进行应用交互设计的权威指南。
+
+![](https://img-blog.csdnimg.cn/img_convert/bec8aeb8b0c93fd56ca2ad9e9fda98f4.webp?x-oss-process=image/format,png)
+
+## Fiori Technology
+
+SAP Fiori 技术包含构建、配置和运行 SAP Fiori 应用程序所需的所有架构、技术、基础设施和编程模型组件，以及 SAP Fiori Launchpad 的配置技术。
+
+一个典型的 Fiori 应用，前端由 SAP UI5 框架开发，具体步骤笔者这套教程有详细介绍：
+
+[一套适合 SAP UI5 开发人员循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
+
+Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData 服务在后台服务器的实现步骤，参考笔者这套开发教程：
+
+[SAP OData 开发实战教程 - 从入门到提高](https://blog.csdn.net/i042416/category_12288659.html)
+
 而本套教材取名 `SAP Fiori 知识点大全`，即笔者会通过超过 `400` 篇的文章篇幅，详细向大家介绍 `SAP Fiori` 的方方面面。
 
 下面是本教程的详细目录：
