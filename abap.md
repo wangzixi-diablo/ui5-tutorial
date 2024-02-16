@@ -313,6 +313,9 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [138. 第三方系统或者工具通过 HTTP 请求发送给 ABAP 系统的数据，应该如何解析](https://blog.csdn.net/i042416/article/details/136100912)
 
 * [139. 如何获取一个 ABAP 类所有方法源代码行数的列表](https://blog.csdn.net/i042416/article/details/136106092)
+
+* [140. ABAP 开发项目实战里， 定义常量的几种方法和技巧总结](https://blog.csdn.net/i042416/article/details/136129595)
+
 * 更多文章正在写作中
         
 ## Office 专题
