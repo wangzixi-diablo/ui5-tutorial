@@ -99,6 +99,8 @@ Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData
 
 - [9. 什么是 SAP ABAP 为 Fiori 专门设计的编程模型(Programming Model)](https://jerry.blog.csdn.net/article/details/132468894)
 
+- [10. 如何查看 SAP Fiori 某个配置 Task List 具体执行的 ABAP 代码](https://blog.csdn.net/i042416/article/details/136177436)
+
 - [关于 SAP Fiori 应用里如何处理名称包含中文的附件文件上传](https://blog.csdn.net/i042416/article/details/135324452)
 
 - [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
