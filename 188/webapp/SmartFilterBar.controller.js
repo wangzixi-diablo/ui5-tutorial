@@ -52,51 +52,6 @@ sap.ui.define([
 				)
 			);
 		},
-
-		onAfterVariantLoad: function() {
-			var oData, oCustomFieldData;
-
-			if (this._oSmartFilterBar) {
-				oData = this._oSmartFilterBar.getFilterData();
-				oCustomFieldData = oData["_CUSTOM"];
-				if (oCustomFieldData) {
-					this._oCustomMultiComboBox.setSelectedKeys(oCustomFieldData.MyOwnFilterField);
-					this._oCustomSelect.setSelectedKey(oCustomFieldData.MyOwnRatingIndicator);
-					this._oCustomSwitch.setState(oCustomFieldData.MyOwnSwitch);
-				}
-			}
-		},
-
-		onBeforeVariantFetch: function(oEvent) {
-			this._updateCustomFilter();
-		},
-
-		_updateCustomFilter: function() {
-			if (this._oSmartFilterBar) {
-				var oData = this._oSmartFilterBar.getFilterData();
-				oData._CUSTOM = {
-					MyOwnFilterField: this._oCustomMultiComboBox.getSelectedKeys(),
-					MyOwnRatingIndicator: this._oCustomSelect.getSelectedKey(),
-					MyOwnSwitch: this._oCustomSwitch.getState()
-				};
-				this._oSmartFilterBar.setFilterData(oData, true);
-			}
-		},
-
-		/** The hasValue attribute needs to be set because custom filters
-			must be handled by the application. When a value is set, the Filters
-			button of the SmartFilterBar control should update its counter.
-		*/
-		customFieldChange: function(oEvent) {
-			var oControl = oEvent.getSource(),
-				bHasValue = false;
-
-			if (oControl.getSelectedKeys().length > 0) {
-				bHasValue = true;
-			}
-			oControl.data("hasValue", bHasValue);
-		},
-
 		onExit: function () {
 			this._oModel.destroy();
 			this._oModel = null;

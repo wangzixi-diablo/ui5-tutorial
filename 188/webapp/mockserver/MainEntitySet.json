@@ -33,5 +33,12 @@
 		"CompanyCode": "ONE",
 		"CompanyRating": 2,
 		"DeliveredOrder": false
+	},
+	{
+		"RaterId": "1239105",
+		"CompanyName": "Huawei",
+		"CompanyCode": "ONE",
+		"CompanyRating": 1,
+		"DeliveredOrder": false
 	}
 ]

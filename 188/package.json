@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.188",
   "version": "1.0.0",
   "author": "SAP SE",
-  "description": "Sample: Smart Filter Bar with custom field",
+  "description": "SAP UI5 SmartFilterBar 的高级用法：自定义 Filter 控件的定义方法介绍",
   "scripts": {
     "start": "ui5 serve",
     "build": "ui5 build"

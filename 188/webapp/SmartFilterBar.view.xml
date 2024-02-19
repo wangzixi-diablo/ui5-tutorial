@@ -14,10 +14,7 @@
 				<SmartFilterBar
 					id="smartFilterBar"
 					entitySet="MainEntitySet"
-					persistencyKey="UniqueAndStablePersistencyKey"
-					beforeVariantFetch="onBeforeVariantFetch"
-					afterVariantLoad="onAfterVariantLoad">
-
+					persistencyKey="UniqueAndStablePersistencyKey">
 					<controlConfiguration>
 						<ControlConfiguration
 							key="CompanyCode"
@@ -27,9 +24,7 @@
 							visibleInAdvancedArea="true">
 							<customControl>
 								<m:MultiComboBox
-									id="multiComboBox"
-									customData:hasValue="false"
-									selectionChange="customFieldChange">
+									id="multiComboBox">
 									<core:Item key="1" text="ONE"/>
 									<core:Item key="2" text="TWO"/>
 									<core:Item key="3" text="THREE"/>
@@ -43,7 +38,6 @@
 							<customControl>
 								<m:Select
 									id="customSelect"
-									customData:hasValue="true"
 									width="300px">
 									<core:Item key="1" text="1"/>
 									<core:Item key="2" text="2"/>
@@ -57,8 +51,7 @@
 							visibleInAdvancedArea="true">
 							<customControl>
 								<m:Switch
-									id="customSwitch"
-									customData:hasValue="true"/>
+									id="customSwitch"/>
 							</customControl>
 						</ControlConfiguration>
 					</controlConfiguration>
