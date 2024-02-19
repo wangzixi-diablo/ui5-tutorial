@@ -79,6 +79,8 @@ Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData
 
 下面是本教程的详细目录：
 
+- [0. SAP Fiori 技术架构介绍](https://blog.csdn.net/i042416/article/details/136176480)
+
 - [1. SAP Fiori 和 SAP UI5 的区别和联系](https://jerry.blog.csdn.net/article/details/131697542)
 
 - [2. 深入理解 SAP Fiori Front-end Server](https://jerry.blog.csdn.net/article/details/131750298)
