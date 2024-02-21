@@ -58,6 +58,9 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 - [18. 从 SAP Fiori Elements List Report 中的图片显示，谈谈背后的 XML Template 设计机制](https://blog.csdn.net/i042416/article/details/136198682)
 
 - [19. Fiori Elements List Report 模版里表格列的显示逻辑总结](https://blog.csdn.net/i042416/article/details/136210259)
+
+- [20. 从实际的开发案例出发，介绍 Navigation Property 在 Fiori Elements 开发中的作用](https://blog.csdn.net/i042416/article/details/136213620)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
