@@ -61,6 +61,8 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [20. 从实际的开发案例出发，介绍 Navigation Property 在 Fiori Elements 开发中的作用](https://blog.csdn.net/i042416/article/details/136213620)
 
+- [21. 什么是 SAP Fiori Elements List Report 模版里的 Criticality 属性](https://blog.csdn.net/i042416/article/details/136215077)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
