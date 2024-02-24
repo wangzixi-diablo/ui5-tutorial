@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.189",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "189. 纯技术讨论：如何让 SAP UI5 应用无法被别人在浏览器里调试 - 这种做法不推荐",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
