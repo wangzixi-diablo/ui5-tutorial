@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+	xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+	xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"
+		Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI/v1">
+		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+	</edmx:Reference>
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="Namespace" sap:schema-version="1"
+			xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="MainEntityType" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="RaterId" />
+				</Key>
+				<Property Name="RaterId"
+					Type="Edm.String"
+					Nullable="false"
+					sap:label="Rater ID"/>
+				<Property Name="CompanyName"
+					Type="Edm.String"
+					sap:label="Company Name"/>
+				<Property Name="CompanyCode"
+					Type="Edm.String"
+					sap:label="Company Code"/>
+				<Property Name="CompanyRating"
+					Type="Edm.Int32"
+					sap:label="Company Rating"/>
+				<Property Name="DeliveredOrder"
+					Type="Edm.Int32"
+					sap:label="Delivered Order"/>
+			</EntityType>
+
+			<EntityContainer Name="Namespace_Entities"
+			m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet Name="MainEntitySet" EntityType="Namespace.MainEntityType" />
+			</EntityContainer>
+			<Annotations Target="Namespace.MainEntityType"
+				xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="UI.LineItem">
+					<Collection>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="CompanyName" />
+							<PropertyValue Property="Label" String="Company Name" />
+							<Annotation Term="UI.Importance"
+								EnumMember="UI.ImportanceType/High" />
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="CompanyCode" />
+							<PropertyValue Property="Label" String="Company Code" />
+							<Annotation Term="UI.Importance"
+								EnumMember="UI.ImportanceType/High" />
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="CompanyRating" />
+							<Annotation Term="UI.Importance"
+								EnumMember="UI.ImportanceType/Medium" />
+						</Record>
+					</Collection>
+				</Annotation>
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

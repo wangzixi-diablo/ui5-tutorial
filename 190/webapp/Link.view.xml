@@ -1,0 +1,66 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.Link"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Table id="idProductsTable"
+		inset="false"
+		items="{
+			path: '/ProductCollection',
+			sorter: {
+				path: 'Name'
+			}
+		}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="Products" level="H2"/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="12em">
+				<Text text="Name" />
+			</Column>
+			<Column>
+				<Text text="Id" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="Supplier" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="End">
+				<Text text="Category" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="End">
+				<Text text="Picture" />
+			</Column>
+		</columns>
+		<ColumnListItem>
+			<Link
+				text="{Name}"
+				href="{ProductPicUrl}" />
+			<ObjectIdentifier
+				title="{ProductId}"
+				titleActive = "true"
+				titlePress="handleObjectIdentifierPress" />
+			<Link
+				text="{SupplierName}"
+				subtle="true"
+				press="handleLinkPress" />
+			<Link
+				text="{Category}"
+				subtle="true"
+				press="handleLinkPress" />
+			<Link
+				text="picture"
+				subtle="true"
+				href="{ProductPicUrl}" />
+		</ColumnListItem>
+	</Table>
+</mvc:View>
