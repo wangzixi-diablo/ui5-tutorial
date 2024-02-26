@@ -432,7 +432,10 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 * [SAP UI5 应用开发教程之一百八十九 - 纯技术讨论：如何让 SAP UI5 应用无法被别人在浏览器里调试 - 这种做法不推荐](https://blog.csdn.net/i042416/article/details/136270220)
 
-* SAP UI5 应用开发教程之一百九十 - 正在写作中......
+* [SAP UI5 应用开发教程之一百九十 - SAP UI5 Link 控件的使用方法介绍 - 后续学习 Fiori Elements Smart Link 的基础](https://blog.csdn.net/i042416/article/details/136301879)
+
+* SAP UI5 应用开发教程之一百九十一 - 正在写作中......
+
 ## 说明
 
 Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
