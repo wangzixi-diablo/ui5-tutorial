@@ -1,0 +1,14 @@
+[
+  {
+	"ProductId": "1239102",
+	"Name": "Power Projector 4713",
+	"Price": 1234.56,
+	"CurrencyCode": "EUR"
+  },
+  {
+	"ProductId": "38094020.1",
+	"Name": "Flat S",
+	"Price": 34,
+	"CurrencyCode": "JPY"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "sap.m.tutorial.walkthrough.191",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "SAP UI5 Link 控件的使用方法介绍 - 后续学习 Fiori Elements Smart Link 的基础",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}

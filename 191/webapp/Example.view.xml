@@ -1,0 +1,218 @@
+<mvc:View
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:smartField="sap.ui.comp.smartfield"
+	xmlns:smartForm="sap.ui.comp.smartform"
+	xmlns:l="sap.ui.layout"
+	xmlns:m="sap.m"
+	xmlns:sap.ui.dt="sap.ui.dt"
+	xmlns="sap.ui.comp.navpopover"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+	controllerName="sap.ui5.walkthrough.Example">
+
+	<l:VerticalLayout class="sapUiContentPadding" width="100%" sap.ui.dt:designtime="not-adaptable-tree">
+		<l:content>
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiSmallMarginTop,	sapUiLargeMarginBottom"
+							text="The Name and Price properties are annotated with the com.sap.vocabularies.Common.v1.SemanticObject annotation."/>
+					<m:Text class="sapUiSmallMarginTop, sapUiLargeMarginBottom"
+							text="Link personalization is disabled."/>
+				</l:content>
+			</l:VerticalLayout>
+
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="SmartLink standalone"/>
+				</l:content>
+			</l:VerticalLayout>
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:ComboBox id="IDComboBox"
+								selectedKey="demokit_smartlink_example_01_SemanticObjectName"
+								selectionChange="onSelectionChange">
+						<m:items>
+							<core:Item key="" text="(none)"/>
+							<core:Item key="demokit_smartlink_example_01_SemanticObjectName"
+									   text="Name"/>
+							<core:Item key="demokit_smartlink_example_01_SemanticObjectPrice"
+									   text="Price"/>
+						</m:items>
+					</m:ComboBox>
+					<SmartLink id="IDSmartLink" text="{Name}"
+							   semanticObject="demokit_smartlink_example_01_SemanticObjectName"
+							   enableAvailableActionsPersonalization="false"/>
+				</l:content>
+			</l:VerticalLayout>
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="Empty Indicator"/>
+				</l:content>
+			</l:VerticalLayout>
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<SmartLink id="IDSmartLinkEmpty"
+						semanticObject="demokit_smartlink_example_01_SemanticObjectName"
+						emptyIndicatorMode="On"/>
+					<SmartLink id="IDSmartLinkEmptyUOM"
+						semanticObject="demokit_smartlink_example_01_SemanticObjectName"
+						uom="EUR"
+						emptyIndicatorMode="On"/>
+				</l:content>
+			</l:VerticalLayout>
+
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="Default behaviour of SmartField"/>
+				</l:content>
+			</l:VerticalLayout>
+			<smartField:SmartField value="{Name}">
+				<smartField:semanticObjectController>
+					<SemanticObjectController enableAvailableActionsPersonalization='\{"Name":false}'/>
+				</smartField:semanticObjectController>
+			</smartField:SmartField>
+
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="SmartField embedded into SmartForm"/>
+				</l:content>
+			</l:VerticalLayout>
+			<smartForm:SmartForm>
+				<smartForm:Group>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Name}">
+							<smartField:semanticObjectController>
+								<SemanticObjectController enableAvailableActionsPersonalization='\{"Name":false}'/>
+							</smartField:semanticObjectController>
+						</smartField:SmartField>
+						<smartField:SmartField value="{Price}"/>
+					</smartForm:GroupElement>
+				</smartForm:Group>
+				<smartForm:semanticObjectController>
+					<SemanticObjectController entitySet="ProductCollection"
+											  enableAvailableActionsPersonalization='\{"Name":false,"Price":false\}'/>
+				</smartForm:semanticObjectController>
+			</smartForm:SmartForm>
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="Default behaviour of SmartTable"/>
+				</l:content>
+			</l:VerticalLayout>
+			<smartTable:SmartTable tableType="Table"
+								   entitySet="ProductCollection" enableAutoBinding="true"
+								   useVariantManagement="false" useTablePersonalisation="false"
+								   showRowCount="false" useExportToExcel="false" enableAutoColumnWidth="true">
+				<smartTable:semanticObjectController>
+					<SemanticObjectController enableAvailableActionsPersonalization='\{"Name":false,"Price":false\}'/>
+				</smartTable:semanticObjectController>
+			</smartTable:SmartTable>
+
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="SmartField embedded into SmartTable"/>
+				</l:content>
+			</l:VerticalLayout>
+			<smartTable:SmartTable tableType="ResponsiveTable"
+								   entitySet="ProductCollection" useVariantManagement="false"
+								   useTablePersonalisation="false" showRowCount="false"
+								   useExportToExcel="false" enableAutoColumnWidth="true">
+				<m:Table items="{/ProductCollection}">
+					<m:columns>
+						<m:Column>
+							<m:customData>
+								<core:CustomData key="p13nData"
+												 value='\{"columnKey": "Name", "leadingProperty": "Name"}'/>
+							</m:customData>
+							<m:Label text="Name"/>
+						</m:Column>
+						<m:Column hAlign='End'>
+							<m:customData>
+								<core:CustomData key="p13nData"
+												 value='\{"columnKey": "Price", "leadingProperty": "Price"}'/>
+							</m:customData>
+							<m:Text text="Price"/>
+						</m:Column>
+					</m:columns>
+					<m:items>
+						<m:ColumnListItem>
+							<m:cells>
+								<smartField:SmartField value="{Name}"/>
+								<smartField:SmartField value="{Price}"/>
+							</m:cells>
+						</m:ColumnListItem>
+					</m:items>
+				</m:Table>
+				<smartTable:semanticObjectController>
+					<SemanticObjectController enableAvailableActionsPersonalization='\{"Name":false,"Price":false\}'/>
+				</smartTable:semanticObjectController>
+			</smartTable:SmartTable>
+
+
+			<l:VerticalLayout width="100%">
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="SmartLink embedded into SmartTable"/>
+				</l:content>
+			</l:VerticalLayout>
+			<smartTable:SmartTable tableType="ResponsiveTable"
+								   entitySet="ProductCollection" useVariantManagement="false"
+								   useTablePersonalisation="false" showRowCount="false"
+								   useExportToExcel="false" enableAutoColumnWidth="true">
+				<m:Table items="{/ProductCollection}">
+					<m:columns>
+						<m:Column>
+							<m:customData>
+								<core:CustomData key="p13nData"
+												 value='\{"columnKey": "Name", "leadingProperty": "Name"}'/>
+							</m:customData>
+							<m:Label text="Name"/>
+						</m:Column>
+						<m:Column hAlign='End'>
+							<m:customData>
+								<core:CustomData key="p13nData"
+												 value='\{"columnKey": "Price", "leadingProperty": "Price"}'/>
+							</m:customData>
+							<m:Text text="Price"/>
+						</m:Column>
+					</m:columns>
+					<m:items>
+						<m:ColumnListItem>
+							<m:cells>
+								<SmartLink text="{Name}"
+										   semanticObject="demokit_smartlink_example_01_SemanticObjectName"
+										   enableAvailableActionsPersonalization="false"/>
+								<SmartLink
+										text="{parts:[{path:'Price'}, {path: 'CurrencyCode'}], formatter:'.formatter.amountCurrency'}"
+										uom="{path: 'CurrencyCode'}"
+										semanticObject="demokit_smartlink_example_01_SemanticObjectPrice"
+										enableAvailableActionsPersonalization="false"/>
+							</m:cells>
+						</m:ColumnListItem>
+					</m:items>
+				</m:Table>
+			</smartTable:SmartTable>
+
+			<l:VerticalLayout>
+				<l:content>
+					<m:Text class="sapUiLargeMarginTop" text="SmartLink in sap.m.Title"/>
+				</l:content>
+			</l:VerticalLayout>
+			<l:VerticalLayout>
+				<l:content>
+					<m:Title>
+						<SmartLink id="IDSmartLink-Title" text="{Name}"
+							semanticObject="demokit_smartlink_example_01_SemanticObjectName"
+							enableAvailableActionsPersonalization="false"/>
+					</m:Title>
+				</l:content>
+			</l:VerticalLayout>
+		</l:content>
+	</l:VerticalLayout>
+
+</mvc:View>
