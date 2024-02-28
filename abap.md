@@ -350,7 +350,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [72. 利用 ALV 实现增删改查系列之三：如何给 SAP ABAP ALV 报表的修改功能添加自定义校验逻辑](https://jerry.blog.csdn.net/article/details/128394760)
 
-* [117. 利用 ALV 实现增删改查系列之四：如何给 SAP ABAP ALV 报表行项目删除时增加弹出提示](https://blog.csdn.net/i042416/article/details/134233627)git
+* [117. 利用 ALV 实现增删改查系列之四：如何给 SAP ABAP ALV 报表行项目删除时增加弹出提示](https://blog.csdn.net/i042416/article/details/134233627)
 
 ## 问题解答
 
@@ -360,8 +360,6 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [如何使用 SAP ABAP Development Tool 连接 SAP BTP 上的免费 ABAP 编程环境](https://jerry.blog.csdn.net/article/details/132801599)
 
-- [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
-
 - [问题解答：如何查询 SAP ABAP 系统做过的基于源代码的增强信息](https://blog.csdn.net/i042416/article/details/135560120)
 
 - [问题解答：通过 SAP MRP Live 案例，解释什么是 SAP AMDP BADI](https://blog.csdn.net/i042416/article/details/135942070)
@@ -370,7 +368,15 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：什么是 ABAP SYSTEM-EXIT, 什么是 Conversion Routine(转换历程)](https://blog.csdn.net/i042416/article/details/136045349)
 
+## 实战案例分享
+
+- [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
+
+- [实战案例分享 - 从 SAPGUI 屏幕上一个字段出发，想查找它在哪个数据库表存储，最后发现找不到，怎么回事？](https://jerry.blog.csdn.net/article/details/136345882)
+
 ## 更多文章正在写作中  
+
+大家在学习教程过程中，如果有任何关于 SAP ABAP 开发方面想了解的内容，可以直接在教程各篇文章下评论留言，也可以在[《零基础快速学习 ABAP 读者意见反馈和下一步写作计划表》](https://blog.csdn.net/i042416/article/details/127204857)里留言。我会将大家的意见统一汇总，作为我更新教程的内容参考来源之一。
 
 祝大家学习愉快。
 
