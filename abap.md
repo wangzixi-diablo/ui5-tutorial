@@ -352,6 +352,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [117. 利用 ALV 实现增删改查系列之四：如何给 SAP ABAP ALV 报表行项目删除时增加弹出提示](https://blog.csdn.net/i042416/article/details/134233627)
 
+* [142. SAP ABAP ALV 报表单击某列后执行某段 ABAP 逻辑的实现方式 - hotspot 行为实现](https://blog.csdn.net/i042416/article/details/136373908)
+
 ## 问题解答
 
 本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
