@@ -358,6 +358,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [143. SAP ABAP ALV 的分组显示和 Subtotal 显示实现的技术步骤](https://blog.csdn.net/i042416/article/details/136396881)
 
+* [144. ABAP 泛型编程实战 - 分享一个数据库表内容的拷贝工具](https://jerry.blog.csdn.net/article/details/136403862)
+
 ## 问题解答
 
 本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
