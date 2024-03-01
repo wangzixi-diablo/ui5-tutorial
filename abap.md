@@ -353,7 +353,10 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [117. 利用 ALV 实现增删改查系列之四：如何给 SAP ABAP ALV 报表行项目删除时增加弹出提示](https://blog.csdn.net/i042416/article/details/134233627)
 
 * [142. SAP ABAP ALV 报表单击某列后执行某段 ABAP 逻辑的实现方式 - hotspot 行为实现](https://blog.csdn.net/i042416/article/details/136373908)
+
 * [工具分享 - SAP ALV 报表，如何按照某列进行升序或者降序排序显示](https://blog.csdn.net/i042416/article/details/136388971)
+
+* [143. SAP ABAP ALV 的分组显示和 Subtotal 显示实现的技术步骤](https://blog.csdn.net/i042416/article/details/136396881)
 
 ## 问题解答
 
