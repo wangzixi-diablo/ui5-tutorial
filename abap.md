@@ -353,6 +353,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [117. 利用 ALV 实现增删改查系列之四：如何给 SAP ABAP ALV 报表行项目删除时增加弹出提示](https://blog.csdn.net/i042416/article/details/134233627)
 
 * [142. SAP ABAP ALV 报表单击某列后执行某段 ABAP 逻辑的实现方式 - hotspot 行为实现](https://blog.csdn.net/i042416/article/details/136373908)
+* [工具分享 - SAP ALV 报表，如何按照某列进行升序或者降序排序显示](https://blog.csdn.net/i042416/article/details/136388971)
 
 ## 问题解答
 
@@ -375,6 +376,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
 
 - [实战案例分享 - 从 SAPGUI 屏幕上一个字段出发，想查找它在哪个数据库表存储，最后发现找不到，怎么回事？](https://jerry.blog.csdn.net/article/details/136345882)
+
+- [工具分享 - 将一个 ABAP Function Group 内所有 Function Module 按照代码行数从高到低排序并显示](https://blog.csdn.net/i042416/article/details/136388971)
 
 ## 更多文章正在写作中  
 
