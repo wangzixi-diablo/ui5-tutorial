@@ -364,6 +364,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [ABAP 7.40 新语法介绍系列之一 - ABAP 变量内联声明(Inline Declaration)](https://jerry.blog.csdn.net/article/details/136416842)
 
+* [ABAP 7.40 新语法介绍系列之二 - ABAP 类型转换操作符 CONV](https://blog.csdn.net/i042416/article/details/136424264)
+
 ## 问题解答
 
 本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
