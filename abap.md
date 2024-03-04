@@ -360,11 +360,15 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [144. ABAP 泛型编程实战 - 分享一个数据库表内容的拷贝工具](https://jerry.blog.csdn.net/article/details/136403862)
 
+* [SAP ABAP ALV List 和 ALV Grid 这两种控件的使用方法和使用场景区别辨析](https://jerry.blog.csdn.net/article/details/136442892)
+
 ## ABAP 7.40 新语法介绍系列
 
 * [ABAP 7.40 新语法介绍系列之一 - ABAP 变量内联声明(Inline Declaration)](https://jerry.blog.csdn.net/article/details/136416842)
 
 * [ABAP 7.40 新语法介绍系列之二 - ABAP 类型转换操作符 CONV](https://blog.csdn.net/i042416/article/details/136424264)
+
+* [ABAP 7.40 新语法介绍系列之三 - ABAP Value 操作符](https://blog.csdn.net/i042416/article/details/136430690)
 
 ## 问题解答
 
