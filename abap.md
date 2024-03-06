@@ -370,6 +370,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [ABAP 7.40 新语法介绍系列之三 - ABAP Value 操作符](https://blog.csdn.net/i042416/article/details/136430690)
 
+* [ABAP 7.40 新语法介绍系列之四 - ABAP Table Expression 内表表达式的用法](https://blog.csdn.net/i042416/article/details/136497955)
+
 ## 问题解答
 
 本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
