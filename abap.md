@@ -8,7 +8,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 16 年的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 3 月 4 日`为止，目前已经更新了 `161` 篇，专栏完成度为 `52.6%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 3 月 9 日`为止，目前已经更新了 `164` 篇，专栏完成度为 `52.6%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -318,6 +318,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [141. 使用 ABAP 单例模式避免 ABAP 应用程序额外内存消耗的一个实战案例](https://blog.csdn.net/i042416/article/details/136318660)
 
+* [142. 迈入 SAP CDS View 世界的前置知识 - SAP ABAP 数据库视图介绍](https://blog.csdn.net/i042416/article/details/136585393)
+
 * 更多文章正在写作中
         
 ## Office 专题
@@ -371,6 +373,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [ABAP 7.40 新语法介绍系列之三 - ABAP Value 操作符](https://blog.csdn.net/i042416/article/details/136430690)
 
 * [ABAP 7.40 新语法介绍系列之四 - ABAP Table Expression 内表表达式的用法](https://blog.csdn.net/i042416/article/details/136497955)
+
+* [ABAP 7.40 新语法介绍系列之五 - 增强的 ABAP OPEN SQL 语法介绍](https://jerry.blog.csdn.net/article/details/136557038)
 
 ## 问题解答
 
