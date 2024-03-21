@@ -410,6 +410,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [小技巧分享：如何查询 SAP ABAP 系统里消耗存储空间排名前几位的数据库表](https://blog.csdn.net/i042416/article/details/136611422)
 
+- [小技巧分享 - 使用 Visual Studio Code 查看和修改 ABAP 代码](https://blog.csdn.net/i042416/article/details/136912233)
+
 ## 更多文章正在写作中  
 
 大家在学习教程过程中，如果有任何关于 SAP ABAP 开发方面想了解的内容，可以直接在教程各篇文章下评论留言，也可以在[《零基础快速学习 ABAP 读者意见反馈和下一步写作计划表》](https://blog.csdn.net/i042416/article/details/127204857)里留言。我会将大家的意见统一汇总，作为我更新教程的内容参考来源之一。
