@@ -328,6 +328,10 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [147. SAP ABAP Subscreen 使用介绍](https://blog.csdn.net/i042416/article/details/136748102)
 
+* [148. 使用 SAPGUI 的 Docking 控件将屏幕划分成若干子区域](https://blog.csdn.net/i042416/article/details/136946221)
+
+* [149. 如何在 SAPGUI 的 ABAP 报表里显示图片](https://blog.csdn.net/i042416/article/details/137009184)
+
 * 更多文章正在写作中
         
 ## Office 专题
@@ -418,4 +422,4 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 祝大家学习愉快。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/cecdf61174274e0192a79318ed813be9.png#pic_center)
+![](https://img-blog.csdnimg.cn/direct/cecdf61174274e0192a79318ed813be9.png#pic_center)
