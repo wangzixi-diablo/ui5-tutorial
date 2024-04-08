@@ -342,6 +342,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [150. 如何使用 SAPGUI 中的树控件绘制树状数据结构](https://jerry.blog.csdn.net/article/details/137150528)
 
+* [151. 如何下载并安装 SAP ABAPGit，并完成 ABAP 服务器上 SSL 证书的配置](https://jerry.blog.csdn.net/article/details/137508399)
+
 * 更多文章正在写作中
         
 ## Office 专题
