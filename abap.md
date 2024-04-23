@@ -420,6 +420,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：ABAP 关键字 ANY TABLE 的使用场合深入剖析](https://blog.csdn.net/i042416/article/details/137048853)
 
+- [问题解答：为什么 ABAP 面向对象编程引入了类的概念之后，还要引入接口的概念？接口能解决哪些编程问题？](https://blog.csdn.net/i042416/article/details/138129662)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
