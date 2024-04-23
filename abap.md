@@ -436,6 +436,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [实战分析 - 为什么有些 SAP ABAP 程序，启动之后界面有些按钮是灰色的](https://blog.csdn.net/i042416/article/details/137474389)
 
+- [ABAP 运行时错误 SYSTEM_NO_ROLL 错误分析](https://jerry.blog.csdn.net/article/details/138132530)
+
 ## 更多文章正在写作中  
 
 大家在学习教程过程中，如果有任何关于 SAP ABAP 开发方面想了解的内容，可以直接在教程各篇文章下评论留言，也可以在[《零基础快速学习 ABAP 读者意见反馈和下一步写作计划表》](https://blog.csdn.net/i042416/article/details/127204857)里留言。我会将大家的意见统一汇总，作为我更新教程的内容参考来源之一。
