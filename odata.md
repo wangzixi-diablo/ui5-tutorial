@@ -83,6 +83,7 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 - [35. 如何自行查找出 SAP ABAP 标准的 OData 服务返回数据的后台数据库表和表字段名称](https://blog.csdn.net/i042416/article/details/130143127)
 
 - [36. 关于 SAP ABAP OData 服务如何实现 Deep Insert 场景 - SAP 应用的标准行为](https://blog.csdn.net/i042416/article/details/137244028)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务

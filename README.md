@@ -490,6 +490,8 @@ t
 
 - [问题解答：关于 SAP UI5 OData Model 和 JSONModel 的辨析 - 服务器端模型 vs 客户端模型](https://blog.csdn.net/i042416/article/details/136949674)
 
+- [如何找出 SAP 标准 Fiori 应用某个按钮点击后执行的 JavaScript 源代码](https://jerry.blog.csdn.net/article/details/138229226)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
