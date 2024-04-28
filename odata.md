@@ -110,4 +110,6 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [4. 网友提问：关于 SAP OData 服务支持业务数据批量创建与否的问题](https://blog.csdn.net/i042416/article/details/136074106)
 
+- [5. 问题解答：在 Postman 里调用 SAP ABAP OData 出错应该如何分析](https://jerry.blog.csdn.net/article/details/138275671)
+
 - 正在写作中，敬请期待
