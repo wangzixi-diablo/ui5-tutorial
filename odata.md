@@ -84,6 +84,8 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 
 - [36. 关于 SAP ABAP OData 服务如何实现 Deep Insert 场景 - SAP 应用的标准行为](https://blog.csdn.net/i042416/article/details/137244028)
 
+- [37. 如何在 SEGW 事务码里为 SAP ABAP OData 服务实现 Function Import](https://jerry.blog.csdn.net/article/details/138399275)
+
 - 更多文章正在写作中，敬请期待
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
@@ -111,5 +113,7 @@ Jerry 对 SAP OData 服务的开发，测试，发布，部署，测试，及基
 - [4. 网友提问：关于 SAP OData 服务支持业务数据批量创建与否的问题](https://blog.csdn.net/i042416/article/details/136074106)
 
 - [5. 问题解答：在 Postman 里调用 SAP ABAP OData 出错应该如何分析](https://jerry.blog.csdn.net/article/details/138275671)
+
+- [6. SAP ABAP OData 服务里需要指定 guid 类型的请求参数时，正确语法是什么？](https://blog.csdn.net/i042416/article/details/138397238)
 
 - 正在写作中，敬请期待
