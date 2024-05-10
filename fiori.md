@@ -111,6 +111,8 @@ Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData
 
 - [如何找出 SAP 标准 Fiori 应用某个按钮点击后执行的 JavaScript 源代码](https://jerry.blog.csdn.net/article/details/138229226)
 
+- [SAP Fiori 应用如果从 Launchpad 上打不开，应该从哪些方面去分析？](https://jerry.blog.csdn.net/article/details/138636654)
+
 # 学习资料和参考文献
 
 - [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)
