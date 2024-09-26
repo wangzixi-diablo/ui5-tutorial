@@ -94,7 +94,7 @@
 
 ## 问题合集
 
-[网友向 Jerry Wang 发起咨询的 SAP OData 问题列表](https://blog.csdn.net/i042416/article/details/134008212)
+* [0. 网友向笔者发起咨询的 SAP OData 问题列表](https://blog.csdn.net/i042416/article/details/134008212)
 
 * [1. 问题解答：SAP OData V2 和 V4 里针对日期类型的字段进行过滤操作(filter)的正确语法](https://jerry.blog.csdn.net/article/details/133925187)
 
