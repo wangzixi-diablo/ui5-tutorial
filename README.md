@@ -10,17 +10,11 @@
 
 笔者会根据学习者的反馈来增添原本不在自己写作计划中的内容。也就是说，大家在学习 SAP UI5 过程中遇到的疑问，其知识点很可能会出现在这篇教程里进行深入阐述。
 
-## 作者简介
-
-Jerry Wang，2007 年从电子科技大学计算机专业硕士毕业后加入 SAP 成都研究院工作至今。Jerry 是 SAP 社区导师，SAP 中国技术大使。在长达 15 年的 SAP 标准产品开发生涯里，Jerry 曾经先后参与 SAP Business ByDesign, SAP CRM, SAP Cloud for Customer, SAP S/4HANA, SAP Commerce Cloud(电商云)等标准产品的研发工作。
-
-Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包括 SAP UI5 在内的多款 SAP 自研框架有深入的研究。
-
 大家在学习过程中对本套教程有任何疑问和写作意见，可以在教程文章下评论，或者在这个[《一套适合 SAP UI5 开发人员循序渐进的学习教程》读者意见反馈和下一步写作计划表](https://blog.csdn.net/i042416/article/details/127204204)里评论。我在写作过程中，会根据大家的反馈，对教程的内容进行补充和修订。
 
 ## 教程目录
 
-* [网友向 Jerry Wang 发起咨询的 SAP UI5 和 Fiori 问题列表](https://blog.csdn.net/i042416/article/details/134008357)
+* [网友向笔者发起咨询的 SAP UI5 和 Fiori 问题列表](https://blog.csdn.net/i042416/article/details/134008357)
 
 * [SAP UI5 本地开发环境的搭建](https://jerry.blog.csdn.net/article/details/120611706)
 
@@ -438,9 +432,9 @@ Jerry 工作中使用 ABAP, Java, JavaScript 和 TypeScript 进行开发, 对包
 
 ## 说明
 
-Jerry 从 2014 年加入 SAP 成都研究院 CRM Fiori 开发团队之后开始接触 SAP UI5，曾经在 SAP 社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
+笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
 
-在 Jerry 这篇文章 [对 SAP UI5 一无所知的新手，从哪些材料开始学习比较好？](https://blog.csdn.net/i042416/article/details/116347763) 曾经提到，Jerry 也是从 SAP UI5 菜鸟一路走过来，深知只有 ABAP 开发背景的开发者，向 SAP UI5 开发领域转型的不易，因此我在业余时间设计了这份适合 `SAP UI5 不同水平`的学习者的学习教程，把开发一个完整的 SAP UI5 应用的流程，拆分成若干个步骤，力求每个步骤里，把涉及到的知识点都涵盖到。
+在笔者这篇文章 [对 SAP UI5 一无所知的新手，从哪些材料开始学习比较好？](https://blog.csdn.net/i042416/article/details/116347763) 曾经提到，笔者也是从 SAP UI5 菜鸟一路走过来，深知只有 ABAP 开发背景的开发者，向 SAP UI5 开发领域转型的不易，因此我在业余时间设计了这份适合 `SAP UI5 不同水平`的学习者的学习教程，把开发一个完整的 SAP UI5 应用的流程，拆分成若干个步骤，力求每个步骤里，把涉及到的知识点都涵盖到。
 
 这些知识点可能不像我的 UI5 源码分析系列文章那么深入，但力求做到深入浅出，重要的知识点都配上详细的截图来辅助文字的介绍，便于教程学习者的理解。
 
