@@ -62,15 +62,15 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [0. 自学 ABAP 和自学 SAP 的差别](https://jerry.blog.csdn.net/article/details/127581186)
 
-* [1. ABAP 标准培训教程 BC400 学习笔记之一：ABAP 服务器的架构和一个典型的 ABAP 程序结构介绍](https://jerry.blog.csdn.net/article/details/116206859)
+* [1. ABAP 服务器的架构和一个典型的 ABAP 程序结构介绍](https://jerry.blog.csdn.net/article/details/116206859)
 
-* [2. ABAP 标准培训教程 BC400 学习笔记之二：Cross-client 和 Client-specific 的区别](https://jerry.blog.csdn.net/article/details/116210632)
+* [2. Cross-client 和 Client-specific 的区别](https://jerry.blog.csdn.net/article/details/116210632)
 
-* [3. ABAP 标准培训教程 BC400 学习笔记之三：ABAP 编程语言的特性和基本构成要素](https://jerry.blog.csdn.net/article/details/116720010)
+* [3. ABAP 编程语言的特性和基本构成要素](https://jerry.blog.csdn.net/article/details/116720010)
 
-* [4. ABAP 标准培训教程 BC400 学习笔记之四：ABAP 编程语言的数据类型](https://jerry.blog.csdn.net/article/details/116897898)
+* [4. ABAP 编程语言的数据类型](https://jerry.blog.csdn.net/article/details/116897898)
 
-* [5. ABAP 标准培训教程 BC400 学习笔记之五：ABAP 编程语言的变量，常量和字面量，以及文本符号](https://jerry.blog.csdn.net/article/details/116904032)
+* [5. ABAP 编程语言的变量，常量和字面量，以及文本符号](https://jerry.blog.csdn.net/article/details/116904032)
 
 ## ABAP 基础知识
 
