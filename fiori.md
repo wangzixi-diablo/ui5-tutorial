@@ -113,6 +113,8 @@ Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData
 
 - [SAP Fiori 应用如果从 Launchpad 上打不开，应该从哪些方面去分析？](https://jerry.blog.csdn.net/article/details/138636654)
 
+- [如何通过单步调试的方法，找到 SAP Gateway 到底把 Fiori 应用发送的 OData 请求，投递到哪一台 ABAP 后台服务器了？](https://blog.csdn.net/i042416/article/details/143039787)
+
 # 学习资料和参考文献
 
 - [SAP Launchpad 配置](https://help.sap.com/doc/saphelp_nw75/7.5.5/en-US/a9/0ed59d22bb46898a2ec7a7dac215ef/frameset.htm)

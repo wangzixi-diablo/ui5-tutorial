@@ -108,4 +108,6 @@
 
 - [6. SAP ABAP OData 服务里需要指定 guid 类型的请求参数时，正确语法是什么？](https://blog.csdn.net/i042416/article/details/138397238)
 
+- [7. 如何通过单步调试的方法，找到 SAP Gateway 到底把 Fiori 应用发送的 OData 请求，投递到哪一台 ABAP 后台服务器了？](https://blog.csdn.net/i042416/article/details/143039787)
+
 - 正在写作中，敬请期待
