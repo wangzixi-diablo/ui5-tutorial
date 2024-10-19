@@ -24,9 +24,10 @@
 			<f:content>
 				<core:Title text="Office" />
 				<Label text="Name" />
-				<Input value="{SupplierName}" />
+				<Input id= "test" name= "ttt" value="{SupplierName}"
+				showSuggestion="true" autocomplete="true" />
 				<Label text="Street/No." />
-				<Input value="{Street}">
+				<Input id= "street" name = "streetname" value="{Street}">
 				</Input>
 				<Input value="{HouseNumber}">
 					<layoutData>

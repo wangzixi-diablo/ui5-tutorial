@@ -11,7 +11,7 @@ sap.ui.define([
 				previousEnabled: false,
 				nextEnabled: true,
 				currentPageNumber: 1,
-				totalPageNumber: this.getOwnerComponent().getPageNumber()
+				totalPageNumber: 1 //this.getOwnerComponent().getPageNumber()
 			};
 			this.oPageButtonControlModel = new JSONModel(this.oPageButtonControl);
 			this.getView().setModel(this.oPageButtonControlModel, "pageControl");

@@ -189,7 +189,7 @@
                 <Property Name="Product" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="Product" sap:quickinfo="Product ID"/>
                 <Property Name="Quantity" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="QuantityUnit" sap:label="Quantity" sap:quickinfo="EPM: Quantity"/>
                 <Property Name="QuantityUnit" Type="Edm.String" MaxLength="3" sap:text="to_QuantityUnit/UnitOfMeasure_Text" sap:label="Quantity Unit" sap:value-list="standard" sap:semantics="unit-of-measure"/>
-                <Property Name="StockAvailability" Type="Edm.Byte" sap:text="to_StockAvailability/StockAvailability_Text" sap:label="Availability" sap:quickinfo="Classification of max. available quantity in stock" sap:value-list="fixed-values"/>
+                <Property Name="StockAvailability" Type="Edm.Byte" sap:text="to_StockAvailability/StockAvailability_Text" sap:label="Availability Label" sap:quickinfo="库存 quick info" sap:value-list="fixed-values"/>
                 <Property Name="MinimumStockQuantity" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="QuantityUnit" sap:label="Minimum Stock" sap:quickinfo="EPM: Minimum Stock"/>
                 <NavigationProperty Name="to_QuantityUnit" Relationship="SEPMRA_PROD_MAN.assoc_93D577657623DB23AEFD48DEE95279BE" FromRole="FromRole_assoc_93D577657623DB23AEFD48DEE95279BE" ToRole="ToRole_assoc_93D577657623DB23AEFD48DEE95279BE"/>
                 <NavigationProperty Name="to_StockAvailability" Relationship="SEPMRA_PROD_MAN.assoc_8C4D8957EB47FC2200FA7265925EA449" FromRole="FromRole_assoc_8C4D8957EB47FC2200FA7265925EA449" ToRole="ToRole_assoc_8C4D8957EB47FC2200FA7265925EA449"/>

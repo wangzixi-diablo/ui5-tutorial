@@ -8,7 +8,7 @@
 	<Input 
 	    id="myinput"
 		value="{/recipient/name}"
-		description="Hello {/recipient/name}"
+		description="Hello 这里可以加字符 {/recipient/name}"
 		valueLiveUpdate="false"
 		width="60%"/>
 </mvc:View>

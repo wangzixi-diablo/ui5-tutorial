@@ -98,12 +98,9 @@ sap.ui.define([
 			});
 
 			this.oMockServer = new MockServer({
-				rootUri: "demokit.smartlink.example_01/"
+				rootUri: "jerrysmartlinkdemo/"
 			});
 
-			/*this.oMockServer.simulate("test-resources/sap/ui/comp/demokit/sample/smartlink/example_01/mockserver/metadata.xml", "test-resources/sap/ui/comp/demokit/sample/smartlink/example_01/mockserver/");
-			this.oMockServer.start();
-			*/
 			var sPath = sap.ui.require.toUrl("sap/ui5/walkthrough/mockserver");
 			this.oMockServer.simulate(sPath + "/metadata.xml", {
 				sMockdataBaseUrl: sPath,
@@ -111,8 +108,7 @@ sap.ui.define([
 			});
 			this.oMockServer.start();
 
-			// create and set ODATA Model
-			this.oModel = new ODataModel("demokit.smartlink.example_01", true);
+			this.oModel = new ODataModel("jerrysmartlinkdemo", true);
 			this.setModel(this.oModel);
 
 			UIComponent.prototype.init.apply(this, arguments);

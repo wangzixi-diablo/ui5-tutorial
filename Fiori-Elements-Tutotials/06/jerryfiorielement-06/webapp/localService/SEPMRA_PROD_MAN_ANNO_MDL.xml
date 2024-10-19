@@ -602,6 +602,10 @@
                             <PropertyValue Property="Value" Path="Price"/>
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                         </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="Depth"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
                     </Collection>
                 </Annotation>
                 <Annotation Term="UI.PresentationVariant">

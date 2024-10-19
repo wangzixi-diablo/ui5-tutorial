@@ -12,20 +12,15 @@
 
 	<l:VerticalLayout class="sapUiContentPadding" width="100%" sap.ui.dt:designtime="not-adaptable-tree">
 		<l:content>
-
 			<l:VerticalLayout width="100%">
 				<l:content>
-					<m:Text class="sapUiSmallMarginTop,	sapUiLargeMarginBottom"
-							text="The Name and Price properties are annotated with the com.sap.vocabularies.Common.v1.SemanticObject annotation."/>
-					<m:Text class="sapUiSmallMarginTop, sapUiLargeMarginBottom"
-							text="Link personalization is disabled."/>
+					<m:Text text="Name 和 Price 属性使用 com.sap.vocabularies.Common.v1.SemanticObject 注解"/>
 				</l:content>
 			</l:VerticalLayout>
 
-
 			<l:VerticalLayout width="100%">
 				<l:content>
-					<m:Text class="sapUiLargeMarginTop" text="SmartLink standalone"/>
+					<m:Text text="SmartLink standalone"/>
 				</l:content>
 			</l:VerticalLayout>
 			<l:VerticalLayout width="100%">

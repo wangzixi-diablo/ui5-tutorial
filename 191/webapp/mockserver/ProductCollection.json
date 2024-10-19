@@ -1,13 +1,13 @@
 [
   {
 	"ProductId": "1239102",
-	"Name": "Power Projector 4713",
+	"Name": "联想 P51",
 	"Price": 1234.56,
-	"CurrencyCode": "EUR"
+	"CurrencyCode": "CNY"
   },
   {
 	"ProductId": "38094020.1",
-	"Name": "Flat S",
+	"Name": "联想 T60",
 	"Price": 34,
 	"CurrencyCode": "JPY"
   }
