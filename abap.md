@@ -426,6 +426,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：RFC 调用 CALL FUNCTION DESTINATION NONE 的使用场合](https://blog.csdn.net/i042416/article/details/143085859)
 
+- [问题解答：如何使用 ABAP 动态断点，找到屏幕上自动被带出来的字段的数据源](https://blog.csdn.net/i042416/article/details/143092462)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
