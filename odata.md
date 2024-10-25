@@ -110,6 +110,10 @@
 
 - [7. 如何通过单步调试的方法，找到 SAP Gateway 到底把 Fiori 应用发送的 OData 请求，投递到哪一台 ABAP 后台服务器了？](https://blog.csdn.net/i042416/article/details/143039787)
 
+- [8. SAP OData 里通过 Key 值和通过 $filter 操作读取数据有什么区别？](https://blog.csdn.net/i042416/article/details/143235066)
+
+- [9. 添加了 @OData.publish 注解的 SAP CDS view 发布的 OData 服务，为何不支持修改和创建功能？](https://blog.csdn.net/i042416/article/details/143239513)
+
 - [SAP OData 实用技巧小合集 - 持续更新！](https://blog.csdn.net/i042416/article/details/143213769)
 
 - 正在写作中，敬请期待
