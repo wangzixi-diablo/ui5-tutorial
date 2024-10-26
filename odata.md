@@ -90,9 +90,7 @@
 
 * [2. 如何给在 SAP Business Application Studio 里开发的 OData 服务准备测试数据](https://blog.csdn.net/i042416/article/details/128063472)
 
-# 教程学习者问题解答
-
-## 问题合集
+# 教程学习者问题解答的合集系列
 
 * [0. 网友向笔者发起咨询的 SAP OData 问题列表](https://blog.csdn.net/i042416/article/details/134008212)
 
@@ -114,6 +112,10 @@
 
 - [9. 添加了 @OData.publish 注解的 SAP CDS view 发布的 OData 服务，为何不支持修改和创建功能？](https://blog.csdn.net/i042416/article/details/143239513)
 
+# SAP OData 实战系列
+
 - [SAP OData 实用技巧小合集 - 持续更新！](https://blog.csdn.net/i042416/article/details/143213769)
+
+- [保姆级教程：ABAP 通过 HTTP POST 调用 OData 服务创建业务数据的具体例子](https://blog.csdn.net/i042416/article/details/143261251)
 
 - 正在写作中，敬请期待
