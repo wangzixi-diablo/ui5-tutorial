@@ -78,11 +78,11 @@
 
 - [37. 如何在 SEGW 事务码里为 SAP ABAP OData 服务实现 Function Import](https://jerry.blog.csdn.net/article/details/138399275)
 
-- 更多文章正在写作中，敬请期待
+- <font color='red' size="3pt">更多文章正在写作中，敬请期待</font>
 
 # 使用 Restful ABAP Programming 编程模型(简称 RAP) 开发 OData 服务
 
-- 正在写作中，敬请期待
+- <font color='red' size="3pt">正在写作中，敬请期待</font>
 
 # 使用 SAP Cloud Application Programming 编程模型开发 OData 服务
 
@@ -118,4 +118,4 @@
 
 - [保姆级教程：ABAP 通过 HTTP POST 调用 OData 服务创建业务数据的具体例子](https://blog.csdn.net/i042416/article/details/143261251)
 
-- 正在写作中，敬请期待
+- <font color='red' size="3pt">正在写作中，敬请期待</font>
