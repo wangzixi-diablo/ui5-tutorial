@@ -1,5 +1,7 @@
 正如本教程的开篇介绍文章[SAP OData 开发教程 - 从入门到提高(包含 SEGW, RAP 和 CDP)](https://jerry.blog.csdn.net/article/details/125468125)所提到的，SAP OData 服务开发，从实现技术上来说，可以分为三大类。因此本教程也分为三大部分，分别进行介绍。本文是本教程的文章目录。
 
+到 `2024 年 11 月 13 日`为止，本教程总共更新了 <font color='red' size="3pt">64</font> 篇文章。
+ 
 # 基于 SEGW - Gateway Service Builder 的开发教程
 
 - [0. SAP 标准产品里使用 OData 服务的一些细节分享](https://jerry.blog.csdn.net/article/details/127593757)
@@ -111,6 +113,8 @@
 - [8. SAP OData 里通过 Key 值和通过 $filter 操作读取数据有什么区别？](https://blog.csdn.net/i042416/article/details/143235066)
 
 - [9. 添加了 @OData.publish 注解的 SAP CDS view 发布的 OData 服务，为何不支持修改和创建功能？](https://blog.csdn.net/i042416/article/details/143239513)
+
+- [10. 问题解答：关于 SAP OData(Gateway) 部署的几种方式](https://blog.csdn.net/i042416/article/details/143748187)
 
 # SAP OData 实战系列
 

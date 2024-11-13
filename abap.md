@@ -14,7 +14,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己 `17 年`的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 学习教程也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 10 月 28 日`为止，目前已经更新了 `220` 篇，专栏完成度为 `61.3%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2024 年 11 月 7 日`为止，目前已经更新了 `224` 篇，专栏完成度为 `61.3%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -452,6 +452,10 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：通过实际的例子解释什么是 ABAP SAT 工具里的 Gross Time 和 Net Time](https://blog.csdn.net/i042416/article/details/143295756)
 
+- [如何解决 SAP ALV 报表不能以后台作业方式(Background Job)运行的问题](https://blog.csdn.net/i042416/article/details/143330965)
+
+- [问题解答：如何打印 ABAP 的会话 ID？](https://blog.csdn.net/i042416/article/details/143594343)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
@@ -489,6 +493,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 - [从一个实际的例子出发，介绍 SAP ABAP CDS View 的权限控制实现原理](https://blog.csdn.net/i042416/article/details/143270988)
 
 - [实战演练：使用事务码创建 SQVI 创建 Query，可以一次性查看多张表的内容](https://blog.csdn.net/i042416/article/details/143275265)
+
+- [实战系列：如何增强 Function Module，添加一些自定义的用户会话 ID 打印功能](https://blog.csdn.net/i042416/article/details/143600763)
 
 ## 日积月累：每天一个 ABAP 知识点
 

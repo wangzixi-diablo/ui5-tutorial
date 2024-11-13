@@ -495,3 +495,5 @@ t
 - [SAP Fiori Tools Extension Pack 的使用技巧汇总](https://blog.csdn.net/i042416/article/details/134741772)
 
 - [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
+
+- [SAP UI5 和 Fiori 的一些小技巧合集 - 持续更新中](https://blog.csdn.net/i042416/article/details/143363122)
