@@ -416,6 +416,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [ABAP 7.40 新语法介绍系列之五 - 增强的 ABAP OPEN SQL 语法介绍](https://jerry.blog.csdn.net/article/details/136557038)
 
+* [ABAP 740 新语法介绍系列之六：使用 FILTER 关键字对 ABAP 内表进行过滤](https://blog.csdn.net/i042416/article/details/144173960)
 ## ABAP Push Channel 和 ABAP Web Socket 专题
 
 - [使用 ABAP 实现 TCP Socket 编程 (1) - 客户端部分的实现](https://blog.csdn.net/i042416/article/details/143236305)
