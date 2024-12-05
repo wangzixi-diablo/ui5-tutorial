@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ui5 serve",
     "build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
-    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml"
+    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml",
+    "version": "ui5 -v"
   },
   "dependencies": {
     "body-parser": "^1.19.1",
