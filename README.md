@@ -1,8 +1,8 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2024年12月5日`为止，目前已经更新了 `234` 篇，专栏完成度为 `58.5%`，完成度已经超过`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2024年12月11日`为止，目前已经更新了 `236` 篇，专栏完成度为 `58.5%`，完成度已经超过`一半`了.
 
-本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`700`小时了。 
+本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`800`小时了。 
 
 教程的每篇文章，都同时包含理论知识讲解和实际开发例子。每个例子的源代码都由笔者亲自编写，并且保证能够成功运行。
 
@@ -25,6 +25,8 @@
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
 
 * [SAP UI5 开发的四大开发工具综述](https://jerry.blog.csdn.net/article/details/131292097)
+
+* [让 Visual Studio Code 本地开发 SAP UI5 体验更丝滑的一些 Extensions，推荐安装](https://blog.csdn.net/i042416/article/details/144406413)
 
 * [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475360)
 
@@ -489,6 +491,8 @@ t
 - [如何找出 SAP 标准 Fiori 应用某个按钮点击后执行的 JavaScript 源代码](https://jerry.blog.csdn.net/article/details/138229226)
 
 - [问题解答：SAP UI5 应用里如何处理文件名为中文的附件](https://blog.csdn.net/i042416/article/details/138720162)
+
+- [问题解答：将本地 SAP UI5 应用部署到 ABAP 服务器时，ABAP 服务器需要满足什么条件？](https://blog.csdn.net/i042416/article/details/144264911)
 
 # 使用技巧和故障排查指南
 
