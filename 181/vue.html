@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Simple Vue Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        #app {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        button {
+            background-color: #42b983;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #369d77;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Creating a Simple Vue Application</h1>
+
+    <div id="app">
+        <h2>{{ message }}</h2>
+        <button @click="changeMessage">Click Me</button>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    message: `Welcome to Vue.js!`
+                };
+            },
+            methods: {
+                changeMessage() {
+                    this.message = `You clicked the button!`;
+                }
+            }
+        });
+
+        app.mount(`#app`);
+    </script>
+
+</body>
+</html>
