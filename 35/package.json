@@ -4,9 +4,10 @@
   "author": "Jerry",
   "description": "如何把本地开发的 SAP UI5 应用部署到 ABAP 服务器上",
   "scripts": {
-    "start": "ui5 serve",
+    "start": "ui5 serve --port 8080 --open index.html",
     "build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
-    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml"
+    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml",
+    "version": "ui5 -v"
   },
   "dependencies": {
     "body-parser": "^1.19.1",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "@sap/ux-ui5-tooling": "^1.4.7",
-    "@ui5/cli": "^2.11.1",
+    "@ui5/cli": "^3.0.0",
     "@ui5/fs": "^2.0.6",
     "@ui5/logger": "^2.0.1",
     "rimraf": "3.0.2"

@@ -61,6 +61,10 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [21. 什么是 SAP Fiori Elements List Report 模版里的 Criticality 属性](https://blog.csdn.net/i042416/article/details/136215077)
 
+- [22. 如何让 SAP Fiori Elements List Report 启动后自动点击 Go 按钮触发数据读取操作](https://jerry.blog.csdn.net/article/details/144446936)
+
+- [23. 回答网友提问：为啥重装系统之后，运行本教程配套的Fiori Elements List Report 代码，就报错了？](https://jerry.blog.csdn.net/article/details/144446941)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码

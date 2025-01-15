@@ -117,6 +117,8 @@ Fiori 应用的 SAP UI5 前端通过 `OData 服务`同后台进行交互。OData
 
 - [问题解答：关于 SAP OData(Gateway) 部署的几种方式](https://blog.csdn.net/i042416/article/details/143748187)
 
+- [如何理解 SAP Fiori Role based 的用户体验](https://jerry.blog.csdn.net/article/details/144221421)
+
 - [SAP UI5 和 Fiori 的一些小技巧合集 - 持续更新中](https://blog.csdn.net/i042416/article/details/143363122)
 
 # 学习资料和参考文献

@@ -23,6 +23,11 @@ sap.ui.define([
 						"PageId": "p3",
 						"Name": "QQ",
 						"Url": 'http://localhost:8080/qq.html'
+					},
+					{
+						"PageId": "p4",
+						"Name": "Vue",
+						"Url": 'http://localhost:8080/vue.html'
 					}
 				]
 			};
@@ -39,7 +44,7 @@ sap.ui.define([
 				}
 			}
 			var sIFrameId = "iFrameId1";
-			var sContent = '<iframe id="' + sIFrameId + '" height="98%" width="100%" frameborder="0" src="' + sUrl + '" ></iframe>';
+			var sContent = '<iframe id="' + sIFrameId + '" height="500px" width="100%" frameborder="0" src="' + sUrl + '" ></iframe>';
 
 			if( this.oPageHtmliFrame != null){
 				oContainer.removeItem(this.oPageHtmliFrame);
