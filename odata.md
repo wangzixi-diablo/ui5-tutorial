@@ -1,6 +1,6 @@
 正如本教程的开篇介绍文章[SAP OData 开发教程 - 从入门到提高(包含 SEGW, RAP 和 CDP)](https://jerry.blog.csdn.net/article/details/125468125)所提到的，SAP OData 服务开发，从实现技术上来说，可以分为三大类。因此本教程也分为三大部分，分别进行介绍。本文是本教程的文章目录。
 
-到 `2025 年 2 月 11 日`为止，本教程总共更新了 <font color='red' size="3pt">73</font> 篇文章。
+到 `2025 年 2 月 12 日`为止，本教程总共更新了 <font color='red' size="3pt">76</font> 篇文章。
  
 # 基于 SEGW - Gateway Service Builder 的开发教程
 
@@ -99,6 +99,12 @@
 - [在浏览器环境里使用 SAP Business Application Studio 开发 OData 服务之三：什么是 CAP 中的 aspect 概念](https://blog.csdn.net/i042416/article/details/145578041)
 
 - [在浏览器环境里使用 SAP Business Application Studio 开发 OData 服务之四：CAP OData 模型节点之间关联关系的维护](https://blog.csdn.net/i042416/article/details/145578495)
+
+- [在浏览器环境里使用 SAP Business Application Studio 开发 OData 服务之五：类型为 CodeList 的 OData 节点设计](https://blog.csdn.net/i042416/article/details/145589124)
+
+- [在浏览器环境里使用 SAP Business Application Studio 开发 OData 服务之六：编写 services.cds 以暴露 OData 模型](https://blog.csdn.net/i042416/article/details/145591434)
+
+- [在浏览器环境里使用 SAP Business Application Studio 开发 OData 服务之七：OData 服务测试数据的准备工作](https://blog.csdn.net/i042416/article/details/145593963)
 
 # 教程学习者问题解答的合集系列
 
