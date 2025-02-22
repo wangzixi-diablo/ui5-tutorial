@@ -1,28 +1,12 @@
 {
-  "name": "sap.ui5.walkthrough",
-  "version": "0.0.1",
+  "name": "sap.m.tutorial.walkthrough.09",
+  "version": "1.0.0",
   "author": "Jerry",
   "description": "SAP UI5 初学者教程之九 - 创建第一个 Component",
   "scripts": {
-    "start_old": "ui5 serve",
-    "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#app-tile\"",
-    "start-noflp": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
-    "start-variants-management": "fiori run --open \"preview.html?sap-ui-xx-viewCache=false&fiori-tools-rta-mode=true&sap-ui-rta-skip-flex-validation=true#preview-app\"",
-    "build": "ui5 build -a --clean-dest --include-task=generateCachebusterInfo",
-    "deploy": "fiori verify",
-    "deploy-config": "fiori add deploy-config"
+    "start": "ui5 serve"
   },
   "devDependencies": {
-    "@ui5/cli": "^3.0.0",
-    "@sap/ux-ui5-tooling": "1",
-    "rimraf": "3.0.2"
-  },
-  "private": true,
-  "sapuxLayer": "CUSTOMER_BASE",
-  "keywords": [
-    "ui5",
-    "openui5",
-    "sapui5"
-  ],
-  "main": "webapp/index.html"
+    "@ui5/cli": "^2.0.0"
+  }
 }

@@ -1,26 +1,8 @@
-specVersion: "3.1"
+specVersion: '2.3'
 metadata:
-  name: sap.ui5.walkthrough
+  name: "sap.m.tutorial.walkthrough.09"
 type: application
-server:
-  customMiddleware:
-    - name: fiori-tools-proxy
-      afterMiddleware: compression
-      configuration:
-        ignoreCertError: false
-        ui5:
-          path:
-            - /resources
-            - /test-resources
-          url: https://ui5.sap.com
-    - name: fiori-tools-appreload
-      afterMiddleware: compression
-      configuration:
-        port: 35729
-        path: webapp
-        delay: 300
-    - name: fiori-tools-preview
-      afterMiddleware: fiori-tools-appreload
-      configuration:
-        component: sap.ui5.walkthrough
-        ui5Theme: sap_fiori_3
+resources:
+  configuration:
+    paths:
+      webapp: .
