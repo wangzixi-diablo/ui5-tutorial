@@ -7,10 +7,10 @@ sap.ui.define([
 	return Controller.extend("sap.u5.walkthrough.controller.HelloPanel", {
 
 		onShowHello : function (oEvent) {
-         var oBundle = this.getView().getModel("i18n").getResourceBundle();
-          var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-          var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-          MessageToast.show(sMsg);
+    		var oBundle = this.getView().getModel("i18n").getResourceBundle();
+          	var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+          	var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+          	MessageToast.show(sMsg);
 		},
 		onOpenDialog : function () {
 
