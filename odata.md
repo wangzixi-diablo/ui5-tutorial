@@ -132,6 +132,8 @@
 
 - [11. SAP UI5 应用同后台交互，到底应该选择 OData 还是直接用 HTTP JSON 报文](https://jerry.blog.csdn.net/article/details/146148399)
 
+- [12. 如何在 Visual Studio Code 里进行 SAP OData 开发](https://blog.csdn.net/i042416/article/details/146152423)
+
 # SAP OData 实战系列
 
 - [SAP OData 实用技巧小合集 - 持续更新！](https://blog.csdn.net/i042416/article/details/143213769)
