@@ -130,6 +130,8 @@
 
 - [10. 问题解答：关于 SAP OData(Gateway) 部署的几种方式](https://blog.csdn.net/i042416/article/details/143748187)
 
+- [11. SAP UI5 应用同后台交互，到底应该选择 OData 还是直接用 HTTP JSON 报文](https://jerry.blog.csdn.net/article/details/146148399)
+
 # SAP OData 实战系列
 
 - [SAP OData 实用技巧小合集 - 持续更新！](https://blog.csdn.net/i042416/article/details/143213769)
