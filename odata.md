@@ -1,6 +1,6 @@
 正如本教程的开篇介绍文章[SAP OData 开发教程 - 从入门到提高(包含 SEGW, RAP 和 CDP)](https://jerry.blog.csdn.net/article/details/125468125)所提到的，SAP OData 服务开发，从实现技术上来说，可以分为三大类。因此本教程也分为三大部分，分别进行介绍。本文是本教程的文章目录。
 
-到 `2025 年 2 月 12 日`为止，本教程总共更新了 <font color='red' size="3pt">76</font> 篇文章。
+到 `2025 年 3 月 10 日`为止，本教程总共更新了 <font color='red' size="3pt">79</font> 篇文章。
  
 # 基于 SEGW - Gateway Service Builder 的开发教程
 
@@ -133,6 +133,8 @@
 - [11. SAP UI5 应用同后台交互，到底应该选择 OData 还是直接用 HTTP JSON 报文](https://jerry.blog.csdn.net/article/details/146148399)
 
 - [12. 如何在 Visual Studio Code 里进行 SAP OData 开发](https://blog.csdn.net/i042416/article/details/146152423)
+
+- [13. 如何把 SAP Business Application Studio 里开发好的 OData 项目同步到 Github 上](https://blog.csdn.net/i042416/article/details/146154563)
 
 # SAP OData 实战系列
 
