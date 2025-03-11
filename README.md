@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2025年1月15日`为止，目前已经更新了 `237` 篇，专栏完成度为 `59.5%`，完成度已经超过`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2025年3月11日`为止，目前已经更新了 `238` 篇，专栏完成度为 `59.5%`，完成度已经超过`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`800`小时了。 
 
@@ -21,6 +21,8 @@
 * [本地 SAP UI5 开发环境搭建好之后，运行 ui5 serve 仍然不能正常工作，该怎么办](https://jerry.blog.csdn.net/article/details/133822544)
 
 * [使用 SAP Business Application Studio 在浏览器环境里开发 SAP UI5 应用](https://jerry.blog.csdn.net/article/details/129572530)
+
+* [使用 SAP Joule 进行 SAP UI5 开发的准备工作](https://blog.csdn.net/i042416/article/details/146177949)
 
 * [SAP UI5 开发的四大开发工具综述](https://jerry.blog.csdn.net/article/details/131292097)
 
