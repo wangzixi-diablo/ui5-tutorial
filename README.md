@@ -24,6 +24,8 @@
 
 * [使用 SAP Joule 进行 SAP UI5 开发的准备工作](https://blog.csdn.net/i042416/article/details/146177949)
 
+* [如何使用 SAP Business Application Studio 打开本教程的示例代码](https://blog.csdn.net/i042416/article/details/146180129)
+
 * [SAP UI5 开发的四大开发工具综述](https://jerry.blog.csdn.net/article/details/131292097)
 
 * [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475360)
