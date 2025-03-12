@@ -15,7 +15,7 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 下面是本教程的目录。笔者承诺该教程完成之后，文章篇幅不少于 `100` 篇。
 
-- [0.迈入 SAP Fiori Elements 开发的大门 - 什么是 Fiori Elements，它和 Freestyle UI5 开发方式有何区别?](https://jerry.blog.csdn.net/article/details/130175514)
+- [0. 迈入 SAP Fiori Elements 开发的大门 - 什么是 Fiori Elements，它和 Freestyle UI5 开发方式有何区别?](https://jerry.blog.csdn.net/article/details/130175514)
 
 - [1. SAP Fiori Elements 开发环境的搭建和开发准备工作](https://jerry.blog.csdn.net/article/details/130210653)
 
