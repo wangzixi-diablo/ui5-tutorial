@@ -25,8 +25,6 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [4. SAP Fiori Elements 本地应用启动的三种模式辨析](https://jerry.blog.csdn.net/article/details/130461703)
 
-- [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475423)
-
 - [5. 动手开发第一个 SAP Fiori Elements 应用](https://jerry.blog.csdn.net/article/details/131025412)
 
 - [6. 知其然知其所以然 - 使用向导生成的 Fiori Elements 应用的文件结构分析](https://jerry.blog.csdn.net/article/details/131917250)
@@ -126,3 +124,5 @@ Analytical List Page 的外观：
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
 
 - [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
+
+- [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475423)
