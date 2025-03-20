@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.05",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 应用里如何判断用户访问应用的设备类型",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
