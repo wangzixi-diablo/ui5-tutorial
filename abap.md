@@ -14,7 +14,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己<font color='red' size="3pt">18年</font>的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 学习教程也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2025 年 1 月 8 日`为止，目前已经更新了 `232` 篇，专栏完成度为 `61.3%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2025 年 3 月 20 日`为止，目前已经更新了 `234` 篇，专栏完成度为 `61.3%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -344,6 +344,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [152. 如何使用 ABAPGit 在 SAP ABAP 系统安装 abap2xlsx 工具](https://blog.csdn.net/i042416/article/details/138000082)
 
+* [如何使用 ABAP 代码编程的方式，调用标准的 ABAP 报表](https://blog.csdn.net/i042416/article/details/145401295)
+
 * 更多文章正在写作中
         
 ## ABAP 面向对象编程专题
@@ -363,6 +365,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [42. 用 ABAP 新建本地 Excel 文件并写入数据](https://jerry.blog.csdn.net/article/details/123761027)
 
 * [43. 如何使用 ABAP 创建包含不同字体大小的 Word 文档](https://jerry.blog.csdn.net/article/details/126214988)
+
+* [如何使用 Excel 调用 ABAP 系统的函数](https://blog.csdn.net/i042416/article/details/146400623)
 
 * 更多文章正在写作中
 
