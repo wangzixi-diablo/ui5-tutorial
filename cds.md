@@ -4,6 +4,8 @@
 
 * [SAP ABAP 四种传统的数据库视图类型介绍之一：Database View](https://blog.csdn.net/i042416/article/details/146492667)
 
+* [SAP ABAP 四种传统的数据库视图类型介绍之二：Projection View](https://jerry.blog.csdn.net/article/details/146494651)
+
 # 参考文献
 
 https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html
