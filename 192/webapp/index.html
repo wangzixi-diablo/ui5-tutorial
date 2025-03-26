@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>如何在 SAP UI5 里播放背景音乐</title>
+	<script
+		id="sap-ui-bootstrap"
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_fiori_3"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true"
+		data-sap-ui-resourceroots='{
+			"sap.ui5.walkthrough": "./"
+		}'
+		data-sap-ui-oninit="module:sap/ui5/walkthrough/index">
+	</script>
+</head>
+<body class="sapUiBody" id="content">
+	<audio id="background-music" loop>
+        <source src="audio/music.m4a" type="audio/mpeg">
+        浏览器版本过低，不支持 audio 播放！
+    </audio>
+</body>
+</html>

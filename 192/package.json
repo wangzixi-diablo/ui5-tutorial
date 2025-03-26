@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.192",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何在 SAP UI5 里播放背景音乐",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
