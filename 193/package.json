@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.05",
+  "name": "sap.m.tutorial.walkthrough.193",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 初学者教程之五：视图控制器初探",
+  "description": "问题解答：如何在 SAP UI5 里增添雪花漫天飞舞的圣诞节效果",
   "scripts": {
     "start": "ui5 serve"
   },
