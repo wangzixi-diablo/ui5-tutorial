@@ -14,7 +14,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己<font color='red' size="3pt">18年</font>的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 学习教程也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2025 年 3 月 25 日`为止，目前已经更新了 `235` 篇，专栏完成度为 `61.3%`
+## 本专栏计划的文章数在 `300` 篇左右，到 `2025 年 3 月 29 日`为止，目前已经更新了 `237` 篇，专栏完成度为 `61.3%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -99,6 +99,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 * [SAP ABAP 四种传统的数据库视图类型介绍之一：Database View](https://blog.csdn.net/i042416/article/details/146492667)
 
 * [SAP ABAP 四种传统的数据库视图类型介绍之二：Projection View](https://jerry.blog.csdn.net/article/details/146494651)
+
+* [SAP ABAP 四种传统的数据库视图类型介绍之三：Maintenance View](https://blog.csdn.net/i042416/article/details/146641730)
 
 * [16. 用 ABAP 读取本地文本文件内容](https://jerry.blog.csdn.net/article/details/123753797)
 
