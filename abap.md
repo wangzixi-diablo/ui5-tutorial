@@ -488,6 +488,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：什么是 ABAP 透明表的 Text Table](https://blog.csdn.net/i042416/article/details/146841767)
 
+- [问题解答：什么是 ABAP DDIC 的 Search Help?](https://blog.csdn.net/i042416/article/details/146860248)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
