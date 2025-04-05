@@ -14,6 +14,7 @@
 
 - [2. 第一个 SAP CDS View 源代码的详细解析：CDS View 和底层自动生成 SQL View 的关系讲解](https://blog.csdn.net/i042416/article/details/147010738)
 
+- [3. 使用 ABAP OPEN SQL 读取 CDS View 数据时，数据库层面到底发生了什么事？](https://blog.csdn.net/i042416/article/details/147017283)
 # 参考文献
 
 https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html
