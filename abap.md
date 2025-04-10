@@ -104,6 +104,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [SAP ABAP 四种传统的数据库视图类型介绍之四：Help View](https://blog.csdn.net/i042416/article/details/146876759)
 
+- [SAP ABAP 数据库四种表连接的辨析：Inner Join，Outer Join，Left Join 和 Right Join](https://blog.csdn.net/i042416/article/details/147111628)
+
 * [16. 用 ABAP 读取本地文本文件内容](https://jerry.blog.csdn.net/article/details/123753797)
 
 * [17. 26 行 ABAP 代码使用 HTTP_GET 函数下载百度网站的首页数据](https://jerry.blog.csdn.net/article/details/123978542)
