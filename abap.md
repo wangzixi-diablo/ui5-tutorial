@@ -494,6 +494,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：什么是 ABAP DDIC 的 Search Help?](https://blog.csdn.net/i042416/article/details/146860248)
 
+- [问题解答：如何不通过修改底层数据库表的方式，给数据库对应的数据结构，增添新的字段？](https://blog.csdn.net/i042416/article/details/147137202)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
