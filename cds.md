@@ -18,7 +18,9 @@
 
 - [4. SAP ABAP 数据库四种表连接的辨析：Inner Join，Outer Join，Left Join 和 Right Join](https://blog.csdn.net/i042416/article/details/147111628)
 
-- [5. 使用 SAP ABAP CDS View 重新实现数据库表的 Inner Join 操作]()
+- [5. 使用 SAP ABAP CDS View 重新实现数据库表的 Inner Join 操作](https://blog.csdn.net/i042416/article/details/147135914)
+
+- [6. 如何创建 SAP ABAP CDS View 的 Association](https://blog.csdn.net/i042416/article/details/147144561)
 
 # 参考文献
 
