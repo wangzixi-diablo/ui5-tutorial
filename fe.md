@@ -126,3 +126,7 @@ Analytical List Page 的外观：
 - [SAP UI5 Freestyle 开发和 Fiori Elements 开发技术各自的优势和劣势](https://blog.csdn.net/i042416/article/details/135972354)
 
 - [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475423)
+
+# 参考文献
+
+- [How To Use SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/20de9506339949c7bd16b789e8352f26)
