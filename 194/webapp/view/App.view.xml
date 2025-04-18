@@ -1,0 +1,20 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="true">
+	<App>
+		<pages>
+			<Page title="二维码生成器">
+				<content>
+					<VBox alignItems="Center" justifyContent="Center" class="sapUiMediumMargin">
+						<Input id="textInput" placeholder="请输入要生成二维码的文本" width="100%" class="sapUiSmallMarginBottom"/>
+						<Button text="生成二维码" press="onGenerateQRCode" class="sapUiSmallMarginBottom"/>
+						<html:div id="qrcode" class="sapUiMediumMargin"></html:div>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
