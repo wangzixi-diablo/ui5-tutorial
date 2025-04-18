@@ -6,10 +6,6 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("sap.ui5.walkthrough.controller.App", {
-		onInit: function() {
-			//jQuery.sap.includeScript("resources/qrcode.min.js");
-		},
-		
 		onGenerateQRCode: function() {
 			var sText = this.getView().byId("textInput").getValue();
 			
