@@ -63,6 +63,10 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [23. 回答网友提问：为啥重装系统之后，运行本教程配套的Fiori Elements List Report 代码，就报错了？](https://jerry.blog.csdn.net/article/details/144446941)
 
+- [24. Fiori Elements List Report 的 Table 控件，如何实现行项目多选(Multiple Selection)效果](https://blog.csdn.net/i042416/article/details/147363792)
+
+- [25. 如何在 SAP Fiori Elements List Report 里表格行项目被选中时，打印被选中的行项目数据](https://blog.csdn.net/i042416/article/details/147404086)
+
 - 正在写作中
 
 # 按照本教程介绍的步骤开发好的 Fiori Elements 应用源代码
