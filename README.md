@@ -504,6 +504,8 @@ t
 
 - [问题解答：如何在 SAP UI5 里生成二维码](https://blog.csdn.net/i042416/article/details/147325962)
 
+- [问题解答：如何在 SAP UI5 应用里触发邮件发送操作](https://blog.csdn.net/i042416/article/details/147414315)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。

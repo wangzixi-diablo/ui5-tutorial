@@ -4,8 +4,7 @@ sap.ui.define([
 	"use strict";
 	return Controller.extend("sap.ui5.walkthrough.controller.App", {
 		onSendEmail : function () {
-			//alert("Hello World");
-			sap.m.URLHelper.triggerEmail(null,"1","2");
+			sap.m.URLHelper.triggerEmail(null,"这是主题","这是正文","a@test.com", "b@test.com");
 		}
 	});
 });
