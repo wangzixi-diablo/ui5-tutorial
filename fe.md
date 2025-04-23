@@ -107,6 +107,8 @@ Overview Page 的外观：
 Object Page 应用的外观：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
 
+- [Fiori Elements Object Page 工作原理深入讲解：剖析页面主标题和副标题显示原理](https://blog.csdn.net/i042416/article/details/147457018)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
