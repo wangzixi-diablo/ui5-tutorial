@@ -113,6 +113,8 @@ Object Page 应用的外观：
 
 - [什么是 SAP Fiori Elements 的 Template Private Model](https://blog.csdn.net/i042416/article/details/147481999)
 
+- [Fiori Elements Object Page 页面 Header 区域的图片显示原理](https://blog.csdn.net/i042416/article/details/147482583)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
