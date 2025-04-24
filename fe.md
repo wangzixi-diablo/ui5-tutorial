@@ -77,7 +77,7 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 List Report 应用的外观：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/36d5e126e8804bb0b865eb4f748f2027.png)
+![](https://img-blog.csdnimg.cn/36d5e126e8804bb0b865eb4f748f2027.png)
 
 - [2. 如何通过扩展(Extension)的方式给 SAP Fiori Elements List Report 的表格新增列 - 例子的完整源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/02/jerryfiorielement-02)
 
@@ -100,12 +100,12 @@ List Report 应用的外观：
 ## Overview Page 应用 - 正在编写中
 
 Overview Page 的外观：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6a3340cae1054655ba7359cdffb49074.png)
+![](https://img-blog.csdnimg.cn/6a3340cae1054655ba7359cdffb49074.png)
 
 # Object Page 应用 - 正在编写中
 
 Object Page 应用的外观：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
+![](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
 
 - [Fiori Elements Object Page 工作原理深入讲解：剖析页面主标题和副标题显示原理](https://blog.csdn.net/i042416/article/details/147457018)
 
@@ -116,13 +116,13 @@ Object Page 应用的外观：
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ed59a3792b3340a79a79c7808a692feb.png)
+![](https://img-blog.csdnimg.cn/ed59a3792b3340a79a79c7808a692feb.png)
 
 
 ## Analytical List Page - 正在编写中
 
 Analytical List Page 的外观：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ffbc6b2be38146788278e2e14522e097.png)
+![](https://img-blog.csdnimg.cn/ffbc6b2be38146788278e2e14522e097.png)
 
 # 工具和 Extension 使用技巧和故障排查指南
 
