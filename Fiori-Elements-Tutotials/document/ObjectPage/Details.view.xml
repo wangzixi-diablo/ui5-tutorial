@@ -1,0 +1,158 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:uxap="sap.uxap" xmlns:vm="sap.ui.fl.variants"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{
+		SIDH: 'sap/suite/ui/generic/template/js/StableIdHelper',
+		AH: 'sap/suite/ui/generic/template/js/AnnotationHelper',
+		AHModel: 'sap/ui/model/odata/AnnotationHelper',
+		AHActionButtons: 'sap/suite/ui/generic/template/ObjectPage/annotationHelpers/AnnotationHelperActionButtons'}">
+
+	<!-- Note: Setting enableLazyLoading to true actually enables the subSectionEnteredViewPort-event -->
+	<uxap:ObjectPageLayout id="objectPage" flexEnabled="true"
+		isChildPage="{= ${parameter>/treeNode/level} > 1 }"
+		enableLazyLoading="true"
+		showHeaderContent="{= ${_templPriv>/objectPage/displayMode} &lt; 2 }"
+		showFooter="{parts: [{path: 'entityType>com.sap.vocabularies.UI.v1.Identification'}, {path: 'parameter>/templateSpecific/pageLevelActions/extensionActions'}], formatter: 'AH.hasDeterminingActionsRespectingApplicablePath'}"
+		upperCaseAnchorBar="false"
+		navigate="._templateEventHandlers.sectionChange"
+		class="sapSmartTemplatesObjectPage sapMShowEmpty-CTX"
+		toggleHeaderOnTitleClick="{= !${ui>/editable} }">
+
+		<uxap:dependents>
+			<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.PageLevelCommands" type="XML"/>
+		</uxap:dependents>
+
+		<!-- This customData element will contain the title and subtitle information for the corresponding object as derived from the annotation
+			 Note that this information will be transferred to the template private model (keys /objectPage/headerInfo/objectTitle resp. /objectPage/headerInfo/objectSubtitle).
+			 For details look at function fnEnsureTitleTransfer in ControllerImplementation
+		-->
+		<uxap:customData>
+			<core:CustomData key="objectTitle" value="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Title/Value', formatter: 'AH.formatWithExpandSimple'}" />
+			<core:CustomData key="objectSubtitle" value="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Description/Value', formatter: 'AH.formatWithExpandSimple'}" />
+		</uxap:customData>
+
+		<template:with path="entitySet>dummy" var="tabItem">
+			<template:with path="entitySet>dummy" var="chartItem">
+				<uxap:headerTitle>
+					<template:with path="parameter>/variables" helper="AH.getNewVariable" var="DraftAdminDataAccess">
+						<template:if test="{= ${DraftAdminDataAccess>}.set(${path: 'parameter>/treeNodeAncestors', formatter: 'AHActionButtons.getDraftAdminDataAccess'}) }"/>					
+						<template:if test="{= ${appSettings>/objectPageHeaderType} === 'Dynamic'}">
+							<template:then>
+								<uxap:ObjectPageDynamicHeaderTitle id="template::ObjectPage::ObjectPageHeader">
+									<uxap:heading>
+										<HBox renderType="Bare">
+											<FlexBox renderType="Bare" wrap="Wrap" justifyContent="SpaceBetween" fitContainer="true" alignItems="Center" class="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}], formatter: 'AH.hasImageUrlForHeaderTitle'}">
+												<layoutData>
+	        										<FlexItemData minWidth="0"/>
+	        									</layoutData>
+												<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.HeaderImage" type="XML"/>
+												<template:if test="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo', formatter: 'AH.isDescriptionInHeaderInfo'}">
+													<template:then>
+														<VBox>
+															<layoutData>
+	        													<FlexItemData minWidth="0"/>
+	        												</layoutData>
+															<Title id="template::ObjectPage::ObjectPageDynamicHeaderTitle" text="{_templPriv>/objectPage/headerInfo/objectTitle}"
+																class="sapSmartTemplatesObjectPageDynamicPageHeaderTitleText" wrapping="true" level="H2"/>
+															<Text text="{_templPriv>/objectPage/headerInfo/objectSubtitle}"/>
+														</VBox>
+													</template:then>
+													<template:else>
+														<Title id="template::ObjectPage::ObjectPageDynamicHeaderTitle" text="{_templPriv>/objectPage/headerInfo/objectTitle}"
+															class="sapSmartTemplatesObjectPageDynamicPageHeaderTitleText" wrapping="true" level="H2"/>
+													</template:else>
+												</template:if>
+											</FlexBox>
+											<template:if test="{= ${appSettings>/objectPageVariantManagement} === 'VendorLayer'}">
+												<template:then>
+													<vm:VariantManagement id="template::ObjectPage::ObjectPageVariant" for="objectPage" editable="false" updateVariantInURL="true" visible="{parts: [{path: ''}], formatter: '._templateFormatters.setVMVisibilityForVendor'}"/>
+												</template:then>
+											</template:if>
+										</HBox>
+									</uxap:heading>
+									<uxap:snappedTitleOnMobile>
+										<Title id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'SnappedTitleOnMobile'})}" text="{_templPriv>/objectPage/headerInfo/objectTitle}" wrapping="true"/>
+									</uxap:snappedTitleOnMobile>
+									<uxap:breadcrumbs>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Breadcrumbs" type="XML"/>
+									</uxap:breadcrumbs>
+									<uxap:expandedContent>
+									</uxap:expandedContent>
+									<uxap:snappedContent>
+									</uxap:snappedContent>
+									<uxap:content>
+										<OverflowToolbar id="template::ObjectPage::OverflowToolbar"> <!-- To be used by the extension to set tags in header -->
+											<ObjectMarker id="template::ObjectPage::ObjectMarkerObjectPageDynamicHeaderTitle"
+												type="{= '{= (${HasDraftEntity} &amp;&amp; ${IsActiveEntity}) ? (' + ${DraftAdminDataAccess>value}('InProcessByUser') } ? 'Locked' : 'Unsaved') : 'Flagged' }"
+												visible="{= !!(${IsActiveEntity} &amp;&amp; ${HasDraftEntity}) }"
+												press="._templateEventHandlers.onPressDraftInfoObjectPageDynamicHeaderTitle" visibility="IconOnly">
+												<layoutData>
+													<OverflowToolbarLayoutData priority="NeverOverflow"/>
+												</layoutData>
+											</ObjectMarker>
+											<!-- Display Active and Show Draft Buttons -->
+											<template:if test="{= ${parameter>/treeNode/level} === 1 &amp;&amp; ${parameter>/isDraftEnabled} &amp;&amp; !${parameter>/manifest/sap.ui.generic.app/pages/0/component/settings/treeTable} }">
+												<Button text="{= ${IsActiveEntity} ? (${HasDraftEntity} &amp;&amp; ${DraftAdministrativeData/DraftIsCreatedByMe} &amp;&amp; ${i18n>SAVED_VERSION}) : (${HasActiveEntity} &amp;&amp; ${i18n>DRAFT_VERSION}) }"
+														icon="sap-icon://navigation-down-arrow" 
+														iconFirst="false" 
+														press="._templateEventHandlers.onSwitchDraftAndActiveObjectPopOver"
+														visible="{= ${IsActiveEntity} ? !!(${HasDraftEntity} &amp;&amp; ${DraftAdministrativeData/DraftIsCreatedByMe}) : !!${HasActiveEntity} }"
+														enabled="{ui>/enabled}" 
+														type="Transparent">
+													<layoutData>
+														<OverflowToolbarLayoutData priority="NeverOverflow" />
+													</layoutData>
+												</Button>
+											</template:if>
+										</OverflowToolbar>
+									</uxap:content>
+									<uxap:actions>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Actions" type="XML"/>
+									</uxap:actions>
+									<uxap:navigationActions>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.detailTemplates.fragments.PaginatorButtons" type="XML"/>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.FCLActions" type="XML"/>
+									</uxap:navigationActions>
+								</uxap:ObjectPageDynamicHeaderTitle>
+							</template:then>
+							<template:else>
+								<uxap:ObjectPageHeader
+									id="objectPageHeader"
+									objectTitle="{_templPriv>/objectPage/headerInfo/objectTitle}"
+									objectSubtitle="{_templPriv>/objectPage/headerInfo/objectSubtitle}"
+									objectImageURI="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo'}, {path: 'parameter>/appComponentName'}], formatter: 'AH.formatHeaderImage'}"
+									showPlaceholder="false"
+									markLocked="{= '{= ${HasDraftEntity} &amp;&amp; ${IsActiveEntity} &amp;&amp; !!' + ${DraftAdminDataAccess>value}('InProcessByUser') } }"
+									markLockedPress="._templateEventHandlers.onPressDraftInfo"
+									markChanges="{= '{= ${HasDraftEntity} &amp;&amp; ${IsActiveEntity} &amp;&amp; !' + ${DraftAdminDataAccess>value}('InProcessByUser') } }"								
+									markChangesPress="._templateEventHandlers.onPressDraftInfo">
+									<uxap:customData>
+										<core:CustomData key="objectTypeName"
+											value="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeName', formatter: 'AHModel.format'}"/>
+									</uxap:customData>
+									<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.NavigationBar" type="XML"/>
+									<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Breadcrumbs" type="XML"/>
+									<uxap:actions>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Actions" type="XML"/>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.detailTemplates.fragments.PaginatorButtons" type="XML"/>
+										<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.FCLActions" type="XML"/>
+									</uxap:actions>
+								</uxap:ObjectPageHeader>
+							</template:else>
+						</template:if>
+					</template:with>				
+				</uxap:headerTitle>
+				<uxap:headerContent>
+					<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.HeaderContentWithExtension" type="XML"/>
+				</uxap:headerContent>
+				<uxap:sections>
+					<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Sections" type="XML"/>
+				</uxap:sections>
+				<uxap:footer>
+					<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.Footer" type="XML"/>
+				</uxap:footer>
+
+			</template:with>
+		</template:with>
+	</uxap:ObjectPageLayout>
+
+</mvc:View>
