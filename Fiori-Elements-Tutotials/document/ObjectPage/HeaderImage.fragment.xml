@@ -1,0 +1,67 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{AH:'sap/suite/ui/generic/template/js/AnnotationHelper'}">
+
+	<!-- This fragment is used only in ObjectPageDynamicHeaderTitle -->
+	<!-- Note: This Image is only shown if the ObjectPageDynamicHeaderTitle is snapped -->
+	<!-- If the ObjectPageDynamicHeaderTitle is not snapped (expanded) the Image in this fragment isn't visible but the Image in the HeaderContent fragment is shown instead -->
+	<template:if test="{entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl}">
+		<template:then>
+			<Avatar id="template::ObjectPage::TitleImage"
+				tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+				src="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+				displaySize="S"
+				displayShape="Square"
+				initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}"
+				fallbackIcon="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+				visible="{= !${_templPriv>/objectPage/headerContentVisible} || !${_templPriv>/objectPage/isHeaderExpanded}}"
+				class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar">
+				<template:if test="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}], formatter: 'AH.avatarImageSourceExists'}">
+					<detailBox>
+						<LightBox id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageDynamicHeader', subType: 'LightBox'})}">
+							<LightBoxItem
+								id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageDynamicHeader', subType: 'LightBoxItem'})}"
+								imageSrc="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}, {value: true}], formatter: 'AH.formatImageUrl'}"
+								alt="image"
+								title="{_templPriv>/objectPage/headerInfo/objectTitle}"
+								subtitle="{_templPriv>/objectPage/headerInfo/objectSubtitle}" />
+						</LightBox>
+					</detailBox>
+				</template:if>
+			</Avatar>
+			<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+				<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+			</template:if>
+		</template:then>
+		<template:elseif test="{entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl}">
+			<Avatar id="template::ObjectPage::TitleImage"
+				tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+				src="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+				displaySize="S"
+				displayShape="Square"
+				initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}"
+				visible="{= !${_templPriv>/objectPage/headerContentVisible} || !${_templPriv>/objectPage/isHeaderExpanded}}"
+				class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar"/>
+			<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+				<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+			</template:if>
+		</template:elseif>
+		<template:elseif test="{entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials}">
+			<Avatar id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'SnappedHeaderInitialsAvatar'})}"
+				tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+				displaySize="S"
+				displayShape="Square"
+				class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar"
+				initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}"
+				visible="{= !${_templPriv>/objectPage/headerContentVisible} || !${_templPriv>/objectPage/isHeaderExpanded}}"/>
+			<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+				<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+			</template:if>
+		</template:elseif>
+		<template:else>
+			<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointNoImageExists' }">
+				<core:ExtensionPoint name="NoImageExtensionFacet|{entitySet>name}"/>
+			</template:if>
+		</template:else>
+	</template:if>
+</core:FragmentDefinition>

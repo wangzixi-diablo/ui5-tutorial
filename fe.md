@@ -111,6 +111,8 @@ Object Page 应用的外观：
 
 - [Fiori Elements Object Page 页面 URL 的格式分析](https://blog.csdn.net/i042416/article/details/147472252)
 
+- [什么是 SAP Fiori Elements 的 Template Private Model](https://blog.csdn.net/i042416/article/details/147481999)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
