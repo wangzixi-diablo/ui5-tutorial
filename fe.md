@@ -109,6 +109,8 @@ Object Page 应用的外观：
 
 - [Fiori Elements Object Page 工作原理深入讲解：剖析页面主标题和副标题显示原理](https://blog.csdn.net/i042416/article/details/147457018)
 
+- [Fiori Elements Object Page 页面 URL 的格式分析](https://blog.csdn.net/i042416/article/details/147472252)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
