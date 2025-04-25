@@ -107,13 +107,15 @@ Overview Page 的外观：
 Object Page 应用的外观：
 ![](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
 
-- [Fiori Elements Object Page 工作原理深入讲解：剖析页面主标题和副标题显示原理](https://blog.csdn.net/i042416/article/details/147457018)
+- [1. Fiori Elements Object Page 工作原理深入讲解：剖析页面主标题和副标题显示原理](https://blog.csdn.net/i042416/article/details/147457018)
 
-- [Fiori Elements Object Page 页面 URL 的格式分析](https://blog.csdn.net/i042416/article/details/147472252)
+- [2. Fiori Elements Object Page 页面 URL 的格式分析](https://blog.csdn.net/i042416/article/details/147472252)
 
-- [什么是 SAP Fiori Elements 的 Template Private Model](https://blog.csdn.net/i042416/article/details/147481999)
+- [3. 什么是 SAP Fiori Elements 的 Template Private Model](https://blog.csdn.net/i042416/article/details/147481999)
 
-- [Fiori Elements Object Page 页面 Header 区域的图片显示原理](https://blog.csdn.net/i042416/article/details/147482583)
+- [4. Fiori Elements Object Page 页面 Header 区域的图片显示原理](https://blog.csdn.net/i042416/article/details/147482583)
+
+- [5. Fiori Elements Object Page 页面 Header 字段显示背后设计原理的深入介绍](https://jerry.blog.csdn.net/article/details/147517285)
 
 ## WorkList 应用 - 正在编写中
 
