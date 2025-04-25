@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"
+    xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+    template:require="{AH:'sap/suite/ui/generic/template/js/AnnotationHelper'}">
+
+    <template:with path="parameter>/manifest/sap.ui5/extends/extensions/sap.ui.viewExtensions/sap.suite.ui.generic.template.ObjectPage.view.Details" var="manifestViewExtensions">
+        <template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointReplaceHeaderExists'}">
+            <template:then>
+               	<template:if test="{= ${appSettings>/objectPageHeaderType} === 'Dynamic'}">
+					<template:then>	
+                        <FlexBox id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'DynamicHeaderContentFlexBox'})}" wrap="Wrap" fitContainer="true" alignItems="Stretch" class="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}], formatter: 'AH.hasImageUrl'}">
+                            <HBox>
+                                <core:ExtensionPoint name="ReplaceHeaderExtensionFacet|{entitySet>name}" />
+                            </HBox>
+                        </FlexBox>
+                    </template:then>
+                    <template:else>
+                    	 <HBox>
+                            <core:ExtensionPoint name="ReplaceHeaderExtensionFacet|{entitySet>name}" />
+                        </HBox>
+                    </template:else>	
+                </template:if>                   
+            </template:then>
+            <template:else>
+                <core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.HeaderContent" type="XML"/>
+            </template:else>
+        </template:if>
+    </template:with>
+</core:FragmentDefinition>

@@ -1,0 +1,324 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:smartlink="sap.ui.comp.navpopover" xmlns:sfi="sap.ui.comp.smartfield"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{AH: 'sap/suite/ui/generic/template/js/AnnotationHelper', AHModel: 'sap/ui/model/odata/AnnotationHelper'}">
+	
+	<template:if test="{= !${parameter>/settings/simpleHeaderFacets} }">
+		<template:with path="parameter>/manifest/sap.ui5/extends/extensions/sap.ui.viewExtensions/sap.suite.ui.generic.template.ObjectPage.view.Details"
+						var="manifestViewExtensions">
+			<template:if test="{entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl}">
+				<template:then>
+					<Avatar id="objectImage"
+						tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+						src="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+						displaySize="L"
+						displayShape="Square"
+						initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}"
+						fallbackIcon="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+						class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar">
+						<template:if test="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}], formatter: 'AH.avatarImageSourceExists'}">
+							<detailBox enabled="false">
+								<LightBox id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'LightBox'})}">
+									<LightBoxItem
+										id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'LightBoxItem'})}"
+										imageSrc="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/ImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}, {value: true}], formatter: 'AH.formatImageUrl'}"
+										alt="image"
+										title="{_templPriv>/objectPage/headerInfo/objectTitle}"
+										subtitle="{_templPriv>/objectPage/headerInfo/objectSubtitle}" />
+								</LightBox>
+							</detailBox>
+						</template:if>
+						</Avatar>
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+						<VBox id="AfterImageExtensionFacet::objectImage">
+							<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+						</VBox>
+					</template:if>
+				</template:then>
+				<template:elseif test="{entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl}">
+					<Avatar id="objectTypeImage"
+						tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+						src="{parts:[{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/TypeImageUrl'}, {path: 'parameter>/appComponentName'}, {value: true}], formatter: 'AH.formatImageUrl'}"
+						displaySize="L"
+						displayShape="Square"
+						initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}"
+						class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar"/>
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+						<VBox id="AfterImageExtensionFacet::objectTypeImage">
+							<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+						</VBox>
+					</template:if>
+				</template:elseif>
+				<template:elseif test="{= ${entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials}}"	>
+							<Avatar id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageHeader', subType: 'InitialsAvatar'})}"
+								tooltip="{_templPriv>/objectPage/headerInfo/objectTitle}"
+								displaySize="L"
+								displayShape="Square"
+								class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderAvatar"
+								initials="{path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Initials', formatter: 'AH.getAvatarInitials'}" />
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterImageExists' }">
+						<VBox id="AfterImageExtensionFacet::objectTypeImage">
+							<core:ExtensionPoint name="AfterImageExtensionFacet|{entitySet>name}"/>
+						</VBox>
+					</template:if>
+				</template:elseif>
+				<template:else>
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointNoImageExists' }">
+				<!-- 	Image should be first element to be rendered hence used sapUxAPObjectPageHeaderObjectImage class to put Image border-->
+						<VBox id="NoImageExtensionFacet" class="sapUxAPObjectPageHeaderObjectImage sapSmartTemplatesObjectPageHeaderImage" >
+							<core:ExtensionPoint name="NoImageExtensionFacet|{entitySet>name}"/>
+						</VBox>
+					</template:if>
+				</template:else>
+			</template:if>
+		</template:with>
+	</template:if>
+
+
+	<template:if test="{entityType>com.sap.vocabularies.UI.v1.HeaderFacets}">
+		<template:then>
+		<template:with path="parameter>/manifest/sap.ui5/extends/extensions/sap.ui.viewExtensions/sap.suite.ui.generic.template.ObjectPage.view.Details"
+						var="manifestViewExtensions">
+			<template:with path="entityType>com.sap.vocabularies.UI.v1.HeaderFacets"
+							var="headerFacets">
+				<template:with path="parameter>/variables" helper="AH.getNewVariable" var="isHeaderFacet">
+				<template:if test="{:= ${isHeaderFacet>}.set(true)}"/>
+				<template:repeat list="{headerFacets>}" var="headerFacet">
+					<template:if test="{parameter>/settings/simpleHeaderFacets}">
+						<template:then>
+							<!-- New code for simple header facets -->
+							<template:if
+									test="{= ${headerFacet>Target/AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.Identification') >= 0}">
+								<template:then>
+									<template:with path="headerFacet>Target"
+													helper="AHModel.resolvePath" var="form">
+										<template:repeat list="{form>}" var="dataField">
+											<template:if
+													test="{= ${dataField>RecordType} !== 'com.sap.vocabularies.UI.v1.DataFieldForAction'}">
+												<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointBeforeSimpleHeaderFacetExists' }">
+													<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::BeforeIdentificationExtension">
+														<core:ExtensionPoint name="BeforeSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+													</HBox>
+												</template:if>
+												<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointReplaceSimpleHeaderFacetExists' }">
+													<template:then>
+														<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::ReplaceIdentificationExtension">
+															<core:ExtensionPoint name="ReplaceSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+														</HBox>
+													</template:then>
+													<template:else>
+														<HBox class="sapSmartTemplatesObjectPageHeaderForm sapSmartTemplatesObjectPageHeaderFormBox">
+															<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.HeaderFormDataField"
+																			type="XML"/>
+														</HBox>
+													</template:else>
+												</template:if>
+												<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointAfterSimpleHeaderFacetExists' }">
+													<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::AfterIdentificationExtension">
+														<core:ExtensionPoint name="AfterSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+													</HBox>
+												</template:if>
+											</template:if>
+										</template:repeat>
+									</template:with>
+								</template:then>
+								<template:elseif
+										test="{= ${headerFacet>Target/AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.FieldGroup') >= 0}">
+									<template:with path="headerFacet>Target"
+													helper="AHModel.resolvePath" var="form">
+										<template:repeat list="{form>Data}" var="dataField">
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointBeforeSimpleHeaderFacetExists' }">
+												<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::BeforeFGExtension">
+													<core:ExtensionPoint name="BeforeSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+												</HBox>
+											</template:if>
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointReplaceSimpleHeaderFacetExists' }">
+												<template:then>
+													<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::ReplaceFGExtension">
+														<core:ExtensionPoint name="ReplaceSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+													</HBox>
+												</template:then>
+												<template:else>
+													<HBox class="sapSmartTemplatesObjectPageHeaderForm sapSmartTemplatesObjectPageHeaderFormBox">
+														<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.HeaderFormDataField"
+																		type="XML"/>
+													</HBox>
+												</template:else>
+											</template:if>
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataField>'}], formatter: 'AH.extensionPointAfterSimpleHeaderFacetExists' }">
+												<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}::AfterFGExtension">
+													<core:ExtensionPoint name="AfterSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataField>', formatter: 'AH.getStableIdPartFromDataField'}" />
+												</HBox>
+											</template:if>
+										</template:repeat>
+									</template:with>
+								</template:elseif>
+								<template:elseif
+										test="{= ${headerFacet>Target/AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.DataPoint') >= 0}">
+									<template:with path="headerFacet>Target"
+													helper="AHModel.resolvePath"
+													var="dataPoint">
+										<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataPoint>'}], formatter: 'AH.extensionPointBeforeSimpleHeaderFacetExists' }">
+											<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::BeforeDPExtension">
+												<core:ExtensionPoint name="BeforeSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}" />
+											</HBox>
+										</template:if>
+										<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataPoint>'}], formatter: 'AH.extensionPointReplaceSimpleHeaderFacetExists' }">
+											<template:then>
+												<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::ReplaceDPExtension">
+													<core:ExtensionPoint name="ReplaceSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}" />
+												</HBox>
+											</template:then>
+											<template:else>
+												<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path:'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::DataPoint"
+														displayInline="true"
+														class="sapSmartTemplatesObjectPageHeaderForm"
+														binding="{parts: [{path: 'headerFacet>Target'}, {path: 'entitySet>'}], formatter: 'AH.getNavigationPathWithExpand'}">
+													<HBox>
+														<core:Fragment
+															fragmentName="sap.suite.ui.generic.template.fragments.HeaderDataPointContent"
+															type="XML"/>
+													</HBox>
+												</HBox>
+											</template:else>
+										</template:if>
+										<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}, {path: 'dataPoint>'}], formatter: 'AH.extensionPointAfterSimpleHeaderFacetExists' }">
+											<HBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::AfterDPExtension">
+												<core:ExtensionPoint name="AfterSimpleHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}::{path:'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}" />
+											</HBox>
+										</template:if>
+									</template:with>
+								</template:elseif>
+							</template:if>
+						</template:then>
+						<template:else>
+							<!-- Previous code for standard header facets-->
+							<template:if
+									test="{= ${headerFacet>RecordType}.indexOf('com.sap.vocabularies.UI.v1.ReferenceFacet') >= 0 }">
+								<template:then>
+									<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointBeforeHeaderFacetExists'}">
+										<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::BeforeReferenceExtension" >
+											<core:ExtensionPoint name="BeforeHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+										</VBox>
+									</template:if>
+									<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointReplaceHeaderFacetExists'}">
+										<template:then>
+											<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::ReplaceReferenceExtension" >
+												<core:ExtensionPoint name="ReplaceHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+											</VBox>
+										</template:then>
+										<template:else>
+											<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.HeaderFacet"
+															type="XML"/>
+										</template:else>
+									</template:if>
+									<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterHeaderFacetExists'}">
+										<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::AfterReferenceExtension" >
+											<core:ExtensionPoint name="AfterHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+										</VBox>
+									</template:if>
+								</template:then>
+								<template:elseif
+										test="{= ${headerFacet>RecordType}.indexOf('com.sap.vocabularies.UI.v1.CollectionFacet') >= 0 }">
+									<VBox displayInline="true" class="sapSmartTemplatesObjectPageHeaderCollection">
+										<template:repeat list="{headerFacet>Facets}"
+															var="headerFacet">
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointBeforeHeaderFacetExists'}">
+												<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::BeforeCollectionExtension" >
+													<core:ExtensionPoint name="BeforeHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+												</VBox>
+											</template:if>
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointReplaceHeaderFacetExists'}">
+												<template:then>
+													<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::ReplaceCollectionExtension" >
+														<core:ExtensionPoint name="ReplaceHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+													</VBox>
+												</template:then>
+												<template:else>
+													<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.HeaderFacet"
+																	type="XML"/>
+												</template:else>
+											</template:if>
+											<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'headerFacet>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterHeaderFacetExists'}">
+												<VBox id="header::{path: 'headerFacet>', formatter: 'AH.getStableIdPartFromFacet'}::AfterCollectionExtension" >
+													<core:ExtensionPoint name="AfterHeaderFacet|{entitySet>name}|{path: 'headerFacet>' , formatter:'AH.getStableIdPartFromFacet'}" />
+												</VBox>
+											</template:if>
+										</template:repeat>
+									</VBox>
+								</template:elseif>
+							</template:if>
+						</template:else>
+					</template:if>
+				</template:repeat>
+				</template:with>
+			</template:with>
+		</template:with>
+		</template:then>
+		<template:else>
+			<template:with path="parameter>/manifest/sap.ui5/extends/extensions/sap.ui.viewExtensions/sap.suite.ui.generic.template.ObjectPage.view.Details"
+							var="manifestViewExtensions">
+				<template:repeat
+						list="{path:'entityType>', filters: {path: '@sapui.name', operator: 'StartsWith', value1: 'com.sap.vocabularies.UI.v1.DataPoint'}}"
+						var="dataPoint">
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'dataPoint>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointBeforeHeaderDataPointExists'}">
+						<l:VerticalLayout
+							id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::BeforeDataPointExtension">
+							<core:ExtensionPoint name="BeforeHeaderDataPoint|{entitySet>name}|{path: 'dataPoint>' , formatter:'AH.getStableIdPartFromDataPoint'}" />
+						</l:VerticalLayout>
+					</template:if>
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'dataPoint>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointReplaceHeaderDataPointExists'}">
+						<template:then>
+							<l:VerticalLayout
+								id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::ReplaceDataPointExtension">
+								<core:ExtensionPoint name="ReplaceHeaderDataPoint|{entitySet>name}|{path: 'dataPoint>' , formatter:'AH.getStableIdPartFromDataPoint'}" />
+							</l:VerticalLayout>
+						</template:then>
+						<template:else>
+							<l:VerticalLayout
+									id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}"
+									class="sapSmartTemplatesObjectPageDataPoint">
+								<Label id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::Label"
+										labelFor="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::Value"
+										text="{path: 'dataPoint>Title', formatter: 'AH.formatWithExpandSimple'}"
+										class="sapSmartTemplatesObjectPageDataPointLabel"/>
+								<sfi:SmartField
+										id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::Value"
+										contextEditable="false" uomEditable="false" enabled="true" clientSideMandatoryCheck="false"
+										value="{parts: [{path: 'dataPoint>Value'}, {path: 'entitySet>'}, {path: 'dataPoint>ValueFormat'}], formatter: 'AH.formatWithExpandSimplePath'}"
+										class="sapSmartTemplatesObjectPageDataPointValue {= ${dataPoint>Value/EdmType} === 'Edm.Byte' || ${dataPoint>Value/EdmType} === 'Edm.Decimal' || ${dataPoint>Value/EdmType} === 'Edm.Double' ||  ${dataPoint>Value/EdmType} === 'Edm.Float' ||  ${dataPoint>Value/EdmType} === 'Edm.Int16' ||  ${dataPoint>Value/EdmType} === 'Edm.Int32' || ${dataPoint>Value/EdmType} === 'Edm.Int64' ||  ${dataPoint>Value/EdmType} === 'Edm.SByte' ? 'sapSmartTemplatesObjectPageDataPointNumericValue' : 'sapSmartTemplatesObjectPageDataPointTextualValue'}"
+										fetchValueListReadOnly="{parts:[{path: 'parameter>/entityType'},{path: 'dataPoint>'}], formatter: 'AH.getValueListReadOnly'}">
+									<sfi:customData>
+										<core:CustomData key="defaultTextInEditModeSource" value="{path: 'dataFieldValue>', formatter: 'AH.setValidationForValueList'}" />
+									</sfi:customData>
+									<sfi:semanticObjectController>
+										<smartlink:SemanticObjectController beforePopoverOpens="._templateEventHandlers.onBeforeSemanticObjectLinkPopoverOpens"
+																			navigationTargetsObtained="._templateEventHandlers.onSemanticObjectLinkNavigationTargetObtained"
+																			beforeNavigationCallback="._templateEventHandlers.onBeforeSemanticObjectLinkNavigationCallback"
+																			forceLinkRendering="{parts: [{path: 'entitySet>'},{path: 'parameter>/templateSpecific/targetEntities'}], formatter: 'AH.hasQuickViewFacet'}"/>
+									</sfi:semanticObjectController>
+									<template:if test="{= ${dataPoint>Criticality} }">
+										<sfi:controlProposal>
+											<sfi:ControlProposal>
+												<sfi:objectStatus>
+													<sfi:ObjectStatus
+															criticality="{path: 'dataPoint>Criticality', formatter: 'AHModel.simplePath'}"
+															criticalityRepresentationType="WithoutIcon"/>
+												</sfi:objectStatus>
+											</sfi:ControlProposal>
+										</sfi:controlProposal>
+									</template:if>
+								</sfi:SmartField>
+							</l:VerticalLayout>
+						</template:else>
+					</template:if>
+					<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'dataPoint>'}, {path: 'manifestViewExtensions>'}], formatter: 'AH.extensionPointAfterHeaderDataPointExists'}">
+						<l:VerticalLayout
+							id="dataPoint::{path: 'dataPoint>', formatter: 'AH.getStableIdPartFromDataPoint'}::AfterDataPointExtension">
+							<core:ExtensionPoint name="AfterHeaderDataPoint|{entitySet>name}|{path: 'dataPoint>' , formatter:'AH.getStableIdPartFromDataPoint'}" />
+						</l:VerticalLayout>
+					</template:if>
+				</template:repeat>
+			</template:with>
+		</template:else>
+	</template:if>
+</core:FragmentDefinition>
