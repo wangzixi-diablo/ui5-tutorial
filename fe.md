@@ -136,6 +136,8 @@ Analytical List Page 的外观：
 
 - [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
 
+- [SAP Fiori Tools 应用自动刷新 LiveReload 中间件全解析](https://blog.csdn.net/i042416/article/details/147519606)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
