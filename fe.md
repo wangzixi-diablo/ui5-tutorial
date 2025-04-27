@@ -144,6 +144,8 @@ Analytical List Page 的外观：
 
 - [让字段在 Fiori Elements List Report 中跃然成表 —— UI.LineItem 注解逐行深解](https://jerry.blog.csdn.net/article/details/147375865)
 
+- [SAP Fiori Tools Application Modeler：用可视化方式掌控 Fiori Elements 应用的骨架与灵魂](https://blog.csdn.net/i042416/article/details/147567351)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
