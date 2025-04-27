@@ -10,7 +10,7 @@
 
 - [SAP ABAP 四种传统的数据库视图类型介绍之四：Help View](https://blog.csdn.net/i042416/article/details/146876759)
 
-- []()
+- [使用 ABAP Development Tool 开发 SAP ABAP CDS View 的一些操作小技巧](https://jerry.blog.csdn.net/article/details/147553993)
 
 - [1. 动手开发第一个 SAP CDS View](https://blog.csdn.net/i042416/article/details/147010648)
 

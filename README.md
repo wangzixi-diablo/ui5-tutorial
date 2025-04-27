@@ -515,3 +515,5 @@ t
 - [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
 
 - [SAP UI5 和 Fiori 的一些小技巧合集 - 持续更新中](https://blog.csdn.net/i042416/article/details/143363122)
+
+- [小技巧分享：如何查看 SAP UI5 和 Fiori Elements 应用从后台服务器获取的 OData 数据明细](https://jerry.blog.csdn.net/article/details/147548378)

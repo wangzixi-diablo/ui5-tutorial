@@ -95,8 +95,6 @@ List Report 应用的外观：
 
 - [5. 使用 List Report Extension API 获取当前选中的表格行项目的例子源代码](https://github.com/wangzixi-diablo/ui5-tutorial/tree/main/Fiori-Elements-Tutotials/05/jerryfiorielement-05)
 
-- [6. Fiori Elements List Report 的 Table 控件，如何实现行项目多选(Multiple Selection)效果](https://blog.csdn.net/i042416/article/details/147363792)
-
 ## Overview Page 应用 - 正在编写中
 
 Overview Page 的外观：
@@ -128,7 +126,7 @@ Work List 应用的外观：
 Analytical List Page 的外观：
 ![](https://img-blog.csdnimg.cn/ffbc6b2be38146788278e2e14522e097.png)
 
-# 工具和 Extension 使用技巧和故障排查指南
+# 工具和 Extension 使用技巧和故障排查指南，以及 Fiori Elements 源代码解析
 
 本区域列出了笔者进行 SAP Fiori Elements 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
 
@@ -137,6 +135,14 @@ Analytical List Page 的外观：
 - [使用 Visual Studio Code 提供的向导和模版创建 Fiori 应用时，遇到故障后的排查指南](https://blog.csdn.net/i042416/article/details/135362439)
 
 - [SAP Fiori Tools 应用自动刷新 LiveReload 中间件全解析](https://blog.csdn.net/i042416/article/details/147519606)
+
+- [小技巧分享：如何查看 SAP UI5 和 Fiori Elements 应用从后台服务器获取的 OData 数据明细](https://jerry.blog.csdn.net/article/details/147548378)
+
+- [关于 SAP Fiori Elements 应用标准模版 XML 视图中的命名空间解析](https://jerry.blog.csdn.net/article/details/147478339)
+
+- [在一张 Fiori Elements 列表报表里精准排布列：Fiori Elements @UI.lineItem 注解深度剖析](https://jerry.blog.csdn.net/article/details/147376426)
+
+- [让字段在 Fiori Elements List Report 中跃然成表 —— UI.LineItem 注解逐行深解](https://jerry.blog.csdn.net/article/details/147375865)
 
 # 问题解答
 
