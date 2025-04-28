@@ -100,7 +100,7 @@ List Report 应用的外观：
 Overview Page 的外观：
 ![](https://img-blog.csdnimg.cn/6a3340cae1054655ba7359cdffb49074.png)
 
-# Object Page 应用 - 正在编写中
+# Object Page 应用
 
 Object Page 应用的外观：
 ![](https://img-blog.csdnimg.cn/7ee9bf9d2eb24368af689936203518b6.png)
@@ -114,6 +114,8 @@ Object Page 应用的外观：
 - [4. Fiori Elements Object Page 页面 Header 区域的图片显示原理](https://blog.csdn.net/i042416/article/details/147482583)
 
 - [5. Fiori Elements Object Page 页面 Header 字段显示背后设计原理的深入介绍](https://jerry.blog.csdn.net/article/details/147517285)
+
+- [6. Fiori Elements Object Page 页面如何通过扩展的方式，新增自定义字段](https://blog.csdn.net/i042416/article/details/147596869)
 
 ## WorkList 应用 - 正在编写中
 
