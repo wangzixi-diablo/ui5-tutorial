@@ -4,6 +4,6 @@
 	xmlns:mvc="sap.ui.core.mvc">
 	<HBox id="extbox">
 		<Label id="extlabel" text="Extension:"/>
-		<Text id="extid" text="{MainProductCategory}"/>
+		<Text id="extid" text="{Height}"/>
 	</HBox>
 </mvc:View>
