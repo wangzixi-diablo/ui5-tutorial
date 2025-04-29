@@ -119,6 +119,8 @@ Object Page 应用的外观：
 
 - [7. 如何给 Fiori Elements Object Page Header Facet 新增的字段添加数据绑定 ](https://blog.csdn.net/i042416/article/details/147613583)
 
+- [8. Fiori Elements Object Page 和 List Report 的数据加载扩展点介绍](https://blog.csdn.net/i042416/article/details/147617634)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：

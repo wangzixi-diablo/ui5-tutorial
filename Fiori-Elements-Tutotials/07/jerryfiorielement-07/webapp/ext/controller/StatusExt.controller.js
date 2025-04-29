@@ -2,7 +2,7 @@ sap.ui.define(["sap/m/MessageToast"
 ], function (MessageToast) {
     return {
         onInit: function () {
-            this.extensionAPI.attachPageDataLoaded(this.onPageDataLoaded.bind(this));
+            this.extensionAPI.attachPageDataLoaded(this.onPageDataLoaded);
         },
         onPageDataLoaded: function(oEvent) {
             var oProductData = oEvent.context.getObject();
