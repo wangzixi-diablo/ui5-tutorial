@@ -517,3 +517,5 @@ t
 - [SAP UI5 和 Fiori 的一些小技巧合集 - 持续更新中](https://blog.csdn.net/i042416/article/details/143363122)
 
 - [小技巧分享：如何查看 SAP UI5 和 Fiori Elements 应用从后台服务器获取的 OData 数据明细](https://jerry.blog.csdn.net/article/details/147548378)
+
+- [实战技巧分享：SAP UI5 运行时是如何从 manifest.json 文件里读取配置项的？](https://blog.csdn.net/i042416/article/details/147634557)

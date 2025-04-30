@@ -154,6 +154,8 @@ Analytical List Page 的外观：
 
 - [SAP Fiori Tools Application Modeler：用可视化方式掌控 Fiori Elements 应用的骨架与灵魂](https://blog.csdn.net/i042416/article/details/147567351)
 
+- [实战技巧分享：SAP UI5 运行时是如何从 manifest.json 文件里读取配置项的？](https://blog.csdn.net/i042416/article/details/147634557)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
