@@ -121,6 +121,8 @@ Object Page 应用的外观：
 
 - [8. Fiori Elements Object Page 和 List Report 的数据加载扩展点介绍](https://blog.csdn.net/i042416/article/details/147617634)
 
+- [9. 如何给 Fiori Elements Object Page 页面数据加载时手动添加动画效果，提示有数据在加载](https://blog.csdn.net/i042416/article/details/147632320)
+
 ## WorkList 应用 - 正在编写中
 
 Work List 应用的外观：
