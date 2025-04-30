@@ -1,0 +1,9 @@
+<mvc:View
+	controllerName="jerryfiorielement08.ext.controller.AppExt"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<HBox id="extbox">
+		<Label id="extlabel" text="Extension:"/>
+		<Text id="extid" text="{Height}"/>
+	</HBox>
+</mvc:View>
