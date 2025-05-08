@@ -1,0 +1,116 @@
+<core:FragmentDefinition
+    xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:smartfilterbar="sap.ui.comp.smartfilterbar"
+    template:require="{
+						 SemanticDateRangeTypeHelper: 'sap/suite/ui/generic/template/listTemplates/semanticDateRangeTypeHelper'}"
+    xmlns:build="sap.build"
+>
+    <smartfilterbar:SmartFilterBar
+        id="listReportFilter"
+        entityType="{parameter>/entityType}"
+        persistencyKey="{= (!${parameter>/settings/variantManagementHidden}) ? 'searchListReportVariant' : null}"
+        enableBasicSearch="{= !(${entitySet>Org.OData.Capabilities.V1.SearchRestrictions/Searchable/Bool} === 'false') }"
+        initialise="._templateEventHandlers.onSmartFilterBarInitialise"
+        initialized="._templateEventHandlers.onSmartFilterBarInitialized"
+        search="cmd:Search"
+        afterVariantLoad="._templateEventHandlers.onAfterSFBVariantLoad"
+        assignedFiltersChanged="._templateEventHandlers.onAssignedFiltersChanged"
+        showMessages="false"
+        useToolbar="false"
+        smartVariant="{= (!${parameter>/settings/variantManagementHidden}) ? 'template::PageVariant' : null}"
+        considerAnalyticalParameters="{appSettings>/considerAnalyticalParameters}"
+        useDateRangeType="{parameter>/templateSpecific/filterSettings/dateSettings/useDateRange}"
+    >
+        <smartfilterbar:controlConfiguration>
+            <template:repeat
+                list="{parameter>/templateSpecific/controlConfigurationSettings}"
+                var="controlConfigurationSetting"
+            >
+                <smartfilterbar:ControlConfiguration
+                    key="{controlConfigurationSetting>key}"
+                    groupId="{controlConfigurationSetting>groupId}"
+                    index="{controlConfigurationSetting>index}"
+                    visibleInAdvancedArea="{controlConfigurationSetting>visibleInAdvancedArea}"
+                    conditionType="{controlConfigurationSetting>conditionType}"
+                    historyEnabled="{controlConfigurationSetting>historyEnabled}"
+                />
+            </template:repeat>
+            <template:if test="{parameter>/isDraftEnabled}">
+                <template:with
+                    path="entitySet>Org.OData.Capabilities.V1.NavigationRestrictions/RestrictedProperties/[${path:'NavigationProperty/NavigationPropertyPath'} === 'DraftAdministrativeData']/"
+                    var="draftAdminData"
+                >
+                    <template:if
+                        test="{= (${draftAdminData>FilterRestrictions/Filterable/Bool} !== 'false') &amp;&amp; (${entitySet>com.sap.vocabularies.Common.v1.DraftRoot} || ${entitySet>com.sap.vocabularies.Common.v1.DraftNode}) }"
+                    >
+                        <smartfilterbar:ControlConfiguration
+                            key="EditState"
+                            index="0"
+                            id="editStateControlConfiguration"
+                            label="{i18n>EDITING_STATUS}"
+                            groupId="_BASIC"
+                        >
+                            <smartfilterbar:customControl>
+                                <Select
+                                    selectedKey="{_templPriv>/listReport/vDraftState}"
+                                    id="editStateFilter"
+                                >
+                                    <items>
+                                        <core:Item
+                                            key="0"
+                                            text="{i18n>ALL_OBJECTS}"
+                                        />
+                                        <core:Item
+                                            key="5"
+                                            text="{i18n>ALL_OBJECTS_HIDING_DRAFT}"
+                                        />
+                                        <core:Item
+                                            key="2"
+                                            text="{i18n>DRAFT_OBJECT_FILTER}"
+                                        />
+                                        <core:Item
+                                            key="3"
+                                            text="{i18n>LOCKED_OBJECT_FILTER}"
+                                        />
+                                        <core:Item
+                                            key="4"
+                                            text="{i18n>UNSAVED_CHANGES_FILTER}"
+                                        />
+                                        <core:Item
+                                            key="1"
+                                            text="{i18n>UNCHANGED}"
+                                        />
+                                    </items>
+                                    <customData>
+                                        <core:CustomData
+                                            key="hasValue"
+                                            value="{= ${_templPriv>/listReport/vDraftState} !== '0'}"
+                                        />
+                                    </customData>
+                                </Select>
+                            </smartfilterbar:customControl>
+                        </smartfilterbar:ControlConfiguration>
+                    </template:if>
+                </template:with>
+            </template:if>
+            <core:ExtensionPoint
+                name="SmartFilterBarControlConfigurationExtension|{entitySet>name}"
+            />
+        </smartfilterbar:controlConfiguration>
+        <smartfilterbar:customData>
+            <core:CustomData
+                key="defaultDropDownDisplayBehaviour"
+                value="descriptionOnly"
+            />
+            <core:CustomData
+                key="dateFormatSettings"
+                value='\{"UTC":true,"style":"medium"\}'
+            />
+        </smartfilterbar:customData>
+        <smartfilterbar:layoutData>
+            <FlexItemData shrinkFactor="0" />
+        </smartfilterbar:layoutData>
+    </smartfilterbar:SmartFilterBar>
+</core:FragmentDefinition>
