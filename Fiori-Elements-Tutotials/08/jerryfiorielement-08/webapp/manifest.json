@@ -112,6 +112,13 @@
         },
         "extends": {
             "extensions": {
+                "sap.ui.commands": {
+                    "sap.suite.ui.generic.template.ObjectPage": {
+                        "opAction": {
+                            "shortcut": "Ctrl+K"
+                        }
+                    }
+                },
                 "sap.ui.controllerExtensions": {
                     "sap.suite.ui.generic.template.ListReport.view.ListReport": {
                         "controllerName": "jerryfiorielement08.ext.controller.ListReportExt",
@@ -133,19 +140,29 @@
                         "controllerName": "jerryfiorielement08.ext.controller.StatusExt",
                         "sap.ui.generic.app": {
                             "SEPMRA_C_PD_Product": {
-                                "EntitySet": "SEPMRA_C_PD_Product"
+                                "EntitySet": "SEPMRA_C_PD_Product",
+                                "Header" : {
+                                    "Actions": {
+                                        "opAction": {
+                                            "id" : "opAction",
+                                            "text" : "OP Action",
+                                            "press" : "onActionPressed",
+                                            "command": "opAction"
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 },
                 "sap.ui.viewExtensions": {
                     "sap.suite.ui.generic.template.ObjectPage.view.Details": {
-                           "BeforeHeaderFacet|SEPMRA_C_PD_Product|headerEditable::com.sap.vocabularies.UI.v1.FieldGroup::HeaderInformation": {
-                                     "className": "sap.ui.core.mvc.View",
-                                     "viewName": "jerryfiorielement08.ext.fragment.jerryheaderExtensionFacet",
-                                     "type": "XML",
-                                     "bVisibleOnEdit": true
-                            }
+                        "BeforeHeaderFacet|SEPMRA_C_PD_Product|headerEditable::com.sap.vocabularies.UI.v1.FieldGroup::HeaderInformation": {
+                            "className": "sap.ui.core.mvc.View",
+                            "viewName": "jerryfiorielement08.ext.fragment.jerryheaderExtensionFacet",
+                            "type": "XML",
+                            "bVisibleOnEdit": true
+                        }
                     }
                 }
             }

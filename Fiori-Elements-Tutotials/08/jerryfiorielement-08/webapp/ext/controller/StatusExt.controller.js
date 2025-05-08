@@ -5,8 +5,11 @@ sap.ui.define(["sap/ui/core/BusyIndicator"
             this.extensionAPI.attachPageDataLoaded(this.onPageDataLoaded);
             BusyIndicator.show(500);
         },
-        onPageDataLoaded: function(oEvent) {
+        onPageDataLoaded: function() {
             BusyIndicator.hide();
+        },
+        onActionPressed: function(){
+            console.log('Current data:', this.getView().getModel().oData);
         }
     }
 });
