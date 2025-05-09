@@ -158,6 +158,8 @@ Analytical List Page 的外观：
 
 - [实战技巧分享：SAP UI5 运行时是如何从 manifest.json 文件里读取配置项的？](https://blog.csdn.net/i042416/article/details/147634557)
 
+- [如何在调试器里查看施加了所有 SAP annotations 的 OData entity type？](https://blog.csdn.net/i042416/article/details/147819011)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
