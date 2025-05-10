@@ -160,6 +160,8 @@ Analytical List Page 的外观：
 
 - [如何在调试器里查看施加了所有 SAP annotations 的 OData entity type？](https://blog.csdn.net/i042416/article/details/147819011)
 
+- [SAP Freestyle UI5 / SAP Fiori Elements 调试小技巧：将重要的 JSON 变量另存到本地](https://jerry.blog.csdn.net/article/details/147850710)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
