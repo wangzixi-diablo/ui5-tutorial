@@ -1,0 +1,27 @@
+--7ABB4FE7AD654C42CA15BC63E128207D0
+Content-Type: application/http
+Content-Length: 1737
+content-transfer-encoding: binary
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 1530
+sap-metadata-last-modified: Sat, 12 Mar 2022 08:15:03 GMT
+cache-control: no-store, no-cache
+dataserviceversion: 2.0
+
+{"d":{"__count":"4","results":[{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('1')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('1')","type":"SEPMRA_PROD_MAN.SEPMRA_I_PriceClassificationType"},"PriceClassification":"1","PriceClassification_Text":"Price: < 100"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('2')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('2')","type":"SEPMRA_PROD_MAN.SEPMRA_I_PriceClassificationType"},"PriceClassification":"2","PriceClassification_Text":"Price: between 100 and 500"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('3')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('3')","type":"SEPMRA_PROD_MAN.SEPMRA_I_PriceClassificationType"},"PriceClassification":"3","PriceClassification_Text":"Price: between 500 and 1000"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('4')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_PriceClassification('4')","type":"SEPMRA_PROD_MAN.SEPMRA_I_PriceClassificationType"},"PriceClassification":"4","PriceClassification_Text":"Price: over 1000"}]}}
+--7ABB4FE7AD654C42CA15BC63E128207D0
+Content-Type: application/http
+Content-Length: 2515
+content-transfer-encoding: binary
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 2308
+sap-metadata-last-modified: Sat, 12 Mar 2022 08:15:03 GMT
+cache-control: no-store, no-cache
+dataserviceversion: 2.0
+
+{"d":{"__count":"6","results":[{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Computer%20Components')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Computer%20Components')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"Computer Components"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Computer%20Systems')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Computer%20Systems')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"Computer Systems"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Printers%20%26%20Scanners')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Printers%20%26%20Scanners')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"Printers & Scanners"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Smartphones%20%26%20Tablets')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Smartphones%20%26%20Tablets')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"Smartphones & Tablets"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Software')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('Software')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"Software"},{"__metadata":{"id":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('TV%2C%20Video%20%26%20HiFi')","uri":"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/sap/SEPMRA_PROD_MAN/SEPMRA_I_ProductMainCategory('TV%2C%20Video%20%26%20HiFi')","type":"SEPMRA_PROD_MAN.SEPMRA_I_ProductMainCategoryType"},"MainProductCategory":"TV, Video & HiFi"}]}}
+--7ABB4FE7AD654C42CA15BC63E128207D0--
