@@ -26,6 +26,8 @@
 
 - [7. SAP CDS View association 的工作原理，与数据库传统 join 操作的区别讲解](https://blog.csdn.net/i042416/article/details/147150322)
 
+- [8. SAP ABAP CDS View 源代码行数统计工具](https://blog.csdn.net/i042416/article/details/147933632)
+
 # 参考文献
 
 https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html
