@@ -432,7 +432,7 @@
 
 * [SAP UI5 应用开发教程之一百九十 - SAP UI5 Link 控件的使用方法介绍 - 后续学习 Fiori Elements Smart Link 的基础](https://blog.csdn.net/i042416/article/details/136301879)
 
-* SAP UI5 应用开发教程之一百九十一 - 正在写作中......
+* [SAP UI5 应用开发教程之一百九十一 - SAP Fiori 应用(UI5)如何调用 DeepSeek API 并通过 Streaming 方式显示结果](https://blog.csdn.net/i042416/article/details/147989643)
 
 ## 说明
 
