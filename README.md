@@ -434,6 +434,8 @@
 
 * [SAP UI5 应用开发教程之一百九十一 - SAP Fiori 应用(UI5)如何调用 DeepSeek API 并通过 Streaming 方式显示结果](https://blog.csdn.net/i042416/article/details/147989643)
 
+* [SAP UI5 应用开发教程之一百九十二 - SAP UI5 如何调用 ABAP 系统的 HTTP 服务](https://blog.csdn.net/i042416/article/details/147994882)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

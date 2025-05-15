@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    height="100%">
+        <l:VerticalLayout width="100%" class="sapUiContentPadding">
+            <Label text="输入内容" labelFor="inputTextArea" />
+            <TextArea id="inputTextArea" width="100%" rows="2" placeholder="请输入要发送到 ABAP 服务器的内容" />
+            
+            <Button id="sendButton" text="发送" press="onSend" class="sapUiSmallMarginTop sapUiSmallMarginBottom" type="Emphasized" />
+            
+            <Label text="API响应结果" labelFor="outputTextArea" />
+            <TextArea id="outputTextArea" width="100%" rows="10" editable="false" />
+        </l:VerticalLayout>
+</mvc:View>
