@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.197",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 如何输入 markdown 代码并渲染",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
