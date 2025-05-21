@@ -33,14 +33,43 @@ sap.ui.define([
         
         // 添加处理按钮点击的方法
         onPicture: function() {
-            MessageToast.show("截屏成功！", {
-                duration: 3000,
-                width: "15rem",
-                my: "center bottom",
-                at: "center bottom",
-                of: window,
-                offset: "0 -50"
-            });
+            setTimeout(function() {
+                window.html2canvas(document.documentElement, {
+                    allowTaint: true,
+                    useCORS: true,
+                    scrollX: 0,
+                    scrollY: 0,
+                    windowWidth: document.documentElement.offsetWidth,
+                    windowHeight: document.documentElement.offsetHeight,
+                    scale: window.devicePixelRatio // 使用设备像素比以获得更清晰的截图
+                }).then(function(canvas) {
+                    // 将canvas转换为图片URL
+                    const imgData = canvas.toDataURL('image/png');
+                    
+                    // 创建下载链接
+                    const link = document.createElement('a');
+                    link.href = imgData;
+                    link.download = 'screenshot_' + new Date().toISOString().slice(5, 19).replace(/:/g, '-') + '.png';
+                    
+                    // 模拟点击下载链接
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    
+                    // 恢复按钮状态
+                    // screenshotBtn.textContent = '截图并保存';
+                    // screenshotBtn.disabled = false;
+
+                    MessageToast.show("截屏成功！", {
+                        duration: 3000,
+                        width: "15rem",
+                        my: "center bottom",
+                        at: "center bottom",
+                        of: window,
+                        offset: "0 -50"
+                    });
+                });
+            }, 100);
         }
     });
 });
