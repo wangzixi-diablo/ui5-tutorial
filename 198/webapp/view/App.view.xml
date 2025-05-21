@@ -9,6 +9,14 @@
     <App id="app">
         <pages>
             <Page title="SAP UI5 Markdown 渲染测试" showHeader="true">
+                <headerContent>
+                    <!-- 将按钮放置在页面右上角 -->
+                    <Button
+                        id="pictureButton"
+                        icon="sap-icon://picture"
+                        press="onPicture"
+                        tooltip="截屏" />
+                </headerContent>
                 <content>
                     <l:Splitter height="100%" width="100%">
                         <!-- 左侧 Markdown 编辑区域 -->
@@ -28,6 +36,7 @@
                         <!-- 右侧 Markdown 预览区域 -->
                         <VBox height="100%" width="100%">
                             <Title text="此处是 markdown 渲染结果" class="sapUiSmallMargin" />
+                            <!-- 按钮已移至页面右上角 -->
                             <ScrollContainer id="previewContainer" 
                                             height="90%" 
                                             width="100%" 

@@ -1,8 +1,9 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui5/walkthrough/lib/marked.min",
-    "sap/ui5/walkthrough/lib/html2canvas.min"
-], function(Controller,marked) {
+    "sap/ui5/walkthrough/lib/html2canvas.min",
+    "sap/m/MessageToast"
+], function(Controller, marked, html2canvas, MessageToast) {
     "use strict";
 
     return Controller.extend("sap.ui5.walkthrough.controller.App", {
@@ -28,6 +29,18 @@ sap.ui.define([
             
             // 更新预览区域
             this.byId("markdownPreview").setContent(sStyledHtml);
+        },
+        
+        // 添加处理按钮点击的方法
+        onPicture: function() {
+            MessageToast.show("截屏成功！", {
+                duration: 3000,
+                width: "15rem",
+                my: "center bottom",
+                at: "center bottom",
+                of: window,
+                offset: "0 -50"
+            });
         }
     });
 });
