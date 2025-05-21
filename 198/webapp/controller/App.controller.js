@@ -55,10 +55,6 @@ sap.ui.define([
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
-                    
-                    // 恢复按钮状态
-                    // screenshotBtn.textContent = '截图并保存';
-                    // screenshotBtn.disabled = false;
 
                     MessageToast.show("截屏成功！", {
                         duration: 3000,

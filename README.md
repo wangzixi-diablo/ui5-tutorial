@@ -510,6 +510,8 @@ t
 
 - [问题解答：解锁 SAP Fiori 应用 markdown 输入与渲染支持的宝藏技能](https://blog.csdn.net/i042416/article/details/148084717)
 
+- [问题解答：SAP Fiori 应用实现内容秒截屏并自动导出图片文件的高能技巧](https://blog.csdn.net/i042416/article/details/148119884)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
