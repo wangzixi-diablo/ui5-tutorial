@@ -30,6 +30,10 @@
 
 - [9. SAP ABAP CDS View 源代码搜索工具](https://blog.csdn.net/i042416/article/details/147936544)
 
+- [10. 带有输入参数的 SAP ABAP CDS View](https://blog.csdn.net/i042416/article/details/148229454)
+
+- [11. 在 SAP ABAP CDS View 中使用系统变量 Session Variable](https://blog.csdn.net/i042416/article/details/148234215)
+
 # 参考文献
 
 https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html
