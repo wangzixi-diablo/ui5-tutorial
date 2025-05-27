@@ -512,6 +512,8 @@ t
 
 - [问题解答：SAP Fiori 应用实现内容秒截屏并自动导出图片文件的高能技巧](https://blog.csdn.net/i042416/article/details/148119884)
 
+- [问题解答：SAP UI5 应用开发的定时(周期性)操作](https://blog.csdn.net/i042416/article/details/148263096)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
