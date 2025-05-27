@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<VBox class="sapUiContentPadding">
+		<TextArea id="outputArea" rows="10" width="100%" editable="false"/>
+		<HBox class="sapUiSmallMarginTop">
+			<Button
+				text="开始计时"
+				press=".onStartTimer"
+				class="sapUiSmallMarginEnd"/>
+			<Button
+				text="暂停/继续"
+				press=".onToggleTimer"/>
+		</HBox>
+	</VBox>
+</mvc:View>

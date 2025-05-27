@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.05",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "问题解答：SAP UI5 应用开发的定时(周期性)操作",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
