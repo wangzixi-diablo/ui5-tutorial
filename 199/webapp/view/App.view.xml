@@ -1,0 +1,51 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    height="100%">
+    <App id="app">
+        <pages>
+            <Page title="SAP UI5 和 DeepSeek 的集成" showHeader="true">
+                <headerContent>
+                    <!-- 将按钮放置在页面右上角 -->
+                    <Button
+                        id="sendButton"
+                        icon="sap-icon://picture"
+                        press="onSendToDeepSeek"
+                        tooltip="Send" />
+                </headerContent>
+                <content>
+                    <l:Splitter height="100%" width="100%">
+                        <!-- 左侧用户提示词输入 -->
+                        <l:layoutData>
+                            <l:SplitterLayoutData size="30%" />
+                        </l:layoutData>
+                        <VBox height="100%" width="100%">
+                            <Title text="此处输入用户提示词" class="sapUiSmallMargin" />
+                            <TextArea id="PromptEditor" 
+                                      width="100%" 
+                                      rows="10"
+                                      growing="false" 
+                                      value="什么是 ABAP？"/>
+                        </VBox>
+                        
+                        <!-- 右侧 Markdown 预览区域 -->
+                        <VBox height="100%" width="100%">
+                            <Title text="此处是 DeepSeek 返回结果" class="sapUiSmallMargin" />
+                            <ScrollContainer id="previewContainer" 
+                                            height="90%" 
+                                            width="100%" 
+                                            vertical="true" 
+                                            horizontal="false">
+                                <core:HTML id="markdownPreview" content="" />
+                            </ScrollContainer>
+                        </VBox>
+                    </l:Splitter>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
