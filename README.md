@@ -514,6 +514,8 @@ t
 
 - [问题解答：SAP UI5 应用开发的定时(周期性)操作](https://blog.csdn.net/i042416/article/details/148263096)
 
+- [问题解答：SAP UI5 应用如何调用 DeepSeek API 并以流式方式(Streaming)显示结果](https://blog.csdn.net/i042416/article/details/148264273)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
