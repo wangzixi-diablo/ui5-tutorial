@@ -62,6 +62,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 * [🧪 SAP ABAP 实用小技巧合集：持续更新中！](https://blog.csdn.net/i042416/article/details/143069531)
 
+* [【每日更新】每日5分钟，学习一个不为大众所知的 ABAP 冷门知识点专栏](https://blog.csdn.net/i042416/article/details/148307309)
+
 * [0. 自学 ABAP 和自学 SAP 的差别](https://jerry.blog.csdn.net/article/details/127581186)
 
 * [1. ABAP 服务器的架构和一个典型的 ABAP 程序结构介绍](https://jerry.blog.csdn.net/article/details/116206859)
