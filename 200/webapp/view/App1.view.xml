@@ -14,4 +14,5 @@
 		</items>
 	</IconTabHeader>
 	<ce:CodeEditor id="aCodeEditor1" height="300px" type="javascript" />
+	<Button id="executeButton" text="执行代码" press=".onExecuteCode" class="sapUiSmallMargin" />
 </mvc:View>

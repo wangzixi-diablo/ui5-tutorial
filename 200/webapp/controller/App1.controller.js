@@ -1,6 +1,7 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function (Controller) {
+	"sap/ui/core/mvc/Controller",
+	"sap/m/MessageToast"
+], function (Controller, MessageToast) {
 	"use strict";
 
 	var oEditor;
@@ -14,8 +15,8 @@ sap.ui.define([
 			oEditor.setValue("// 点击 tab 来切换显示");
             const oAce = oEditor.getInternalEditorInstance();
             oAce.session.setUseWrapMode(true);
-            oAce.session.setWrapLimitRange(20,20);
-            oAce.setPrintMarginColumn(20);
+            oAce.session.setWrapLimitRange(40,40);
+            oAce.setPrintMarginColumn(40);
             oAce.setShowPrintMargin(true);
 		},
 
@@ -31,6 +32,21 @@ sap.ui.define([
 				default:
 					oEditor.setValue();
 					break;
+			}
+		},
+
+		onExecuteCode: function() {
+			try {
+				var sCode = oEditor.getValue();
+				// 创建一个新的Function实例并执行代码
+				var fnExecute = eval(sCode);
+				//var result = fnExecute();
+				
+				// 显示执行结果
+				MessageToast.show("执行结果: " + fnExecute);
+			} catch (error) {
+				// 如果执行出错，显示错误信息
+				MessageToast.show("执行错误: " + error.message);
 			}
 		}
 
