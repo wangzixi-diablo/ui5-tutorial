@@ -436,6 +436,8 @@
 
 * [SAP UI5 应用开发教程之一百九十二 - SAP UI5 如何调用 ABAP 系统的 HTTP 服务](https://blog.csdn.net/i042416/article/details/147994882)
 
+* [SAP UI5 应用开发教程之一百九十三 - SAP UI5 实现代码在线编辑器](https://blog.csdn.net/i042416/article/details/148310043)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
