@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui5.walkthrough.controller.app"
+	controllerName="sap.ui5.walkthrough.controller.app1"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:ce="sap.ui.codeeditor"

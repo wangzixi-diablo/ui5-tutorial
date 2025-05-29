@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.app1"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:ce="sap.ui.codeeditor"
+	height="100%">
+	<IconTabHeader
+		id="iconTabHeader1"
+		selectedKey="invalidKey"
+		select=".onSelectTab">
+		<items>
+			<IconTabFilter text="A" key="A" />
+			<IconTabFilter text="B" key="B" />
+		</items>
+	</IconTabHeader>
+	<ce:CodeEditor id="aCodeEditor1" height="300px" type="javascript" />
+</mvc:View>
