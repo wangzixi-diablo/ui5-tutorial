@@ -1,0 +1,32 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+            <core:HTML
+                content="&lt;div class=&quot;fill&quot;&gt;
+                          &lt;div class=&quot;reference&quot;&gt;&lt;/div&gt;
+                          &lt;div class=&quot;clock&quot; id=&quot;utility-clock&quot;&gt;
+                            &lt;div class=&quot;centre&quot;&gt;
+                              &lt;div class=&quot;dynamic&quot;&gt;&lt;/div&gt;
+                              &lt;div class=&quot;expand round circle-1&quot;&gt;&lt;/div&gt;
+                              &lt;div class=&quot;anchor hour&quot;&gt;
+                                &lt;div class=&quot;element thin-hand&quot;&gt;&lt;/div&gt;
+                                &lt;div class=&quot;element fat-hand&quot;&gt;&lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&quot;anchor minute&quot;&gt;
+                                &lt;div class=&quot;element thin-hand&quot;&gt;&lt;/div&gt;
+                                &lt;div class=&quot;element fat-hand minute-hand&quot;&gt;&lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&quot;anchor second&quot;&gt;
+                                &lt;div class=&quot;element second-hand&quot;&gt;&lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&quot;expand round circle-2&quot;&gt;&lt;/div&gt;
+                              &lt;div class=&quot;expand round circle-3&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;"
+                afterRendering=".onHTMLAfterRendering"
+            />
+</mvc:View>

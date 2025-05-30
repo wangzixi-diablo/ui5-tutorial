@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.202",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "问题解答：故障排查体系搭建之在 SAP UI5 应用里显示项目工程文件的源代码",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
