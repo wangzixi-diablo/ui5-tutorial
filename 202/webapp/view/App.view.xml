@@ -6,7 +6,6 @@
     displayBlock="true">
             <core:HTML
                 content="&lt;div class=&quot;fill&quot;&gt;
-                          &lt;div class=&quot;reference&quot;&gt;&lt;/div&gt;
                           &lt;div class=&quot;clock&quot; id=&quot;utility-clock&quot;&gt;
                             &lt;div class=&quot;centre&quot;&gt;
                               &lt;div class=&quot;dynamic&quot;&gt;&lt;/div&gt;

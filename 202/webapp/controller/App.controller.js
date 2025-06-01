@@ -5,7 +5,7 @@ sap.ui.define([
 
     return Controller.extend("sap.ui5.walkthrough.App", {
         onInit: function () {
-            // 加载CSS
+            // 不需要采取这种方式动态创建 style element
             /*var styleElement = document.createElement("style");
             styleElement.textContent = this.getClockCSS();
             document.head.appendChild(styleElement);*/
@@ -24,7 +24,6 @@ sap.ui.define([
             }
         },
         
-        // 以下是从index.js复制的函数
         utilityClock: function(container) {
             var dynamic = container.querySelector('.dynamic');
             var hourElement = container.querySelector('.hour');
@@ -75,8 +74,10 @@ sap.ui.define([
                 rotate(hourElement, time / 60 / 12);
                 requestAnimationFrame(animate);
             };
-            for (var i = 1; i <= 60; i++) minute(i);
-            for (var i = 1; i <= 12; i++) hour(i);
+            for (var i = 1; i <= 60; i++) 
+                minute(i);
+            for (var i = 1; i <= 12; i++) 
+                hour(i);
             animate();
         },
         
