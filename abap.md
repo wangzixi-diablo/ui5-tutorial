@@ -444,6 +444,10 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [使用 ABAP 实现 Web Socket 编程 - 服务器端部分的实现](https://blog.csdn.net/i042416/article/details/143268275)
 
+## ABAP 也能玩 Web 开发系统
+
+- [10分钟时间，在 ABAP 系统实现一个音乐播放器](https://blog.csdn.net/i042416/article/details/148591102)
+
 ## 问题解答
 
 本区域包含通过知乎付费咨询和[知识星球](https://t.zsxq.com/07RJRBlnM)向我提出并得到解答的问题：
