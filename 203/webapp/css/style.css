@@ -1,0 +1,53 @@
+/* 自定义样式 */
+.sapUiResponsiveMargin {
+    margin: 1rem;
+}
+
+.sapUiMediumMargin {
+    margin: 1rem;
+}
+
+.sapUiMediumMarginBottom {
+    margin-bottom: 1rem;
+}
+
+.sapUiTinyMarginTop {
+    margin-top: 0.5rem;
+}
+
+.sapUiTinyMarginBegin {
+    margin-left: 0.5rem;
+}
+
+.sapUiTinyMarginEnd {
+    margin-right: 0.5rem;
+}
+
+/* 文件输入样式 */
+#fileInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* 播放器面板样式 */
+.sapMPanel {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 按钮组样式 */
+.sapMBtn {
+    min-width: 80px;
+}
+
+/* 滑块样式 */
+.sapMSlider {
+    margin: 8px 0;
+}
+
+/* 时间显示样式 */
+.sapMText {
+    font-family: monospace;
+}

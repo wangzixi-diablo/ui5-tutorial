@@ -1,0 +1,58 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+            <VBox class="sapUiMediumMargin">
+                <!-- 文件选择区域 -->
+                <Panel headerText="选择音乐文件" class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox>
+                            <core:HTML content="&lt;input type='file' id='fileInput' accept='audio/mp3' style='margin: 10px 0;' /&gt;" />
+                            <Button text="加载文件" press="onLoadFile" type="Emphasized" />
+                        </VBox>
+                    </content>
+                </Panel>
+
+                <!-- 播放器控制区域 -->
+                <Panel headerText="播放控制" class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox>
+                            <!-- 当前播放文件名 -->
+                            <Text id="currentFileName" text="未选择文件" class="sapUiMediumMarginBottom" />
+                            
+                            <!-- 播放控制按钮 -->
+                            <HBox class="sapUiMediumMarginBottom">
+                                <Button id="playBtn" text="播放" press="onPlay" type="Accept" enabled="false" />
+                                <Button id="pauseBtn" text="暂停" press="onPause" type="Neutral" enabled="false" class="sapUiTinyMarginBegin" />
+                                <Button id="stopBtn" text="停止" press="onStop" type="Reject" enabled="false" class="sapUiTinyMarginBegin" />
+                            </HBox>
+
+                            <!-- 进度条 -->
+                            <VBox class="sapUiMediumMarginBottom">
+                                <Label text="播放进度:" />
+                                <Slider id="progressSlider" min="0" max="100" value="0" enabled="false" liveChange="onProgressChange" class="sapUiTinyMarginTop" />
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginTop">
+                                    <Text id="currentTime" text="00:00" />
+                                    <Text id="totalTime" text="00:00" />
+                                </HBox>
+                            </VBox>
+
+                            <!-- 音量控制 -->
+                            <VBox>
+                                <Label text="音量控制:" />
+                                <HBox alignItems="Center" class="sapUiTinyMarginTop">
+                                    <core:Icon src="sap-icon://volume-down" class="sapUiTinyMarginEnd" />
+                                    <Slider id="volumeSlider" min="0" max="100" value="50" width="200px" liveChange="onVolumeChange" />
+                                    <core:Icon src="sap-icon://volume-up" class="sapUiTinyMarginBegin" />
+                                    <Text id="volumeText" text="50%" class="sapUiTinyMarginBegin" />
+                                </HBox>
+                            </VBox>
+                        </VBox>
+                    </content>
+                </Panel>
+
+                <!-- 隐藏的音频元素 -->
+                <core:HTML content="&lt;audio id='audioPlayer' preload='metadata'&gt;&lt;/audio&gt;" />
+            </VBox>
+</mvc:View>
