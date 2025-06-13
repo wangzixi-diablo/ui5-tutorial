@@ -19,7 +19,7 @@
                         <Select id="yearSelect" width="160px" class="sapUiSmallMarginEnd">
                             <core:Item key="" text="年份"/>
                         </Select>
-                        <Select id="monthSelect" width="120px" class="sapUiSmallMarginEnd">
+                        <Select id="monthSelect" width="150px" class="sapUiSmallMarginEnd">
                             <core:Item key="" text="月份"/>
                             <core:Item key="1" text="1月"/>
                             <core:Item key="2" text="2月"/>
@@ -34,7 +34,7 @@
                             <core:Item key="11" text="11月"/>
                             <core:Item key="12" text="12月"/>
                         </Select>
-                        <Select id="daySelect" width="120px">
+                        <Select id="daySelect" width="150px">
                             <core:Item key="" text="日期"/>
                         </Select>
                     </HBox>
