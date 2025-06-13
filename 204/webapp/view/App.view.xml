@@ -9,17 +9,17 @@
         <Title text="倒计时器" level="H1" class="sapUiLargeMarginBottom" titleStyle="H1"/>
         
         <!-- 主要内容面板 -->
-        <Panel width="600px" class="sapUiResponsiveMargin" headerText="设置倒计时">
+        <Panel width="1200px" class="sapUiResponsiveMargin" headerText="设置倒计时">
             <content>
                 <VBox class="sapUiMediumMargin">
                     
                     <!-- 日期选择区域 -->
                     <Label text="选择目标日期:" class="sapUiSmallMarginBottom"/>
                     <HBox class="sapUiSmallMarginBottom" alignItems="Center">
-                        <Select id="yearSelect" width="120px" class="sapUiTinyMarginEnd">
+                        <Select id="yearSelect" width="160px" class="sapUiSmallMarginEnd">
                             <core:Item key="" text="年份"/>
                         </Select>
-                        <Select id="monthSelect" width="100px" class="sapUiTinyMarginEnd">
+                        <Select id="monthSelect" width="120px" class="sapUiSmallMarginEnd">
                             <core:Item key="" text="月份"/>
                             <core:Item key="1" text="1月"/>
                             <core:Item key="2" text="2月"/>
@@ -34,7 +34,7 @@
                             <core:Item key="11" text="11月"/>
                             <core:Item key="12" text="12月"/>
                         </Select>
-                        <Select id="daySelect" width="100px">
+                        <Select id="daySelect" width="120px">
                             <core:Item key="" text="日期"/>
                         </Select>
                     </HBox>
@@ -66,7 +66,7 @@
         
         <!-- 结果显示面板 -->
         <Panel id="resultPanel" 
-               width="600px" 
+               width="1200px" 
                class="sapUiResponsiveMargin" 
                headerText="倒计时结果"
                visible="false">

@@ -1,8 +1,8 @@
 {
-  "name": "sap.m.tutorial.walkthrough.202",
+  "name": "sap.m.tutorial.walkthrough.203",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "如何在 SAP UI5 应用里开发一个丝滑的仿真时钟界面",
+  "description": "用 SAP UI5 开发一个音乐播放器",
   "scripts": {
     "start": "ui5 serve"
   },
