@@ -1,0 +1,31 @@
+/* 自定义样式 */
+.weatherApp {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.weatherIcon {
+    font-size: 3rem;
+    color: #0070f3;
+}
+
+.temperatureText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.weatherPanel {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.citySelect {
+    min-width: 150px;
+}
+
+@media (max-width: 600px) {
+    .weatherApp {
+        margin: 10px;
+    }
+}

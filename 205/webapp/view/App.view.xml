@@ -1,0 +1,75 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <VBox class="sapUiMediumMargin">
+        <!-- 城市选择区域 -->
+        <Panel headerText="选择城市" class="sapUiResponsiveMargin">
+            <content>
+                <HBox alignItems="Center" class="sapUiSmallMargin">
+                    <Select
+                        id="citySelect"
+                        selectedKey="{/selectedCity}"
+                        items="{/cities}"
+                        width="200px"
+                        class="sapUiSmallMarginEnd">
+                        <core:Item key="{key}" text="{name}" />
+                    </Select>
+                    <Button
+                        text="查询天气"
+                        press="onSearchWeather"
+                        type="Emphasized"
+                        enabled="{= !${/loading} }" />
+                </HBox>
+            </content>
+        </Panel>
+
+        <!-- 加载指示器 -->
+        <BusyIndicator visible="{/loading}" class="sapUiMediumMargin" />
+
+        <!-- 天气信息显示区域 -->
+        <Panel
+            headerText="天气信息"
+            visible="{= ${/weatherData} !== null }"
+            class="sapUiResponsiveMargin">
+            <content>
+                <VBox class="sapUiMediumMargin">
+                    <HBox alignItems="Center" class="sapUiSmallMarginBottom">
+                        <core:Icon
+                            src="{/weatherData/icon}"
+                            size="3rem"
+                            class="sapUiSmallMarginEnd" />
+                        <VBox>
+                            <Title text="{/weatherData/cityName}" level="H2" />
+                            <Text text="{/weatherData/date}" class="sapUiSmallMarginBottom" />
+                        </VBox>
+                    </HBox>
+                    
+                    <VBox class="sapUiSmallMargin">
+                        <HBox class="sapUiSmallMarginBottom">
+                            <Label text="天气状况：" class="sapUiSmallMarginEnd" />
+                            <Text text="{/weatherData/condition}" />
+                        </HBox>
+                        <HBox class="sapUiSmallMarginBottom">
+                            <Label text="当前温度：" class="sapUiSmallMarginEnd" />
+                            <Text text="{/weatherData/temperature}°C" />
+                        </HBox>
+                        <HBox class="sapUiSmallMarginBottom">
+                            <Label text="温度范围：" class="sapUiSmallMarginEnd" />
+                            <Text text="{/weatherData/tempRange}" />
+                        </HBox>
+                        <HBox class="sapUiSmallMarginBottom">
+                            <Label text="湿度：" class="sapUiSmallMarginEnd" />
+                            <Text text="{/weatherData/humidity}%" />
+                        </HBox>
+                        <HBox class="sapUiSmallMarginBottom">
+                            <Label text="风力：" class="sapUiSmallMarginEnd" />
+                            <Text text="{/weatherData/wind}" />
+                        </HBox>
+                    </VBox>
+                </VBox>
+            </content>
+        </Panel>
+    </VBox>
+</mvc:View>
