@@ -1,0 +1,112 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <VBox class="sapUiMediumMargin" alignItems="Center">
+                
+        <!-- 标题区域 -->
+        <Title text="倒计时器" level="H1" class="sapUiLargeMarginBottom" titleStyle="H1"/>
+        
+        <!-- 主要内容面板 -->
+        <Panel width="600px" class="sapUiResponsiveMargin" headerText="设置倒计时">
+            <content>
+                <VBox class="sapUiMediumMargin">
+                    
+                    <!-- 日期选择区域 -->
+                    <Label text="选择目标日期:" class="sapUiSmallMarginBottom"/>
+                    <HBox class="sapUiSmallMarginBottom" alignItems="Center">
+                        <Select id="yearSelect" width="120px" class="sapUiTinyMarginEnd">
+                            <core:Item key="" text="年份"/>
+                        </Select>
+                        <Select id="monthSelect" width="100px" class="sapUiTinyMarginEnd">
+                            <core:Item key="" text="月份"/>
+                            <core:Item key="1" text="1月"/>
+                            <core:Item key="2" text="2月"/>
+                            <core:Item key="3" text="3月"/>
+                            <core:Item key="4" text="4月"/>
+                            <core:Item key="5" text="5月"/>
+                            <core:Item key="6" text="6月"/>
+                            <core:Item key="7" text="7月"/>
+                            <core:Item key="8" text="8月"/>
+                            <core:Item key="9" text="9月"/>
+                            <core:Item key="10" text="10月"/>
+                            <core:Item key="11" text="11月"/>
+                            <core:Item key="12" text="12月"/>
+                        </Select>
+                        <Select id="daySelect" width="100px">
+                            <core:Item key="" text="日期"/>
+                        </Select>
+                    </HBox>
+                    
+                    <!-- 描述文字输入 -->
+                    <Label text="描述文字 (最多20个字符):" class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                    <Input id="descriptionInput" 
+                           placeholder="请输入描述文字..." 
+                           maxLength="20" 
+                           width="100%" 
+                           class="sapUiSmallMarginBottom"/>
+                    
+                    <!-- 生成按钮 -->
+                    <Button text="生成倒计时" 
+                            type="Emphasized" 
+                            width="100%" 
+                            class="sapUiMediumMarginTop"
+                            press="onGenerateCountdown"/>
+                    
+                    <!-- 错误消息 -->
+                    <MessageStrip id="errorMessage" 
+                                 text="" 
+                                 type="Error" 
+                                 visible="false" 
+                                 class="sapUiSmallMarginTop"/>
+                </VBox>
+            </content>
+        </Panel>
+        
+        <!-- 结果显示面板 -->
+        <Panel id="resultPanel" 
+               width="600px" 
+               class="sapUiResponsiveMargin" 
+               headerText="倒计时结果"
+               visible="false">
+            <content>
+                <VBox class="sapUiMediumMargin">
+                    
+                    <!-- 事件标题 -->
+                    <Title id="eventTitle" 
+                           text="" 
+                           level="H3" 
+                           class="sapUiSmallMarginBottom"/>
+                    
+                    <!-- 倒计时显示卡片 -->
+                    <HBox class="sapUiSmallMarginBottom" justifyContent="SpaceAround">
+                        <VBox alignItems="Center" class="countdownCard">
+                            <Text id="monthsDisplay" text="0" class="countdownNumber"/>
+                            <Label text="个月" class="countdownLabel"/>
+                        </VBox>
+                        <VBox alignItems="Center" class="countdownCard">
+                            <Text id="daysDisplay" text="0" class="countdownNumber"/>
+                            <Label text="天" class="countdownLabel"/>
+                        </VBox>
+                        <VBox alignItems="Center" class="countdownCard">
+                            <Text id="secondsDisplay" text="0" class="countdownNumber"/>
+                            <Label text="秒" class="countdownLabel"/>
+                        </VBox>
+                    </HBox>
+                    
+                    <!-- 详细信息 -->
+                    <Panel class="sapUiSmallMarginTop" headerText="详细信息">
+                        <content>
+                            <VBox class="sapUiSmallMargin">
+                                <Text id="targetDateText" text="" class="sapUiSmallMarginBottom"/>
+                                <Text id="currentDateText" text="" class="sapUiSmallMarginBottom"/>
+                                <Text id="lastUpdateText" text="" class="sapUiSmallMarginBottom"/>
+                            </VBox>
+                        </content>
+                    </Panel>
+                </VBox>
+            </content>
+        </Panel>
+    </VBox>
+</mvc:View>

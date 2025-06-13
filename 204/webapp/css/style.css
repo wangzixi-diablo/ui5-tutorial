@@ -1,0 +1,67 @@
+/* 自定义样式 */
+.countdownCard {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    min-width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.countdownCard:hover {
+    transform: translateY(-5px);
+}
+
+.countdownNumber {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.countdownLabel {
+    font-size: 1rem !important;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* 面板样式增强 */
+.sapMPanel {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* 按钮样式增强 */
+.sapMBtn.sapMBtnEmphasized {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border: none;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+}
+
+.sapMBtn.sapMBtnEmphasized:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+/* 输入框样式 */
+.sapMInputBase {
+    border-radius: 6px;
+}
+
+/* 选择框样式 */
+.sapMSlt {
+    border-radius: 6px;
+}
+
+/* 页面背景 */
+.sapUiBody {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+/* 标题样式 */
+.sapMTitle {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
