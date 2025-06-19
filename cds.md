@@ -42,3 +42,8 @@
 - [CDS View Annotation 大全](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations.htm)
 
 ![doc](https://i-blog.csdnimg.cn/direct/208dce59e8044f8ab0fe1a1470534d6e.jpeg#pic_center)
+
+# pipeline
+
+- DEMO_CDS_SESSION_VARIABLES
+- [session variable](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_f1_session_variable.htm)
