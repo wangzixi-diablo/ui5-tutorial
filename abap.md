@@ -542,6 +542,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [实战系列：如何增强 Function Module，添加一些自定义的用户会话 ID 打印功能](https://blog.csdn.net/i042416/article/details/143600763)
 
+- [使用 ABAP 弹出 Windows 操作系统的通知消息](https://blog.csdn.net/i042416/article/details/148852425)
+
 ## 日积月累：每天一个 ABAP 知识点
 
 - [每天一个 ABAP 知识点(1)：SAP ABAP 系统五种不同类型的用户的详细介绍](https://blog.csdn.net/i042416/article/details/138658127)
