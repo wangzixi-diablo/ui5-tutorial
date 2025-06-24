@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.207",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "在 SAP UI5 应用里给 Windows 操作系统发送通知消息(Notifications)",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

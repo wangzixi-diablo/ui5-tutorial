@@ -1,0 +1,37 @@
+/* 自定义样式 */
+.notificationCard {
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.sapUiSizeCompact .notificationCard .sapFCardContent {
+    padding: 1rem;
+}
+
+/* 按钮样式优化 */
+.sapMBtn {
+    margin: 0.25rem;
+}
+
+/* 消息条样式 */
+.sapMMsgStrip {
+    margin-top: 1rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .notificationCard {
+        margin: 1rem;
+        max-width: none;
+    }
+    
+    .sapUiLayout .sapUiLayoutCSSGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Horizon主题适配 */
+.sapUiTheme-sap_horizon .notificationCard {
+    border-radius: 0.75rem;
+}

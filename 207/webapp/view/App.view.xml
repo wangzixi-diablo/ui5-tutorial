@@ -1,0 +1,68 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:card="sap.f.cards"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+>
+    <l:VerticalLayout
+        class="sapUiContentPadding"
+        width="100%"
+    >
+        <l:content>
+            <f:Card class="notificationCard">
+                <f:header>
+                    <card:Header title="Windows 11 通知测试"
+                            subtitle="Buy a single-ride ticket for a date"
+                            iconSrc="sap-icon://bus-public-transport"
+                        />
+                </f:header>
+                <f:content>
+                    <l:VerticalLayout class="sapUiMediumMargin">
+                        <l:content>
+                            <Text
+                                text="点击下面的按钮来触发系统通知"
+                                class="sapUiMediumMarginBottom"
+                            />
+
+                            <l:HorizontalLayout class="sapUiMediumMarginBottom">
+                                <l:content>
+                                    <Button
+                                        id="requestPermissionBtn"
+                                        text="请求通知权限"
+                                        type="Emphasized"
+                                        press="onRequestPermission"
+                                        class="sapUiTinyMarginEnd"
+                                    />
+                                    <Button
+                                        id="simpleNotificationBtn"
+                                        text="简单通知"
+                                        type="Default"
+                                        press="onShowSimpleNotification"
+                                        class="sapUiTinyMarginEnd"
+                                    />
+                                    <Button
+                                        id="richNotificationBtn"
+                                        text="丰富通知"
+                                        type="Default"
+                                        press="onShowRichNotification"
+                                    />
+                                </l:content>
+                            </l:HorizontalLayout>
+
+                            <MessageStrip
+                                id="statusMessage"
+                                text=""
+                                type="Information"
+                                visible="false"
+                                class="sapUiMediumMarginTop"
+                            />
+                        </l:content>
+                    </l:VerticalLayout>
+                </f:content>
+            </f:Card>
+        </l:content>
+    </l:VerticalLayout>
+</mvc:View>
