@@ -7,93 +7,85 @@
     xmlns:l="sap.ui.layout"
     xmlns:f="sap.ui.layout.form"
 >
-    <HBox 
+    <HBox
         class="sapUiMediumMargin centerContainer"
         justifyContent="Center"
         alignItems="Start"
-        width="100%"
-    >
-            <l:VerticalLayout class="contentWrapper">
-                <l:content>
-                    <Panel
-                        headerText="时区转换"
-                        class="sapUiResponsiveMargin"
-                    >
-                        <content>
-                            <f:SimpleForm
-                                editable="true"
-                                layout="ResponsiveGridLayout"
-                                labelSpanXL="3"
-                                labelSpanL="3"
-                                labelSpanM="3"
-                                labelSpanS="12"
-                                adjustLabelSpan="false"
-                                emptySpanXL="4"
-                                emptySpanL="4"
-                                emptySpanM="4"
-                                emptySpanS="0"
-                                columnsXL="1"
-                                columnsL="1"
-                                columnsM="1"
-                                singleContainerFullSize="false"
-                            >
-                                <f:content>
-                                    <Label text="源时间" />
-                                    <TimePicker
-                                        id="sourceTimePicker"
-                                        value="{timezone>/sourceTime}"
-                                        valueFormat="HH:mm"
-                                        displayFormat="HH:mm"
-                                        placeholder="请选择时间 (如: 10:00)"
-                                    />
+        width="100%">
+        <l:VerticalLayout class="contentWrapper">
+            <l:content>
+                <Panel headerText="时区转换"
+                    class="sapUiResponsiveMargin">
+                    <content>
+                        <f:SimpleForm
+                            editable="true"
+                            layout="ResponsiveGridLayout"
+                            labelSpanXL="3"
+                            labelSpanL="3"
+                            labelSpanM="3"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="4"
+                            emptySpanL="4"
+                            emptySpanM="4"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
+                            <f:content>
+                                <Label text="源时间" />
+                                <TimePicker
+                                    id="sourceTimePicker"
+                                    value="{timezone>/sourceTime}"
+                                    valueFormat="HH:mm"
+                                    displayFormat="HH:mm"
+                                    placeholder="请选择时间 (如: 10:00)"/>
 
-                                    <Label text="源时区" />
-                                    <Select
-                                        id="timezoneSelect"
-                                        selectedKey="{timezone>/selectedTimezone}"
-                                        items="{timezone>/timezones}"
-                                    >
-                                        <core:Item
-                                            key="{timezone>key}"
-                                            text="{timezone>text}"
-                                        />
-                                    </Select>
+                                <Label text="源时区" />
+                                <Select
+                                    id="timezoneSelect"
+                                    selectedKey="{timezone>/selectedTimezone}"
+                                    items="{timezone>/timezones}">
+                                    <core:Item
+                                        key="{timezone>key}"
+                                        text="{timezone>text}"/>
+                                </Select>
 
-                                    <Label text="" />
-                                    <Button
-                                        id="convertButton"
-                                        text="转换到北京时间"
-                                        type="Emphasized"
-                                        press="onConvertTime"
-                                    />
-
-                                    <Label text="北京时间" />
-                                    <Text
-                                        id="convertedTimeText"
-                                        text="{timezone>/convertedTime}"
-                                        class="sapUiMediumMarginTop"
-                                    />
-                                </f:content>
-                            </f:SimpleForm>
-                        </content>
-                    </Panel>
-
-                    <Panel
-                        headerText="使用说明"
-                        class="sapUiResponsiveMargin"
-                    >
-                        <content>
-                            <VBox class="sapUiMediumMargin">
-                                <Text
-                                    text="1. 在'源时间'字段中选择或输入时间（24小时格式）"
+                                <Label text="" />
+                                <Button
+                                    id="convertButton"
+                                    text="转换到北京时间"
+                                    type="Emphasized"
+                                    press="onConvertTime"
                                 />
-                                <Text text="2. 从'源时区'下拉列表中选择对应的时区" />
-                                <Text text="3. 点击'转换到北京时间'按钮" />
-                                <Text text="4. 转换结果将显示在'北京时间'字段中" />
-                            </VBox>
-                        </content>
-                    </Panel>
-                </l:content>
-            </l:VerticalLayout>
+
+                                <Label text="北京时间" />
+                                <Text
+                                    id="convertedTimeText"
+                                    text="{timezone>/convertedTime}"
+                                    class="sapUiMediumMarginTop"
+                                />
+                            </f:content>
+                        </f:SimpleForm>
+                    </content>
+                </Panel>
+                <Panel headerText="使用说明"
+                    class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox class="sapUiMediumMargin">
+                            <Text
+                                text="1. 在'源时间'字段中选择或输入时间（24小时格式）"
+                            />
+                            <Text
+                                text="2. 从'源时区'下拉列表中选择对应的时区"
+                            />
+                            <Text text="3. 点击'转换到北京时间'按钮" />
+                            <Text text="4. 转换结果将显示在'北京时间'字段中" />
+                        </VBox>
+                    </content>
+                </Panel>
+            </l:content>
+        </l:VerticalLayout>
     </HBox>
 </mvc:View>

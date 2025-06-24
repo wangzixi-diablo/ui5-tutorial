@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2025年5月30日`为止，目前已经更新了 `260` 篇，专栏完成度为 `63.3%`，完成度已经超过`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2025年6月24日`为止，目前已经更新了 `264` 篇，专栏完成度为 `63.3%`，完成度已经超过`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`800`小时了。 
 
@@ -442,6 +442,8 @@
 
 * [SAP UI5 应用开发教程之一百九十五 - 用 SAP UI5 开发一个日期倒数计时器](https://blog.csdn.net/i042416/article/details/148639402)
 
+* [SAP UI5 应用开发教程之一百九十六 - 通过 SAP UI5 开发天气预报界面，学习 Promise 的用法](https://blog.csdn.net/i042416/article/details/148870401)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
@@ -543,3 +545,7 @@
 - [实战技巧分享：SAP UI5 运行时是如何从 manifest.json 文件里读取配置项的？](https://blog.csdn.net/i042416/article/details/147634557)
 
 - [SAP Freestyle UI5 / SAP Fiori Elements 调试小技巧：将重要的 JSON 变量另存到本地](https://jerry.blog.csdn.net/article/details/147850710)
+
+# 实战系列：用 SAP UI5 开发的一些小工具，实现日常工作中一些常见需求
+
+- [SAP UI5 开发的一个不同时区的时间转换工具](https://blog.csdn.net/i042416/article/details/148877849)

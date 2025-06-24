@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.205",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "用 SAP UI5 开发一个日期倒数计时器",
+  "description": "通过 SAP UI5 开发天气预报界面，学习 Promise 的用法",
   "scripts": {
     "start": "ui5 serve"
   },
