@@ -1,0 +1,24 @@
+/* 自定义样式 */
+.sapUiMediumMarginTop {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0070f2;
+}
+
+.sapUiResponsiveMargin {
+    margin: 1rem;
+}
+
+.sapUiMediumMargin {
+    margin: 0.5rem;
+}
+
+/* 面板样式 */
+.sapMPanel {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 按钮样式 */
+.sapMBtn {
+    margin-top: 0.5rem;
+}

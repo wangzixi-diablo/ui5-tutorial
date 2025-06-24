@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.206",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 开发的一个不同时区的时间转换工具",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
