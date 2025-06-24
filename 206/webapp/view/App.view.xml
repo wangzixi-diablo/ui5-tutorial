@@ -11,7 +11,8 @@
         class="sapUiMediumMargin centerContainer"
         justifyContent="Center"
         alignItems="Start"
-        width="100%">
+        width="100%"
+    >
             <l:VerticalLayout class="contentWrapper">
                 <l:content>
                     <Panel

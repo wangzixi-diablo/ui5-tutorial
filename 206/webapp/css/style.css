@@ -20,8 +20,9 @@
 }
 
 .contentWrapper {
-    max-width: 800px;
-    width: 100%;
+    width: 80%;
+    max-width: 1200px;
+    min-width: 600px;
 }
 
 /* 面板样式 */
