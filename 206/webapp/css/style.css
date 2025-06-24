@@ -13,6 +13,17 @@
     margin: 0.5rem;
 }
 
+/* 居中容器样式 */
+.centerContainer {
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.contentWrapper {
+    max-width: 800px;
+    width: 100%;
+}
+
 /* 面板样式 */
 .sapMPanel {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
