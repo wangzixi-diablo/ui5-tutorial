@@ -7,6 +7,11 @@
     xmlns:l="sap.ui.layout"
     xmlns:f="sap.f"
 >
+<HBox
+class="sapUiMediumMargin centerContainer"
+justifyContent="Center"
+alignItems="Start"
+width="100%">
     <l:VerticalLayout
         class="sapUiContentPadding"
         width="100%"
@@ -65,4 +70,5 @@
             </f:Card>
         </l:content>
     </l:VerticalLayout>
+</HBox>
 </mvc:View>
