@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/ui5",
+        "destination": "/",
+        "statusCode": 301
+      }
+    ]
+}
