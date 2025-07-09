@@ -34,6 +34,8 @@
 
 - [11. 在 SAP ABAP CDS View 中使用系统变量 Session Variable](https://blog.csdn.net/i042416/article/details/148234215)
 
+- [11. SAP ABAP CDS View Session Variable 配套练习](https://blog.csdn.net/i042416/article/details/149221594)
+
 - [12. SAP ABAP CDS View @Environment 注解的使用](https://blog.csdn.net/i042416/article/details/148254999)
 
 # 参考文献

@@ -25,3 +25,5 @@ SAP UI5 应用 index.html 文件里这行语句 data-sap-ui-compatVersion="edge"
 3. [使用 Page Map 定义应用结构](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/bae38e6216754a76896b926a3d6ac3a9.html)
 
 4. [Maintaining Annotations with Language Server](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/6fc93f80827940809437365abdf85b75.html)
+
+5. [placeholder loading](https://www.sap.com/design-system/fiori-design-web/ui-elements/placeholder-loading/?external) - [sap.m.BusyDialog](https://www.sap.com/design-system/fiori-design-web/v1-136/ui-elements/busydialog/?external)
