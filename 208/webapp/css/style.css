@@ -1,0 +1,84 @@
+/* Custom styles for the Markdown to PDF converter */
+
+.markdown-source pre {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.pdf-preview {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.pdf-preview h1, .pdf-preview h2, .pdf-preview h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pdf-preview h1 {
+    font-size: 24px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.pdf-preview h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.pdf-preview h3 {
+    font-size: 16px;
+}
+
+.pdf-preview p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.pdf-preview code {
+    background-color: #f1f3f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.pdf-preview pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    border: 1px solid #e9ecef;
+}
+
+.pdf-preview blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding-left: 16px;
+    margin-left: 0;
+    color: #6a737d;
+}
+
+.pdf-preview ul, .pdf-preview ol {
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.pdf-preview li {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sapUiMediumMargin {
+        margin: 0.5rem;
+    }
+}

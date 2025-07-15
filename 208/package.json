@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.208",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "使用 SAP UI5 将 markdown 文档渲染成 PDF 并显示",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
