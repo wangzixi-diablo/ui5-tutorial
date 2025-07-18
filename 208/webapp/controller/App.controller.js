@@ -36,28 +36,28 @@ sap.ui.define([
             var parseButton = this.byId("parseButton");
             var messageStrip = this.byId("messageStrip");
             
-            if (file) {
-                if (file.name.toLowerCase().endsWith('.md')) {
-                    this._fileName = file.name;
-                    parseButton.setEnabled(true);
-                    messageStrip.setVisible(false);
-                    
-                    // Read file content
-                    var reader = new FileReader();
-                    var that = this;
-                    reader.onload = function(e) {
-                        that._markdownContent = e.target.result;
-                    };
-                    reader.readAsText(file);
-                } else {
-                    messageStrip.setText("Please select a valid .md file");
-                    messageStrip.setType("Error");
-                    messageStrip.setVisible(true);
-                    parseButton.setEnabled(false);
-                }
-            } else {
+            if (!file) {
                 parseButton.setEnabled(false);
                 messageStrip.setVisible(false);
+                return;
+            }
+            if (file.name.toLowerCase().endsWith('.md')) {
+                this._fileName = file.name;
+                parseButton.setEnabled(true);
+                messageStrip.setVisible(false);
+                    
+                // Read file content
+                var reader = new FileReader();
+                var that = this;
+                reader.onload = function(e) {
+                    that._markdownContent = e.target.result;
+                };
+                reader.readAsText(file);
+            } else {
+                messageStrip.setText("Please select a valid .md file");
+                messageStrip.setType("Error");
+                messageStrip.setVisible(true);
+                parseButton.setEnabled(false);
             }
         },
 
@@ -85,8 +85,7 @@ sap.ui.define([
 
         _displayMarkdownSource: function () {
             var markdownHtml = "<pre style='white-space: pre-wrap; font-family: monospace; padding: 10px; background-color: #f5f5f5; border-radius: 4px;'>" + 
-                              this._escapeHtml(this._markdownContent) + 
-                              "</pre>";
+                    this._escapeHtml(this._markdownContent) + "</pre>";
             
             this.byId("markdownSource").setContent(markdownHtml);
         },
@@ -95,6 +94,8 @@ sap.ui.define([
             try {
                 // Convert markdown to HTML using marked.js
                 var htmlContent = window.marked.parse(this._markdownContent);
+                // Display PDF preview
+                this._displayPDFPreview(htmlContent);
                 
                 // Create PDF using jsPDF
                 var { jsPDF } = window.jspdf;
@@ -214,9 +215,6 @@ sap.ui.define([
                 }
                 
                 this._pdfDoc = doc;
-                
-                // Display PDF preview
-                this._displayPDFPreview(htmlContent);
                 
                 // Enable download button
                 this.byId("downloadButton").setEnabled(true);

@@ -3,41 +3,99 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
-    xmlns:core="sap.ui.core">
-    
-            <!-- Upload Section -->
+    xmlns:core="sap.ui.core"
+>
+    <!-- Upload Section -->
+    <VBox class="sapUiMediumMargin">
+        <Title
+            text="Upload Markdown File"
+            level="H2"
+            class="sapUiMediumMarginBottom"
+        />
+
+        <HBox
+            alignItems="Center"
+            class="sapUiMediumMarginBottom"
+        >
+            <core:HTML
+                content="&lt;input type='file' id='fileInput' accept='.md' style='margin-right: 10px;'/&gt;"
+            />
+            <Button
+                text="Parse Markdown"
+                press="onParseMarkdown"
+                type="Emphasized"
+                enabled="false"
+                id="parseButton"
+            />
+        </HBox>
+
+        <MessageStrip
+            text="Please select a .md file to upload"
+            class="sapUiMediumMarginBottom"
+            id="messageStrip"
+            visible="false"
+        />
+    </VBox>
+
+    <!-- Content Display Section -->
+    <l:Splitter
+        id="contentSplitter"
+        visible="false"
+        height="600px"
+        orientation="Horizontal"
+    >
+        <l:contentAreas>
+            <!-- Left Panel - Markdown Source -->
             <VBox class="sapUiMediumMargin">
-                <Title text="Upload Markdown File" level="H2" class="sapUiMediumMarginBottom"/>
-                
-                <HBox alignItems="Center" class="sapUiMediumMarginBottom">
-                    <core:HTML content="&lt;input type='file' id='fileInput' accept='.md' style='margin-right: 10px;'/&gt;"/>
-                    <Button text="Parse Markdown" press="onParseMarkdown" type="Emphasized" enabled="false" id="parseButton"/>
-                </HBox>
-                
-                <MessageStrip text="Please select a .md file to upload" class="sapUiMediumMarginBottom" id="messageStrip" visible="false"/>
+                <Title
+                    text="Markdown Source"
+                    level="H3"
+                    class="sapUiSmallMarginBottom"
+                />
+                <ScrollContainer
+                    height="550px"
+                    horizontal="false"
+                    vertical="true"
+                >
+                    <core:HTML
+                        id="markdownSource"
+                        content=""
+                        class="markdown-source"
+                    />
+                </ScrollContainer>
             </VBox>
-            
-            <!-- Content Display Section -->
-            <l:Splitter id="contentSplitter" visible="false" height="600px" orientation="Horizontal">
-                <l:contentAreas>
-                    <!-- Left Panel - Markdown Source -->
-                    <VBox class="sapUiMediumMargin">
-                        <Title text="Markdown Source" level="H3" class="sapUiSmallMarginBottom"/>
-                        <ScrollContainer height="550px" horizontal="false" vertical="true">
-                            <core:HTML id="markdownSource" content="" class="markdown-source"/>
-                        </ScrollContainer>
-                    </VBox>
-                    
-                    <!-- Right Panel - PDF Preview -->
-                    <VBox class="sapUiMediumMargin">
-                        <HBox justifyContent="SpaceBetween" alignItems="Center" class="sapUiSmallMarginBottom">
-                            <Title text="PDF Preview" level="H3"/>
-                            <Button text="Download PDF" press="onDownloadPDF" type="Accept" id="downloadButton" enabled="false"/>
-                        </HBox>
-                        <ScrollContainer height="520px" horizontal="false" vertical="true">
-                            <core:HTML id="pdfPreview" content="" class="pdf-preview"/>
-                        </ScrollContainer>
-                    </VBox>
-                </l:contentAreas>
-            </l:Splitter>
+
+            <!-- Right Panel - PDF Preview -->
+            <VBox class="sapUiMediumMargin">
+                <HBox
+                    justifyContent="SpaceBetween"
+                    alignItems="Center"
+                    class="sapUiSmallMarginBottom"
+                >
+                    <Title
+                        text="PDF Preview"
+                        level="H3"
+                    />
+                    <Button
+                        text="Download PDF"
+                        press="onDownloadPDF"
+                        type="Accept"
+                        id="downloadButton"
+                        enabled="false"
+                    />
+                </HBox>
+                <ScrollContainer
+                    height="520px"
+                    horizontal="false"
+                    vertical="true"
+                >
+                    <core:HTML
+                        id="pdfPreview"
+                        content=""
+                        class="pdf-preview"
+                    />
+                </ScrollContainer>
+            </VBox>
+        </l:contentAreas>
+    </l:Splitter>
 </mvc:View>
