@@ -42,6 +42,7 @@
 
 - [SAP 官网](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html)
 - [CDS View Annotation 大全](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations.htm)
+- [User guideline](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide)
 
 ![doc](https://i-blog.csdnimg.cn/direct/208dce59e8044f8ab0fe1a1470534d6e.jpeg#pic_center)
 
