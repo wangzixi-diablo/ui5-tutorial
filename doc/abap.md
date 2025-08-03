@@ -14,7 +14,7 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 我把自己<font color='red' size="3pt">18年</font>的 ABAP 使用经验，浓缩到了这套 ABAP 学习教程里，希望帮助 ABAP 的初学者在 ABAP 学习之路上少走弯路。同时，对于已经有 ABAP 基础，又想进一步进阶，完善自己 ABAP 知识体系的进阶学习者，这套 ABAP 学习教程也能助你们一臂之力。
 
-## 本专栏计划的文章数在 `300` 篇左右，到 `2025 年 6 月 11 日`为止，目前已经更新了 `246` 篇，专栏完成度为 `61.3%`
+## 本专栏计划的文章数在 `400` 篇左右，到 `2025 年 8 月 3 日`为止，目前已经更新了 `256` 篇，专栏完成度为 `64%`
 
 笔者这套[零基础快速学习 ABAP](https://blog.csdn.net/i042416/category_10946326.html)从 `2021 年 4 月 10 日`写下第一篇文章以来，感谢广大学习者一如既往的支持。本教程计划花费 `300` 左右的篇幅，向大家详细介绍 SAP ABAP 开发的方方面面。
 
@@ -502,6 +502,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [问题解答：如何不通过修改底层数据库表的方式，给数据库对应的数据结构，增添新的字段？](https://blog.csdn.net/i042416/article/details/147137202)
 
+- [关于 ABAP 宏语法一些疑问的澄清](https://blog.csdn.net/i042416/article/details/149883338)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)
@@ -546,7 +548,19 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 ## 日积月累：每天一个 ABAP 知识点
 
-- [每天一个 ABAP 知识点(1)：SAP ABAP 系统五种不同类型的用户的详细介绍](https://blog.csdn.net/i042416/article/details/138658127)
+- [每天一个 ABAP 冷门知识点(1)：SAP ABAP 系统五种不同类型的用户的详细介绍](https://blog.csdn.net/i042416/article/details/138658127)
+
+- [每天一个 ABAP 冷门知识点(2)：聊聊 ABAP 里感叹号 ! 的用法](https://jerry.blog.csdn.net/article/details/148343648)
+
+- [每天一个 ABAP 冷门知识点(3)：ABAP 内表也能用 SELECT 来读取了](https://blog.csdn.net/i042416/article/details/149884489)
+
+- [每天一个 ABAP 冷门知识点(4)：ABAP 里的问号操作符](https://blog.csdn.net/i042416/article/details/149884538)
+
+- [每天一个 ABAP 冷门知识点(5)：ABAP 里星号 * 的十种用法](https://jerry.blog.csdn.net/article/details/148437100)
+
+- [每天一个 ABAP 冷门知识点(6)：特殊符号 # 在 ABAP 世界中的四种用法](https://jerry.blog.csdn.net/article/details/148842829)
+
+- [每天一个 ABAP 冷门知识点(7)：ABAP 里百分号 % 的三大使用场景](https://jerry.blog.csdn.net/article/details/148949907)
 
 ## 更多文章正在写作中  
 
