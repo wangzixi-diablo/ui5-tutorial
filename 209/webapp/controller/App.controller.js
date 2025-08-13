@@ -6,24 +6,36 @@ sap.ui.define([
 
     return Controller.extend("sap.ui5.walkthrough.controller.App", {
 
+        // 全局变量
+        animationId: null,
+        isDrawing: false,
+
         onInit: function () {
-            // 页面加载完成后生成默认雪花
-            setTimeout(() => {
-                this.generateSnowflake();
-            }, 100);
+            // 页面加载完成后不自动生成，等待用户点击
         },
 
         onOrderChange: function () {
-            // 当阶数改变时自动重新生成
-            this.generateSnowflake();
+            // 当阶数改变时停止当前绘制
+            if (this.isDrawing) {
+                this.stopDrawing();
+            }
         },
 
-        onGenerate: function () {
-            this.generateSnowflake();
+        onStartDynamicDrawing: function () {
+            this.startDynamicDrawing();
+        },
+
+        onStopDrawing: function () {
+            this.stopDrawing();
         },
 
         onDownload: function () {
             this.downloadImage();
+        },
+
+        onSpeedChange: function (oEvent) {
+            const speed = oEvent.getParameter("value");
+            this.byId("speedValue").setText(speed.toString());
         },
 
         // 点类
@@ -65,8 +77,8 @@ sap.ui.define([
             return result;
         },
 
-        // 生成科赫雪花
-        generateKochSnowflake: function (order, width, height) {
+        // 生成科赫雪花的所有点
+        generateKochSnowflakePoints: function (order, width, height) {
             // 定义等边三角形的三个顶点
             const centerX = width / 2;
             const centerY = height / 2;
@@ -81,97 +93,118 @@ sap.ui.define([
             const edge2 = this.kochLine(p2, p3, order);
             const edge3 = this.kochLine(p3, p1, order);
 
-            return { edge1, edge2, edge3 };
+            // 合并所有点形成完整的路径
+            const allPoints = [...edge1];
+            allPoints.push(...edge2.slice(1));
+            allPoints.push(...edge3.slice(1));
+
+            return allPoints;
         },
 
-        // 绘制科赫雪花
-        drawKochSnowflake: function (ctx, snowflake) {
-            ctx.beginPath();
-            ctx.moveTo(snowflake.edge1[0].x, snowflake.edge1[0].y);
-
-            // 绘制第一条边
-            for (let i = 1; i < snowflake.edge1.length; i++) {
-                ctx.lineTo(snowflake.edge1[i].x, snowflake.edge1[i].y);
-            }
-
-            // 绘制第二条边
-            for (let i = 1; i < snowflake.edge2.length; i++) {
-                ctx.lineTo(snowflake.edge2[i].x, snowflake.edge2[i].y);
-            }
-
-            // 绘制第三条边
-            for (let i = 1; i < snowflake.edge3.length; i++) {
-                ctx.lineTo(snowflake.edge3[i].x, snowflake.edge3[i].y);
-            }
-
-            ctx.closePath();
-            ctx.stroke();
-        },
-
-        // 主生成函数
-        generateSnowflake: function () {
-            const canvas = document.getElementById('snowflakeCanvas');
-            if (!canvas) {
-                // 如果canvas还没有渲染，稍后重试
-                setTimeout(() => {
-                    this.generateSnowflake();
-                }, 100);
+        // 动态绘制函数
+        drawDynamically: function (ctx, points, currentIndex, speed) {
+            if (currentIndex >= points.length || !this.isDrawing) {
+                // 绘制完成
+                this.isDrawing = false;
+                this.byId("generateBtn").setEnabled(true);
+                this.byId("generateBtn").setText('动态绘制科赫雪花');
+                this.byId("stopBtn").setVisible(false);
+                this.byId("downloadBtn").setVisible(true);
+                
+                const order = this.byId("orderSelect").getSelectedKey();
+                const edgeCount = Math.pow(4, order) * 3;
+                this.byId("infoText").setText(`${order} 阶科赫雪花绘制完成 | 边数: ${edgeCount.toLocaleString()} | 总点数: ${points.length.toLocaleString()}`);
+                
+                MessageToast.show(`${order} 阶科赫雪花绘制完成`);
                 return;
             }
+            
+            // 绘制当前点到下一个点的线段
+            if (currentIndex === 0) {
+                ctx.beginPath();
+                ctx.moveTo(points[0].x, points[0].y);
+            } else {
+                ctx.lineTo(points[currentIndex].x, points[currentIndex].y);
+                ctx.stroke();
+            }
+            
+            // 更新进度信息
+            const progress = ((currentIndex + 1) / points.length * 100).toFixed(1);
+            const order = this.byId("orderSelect").getSelectedKey();
+            this.byId("infoText").setText(`正在绘制 ${order} 阶科赫雪花 | 进度: ${progress}% (${currentIndex + 1}/${points.length})`);
+            
+            // 计算延迟时间（速度控制）
+            const delay = Math.max(1, 101 - speed);
+            
+            // 继续绘制下一个点
+            setTimeout(() => {
+                this.animationId = requestAnimationFrame(() => {
+                    this.drawDynamically(ctx, points, currentIndex + 1, speed);
+                });
+            }, delay);
+        },
 
+        // 开始动态绘制
+        startDynamicDrawing: function () {
+            if (this.isDrawing) {
+                this.stopDrawing();
+                return;
+            }
+            
+            const canvas = document.getElementById('snowflakeCanvas');
+            if (!canvas) {
+                MessageToast.show('画布未找到');
+                return;
+            }
+            
             const ctx = canvas.getContext('2d');
             const order = parseInt(this.byId("orderSelect").getSelectedKey());
+            const speed = parseInt(this.byId("speedSlider").getValue());
             const generateBtn = this.byId("generateBtn");
             const downloadBtn = this.byId("downloadBtn");
-            const infoText = this.byId("infoText");
-
-            // 禁用按钮，显示生成中状态
+            const stopBtn = this.byId("stopBtn");
+            
+            // 设置绘制状态
+            this.isDrawing = true;
             generateBtn.setEnabled(false);
-            generateBtn.setText('生成中...');
-            infoText.setText(`正在生成 ${order} 阶科赫雪花...`);
+            generateBtn.setText('绘制中...');
             downloadBtn.setVisible(false);
+            stopBtn.setVisible(true);
+            
+            // 清空画布
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // 设置背景色
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // 设置线条样式
+            ctx.strokeStyle = '#0070f2';
+            ctx.lineWidth = 2;
+            ctx.lineJoin = 'round';
+            ctx.lineCap = 'round';
+            
+            // 生成所有点
+            const points = this.generateKochSnowflakePoints(order, canvas.width, canvas.height);
+            
+            // 开始动态绘制
+            this.drawDynamically(ctx, points, 0, speed);
+        },
 
-            // 使用 setTimeout 让界面有时间更新
-            setTimeout(() => {
-                try {
-                    // 清空画布
-                    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                    // 设置背景色
-                    ctx.fillStyle = 'white';
-                    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-                    // 设置线条样式
-                    ctx.strokeStyle = '#0070f2';
-                    ctx.lineWidth = 1;
-                    ctx.lineJoin = 'round';
-                    ctx.lineCap = 'round';
-
-                    // 生成并绘制科赫雪花
-                    const snowflake = this.generateKochSnowflake(order, canvas.width, canvas.height);
-                    this.drawKochSnowflake(ctx, snowflake);
-
-                    // 计算边数（用于显示信息）
-                    const edgeCount = Math.pow(4, order) * 3;
-
-                    // 更新信息
-                    infoText.setText(`${order} 阶科赫雪花 | 边数: ${edgeCount.toLocaleString()} | 图片尺寸: ${canvas.width} × ${canvas.height}`);
-
-                    // 显示下载按钮
-                    downloadBtn.setVisible(true);
-
-                    MessageToast.show(`${order} 阶科赫雪花生成完成`);
-
-                } catch (error) {
-                    console.error('生成雪花时出错:', error);
-                    infoText.setText('生成失败，请重试');
-                    MessageToast.show('生成失败，请重试');
-                } finally {
-                    // 恢复按钮状态
-                    generateBtn.setEnabled(true);
-                    generateBtn.setText('生成科赫雪花');
-                }
-            }, 10);
+        // 停止绘制
+        stopDrawing: function () {
+            this.isDrawing = false;
+            if (this.animationId) {
+                cancelAnimationFrame(this.animationId);
+                this.animationId = null;
+            }
+            
+            this.byId("generateBtn").setEnabled(true);
+            this.byId("generateBtn").setText('动态绘制科赫雪花');
+            this.byId("stopBtn").setVisible(false);
+            this.byId("infoText").setText('绘制已停止');
+            
+            MessageToast.show('绘制已停止');
         },
 
         // 下载图片功能
@@ -187,7 +220,7 @@ sap.ui.define([
             try {
                 // 创建下载链接
                 const link = document.createElement('a');
-                link.download = `koch_snowflake_order_${order}.png`;
+                link.download = `koch_snowflake_dynamic_order_${order}.png`;
                 link.href = canvas.toDataURL('image/png');
 
                 // 触发下载

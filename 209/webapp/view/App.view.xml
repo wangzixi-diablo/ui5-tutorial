@@ -7,53 +7,166 @@
 >
     <!-- Upload Section -->
     <l:VerticalLayout class="sapUiMediumMargin">
-                        
-    <!-- 控制面板 -->
-    <Panel headerText="控制面板" class="sapUiResponsiveMargin">
-        <content>
-            <l:HorizontalLayout class="sapUiMediumMargin">
-                <l:VerticalLayout class="sapUiMediumMarginEnd">
-                    <Label text="选择阶数:" class="sapUiTinyMarginBottom"/>
-                    <Select id="orderSelect" selectedKey="1" change="onOrderChange">
-                        <core:Item key="0" text="0阶 (等边三角形)"/>
-                        <core:Item key="1" text="1阶"/>
-                        <core:Item key="2" text="2阶"/>
-                        <core:Item key="3" text="3阶"/>
-                        <core:Item key="4" text="4阶"/>
-                        <core:Item key="5" text="5阶"/>
-                        <core:Item key="6" text="6阶"/>
-                        <core:Item key="7" text="7阶"/>
-                        <core:Item key="8" text="8阶"/>
-                        <core:Item key="9" text="9阶"/>
-                        <core:Item key="10" text="10阶"/>
-                    </Select>
-                </l:VerticalLayout>
-                
-                <l:VerticalLayout class="sapUiMediumMarginBegin">
-                    <Label text="操作:" class="sapUiTinyMarginBottom"/>
-                    <Button id="generateBtn" text="生成科赫雪花" type="Emphasized" press="onGenerate"/>
-                </l:VerticalLayout>
-            </l:HorizontalLayout>
-        </content>
-    </Panel>
-    
-    <!-- 画布区域 -->
-    <Panel headerText="科赫雪花" class="sapUiResponsiveMargin">
-        <content>
-            <l:VerticalLayout class="sapUiMediumMargin" width="100%">
-                <!-- Canvas 容器 -->
-                <core:HTML id="canvasContainer" content="&lt;div style='text-align: center;'&gt;&lt;canvas id='snowflakeCanvas' width='800' height='600' style='border: 2px solid #ddd; border-radius: 5px; background-color: white; max-width: 100%;'&gt;&lt;/canvas&gt;&lt;/div&gt;"/>
-                
-                <!-- 信息显示 -->
-                <l:VerticalLayout class="sapUiMediumMarginTop" width="100%">
-                    <Text id="infoText" text="点击'生成科赫雪花'按钮开始" textAlign="Center" class="sapUiMediumMarginBottom"/>
-                    <l:HorizontalLayout justifyContent="Center">
-                        <Button id="downloadBtn" text="下载图片" type="Accept" press="onDownload" visible="false" icon="sap-icon://download"/>
+        <!-- 控制面板 -->
+        <Panel
+            headerText="控制面板"
+            class="sapUiResponsiveMargin"
+        >
+            <content>
+                <l:VerticalLayout class="sapUiMediumMargin">
+                    <l:HorizontalLayout class="sapUiMediumMarginBottom">
+                        <l:VerticalLayout class="sapUiMediumMarginEnd">
+                            <Label
+                                text="选择阶数:"
+                                class="sapUiTinyMarginBottom"
+                            />
+                            <Select
+                                id="orderSelect"
+                                selectedKey="1"
+                                change="onOrderChange"
+                            >
+                                <core:Item
+                                    key="0"
+                                    text="0阶 (等边三角形)"
+                                />
+                                <core:Item
+                                    key="1"
+                                    text="1阶"
+                                />
+                                <core:Item
+                                    key="2"
+                                    text="2阶"
+                                />
+                                <core:Item
+                                    key="3"
+                                    text="3阶"
+                                />
+                                <core:Item
+                                    key="4"
+                                    text="4阶"
+                                />
+                                <core:Item
+                                    key="5"
+                                    text="5阶"
+                                />
+                                <core:Item
+                                    key="6"
+                                    text="6阶"
+                                />
+                                <core:Item
+                                    key="7"
+                                    text="7阶"
+                                />
+                                <core:Item
+                                    key="8"
+                                    text="8阶"
+                                />
+                                <core:Item
+                                    key="9"
+                                    text="9阶"
+                                />
+                                <core:Item
+                                    key="10"
+                                    text="10阶"
+                                />
+                            </Select>
+                        </l:VerticalLayout>
+
+                        <l:VerticalLayout class="sapUiMediumMarginBegin">
+                            <Label
+                                text="操作:"
+                                class="sapUiTinyMarginBottom"
+                            />
+                            <Button
+                                id="generateBtn"
+                                text="动态绘制科赫雪花"
+                                type="Emphasized"
+                                press="onStartDynamicDrawing"
+                            />
+                        </l:VerticalLayout>
+                    </l:HorizontalLayout>
+
+                    <!-- 速度控制 -->
+                    <l:HorizontalLayout class="sapUiMediumMarginTop">
+                        <l:VerticalLayout class="sapUiMediumMarginEnd">
+                            <Label
+                                text="绘制速度:"
+                                class="sapUiTinyMarginBottom"
+                            />
+                            <Slider
+                                id="speedSlider"
+                                min="1"
+                                max="100"
+                                value="50"
+                                width="200px"
+                                liveChange="onSpeedChange"
+                            />
+                        </l:VerticalLayout>
+
+                        <l:VerticalLayout class="sapUiMediumMarginBegin">
+                            <Label
+                                text="速度值:"
+                                class="sapUiTinyMarginBottom"
+                            />
+                            <Text
+                                id="speedValue"
+                                text="50"
+                            />
+                        </l:VerticalLayout>
                     </l:HorizontalLayout>
                 </l:VerticalLayout>
-            </l:VerticalLayout>
-        </content>
-    </Panel>
-    
-</l:VerticalLayout>
+            </content>
+        </Panel>
+
+        <!-- 画布区域 -->
+        <Panel
+            headerText="科赫雪花"
+            class="sapUiResponsiveMargin"
+        >
+            <content>
+                <l:VerticalLayout
+                    class="sapUiMediumMargin"
+                    width="100%"
+                >
+                    <!-- Canvas 容器 -->
+                    <core:HTML
+                        id="canvasContainer"
+                        content="&lt;div style='text-align: center;'&gt;&lt;canvas id='snowflakeCanvas' width='800' height='600' style='border: 2px solid #ddd; border-radius: 5px; background-color: white; max-width: 100%;'&gt;&lt;/canvas&gt;&lt;/div&gt;"
+                    />
+
+                    <!-- 信息显示 -->
+                    <l:VerticalLayout
+                        class="sapUiMediumMarginTop"
+                        width="100%"
+                    >
+                        <Text
+                            id="infoText"
+                            text="点击'动态绘制科赫雪花'按钮开始"
+                            textAlign="Center"
+                            class="sapUiMediumMarginBottom"
+                        />
+                        <l:HorizontalLayout justifyContent="Center">
+                            <Button
+                                id="downloadBtn"
+                                text="下载图片"
+                                type="Accept"
+                                press="onDownload"
+                                visible="false"
+                                icon="sap-icon://download"
+                                class="sapUiTinyMarginEnd"
+                            />
+                            <Button
+                                id="stopBtn"
+                                text="停止绘制"
+                                type="Reject"
+                                press="onStopDrawing"
+                                visible="false"
+                                icon="sap-icon://stop"
+                            />
+                        </l:HorizontalLayout>
+                    </l:VerticalLayout>
+                </l:VerticalLayout>
+            </content>
+        </Panel>
+    </l:VerticalLayout>
 </mvc:View>
