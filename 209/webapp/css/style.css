@@ -1,0 +1,54 @@
+/* 自定义样式 */
+.sapUiResponsiveContentPadding {
+    padding: 1rem;
+}
+
+.sapUiMediumMargin {
+    margin: 1rem;
+}
+
+.sapUiMediumMarginTop {
+    margin-top: 1rem;
+}
+
+.sapUiMediumMarginBottom {
+    margin-bottom: 1rem;
+}
+
+.sapUiMediumMarginEnd {
+    margin-right: 1rem;
+}
+
+.sapUiMediumMarginBegin {
+    margin-left: 1rem;
+}
+
+.sapUiTinyMarginBottom {
+    margin-bottom: 0.5rem;
+}
+
+.sapUiResponsiveMargin {
+    margin: 1rem;
+}
+
+/* Canvas 响应式设计 */
+#snowflakeCanvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 面板样式 */
+.sapMPanel {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 按钮样式 */
+.sapMBtn {
+    margin: 0.25rem;
+}
+
+/* 信息文本样式 */
+.sapMText {
+    font-size: 0.875rem;
+    color: #666;
+}

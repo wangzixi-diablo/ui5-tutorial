@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.209",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "使用 SAP UI5 绘制科赫雪花",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
