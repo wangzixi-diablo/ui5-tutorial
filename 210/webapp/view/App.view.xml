@@ -10,9 +10,9 @@
         <pages>
             <Page id="page" title="俄罗斯方块" class="tetrisPage">
                 <content>
-                    <l:HorizontalLayout class="game-container">
+                    <l:HorizontalLayout class="game-container" width="100%">
                         <!-- 左侧游戏区域 -->
-                        <VBox class="game-area">
+                        <VBox class="game-area" width="500px">
                             <html:canvas id="gameBoard" class="game-board" width="450" height="600"></html:canvas>
                             <Panel id="gameOver" class="game-over" visible="false">
                                 <content>
@@ -26,7 +26,7 @@
                         </VBox>
                         
                         <!-- 右侧控制区域 -->
-                        <VBox class="control-panel sapUiMediumMargin">
+                        <VBox class="control-panel sapUiMediumMargin" width="350px">
                             <!-- 得分区域 -->
                             <Panel headerText="游戏信息" class="sapUiMediumMarginBottom">
                                 <content>
@@ -67,7 +67,7 @@
                                     <VBox class="sapUiSmallMargin">
                                         <Slider id="speedSlider" min="1" max="10" value="5" step="1" 
                                                enableTickmarks="true" class="sapUiMediumMarginBottom"
-                                               liveChange="updateGameSpeed"/>
+                                               liveChange="updateGameSpeed" width="100%"/>
                                         <HBox justifyContent="SpaceBetween">
                                             <Text text="慢"/>
                                             <Text text="快"/>
@@ -81,16 +81,16 @@
                                 <content>
                                     <VBox class="sapUiSmallMargin">
                                         <Button id="startBtn" text="🎮 开始游戏" type="Emphasized" 
-                                               press="startGame" class="sapUiTinyMarginBottom"/>
+                                               press="startGame" class="sapUiTinyMarginBottom" width="100%"/>
                                         
-                                        <HBox class="sapUiTinyMarginBottom">
-                                            <Button text="← 左移" press="moveLeft" class="sapUiTinyMarginEnd"/>
-                                            <Button text="右移 →" press="moveRight"/>
+                                        <HBox class="sapUiTinyMarginBottom" width="100%">
+                                            <Button text="← 左移" press="moveLeft" class="sapUiTinyMarginEnd" width="48%"/>
+                                            <Button text="右移 →" press="moveRight" width="48%"/>
                                         </HBox>
                                         
-                                        <HBox>
-                                            <Button text="🔄 旋转" press="rotatePiece" class="sapUiTinyMarginEnd"/>
-                                            <Button text="⬇ 瞬间下落" press="hardDrop"/>
+                                        <HBox width="100%">
+                                            <Button text="🔄 旋转" press="rotatePiece" class="sapUiTinyMarginEnd" width="48%"/>
+                                            <Button text="⬇ 下落" press="hardDrop" width="48%"/>
                                         </HBox>
                                     </VBox>
                                 </content>

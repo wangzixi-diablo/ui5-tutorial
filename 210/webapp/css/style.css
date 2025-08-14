@@ -2,12 +2,15 @@
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
 }
 
+/* 保持原有样式，添加以下修改 */
+
 .tetrisPage .sapMPage {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto; /* 允许页面滚动 */
 }
 
 .game-container {
@@ -18,10 +21,13 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     margin: 20px auto;
+    min-width: 900px; /* 设置最小宽度 */
+    max-width: 1200px; /* 设置最大宽度 */
+    width: 90%; /* 响应式宽度 */
 }
 
 .game-area {
-    width: 66.67%;
+    flex-shrink: 0; /* 防止收缩 */
     margin-right: 20px;
 }
 
@@ -32,20 +38,53 @@
     background: rgba(0, 0, 0, 0.8);
     position: relative;
     border-radius: 10px;
-    margin-right: 40px;
 }
 
 .control-panel {
-    width: 33.33%;
+    flex-shrink: 0; /* 防止收缩 */
+    min-width: 320px; /* 设置最小宽度 */
     height: 600px;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 20px;
-    overflow: hidden;
+    overflow-y: auto; /* 允许垂直滚动 */
+    overflow-x: hidden; /* 禁止水平滚动 */
 }
 
+/* 确保SAP UI5控件不会超出容器宽度 */
+.control-panel .sapMPanel {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.control-panel .sapMBtn {
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.control-panel .sapMSlider {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* 移除原有的宽度限制样式 */
+/* 删除或注释掉以下样式 */
+/*
+.game-area {
+    width: 66.67%;
+    margin-right: 20px;
+}
+
+.control-panel {
+    width: 33.33%;
+    ...
+}
+*/
+
+/* 其他原有样式保持不变 */
 .score-container {
     display: flex;
     gap: 10px;
