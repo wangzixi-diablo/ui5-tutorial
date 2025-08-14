@@ -10,7 +10,7 @@
         <pages>
             <Page id="page" title="俄罗斯方块" class="tetrisPage">
                 <content>
-                    <l:HorizontalLayout class="game-container" width="100%">
+                    <l:HorizontalLayout class="game-container">
                         <!-- 左侧游戏区域 -->
                         <VBox class="game-area" width="500px">
                             <html:canvas id="gameBoard" class="game-board" width="450" height="800"></html:canvas>

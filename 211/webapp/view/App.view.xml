@@ -1,0 +1,52 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+            <l:HorizontalLayout class="gameContainer">
+                <!-- 游戏区域 -->
+                <html:canvas id="gameCanvas" class="gameArea" width="450" height="800"></html:canvas>
+                
+                <!-- 控制面板 -->
+                <VBox class="controlPanel">
+                    <!-- 游戏信息 -->
+                    <VBox class="gameInfo">
+                        <Text id="scoreText" text="分数: {/score}" class="scoreText"/>
+                        <Text id="statusText" text="{/status}" class="statusText"/>
+                        <Button id="restartBtn" text="重新开始" press="onRestart" type="Emphasized"/>
+                    </VBox>
+                    
+                    <!-- 速度控制 -->
+                    <VBox class="speedControl">
+                        <Label text="游戏速度" class="speedLabel"/>
+                        <Slider id="speedSlider" min="1" max="10" value="{/speed}" step="1" liveChange="onSpeedChange" class="speedSlider"/>
+                        <HBox justifyContent="SpaceBetween" class="speedLabels">
+                            <Text text="慢"/>
+                            <Text text="快"/>
+                        </HBox>
+                    </VBox>
+                    
+                    <!-- 控制说明 -->
+                    <VBox class="controlsInfo">
+                        <Text text="控制说明" class="controlsTitle"/>
+                        <FormattedText htmlText="方向键: ↑↓←→&lt;br/&gt;WASD: W(上) S(下) A(左) D(右)&lt;br/&gt;空格键: 重新开始" class="controlsList"/>
+                    </VBox>
+                    
+                    <!-- 方向控制按钮 -->
+                    <l:Grid defaultSpan="L4 M4 S4" class="controlButtons">
+                        <Button text="" icon="sap-icon://navigation-up-arrow" press="onDirectionPress" class="controlBtn btnUp"/>
+                        <core:InvisibleText/>
+                        <core:InvisibleText/>
+                        <Button text="" icon="sap-icon://navigation-left-arrow" press="onDirectionPress" class="controlBtn btnLeft"/>
+                        <core:InvisibleText/>
+                        <Button text="" icon="sap-icon://navigation-right-arrow" press="onDirectionPress"  class="controlBtn btnRight"/>
+                        <core:InvisibleText/>
+                        <Button text="" icon="sap-icon://navigation-down-arrow" press="onDirectionPress" class="controlBtn btnDown"/>
+                        <core:InvisibleText/>
+                    </l:Grid>
+                </VBox>
+            </l:HorizontalLayout>
+</mvc:View>
