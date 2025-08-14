@@ -13,7 +13,7 @@
                     <l:HorizontalLayout class="game-container" width="100%">
                         <!-- 左侧游戏区域 -->
                         <VBox class="game-area" width="500px">
-                            <html:canvas id="gameBoard" class="game-board" width="450" height="600"></html:canvas>
+                            <html:canvas id="gameBoard" class="game-board" width="450" height="800"></html:canvas>
                             <Panel id="gameOver" class="game-over" visible="false">
                                 <content>
                                     <VBox alignItems="Center" class="sapUiMediumMargin">

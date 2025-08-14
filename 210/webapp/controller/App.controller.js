@@ -7,8 +7,8 @@ sap.ui.define([
         onInit: function () {
             // 游戏配置
             this.BOARD_WIDTH = 15;
-            this.BOARD_HEIGHT = 20;
-            this.BLOCK_SIZE = 30;
+            this.BOARD_HEIGHT = 25; // 从26改为25
+            this.BLOCK_SIZE = 32; // 从30改为32
             
             // 游戏状态
             this.board = [];

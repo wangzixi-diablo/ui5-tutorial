@@ -2,7 +2,7 @@
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
 }
 
-/* 保持原有样式，添加以下修改 */
+/* 保持原有样式，修改以下部分 */
 
 .tetrisPage .sapMPage {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
@@ -33,7 +33,7 @@
 
 .game-board {
     width: 450px;
-    height: 600px;
+    height: 800px; /* 从600px增加到800px */
     border: 3px solid #fff;
     background: rgba(0, 0, 0, 0.8);
     position: relative;
@@ -43,7 +43,7 @@
 .control-panel {
     flex-shrink: 0; /* 防止收缩 */
     min-width: 320px; /* 设置最小宽度 */
-    height: 600px;
+    height: 800px; /* 从600px增加到800px，与游戏板保持一致 */
     color: white;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
 .control-panel .sapMPanel {
     width: 100% !important;
     box-sizing: border-box;
-    margin-bottom: 8px !important; /* 减少底部边距 */
+    margin-bottom: 10px !important; /* 稍微增加底部边距以适应更高的面板 */
     flex-shrink: 0;
 }
 
@@ -67,26 +67,26 @@
 
 /* 减少Panel内容的内边距 */
 .control-panel .sapMPanel .sapMPanelContent {
-    padding: 8px !important; /* 减少内边距 */
+    padding: 10px !important; /* 稍微增加内边距以适应更高的面板 */
 }
 
 /* 优化Panel标题高度 */
 .control-panel .sapMPanel .sapMPanelHdr {
-    min-height: 32px !important; /* 减少标题高度 */
-    padding: 4px 8px !important;
+    min-height: 36px !important; /* 稍微增加标题高度 */
+    padding: 6px 10px !important;
 }
 
 /* 优化VBox间距 */
 .control-panel .sapUiSmallMargin {
-    margin: 4px !important; /* 减少边距 */
+    margin: 6px !important; /* 稍微增加边距 */
 }
 
 .control-panel .sapUiTinyMarginBottom {
-    margin-bottom: 2px !important; /* 减少底部边距 */
+    margin-bottom: 4px !important; /* 稍微增加底部边距 */
 }
 
 .control-panel .sapUiMediumMarginBottom {
-    margin-bottom: 4px !important; /* 减少底部边距 */
+    margin-bottom: 8px !important; /* 稍微增加底部边距 */
 }
 
 /* 优化按钮高度 */
@@ -95,42 +95,42 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 32px !important; /* 固定按钮高度 */
-    min-height: 32px !important;
+    height: 36px !important; /* 稍微增加按钮高度 */
+    min-height: 36px !important;
 }
 
 /* 优化滑块容器 */
 .control-panel .sapMSlider {
     width: 100% !important;
     box-sizing: border-box;
-    height: 24px !important; /* 减少滑块高度 */
+    height: 28px !important; /* 稍微增加滑块高度 */
 }
 
 /* 优化文本显示 */
 .control-panel .sapMText {
-    line-height: 1.2 !important;
+    line-height: 1.3 !important;
 }
 
 .control-panel .sapMLabel {
-    line-height: 1.2 !important;
+    line-height: 1.3 !important;
 }
 
-/* 确保游戏信息Panel紧凑显示 */
+/* 确保游戏信息Panel适应更高的面板 */
 .control-panel .sapMPanel:first-child {
     flex-shrink: 0;
-    max-height: 120px; /* 限制游戏信息Panel高度 */
+    max-height: 150px; /* 增加游戏信息Panel高度 */
 }
 
-/* 确保下一个方块Panel紧凑显示 */
+/* 确保下一个方块Panel适应更高的面板 */
 .control-panel .sapMPanel:nth-child(2) {
     flex-shrink: 0;
-    max-height: 140px; /* 限制下一个方块Panel高度 */
+    max-height: 170px; /* 增加下一个方块Panel高度 */
 }
 
-/* 确保游戏速度Panel紧凑显示 */
+/* 确保游戏速度Panel适应更高的面板 */
 .control-panel .sapMPanel:nth-child(3) {
     flex-shrink: 0;
-    max-height: 100px; /* 限制游戏速度Panel高度 */
+    max-height: 120px; /* 增加游戏速度Panel高度 */
 }
 
 /* 游戏控制Panel占用剩余空间 */
