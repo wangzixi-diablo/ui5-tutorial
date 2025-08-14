@@ -1,0 +1,118 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="俄罗斯方块" class="tetrisPage">
+                <content>
+                    <l:HorizontalLayout class="game-container">
+                        <!-- 左侧游戏区域 -->
+                        <VBox class="game-area">
+                            <html:canvas id="gameBoard" class="game-board" width="450" height="600"></html:canvas>
+                            <Panel id="gameOver" class="game-over" visible="false">
+                                <content>
+                                    <VBox alignItems="Center" class="sapUiMediumMargin">
+                                        <Title text="游戏结束" level="H2" class="sapUiMediumMarginBottom"/>
+                                        <Text text="最终得分: {/finalScore}" class="sapUiMediumMarginBottom"/>
+                                        <Button id="restartBtn" text="重新开始" type="Emphasized" press="restartGame"/>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                        </VBox>
+                        
+                        <!-- 右侧控制区域 -->
+                        <VBox class="control-panel sapUiMediumMargin">
+                            <!-- 得分区域 -->
+                            <Panel headerText="游戏信息" class="sapUiMediumMarginBottom">
+                                <content>
+                                    <VBox class="sapUiSmallMargin">
+                                        <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                            <VBox>
+                                                <Label text="历史记录" class="sapUiTinyMarginBottom"/>
+                                                <Text id="highScore" text="0" class="score-display"/>
+                                            </VBox>
+                                            <VBox>
+                                                <Label text="当前得分" class="sapUiTinyMarginBottom"/>
+                                                <Text id="score" text="0" class="score-display"/>
+                                            </VBox>
+                                        </HBox>
+                                        
+                                        <HBox justifyContent="SpaceBetween">
+                                            <VBox>
+                                                <Label text="时间" class="sapUiTinyMarginBottom"/>
+                                                <Text id="time" text="00:00" class="time-display"/>
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                            
+                            <!-- 下一个方块预览 -->
+                            <Panel headerText="下一个方块" class="sapUiMediumMarginBottom">
+                                <content>
+                                    <VBox alignItems="Center" class="sapUiSmallMargin">
+                                        <html:canvas id="nextPiece" class="next-preview" width="80" height="80"></html:canvas>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                            
+                            <!-- 游戏速度控制 -->
+                            <Panel headerText="游戏速度" class="sapUiMediumMarginBottom">
+                                <content>
+                                    <VBox class="sapUiSmallMargin">
+                                        <Slider id="speedSlider" min="1" max="10" value="5" step="1" 
+                                               enableTickmarks="true" class="sapUiMediumMarginBottom"
+                                               liveChange="updateGameSpeed"/>
+                                        <HBox justifyContent="SpaceBetween">
+                                            <Text text="慢"/>
+                                            <Text text="快"/>
+                                        </HBox>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                            
+                            <!-- 游戏控制按钮 -->
+                            <Panel headerText="游戏控制" class="sapUiMediumMarginBottom">
+                                <content>
+                                    <VBox class="sapUiSmallMargin">
+                                        <Button id="startBtn" text="🎮 开始游戏" type="Emphasized" 
+                                               press="startGame" class="sapUiTinyMarginBottom"/>
+                                        
+                                        <HBox class="sapUiTinyMarginBottom">
+                                            <Button text="← 左移" press="moveLeft" class="sapUiTinyMarginEnd"/>
+                                            <Button text="右移 →" press="moveRight"/>
+                                        </HBox>
+                                        
+                                        <HBox>
+                                            <Button text="🔄 旋转" press="rotatePiece" class="sapUiTinyMarginEnd"/>
+                                            <Button text="⬇ 瞬间下落" press="hardDrop"/>
+                                        </HBox>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                            
+                            <!-- 操作说明 -->
+                            <Panel headerText="操作说明" expanded="false">
+                                <content>
+                                    <VBox class="sapUiSmallMargin">
+                                        <Text text="键盘操作:" class="sapUiTinyMarginBottom"/>
+                                        <Text text="← / A: 左移" class="sapUiTinyMarginBottom"/>
+                                        <Text text="→ / D: 右移" class="sapUiTinyMarginBottom"/>
+                                        <Text text="↓: 加速下落" class="sapUiTinyMarginBottom"/>
+                                        <Text text="↑ / 空格 / G: 旋转" class="sapUiTinyMarginBottom"/>
+                                        <Text text="回车 / H: 瞬间下落"/>
+                                    </VBox>
+                                </content>
+                            </Panel>
+                        </VBox>
+                    </l:HorizontalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

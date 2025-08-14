@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.210",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 实现经典的俄罗斯方块",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
