@@ -43,21 +43,25 @@
 .control-panel {
     flex-shrink: 0; /* 防止收缩 */
     min-width: 320px; /* 设置最小宽度 */
-    height: 800px; /* 从600px增加到800px，与游戏板保持一致 */
+    width: 320px; /* 固定宽度 */
+    height: 800px; /* 与游戏板保持一致 */
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 8px; /* 减少间距 */
+    gap: 0; /* 移除间距，通过margin控制 */
     overflow: hidden; /* 禁止滚动 */
     padding: 0 !important; /* 移除外边距 */
+    box-sizing: border-box;
 }
 
 /* 优化控制面板内的Panel样式 */
 .control-panel .sapMPanel {
     width: 100% !important;
     box-sizing: border-box;
-    margin-bottom: 10px !important; /* 稍微增加底部边距以适应更高的面板 */
+    margin-bottom: 4px !important; /* 统一间距 */
     flex-shrink: 0;
+    border-radius: 8px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
 }
 
 .control-panel .sapMPanel:last-child {
@@ -67,26 +71,30 @@
 
 /* 减少Panel内容的内边距 */
 .control-panel .sapMPanel .sapMPanelContent {
-    padding: 10px !important; /* 稍微增加内边距以适应更高的面板 */
+    padding: 6px !important; /* 统一内边距 */
+    overflow: hidden !important; /* 防止内容溢出 */
 }
 
 /* 优化Panel标题高度 */
 .control-panel .sapMPanel .sapMPanelHdr {
-    min-height: 36px !important; /* 稍微增加标题高度 */
-    padding: 6px 10px !important;
+    min-height: 28px !important; /* 减少标题高度 */
+    max-height: 28px !important;
+    padding: 2px 6px !important;
+    font-size: 13px !important;
+    overflow: hidden !important;
 }
 
 /* 优化VBox间距 */
 .control-panel .sapUiSmallMargin {
-    margin: 6px !important; /* 稍微增加边距 */
+    margin: 2px !important; /* 减少边距 */
 }
 
 .control-panel .sapUiTinyMarginBottom {
-    margin-bottom: 4px !important; /* 稍微增加底部边距 */
+    margin-bottom: 1px !important; /* 减少底部边距 */
 }
 
 .control-panel .sapUiMediumMarginBottom {
-    margin-bottom: 8px !important; /* 稍微增加底部边距 */
+    margin-bottom: 2px !important; /* 减少底部边距 */
 }
 
 /* 优化按钮高度 */
@@ -95,56 +103,98 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 36px !important; /* 稍微增加按钮高度 */
-    min-height: 36px !important;
+    height: 28px !important; /* 减少按钮高度 */
+    min-height: 28px !important;
+    max-height: 28px !important;
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    padding: 2px 6px !important;
 }
 
 /* 优化滑块容器 */
 .control-panel .sapMSlider {
     width: 100% !important;
     box-sizing: border-box;
-    height: 28px !important; /* 稍微增加滑块高度 */
+    height: 20px !important; /* 减少滑块高度 */
+    margin: 2px 0 !important;
 }
 
 /* 优化文本显示 */
 .control-panel .sapMText {
-    line-height: 1.3 !important;
+    line-height: 1.1 !important;
+    font-size: 12px !important;
+    margin: 1px 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
 }
 
 .control-panel .sapMLabel {
-    line-height: 1.3 !important;
+    line-height: 1.1 !important;
+    font-size: 11px !important;
+    margin: 1px 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
 }
 
-/* 确保游戏信息Panel适应更高的面板 */
+/* 精确控制各个Panel的高度分配 - 总计800px */
+/* 游戏信息Panel - 固定160px（20%） */
 .control-panel .sapMPanel:first-child {
     flex-shrink: 0;
-    max-height: 150px; /* 增加游戏信息Panel高度 */
+    height: 160px !important;
+    max-height: 160px !important;
+    min-height: 160px !important;
 }
 
-/* 确保下一个方块Panel适应更高的面板 */
+/* 下一个方块Panel - 固定140px（17.5%） */
 .control-panel .sapMPanel:nth-child(2) {
     flex-shrink: 0;
-    max-height: 170px; /* 增加下一个方块Panel高度 */
+    height: 140px !important;
+    max-height: 140px !important;
+    min-height: 140px !important;
 }
 
-/* 确保游戏速度Panel适应更高的面板 */
+/* 游戏速度Panel - 固定100px（12.5%） */
 .control-panel .sapMPanel:nth-child(3) {
     flex-shrink: 0;
-    max-height: 120px; /* 增加游戏速度Panel高度 */
+    height: 100px !important;
+    max-height: 100px !important;
+    min-height: 100px !important;
 }
 
-/* 游戏控制Panel占用剩余空间 */
+/* 游戏控制Panel - 占用剩余空间（约388px，48.5%） */
 .control-panel .sapMPanel:nth-child(4) {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    min-height: 380px !important;
+    overflow: hidden !important;
 }
 
 .control-panel .sapMPanel:nth-child(4) .sapMPanelContent {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly; /* 均匀分布按钮 */
+    padding: 8px !important; /* 为按钮提供适当间距 */
+    overflow: hidden !important;
+}
+
+/* 优化按钮布局 */
+.control-panel .sapMPanel:nth-child(4) .sapMHBox {
+    margin-bottom: 4px !important;
+    display: flex;
+    gap: 4px;
+    align-items: center;
     justify-content: center;
+}
+
+.control-panel .sapMPanel:nth-child(4) .sapMBtn {
+    height: 32px !important; /* 控制按钮稍大一些 */
+    min-height: 32px !important;
+    max-height: 32px !important;
+    font-size: 12px !important;
+    flex: 1;
+    min-width: 0; /* 允许按钮收缩 */
 }
 
 /* 确保SAP UI5控件不会超出容器宽度 */
@@ -160,7 +210,34 @@
     box-sizing: border-box;
 }
 
-/* 其他原有样式保持不变 */
+/* 优化标题文本 */
+.control-panel .sapMPanel .sapMPanelHdr .sapMPanelHdrText {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* 确保内容不会溢出 */
+.control-panel * {
+    box-sizing: border-box;
+}
+
+/* 特殊处理HBox和VBox布局 */
+.control-panel .sapMHBox,
+.control-panel .sapMVBox {
+    overflow: hidden !important;
+    flex-shrink: 0;
+}
+
+/* 优化canvas元素 */
+.control-panel canvas {
+    max-width: 100% !important;
+    max-height: 80px !important;
+    display: block;
+    margin: 0 auto;
+}
+
 .score-container {
     display: flex;
     gap: 10px;
