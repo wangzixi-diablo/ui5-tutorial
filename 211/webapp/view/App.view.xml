@@ -32,21 +32,16 @@
                     <!-- 控制说明 -->
                     <VBox class="controlsInfo">
                         <Text text="控制说明" class="controlsTitle"/>
-                        <FormattedText htmlText="方向键: ↑↓←→&lt;br/&gt;WASD: W(上) S(下) A(左) D(右)&lt;br/&gt;空格键: 重新开始" class="controlsList"/>
+                        <FormattedText htmlText="方向键: ↑  ↓  ←  →&lt;br/&gt;WASD: W(上) S(下) A(左) D(右)&lt;br/&gt;空格键: 重新开始" class="controlsList"/>
                     </VBox>
                     
                     <!-- 方向控制按钮 -->
-                    <l:Grid defaultSpan="L4 M4 S4" class="controlButtons">
+                    <HBox id="buttonGroup">
                         <Button text="" icon="sap-icon://navigation-up-arrow" press="onDirectionPress" class="controlBtn btnUp"/>
-                        <core:InvisibleText/>
-                        <core:InvisibleText/>
                         <Button text="" icon="sap-icon://navigation-left-arrow" press="onDirectionPress" class="controlBtn btnLeft"/>
-                        <core:InvisibleText/>
                         <Button text="" icon="sap-icon://navigation-right-arrow" press="onDirectionPress"  class="controlBtn btnRight"/>
-                        <core:InvisibleText/>
                         <Button text="" icon="sap-icon://navigation-down-arrow" press="onDirectionPress" class="controlBtn btnDown"/>
-                        <core:InvisibleText/>
-                    </l:Grid>
+                    </HBox>
                 </VBox>
             </l:HorizontalLayout>
 </mvc:View>

@@ -1,7 +1,8 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/model/json/JSONModel"
-], function (Controller, JSONModel) {
+    "sap/ui/model/json/JSONModel",
+    "sap/m/MessageBox"
+], function (Controller, JSONModel, MessageBox) {
     "use strict";
 
     return Controller.extend("sap.ui5.walkthrough.controller.App", {
@@ -293,6 +294,15 @@ sap.ui.define([
                 clearInterval(this.gameInterval);
             }
             this.getView().getModel().setProperty("/status", "游戏结束");
+            
+            // 显示游戏结束的Message Box
+            MessageBox.information("游戏结束！\n\n最终分数: " + this.getView().getModel().getProperty("/score"), {
+                title: "游戏结束",
+                onClose: function() {
+                    // 点击OK后自动重启游戏
+                    this.onRestart();
+                }.bind(this)
+            });
         },
         
         // 事件处理函数

@@ -6,7 +6,7 @@
 }
 
 .gameAreaContainer {
-    width: 66.67%;
+    width: 33.34%;
     height: 100%;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .controlPanel {
-    width: 33.33%;
+    width: 76.66%;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -92,6 +92,7 @@
 .controlBtn {
     background-color: #4CAF50 !important;
     color: white !important;
+    margin-right: 10px !important;
 }
 
 .controlBtn:hover {
@@ -100,6 +101,11 @@
 
 .controlBtn:active {
     background-color: #3d8b40 !important;
+}
+
+/* 移除最后一个按钮的右边距 */
+#buttonGroup .controlBtn:last-child {
+    margin-right: 0;
 }
 
 .game-cell {
