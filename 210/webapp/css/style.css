@@ -2,15 +2,13 @@
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
 }
 
-/* 保持原有样式，修改以下部分 */
-
 .tetrisPage .sapMPage {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: auto; /* 允许页面滚动 */
+    overflow: auto;
 }
 
 .game-container {
@@ -21,44 +19,57 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     margin: 20px auto;
-    min-width: 900px; /* 设置最小宽度 */
-    max-width: 1200px; /* 设置最大宽度 */
-    width: 90%; /* 响应式宽度 */
+    min-width: 900px;
+    max-width: 1200px;
+    width: 90%;
 }
 
 .game-area {
-    flex-shrink: 0; /* 防止收缩 */
+    flex-shrink: 0;
     margin-right: 20px;
 }
 
 .game-board {
     width: 450px;
-    height: 800px; /* 从600px增加到800px */
+    height: 800px;
     border: 3px solid #fff;
     background: rgba(0, 0, 0, 0.8);
     position: relative;
     border-radius: 10px;
 }
 
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
 .control-panel {
-    flex-shrink: 0; /* 防止收缩 */
-    min-width: 320px; /* 设置最小宽度 */
-    width: 320px; /* 固定宽度 */
-    height: 800px; /* 与游戏板保持一致 */
+    flex-shrink: 0;
+    min-width: 320px;
+    width: 320px;
+    height: 800px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 0; /* 移除间距，通过margin控制 */
-    overflow: hidden; /* 禁止滚动 */
-    padding: 0 !important; /* 移除外边距 */
+    gap: 0;
+    overflow: hidden;
+    padding: 0 !important;
     box-sizing: border-box;
 }
 
-/* 优化控制面板内的Panel样式 */
+/* Panel样式 */
 .control-panel .sapMPanel {
     width: 100% !important;
     box-sizing: border-box;
-    margin-bottom: 4px !important; /* 统一间距 */
+    margin-bottom: 4px !important;
     flex-shrink: 0;
     border-radius: 8px !important;
     background: rgba(255, 255, 255, 0.05) !important;
@@ -66,60 +77,69 @@
 
 .control-panel .sapMPanel:last-child {
     margin-bottom: 0 !important;
-    flex-grow: 1; /* 最后一个Panel占用剩余空间 */
+    flex-grow: 1;
 }
 
-/* 减少Panel内容的内边距 */
 .control-panel .sapMPanel .sapMPanelContent {
-    padding: 6px !important; /* 统一内边距 */
-    overflow: hidden !important; /* 防止内容溢出 */
+    padding: 6px !important;
+    overflow: visible !important;
 }
 
-/* 优化Panel标题高度 */
 .control-panel .sapMPanel .sapMPanelHdr {
-    min-height: 28px !important; /* 减少标题高度 */
-    max-height: 28px !important;
-    padding: 2px 6px !important;
-    font-size: 13px !important;
-    overflow: hidden !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+    overflow: visible !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
-/* 优化VBox间距 */
+.control-panel .sapMPanel .sapMPanelHdr .sapMPanelHdrText {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: nowrap !important;
+    color: white !important;
+}
+
+/* 间距控制 */
 .control-panel .sapUiSmallMargin {
-    margin: 2px !important; /* 减少边距 */
+    margin: 2px !important;
 }
 
 .control-panel .sapUiTinyMarginBottom {
-    margin-bottom: 1px !important; /* 减少底部边距 */
+    margin-bottom: 1px !important;
 }
 
 .control-panel .sapUiMediumMarginBottom {
-    margin-bottom: 2px !important; /* 减少底部边距 */
+    margin-bottom: 2px !important;
 }
 
-/* 优化按钮高度 */
+/* 按钮样式 */
 .control-panel .sapMBtn {
     box-sizing: border-box;
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
-    height: 28px !important; /* 减少按钮高度 */
-    min-height: 28px !important;
-    max-height: 28px !important;
+    height: 100px !important;
+    width: 30px!important;
+    min-height: 100px !important;
+    max-height: 100px !important;
     font-size: 11px !important;
     line-height: 1.2 !important;
     padding: 2px 6px !important;
 }
 
-/* 优化滑块容器 */
+/* 滑块样式 */
 .control-panel .sapMSlider {
     width: 100% !important;
     box-sizing: border-box;
-    height: 20px !important; /* 减少滑块高度 */
+    height: 20px !important;
     margin: 2px 0 !important;
 }
 
-/* 优化文本显示 */
+/* 文本样式 */
 .control-panel .sapMText {
     line-height: 1.1 !important;
     font-size: 12px !important;
@@ -136,101 +156,97 @@
     text-overflow: ellipsis !important;
 }
 
-/* 精确控制各个Panel的高度分配 - 总计800px */
-/* 游戏信息Panel - 固定160px（20%） */
+/* Panel高度分配 */
 .control-panel .sapMPanel:first-child {
     flex-shrink: 0;
-    height: 160px !important;
-    max-height: 160px !important;
-    min-height: 160px !important;
+    height: 180px !important;
+    max-height: 180px !important;
+    min-height: 180px !important;
 }
 
-/* 下一个方块Panel - 固定140px（17.5%） */
 .control-panel .sapMPanel:nth-child(2) {
     flex-shrink: 0;
-    height: 140px !important;
-    max-height: 140px !important;
-    min-height: 140px !important;
+    height: 110px !important;
+    max-height: 110px !important;
+    min-height: 110px !important;
 }
 
-/* 游戏速度Panel - 固定100px（12.5%） */
 .control-panel .sapMPanel:nth-child(3) {
     flex-shrink: 0;
-    height: 100px !important;
-    max-height: 100px !important;
-    min-height: 100px !important;
+    height: 80px !important;
+    max-height: 80px !important;
+    min-height: 80px !important;
 }
 
-/* 游戏控制Panel - 占用剩余空间（约388px，48.5%） */
 .control-panel .sapMPanel:nth-child(4) {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    min-height: 380px !important;
-    overflow: hidden !important;
+    height: 440px !important;
+    max-height: 440px !important;
+    min-height: 440px !important;
+    overflow: visible !important;
 }
 
 .control-panel .sapMPanel:nth-child(4) .sapMPanelContent {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; /* 均匀分布按钮 */
-    padding: 8px !important; /* 为按钮提供适当间距 */
-    overflow: hidden !important;
+    justify-content: flex-start;
+    padding: 20px !important;
+    overflow: visible !important;
+    min-height: 0;
+    height: 100%;
 }
 
-/* 优化按钮布局 */
+/* buttonBox VBox样式 */
+#buttonBox {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+}
+
+/* 游戏控制按钮区域 */
 .control-panel .sapMPanel:nth-child(4) .sapMHBox {
-    margin-bottom: 4px !important;
+    margin-bottom: 0 !important;
     display: flex;
-    gap: 4px;
+    gap: 8px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    min-height: 60px !important;
+    height: 60px !important;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 .control-panel .sapMPanel:nth-child(4) .sapMBtn {
-    height: 32px !important; /* 控制按钮稍大一些 */
-    min-height: 32px !important;
-    max-height: 32px !important;
-    font-size: 12px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    max-height: 50px !important;
+    font-size: 16px !important;
     flex: 1;
-    min-width: 0; /* 允许按钮收缩 */
+    margin: 0 2px !important;
+    line-height: 1.2 !important;
+    padding: 10px 8px !important;
+    border-radius: 8px !important;
 }
 
-/* 确保SAP UI5控件不会超出容器宽度 */
-.control-panel .sapMBtn {
-    box-sizing: border-box;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.control-panel .sapMSlider {
-    width: 100% !important;
-    box-sizing: border-box;
-}
-
-/* 优化标题文本 */
-.control-panel .sapMPanel .sapMPanelHdr .sapMPanelHdrText {
-    font-size: 13px !important;
-    font-weight: bold !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-}
-
-/* 确保内容不会溢出 */
+/* 通用样式 */
 .control-panel * {
     box-sizing: border-box;
 }
 
-/* 特殊处理HBox和VBox布局 */
 .control-panel .sapMHBox,
 .control-panel .sapMVBox {
     overflow: hidden !important;
     flex-shrink: 0;
 }
 
-/* 优化canvas元素 */
 .control-panel canvas {
     max-width: 100% !important;
     max-height: 80px !important;
@@ -238,45 +254,20 @@
     margin: 0 auto;
 }
 
-.score-container {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
-.score-item {
-    flex: 1;
-    padding: 8px;
-}
-
-.info-section {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 8px;
-    border-radius: 8px;
-    text-align: center;
-    flex-shrink: 0;
-}
-
-.info-section h3 {
-    margin-bottom: 5px;
-    color: #fff;
-    font-size: 14px;
-    margin-top: 0;
-}
-
-.score, .time {
-    font-size: 18px;
+/* 分数和时间显示 */
+.score-display, .time-display {
+    font-size: 16px;
     font-weight: bold;
     color: #ffeb3b;
+    text-align: right;
 }
 
 .next-preview {
     width: 60px;
     height: 60px;
     background: rgba(0, 0, 0, 0.5);
-    margin: 5px auto;
+    border: 1px solid #fff;
     border-radius: 5px;
-    position: relative;
 }
 
 .slider-container {

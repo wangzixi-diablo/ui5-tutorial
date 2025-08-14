@@ -1,6 +1,7 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
-], function (Controller) {
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageBox"
+], function (Controller, MessageBox) {
     "use strict";
 
     return Controller.extend("sap.ui5.walkthrough.controller.App", {
@@ -365,10 +366,17 @@ sap.ui.define([
                 this.updateHighScore();
             }
             
-            // 显示游戏结束面板
-            this.byId("gameOver").setVisible(true);
-            // 更新最终得分显示
-            this.getView().getModel().setProperty("/finalScore", this.score);
+            // 显示游戏结束MessageBox
+            MessageBox.information(
+                `游戏结束！\n\n最终得分：${this.score}\n游戏时间：${Math.floor(this.gameTime / 60)}:${(this.gameTime % 60).toString().padStart(2, '0')}`,
+                {
+                    title: "游戏结束",
+                    onClose: function() {
+                        // MessageBox关闭后自动重新开始游戏
+                        this.restartGame();
+                    }.bind(this)
+                }
+            );
         },
         
         gameStep: function() {

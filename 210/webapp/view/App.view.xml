@@ -26,27 +26,22 @@
                         </VBox>
                         
                         <!-- 右侧控制区域 -->
-                        <VBox class="control-panel sapUiMediumMargin" width="350px">
+                        <VBox class="control-panel sapUiMediumMargin" width="400px">
                             <!-- 得分区域 -->
                             <Panel headerText="游戏信息" class="sapUiMediumMarginBottom">
                                 <content>
                                     <VBox class="sapUiSmallMargin">
                                         <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
-                                            <VBox>
                                                 <Label text="历史记录" class="sapUiTinyMarginBottom"/>
                                                 <Text id="highScore" text="0" class="score-display"/>
-                                            </VBox>
-                                            <VBox>
-                                                <Label text="当前得分" class="sapUiTinyMarginBottom"/>
-                                                <Text id="score" text="0" class="score-display"/>
-                                            </VBox>
                                         </HBox>
-                                        
-                                        <HBox justifyContent="SpaceBetween">
-                                            <VBox>
-                                                <Label text="时间" class="sapUiTinyMarginBottom"/>
-                                                <Text id="time" text="00:00" class="time-display"/>
-                                            </VBox>
+                                        <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                            <Label text="当前得分" class="sapUiTinyMarginBottom"/>
+                                            <Text id="score" text="0" class="score-display"/>
+                                        </HBox>
+                                        <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                            <Label text="游戏时间" class="sapUiTinyMarginBottom"/>
+                                            <Text id="time" text="00:00" class="time-display"/>
                                         </HBox>
                                     </VBox>
                                 </content>
@@ -75,16 +70,13 @@
                             <!-- 游戏控制按钮 -->
                             <Panel headerText="游戏控制" class="sapUiMediumMarginBottom">
                                 <content>
-                                    <VBox class="sapUiSmallMargin">
-                                        
-                                        <HBox class="sapUiTinyMarginBottom" width="100%">
-                                            <Button text="左" press="moveLeft" class="sapUiTinyMarginEnd" width="48%"/>
-                                            <Button text="右" press="moveRight" width="48%"/>
-                                        </HBox>
-                                        
-                                        <HBox width="100%">
-                                            <Button text="🔄" press="rotatePiece" class="sapUiTinyMarginEnd" width="48%"/>
-                                            <Button text="⬇" press="hardDrop" width="48%"/>
+                                    <VBox id="buttonBox" class="sapUiSmallMargin" height="100%" justifyContent="Center">
+                                        <!-- 将四个按钮改为单行水平布局 -->
+                                        <HBox class="sapUiTinyMarginBottom" width="100%" justifyContent="SpaceBetween">
+                                            <Button text="左" press="moveLeft" class="sapUiTinyMarginEnd" width="22%"/>
+                                            <Button text="右" press="moveRight" class="sapUiTinyMarginEnd" width="22%"/>
+                                            <Button text="🔄" press="rotatePiece" class="sapUiTinyMarginEnd" width="22%"/>
+                                            <Button text="⬇" press="hardDrop" class="sapUiTinyMarginEnd" width="20%"/>
                                         </HBox>
                                     </VBox>
                                 </content>
