@@ -68,10 +68,6 @@
                                         <Slider id="speedSlider" min="1" max="10" value="5" step="1" 
                                                enableTickmarks="true" class="sapUiMediumMarginBottom"
                                                liveChange="updateGameSpeed" width="100%"/>
-                                        <HBox justifyContent="SpaceBetween">
-                                            <Text text="慢"/>
-                                            <Text text="快"/>
-                                        </HBox>
                                     </VBox>
                                 </content>
                             </Panel>
@@ -80,35 +76,20 @@
                             <Panel headerText="游戏控制" class="sapUiMediumMarginBottom">
                                 <content>
                                     <VBox class="sapUiSmallMargin">
-                                        <Button id="startBtn" text="🎮 开始游戏" type="Emphasized" 
-                                               press="startGame" class="sapUiTinyMarginBottom" width="100%"/>
                                         
                                         <HBox class="sapUiTinyMarginBottom" width="100%">
-                                            <Button text="← 左移" press="moveLeft" class="sapUiTinyMarginEnd" width="48%"/>
-                                            <Button text="右移 →" press="moveRight" width="48%"/>
+                                            <Button text="左" press="moveLeft" class="sapUiTinyMarginEnd" width="48%"/>
+                                            <Button text="右" press="moveRight" width="48%"/>
                                         </HBox>
                                         
                                         <HBox width="100%">
-                                            <Button text="🔄 旋转" press="rotatePiece" class="sapUiTinyMarginEnd" width="48%"/>
-                                            <Button text="⬇ 下落" press="hardDrop" width="48%"/>
+                                            <Button text="🔄" press="rotatePiece" class="sapUiTinyMarginEnd" width="48%"/>
+                                            <Button text="⬇" press="hardDrop" width="48%"/>
                                         </HBox>
                                     </VBox>
                                 </content>
                             </Panel>
                             
-                            <!-- 操作说明 -->
-                            <Panel headerText="操作说明" expanded="false">
-                                <content>
-                                    <VBox class="sapUiSmallMargin">
-                                        <Text text="键盘操作:" class="sapUiTinyMarginBottom"/>
-                                        <Text text="← / A: 左移" class="sapUiTinyMarginBottom"/>
-                                        <Text text="→ / D: 右移" class="sapUiTinyMarginBottom"/>
-                                        <Text text="↓: 加速下落" class="sapUiTinyMarginBottom"/>
-                                        <Text text="↑ / 空格 / G: 旋转" class="sapUiTinyMarginBottom"/>
-                                        <Text text="回车 / H: 瞬间下落"/>
-                                    </VBox>
-                                </content>
-                            </Panel>
                         </VBox>
                     </l:HorizontalLayout>
                 </content>

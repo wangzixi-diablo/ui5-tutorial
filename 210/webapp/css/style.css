@@ -47,17 +47,107 @@
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    overflow-y: auto; /* 允许垂直滚动 */
-    overflow-x: hidden; /* 禁止水平滚动 */
+    gap: 8px; /* 减少间距 */
+    overflow: hidden; /* 禁止滚动 */
+    padding: 0 !important; /* 移除外边距 */
 }
 
-/* 确保SAP UI5控件不会超出容器宽度 */
+/* 优化控制面板内的Panel样式 */
 .control-panel .sapMPanel {
     width: 100% !important;
     box-sizing: border-box;
+    margin-bottom: 8px !important; /* 减少底部边距 */
+    flex-shrink: 0;
 }
 
+.control-panel .sapMPanel:last-child {
+    margin-bottom: 0 !important;
+    flex-grow: 1; /* 最后一个Panel占用剩余空间 */
+}
+
+/* 减少Panel内容的内边距 */
+.control-panel .sapMPanel .sapMPanelContent {
+    padding: 8px !important; /* 减少内边距 */
+}
+
+/* 优化Panel标题高度 */
+.control-panel .sapMPanel .sapMPanelHdr {
+    min-height: 32px !important; /* 减少标题高度 */
+    padding: 4px 8px !important;
+}
+
+/* 优化VBox间距 */
+.control-panel .sapUiSmallMargin {
+    margin: 4px !important; /* 减少边距 */
+}
+
+.control-panel .sapUiTinyMarginBottom {
+    margin-bottom: 2px !important; /* 减少底部边距 */
+}
+
+.control-panel .sapUiMediumMarginBottom {
+    margin-bottom: 4px !important; /* 减少底部边距 */
+}
+
+/* 优化按钮高度 */
+.control-panel .sapMBtn {
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 32px !important; /* 固定按钮高度 */
+    min-height: 32px !important;
+}
+
+/* 优化滑块容器 */
+.control-panel .sapMSlider {
+    width: 100% !important;
+    box-sizing: border-box;
+    height: 24px !important; /* 减少滑块高度 */
+}
+
+/* 优化文本显示 */
+.control-panel .sapMText {
+    line-height: 1.2 !important;
+}
+
+.control-panel .sapMLabel {
+    line-height: 1.2 !important;
+}
+
+/* 确保游戏信息Panel紧凑显示 */
+.control-panel .sapMPanel:first-child {
+    flex-shrink: 0;
+    max-height: 120px; /* 限制游戏信息Panel高度 */
+}
+
+/* 确保下一个方块Panel紧凑显示 */
+.control-panel .sapMPanel:nth-child(2) {
+    flex-shrink: 0;
+    max-height: 140px; /* 限制下一个方块Panel高度 */
+}
+
+/* 确保游戏速度Panel紧凑显示 */
+.control-panel .sapMPanel:nth-child(3) {
+    flex-shrink: 0;
+    max-height: 100px; /* 限制游戏速度Panel高度 */
+}
+
+/* 游戏控制Panel占用剩余空间 */
+.control-panel .sapMPanel:nth-child(4) {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-panel .sapMPanel:nth-child(4) .sapMPanelContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 确保SAP UI5控件不会超出容器宽度 */
 .control-panel .sapMBtn {
     box-sizing: border-box;
     white-space: nowrap;
@@ -69,20 +159,6 @@
     width: 100% !important;
     box-sizing: border-box;
 }
-
-/* 移除原有的宽度限制样式 */
-/* 删除或注释掉以下样式 */
-/*
-.game-area {
-    width: 66.67%;
-    margin-right: 20px;
-}
-
-.control-panel {
-    width: 33.33%;
-    ...
-}
-*/
 
 /* 其他原有样式保持不变 */
 .score-container {
