@@ -558,4 +558,8 @@
 
 - [动态绘制图形实战：使用 SAP UI5 绘制科赫雪花](https://jerry.blog.csdn.net/article/details/150350319)
 
-- [SAP UI5 实现的经典俄罗斯方块]()
+- [SAP UI5 实现的经典俄罗斯方块](https://jerry.blog.csdn.net/article/details/150392745)
+
+- [SAP UI5 实现的经典贪食蛇游戏]()
+
+- [SAP UI5 实现的经典五子棋游戏]()
