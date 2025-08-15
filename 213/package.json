@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.195",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "如何消费 DeepSeek API 并以流式(Streaming)方式呈现结果",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

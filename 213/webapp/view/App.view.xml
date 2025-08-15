@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    displayBlock="true"
+    height="100%">
+        <VBox width="100%" height="100%" class="sapUiContentPadding" busyIndicatorDelay="0">
+            <Button id="sendButton" text="开始翻译" press="onSendToCoze" class="sapUiSmallMarginBottom" type="Emphasized" />
+            
+            <HBox width="100%" height="80%" class="sapUiSmallMarginTop">
+                <VBox width="50%" height="100%" class="sapUiSmallMarginEnd">
+                    <Label text="输入内容" labelFor="inputTextArea" class="sapUiSmallMarginBottom" />
+                    <TextArea id="inputTextArea" rows="10" width="100%" height="95%" placeholder="请输入要发送到DeepSeek API的内容..." />
+                </VBox>
+                
+                <VBox width="50%" height="100%" class="sapUiSmallMarginBegin">
+                    <Label text="API响应结果" labelFor="outputTextArea" class="sapUiSmallMarginBottom" />
+                    <TextArea id="outputTextArea" rows="10" width="100%" height="95%" editable="false" />
+                </VBox>
+            </HBox>
+        </VBox>
+</mvc:View>
