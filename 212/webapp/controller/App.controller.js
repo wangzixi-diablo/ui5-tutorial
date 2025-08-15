@@ -245,7 +245,7 @@ sap.ui.define([
             if (this.gameOver) return;
             
             this.isThinking = true;
-            this.byId("thinking").setText('AI正在思考...');
+            this.byId("thinkingIndicator").setVisible(true);
             
             setTimeout(() => {
                 const move = this.getBestMove();
@@ -259,7 +259,7 @@ sap.ui.define([
                 }
                 
                 this.isThinking = false;
-                this.byId("thinking").setText('');
+                this.byId("thinkingIndicator").setVisible(false);
             }, 1000);
         },
         
@@ -528,7 +528,7 @@ sap.ui.define([
             this.hoverCol = -1;
             this.drawBoard();
             this.updateGameInfo();
-            this.byId("thinking").setText('');
+            this.byId("thinkingIndicator").setVisible(false);
         }
     });
 });

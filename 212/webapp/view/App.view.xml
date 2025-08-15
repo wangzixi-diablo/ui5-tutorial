@@ -17,6 +17,33 @@
                                 <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
                             </html:div>
                             <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <BusyIndicator id="thinkingIndicator" visible="false" text="AI正在思考..." class="thinkingIndicator"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
                             <Text id="thinking" text="" class="thinkingText"/>
                         </l:content>
                     </l:VerticalLayout>
@@ -25,3 +52,1291 @@
         </pages>
     </App>
 </mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class="resetButton"/>
+                            <Text id="thinking" text="" class="thinkingText"/>
+                        </l:content>
+                    </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App id="app">
+        <pages>
+            <Page id="page" title="五子棋游戏" class="chessPage">
+                <content>
+                    <l:VerticalLayout class="sapUiMediumMargin" width="100%">
+                        <l:content>
+                            <Title text="五子棋游戏" level="H1" class="chessTitle"/>
+                            <Text id="gameInfo" text="轮到：白棋（玩家）" class="gameInfo"/>
+                            <html:div class="chessBoardContainer">
+                                <html:canvas id="chessBoard" width="340" height="340" class="chessCanvas"></html:canvas>
+                            </html:div>
+                            <Button id="resetButton" text="重新开始" press="onResetGame" class=
