@@ -560,6 +560,6 @@
 
 - [SAP UI5 实现的经典俄罗斯方块](https://jerry.blog.csdn.net/article/details/150392745)
 
-- [SAP UI5 实现的经典贪食蛇游戏]()
+- [SAP UI5 实现的经典贪食蛇游戏](https://blog.csdn.net/i042416/article/details/150421826)
 
-- [SAP UI5 实现的经典五子棋游戏]()
+- [SAP UI5 实现的经典五子棋游戏](https://blog.csdn.net/i042416/article/details/150425530)
