@@ -1,0 +1,43 @@
+.chessPage {
+    background-color: #f0f0f0;
+}
+
+.chessTitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gameInfo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.chessBoardContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.chessCanvas {
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+    background-color: #deb887;
+}
+
+.resetButton {
+    margin: 0 auto;
+    display: block;
+}
+
+.thinkingText {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
