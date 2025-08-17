@@ -1,0 +1,131 @@
+/* 游戏页面背景 */
+.gamePageBackground {
+    background-color: #222 !important;
+}
+
+/* 游戏容器 */
+.gameContainer {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+/* 游戏信息 */
+.gameInfo {
+    margin: 10px 0;
+}
+
+.infoText {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin-right: 5px;
+}
+
+.infoValue {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+/* 球速控制 */
+.speedControl {
+    margin: 15px 0;
+}
+
+.speedLabel {
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-bottom: 8px;
+}
+
+.speedSlider .sapMSlider {
+    width: 300px;
+}
+
+.speedSlider .sapMSliderProgress {
+    background-color: #4CAF50 !important;
+}
+
+.speedSlider .sapMSliderHandle {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.speedDisplay {
+    margin-top: 5px;
+}
+
+.speedText {
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-right: 5px;
+}
+
+.speedValue {
+    color: #4CAF50 !important;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+/* 画布容器 */
+.canvasContainer {
+    margin: 20px 0;
+}
+
+.gameCanvas {
+    border: 2px solid #fff;
+    background-color: #000;
+    display: block;
+}
+
+/* 控制说明 */
+.controlsText {
+    color: #ccc !important;
+    font-size: 14px !important;
+    margin-top: 10px;
+}
+
+/* 游戏结束对话框 */
+.gameOverDialog .sapMDialog {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.dialogContent {
+    padding: 20px;
+    text-align: center;
+}
+
+.dialogTitle {
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dialogMessage {
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-bottom: 20px;
+}
+
+.restartButton {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.restartButton:hover {
+    background-color: #45a049 !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .gameCanvas {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .speedSlider .sapMSlider {
+        width: 250px;
+    }
+}

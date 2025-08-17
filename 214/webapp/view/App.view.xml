@@ -1,0 +1,63 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="打砖块游戏" class="gamePageBackground">
+                    <content>
+                        <VBox alignItems="Center" justifyContent="Center" class="gameContainer">
+                            <!-- 游戏信息 -->
+                            <HBox alignItems="Center" justifyContent="Center" class="gameInfo">
+                                <Text text="剩余砖块: " class="infoText"/>
+                                <Text id="bricksLeft" text="15" class="infoValue"/>
+                            </HBox>
+                            
+                            <!-- 球速控制 -->
+                            <VBox alignItems="Center" class="speedControl">
+                                <Label text="球速控制" class="speedLabel"/>
+                                <Slider id="speedSlider" 
+                                       min="1" 
+                                       max="7" 
+                                       value="2" 
+                                       step="1" 
+                                       width="300px"
+                                       class="speedSlider"
+                                       liveChange="onSpeedChange"/>
+                                <HBox alignItems="Center" class="speedDisplay">
+                                    <Text text="当前球速: " class="speedText"/>
+                                    <Text id="speedValue" text="2" class="speedValue"/>
+                                </HBox>
+                            </VBox>
+                            
+                            <!-- 游戏画布 -->
+                            <html:div class="canvasContainer">
+                                <html:canvas id="gameCanvas" width="800" height="600" class="gameCanvas"></html:canvas>
+                            </html:div>
+                            
+                            <!-- 控制说明 -->
+                            <Text text="使用 A 键左移，D 键右移控制接球器" class="controlsText"/>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+    
+    <!-- 游戏结束对话框 -->
+    <Dialog id="gameOverDialog" title="游戏结束" class="gameOverDialog">
+        <content>
+            <VBox alignItems="Center" class="dialogContent">
+                <Text id="gameOverTitle" text="游戏结束" class="dialogTitle"/>
+                <Text id="gameOverMessage" text="" class="dialogMessage"/>
+            </VBox>
+        </content>
+        <buttons>
+            <Button text="重新开始" press="onRestartGame" type="Emphasized" class="restartButton"/>
+        </buttons>
+    </Dialog>
+</mvc:View>
