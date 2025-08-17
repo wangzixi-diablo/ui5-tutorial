@@ -6,6 +6,7 @@ package-lock.json
 .env
 webapp/dist
 **/dist
+**/config.js
 resources/
 .bat
 *.bat
