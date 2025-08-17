@@ -569,3 +569,5 @@
 - [SAP UI5 应用和扣子工作流的集成实战](https://blog.csdn.net/i042416/article/details/150430533)
 
 - [SAP UI5 实现的经典打砖块游戏](https://blog.csdn.net/i042416/article/details/150466927)
+
+- [SAP UI5 解析本地 Excel 文件](https://blog.csdn.net/i042416/article/details/150470213)
