@@ -1,0 +1,76 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:upload="sap.m.upload">
+    <App id="app">
+        <pages>
+            <Page id="page" title="📊 Excel文件解析器" class="sapUiResponsiveMargin">
+                <content>
+                    <VBox class="sapUiMediumMargin">
+                        <!-- 上传区域 -->
+                        <Panel class="uploadPanel" headerText="" expandable="false">
+                            <content>
+                                <VBox alignItems="Center" class="uploadArea" id="uploadArea">
+                                    <Text text="📁 选择或拖拽Excel文件到此处" class="uploadText"/>
+                                    <Button text="选择文件" type="Emphasized" class="uploadBtn" press="onFileSelect"/>
+                                    <upload:UploadSet
+                                        id="fileUploader"
+                                        fileTypes="xlsx,xls,csv"
+                                        maxFileNameLength="100"
+                                        maxFileSize="50"
+                                        mediaTypes="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,text/csv"
+                                        uploadEnabled="false"
+                                        visible="false"
+                                        afterItemAdded="onFileAdded"/>
+                                    <Text text="支持格式：.xlsx, .xls, .csv" class="supportText"/>
+                                </VBox>
+                            </content>
+                        </Panel>
+
+                        <!-- 文件信息 -->
+                        <Panel id="fileInfoPanel" visible="false" class="fileInfoPanel">
+                            <content>
+                                <VBox id="fileInfoContent">
+                                    <!-- 文件信息将动态添加 -->
+                                </VBox>
+                            </content>
+                        </Panel>
+
+                        <!-- 结果区域 -->
+                        <Panel id="resultsPanel" visible="false" class="resultsPanel">
+                            <content>
+                                <VBox>
+                                    <!-- 统计信息 -->
+                                    <HBox id="statsContainer" class="statsContainer" wrap="Wrap">
+                                        <!-- 统计项将动态添加 -->
+                                    </HBox>
+
+                                    <!-- 工作表标签 -->
+                                    <HBox id="sheetTabsContainer" class="sheetTabsContainer" wrap="Wrap">
+                                        <!-- 工作表标签将动态添加 -->
+                                    </HBox>
+
+                                    <!-- 表格容器 -->
+                                    <Panel class="tablePanel">
+                                        <content>
+                                            <ScrollContainer id="tableContainer" height="600px" horizontal="true" vertical="true">
+                                                <!-- 表格将动态添加 -->
+                                            </ScrollContainer>
+                                        </content>
+                                    </Panel>
+                                </VBox>
+                            </content>
+                        </Panel>
+
+                        <!-- 加载和错误消息 -->
+                        <MessageStrip id="messageStrip" visible="false" class="sapUiMediumMarginTop"/>
+                    </VBox>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

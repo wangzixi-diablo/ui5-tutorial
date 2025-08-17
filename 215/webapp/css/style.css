@@ -1,0 +1,195 @@
+/* 上传区域样式 */
+.uploadPanel .sapMPanelContent {
+    padding: 2rem;
+}
+
+.uploadArea {
+    border: 2px dashed #007acc;
+    border-radius: 8px;
+    padding: 2.5rem;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.uploadArea:hover {
+    border-color: #005a9e;
+    background-color: #e3f2fd;
+}
+
+.uploadArea.dragover {
+    border-color: #005a9e;
+    background-color: #e3f2fd;
+    transform: scale(1.02);
+}
+
+.uploadText {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.uploadBtn {
+    margin: 1rem 0;
+}
+
+.supportText {
+    margin-top: 1rem;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+/* 文件信息样式 */
+.fileInfoPanel {
+    margin-top: 1.5rem;
+}
+
+.fileInfoPanel .sapMPanelContent {
+    padding: 1rem;
+    background-color: #e8f5e8;
+    border-left: 4px solid #4caf50;
+}
+
+.fileInfoTitle {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* 结果区域样式 */
+.resultsPanel {
+    margin-top: 1.5rem;
+}
+
+/* 统计信息样式 */
+.statsContainer {
+    margin-bottom: 1.25rem;
+    gap: 1.25rem;
+}
+
+.statItem {
+    background-color: #f0f0f0;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 5px;
+    min-width: 6.25rem;
+    text-align: center;
+}
+
+.statNumber {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007acc;
+}
+
+.statLabel {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 0.3125rem;
+}
+
+/* 工作表标签样式 */
+.sheetTabsContainer {
+    margin-bottom: 1.25rem;
+    gap: 0.3125rem;
+}
+
+.sheetTab {
+    background-color: #e0e0e0 !important;
+    border-radius: 5px 5px 0 0 !important;
+    transition: background-color 0.3s;
+}
+
+.sheetTab.active {
+    background-color: #007acc !important;
+    color: white !important;
+}
+
+.sheetTab:hover:not(.active) {
+    background-color: #d0d0d0 !important;
+}
+
+/* 表格样式 */
+.tablePanel .sapMPanelContent {
+    padding: 0;
+}
+
+.excelTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.excelTable th,
+.excelTable td {
+    border: 1px solid #ddd;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.excelTable th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.excelTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.excelTable tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* 空消息样式 */
+.emptyMessage {
+    text-align: center;
+    padding: 1.25rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .uploadArea {
+        padding: 1.5rem;
+    }
+    
+    .uploadText {
+        font-size: 1rem;
+    }
+    
+    .statsContainer {
+        justify-content: center;
+    }
+    
+    .statItem {
+        min-width: 5rem;
+    }
+    
+    .sheetTabsContainer {
+        justify-content: center;
+    }
+}
+
+/* 自定义滚动条 */
+.sapMScrollCont::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.sapMScrollCont::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.sapMScrollCont::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.sapMScrollCont::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
