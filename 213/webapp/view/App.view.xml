@@ -11,7 +11,7 @@
             <HBox width="100%" height="80%" class="sapUiSmallMarginTop">
                 <VBox width="50%" height="100%" class="sapUiSmallMarginEnd">
                     <Label text="输入内容" labelFor="inputTextArea" class="sapUiSmallMarginBottom" />
-                    <TextArea id="inputTextArea" rows="10" width="100%" height="95%" placeholder="请输入要发送到DeepSeek API的内容..." />
+                    <TextArea id="inputTextArea" rows="10" width="100%" height="95%" placeholder="请输入要发送到 Coze API的内容..." />
                 </VBox>
                 
                 <VBox width="50%" height="100%" class="sapUiSmallMarginBegin">

@@ -563,3 +563,5 @@
 - [SAP UI5 实现的经典贪食蛇游戏](https://blog.csdn.net/i042416/article/details/150421826)
 
 - [SAP UI5 实现的经典五子棋游戏](https://blog.csdn.net/i042416/article/details/150425530)
+
+- [SAP UI5 应用和扣子工作流的集成实战](https://blog.csdn.net/i042416/article/details/150430533)
