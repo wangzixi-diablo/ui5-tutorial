@@ -6,7 +6,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/model/json/JSONModel'],
 		onInit : function (evt) {
 			var oModel = new JSONModel("Tree.json");
 			this.getView().setModel(oModel);
-			this.byId("Tree").expandToLevel(1);
+			this.byId("Tree").expandToLevel(0);
 		},
 
 		onExpandMultiPress : function(evt) {
