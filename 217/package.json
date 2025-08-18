@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.217",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 响应式树控件 sap.m.Tree 如何显示本地操作系统中的文件夹",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

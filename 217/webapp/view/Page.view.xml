@@ -1,0 +1,70 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.Page"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<VBox class="sapUiMediumMargin">
+		<!-- 文件夹选择区域 -->
+		<Panel headerText="文件夹选择" class="sapUiResponsiveMargin">
+			<content>
+				<VBox>
+					<Label text="选择文件夹：" class="sapUiSmallMarginBottom"/>
+					<HBox alignItems="Center">
+						<Button id="folderSelectBtn" text="选择文件夹" press="onFolderSelect" type="Emphasized" class="sapUiSmallMarginEnd"/>
+						<Text id="folderPathText" text="未选择文件夹" class="sapUiSmallMarginStart"/>
+					</HBox>
+					<Text id="statsText" visible="false" class="sapUiSmallMarginTop"/>
+					<!-- 隐藏的文件输入元素 -->
+					<core:HTML content="&lt;input type='file' id='hiddenFolderInput' webkitdirectory directory multiple style='display:none;'/&gt;"/>
+				</VBox>
+			</content>
+		</Panel>
+		
+		<!-- 树控件 -->
+		<Tree
+			id="Tree"
+			items="{path: '/'}"
+			mode="MultiSelect">
+			<headerToolbar>
+				<OverflowToolbar>
+					<content>
+						<Title text="文件夹树形结构"/>
+						<ToolbarSpacer/>
+						<Button
+							id="expandMulti"
+							text="展开选中节点"
+							press="onExpandMultiPress"/>
+						<Button
+							id="collapseMulti"
+							text="折叠选中节点"
+							press="onCollapseMultiPress"/>
+						<MultiComboBox id="idSticky"
+							placeholder="固定选项"
+							selectionFinish="onSelectionFinish"
+							width="15%">
+							<items>
+								<core:Item  text="Header Toolbar"
+									key="HeaderToolbar"/>
+								<core:Item  text="Info Toolbar"
+									key="InfoToolbar"/>
+							</items>
+						</MultiComboBox>
+						<ToggleButton id="toggleInfoToolbar"
+							text="隐藏/显示信息工具栏"
+							press="onToggleInfoToolbar" />
+					</content>
+				</OverflowToolbar>
+			</headerToolbar>
+			<infoToolbar>
+				<OverflowToolbar>
+					<content>
+						<Title text="树的信息工具栏"/>
+					</content>
+				</OverflowToolbar>
+			</infoToolbar>
+			<StandardTreeItem title="{text}"
+			                   icon="{ref}"/>
+		</Tree>
+	</VBox>
+</mvc:View>
