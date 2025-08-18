@@ -2,12 +2,12 @@
 	{
 		"text": "Node1",
 		"ref": "sap-icon://attachment-audio",
-		"nodes":
+		"mynodes":
 		[
 			{
 				"text": "Node1-1",
 				"ref": "sap-icon://attachment-e-pub",
-				"nodes":[
+				"items":[
 					{
 						"text": "Node1-1-1",
 						"ref": "sap-icon://attachment-html"
@@ -15,11 +15,11 @@
 					{
 						"text": "Node1-1-2",
 						"ref": "sap-icon://attachment-photo",
-						"nodes":[
+						"data":[
 							{
 								"text": "Node1-1-2-1",
 								"ref": "sap-icon://attachment-text-file",
-								"nodes":[
+								"leaf":[
 									{
 										"text": "Node1-1-2-1-1",
 										"ref": "sap-icon://attachment-video"

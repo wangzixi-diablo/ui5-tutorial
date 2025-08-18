@@ -11,7 +11,7 @@
 		<headerToolbar>
 			<OverflowToolbar>
 				<content>
-					<Title text="Tree Nodes"/>
+					<Title text="这是 header toolbar"/>
 					<ToolbarSpacer/>
 					<Button
 						id="expandMulti"
@@ -45,6 +45,7 @@
 				</content>
 			</OverflowToolbar>
 		</infoToolbar>
-		<StandardTreeItem title="{text}"/>
+		<StandardTreeItem title="{text}"
+		                   icon="{ref}"/>
 	</Tree>
 </mvc:View>

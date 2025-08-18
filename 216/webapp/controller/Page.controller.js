@@ -4,7 +4,6 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/model/json/JSONModel'],
 
 	var PageController = Controller.extend("sap.ui5.walkthrough.controller.Page", {
 		onInit : function (evt) {
-			// set explored app's demo model on this sample
 			var oModel = new JSONModel("Tree.json");
 			this.getView().setModel(oModel);
 			this.byId("Tree").expandToLevel(1);
@@ -49,7 +48,5 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/model/json/JSONModel'],
 			oTree.getInfoToolbar().setVisible(!oEvent.getParameter("pressed"));
 		}
 	});
-
 	return PageController;
-
 });
