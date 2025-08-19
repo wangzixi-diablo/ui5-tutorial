@@ -1,0 +1,19 @@
+{
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.Table.Table",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ui.core": {},
+				"sap.ui.layout": {}
+			},
+			"components": {
+				"sap.ui5.walkthrough.Table": {}
+			}
+		}
+	}
+}
