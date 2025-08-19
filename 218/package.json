@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.218",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "面向图文与卡片浏览的通道：SAP UI5 转盘走马灯控件 Carousel 使用介绍",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
