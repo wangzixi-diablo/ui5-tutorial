@@ -6,14 +6,18 @@
 	xmlns:cards="sap.f.cards"
 	xmlns:l="sap.ui.layout"
 	xmlns:lf="sap.ui.layout.form"
-	height="100%">
-	<Page title="Carousel With customLayout aggregation Sample" class="sapUiResponsiveContentPadding">
+	height="100%"
+	class="sapUiSizeCompact">
+	<Page title="SAP UI5 转盘走马灯控件 Carousel 使用介绍" 
+		  class="sapUiResponsiveContentPadding"
+		  enableScrolling="true"
+		  showHeader="true">
 	<lf:SimpleForm
 			labelSpanL="6"
 			labelSpanM="6"
 			editable="true"
 			layout="ResponsiveGridLayout">
-			<Label text="Number of pages to display" />
+			<Label text="每页显示卡片数量" />
 			<Input
 				type="Number"
 				value="4"
