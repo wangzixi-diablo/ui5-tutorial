@@ -444,6 +444,7 @@
 
 * [SAP UI5 应用开发教程之一百九十六 - 通过 SAP UI5 开发天气预报界面，学习 Promise 的用法](https://blog.csdn.net/i042416/article/details/148870401)
 
+* [SAP UI5 应用开发教程之一百九十七 - SAP UI5 响应式树控件 sap.m.Tree 的用法介绍](https://blog.csdn.net/i042416/article/details/150498815)
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
@@ -571,3 +572,5 @@
 - [SAP UI5 实现的经典打砖块游戏](https://blog.csdn.net/i042416/article/details/150466927)
 
 - [SAP UI5 解析本地 Excel 文件](https://blog.csdn.net/i042416/article/details/150470213)
+
+- [SAP UI5 响应式树控件 sap.m.Tree 如何显示本地操作系统中的文件夹](https://blog.csdn.net/i042416/article/details/150513983)
