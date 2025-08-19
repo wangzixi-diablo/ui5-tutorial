@@ -446,7 +446,7 @@
 
 * [SAP UI5 应用开发教程之一百九十七 - SAP UI5 响应式树控件 sap.m.Tree 的用法介绍](https://blog.csdn.net/i042416/article/details/150498815)
 
-* [SAP UI5 应用开发教程之一百九十八 - 面向图文与卡片浏览的通道：SAP UI5 转盘走马灯控件 Carousel 使用介绍]()
+* [SAP UI5 应用开发教程之一百九十八 - 面向图文与卡片浏览的通道：SAP UI5 转盘走马灯控件 Carousel 使用介绍](https://blog.csdn.net/i042416/article/details/150521208)
 
 ## 说明
 

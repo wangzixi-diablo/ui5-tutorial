@@ -23,7 +23,7 @@
 				value="4"
 			liveChange=".onNumberOfPages"
 				width="320px" />
-			<Label text="Scroll mode - visible pages:" />
+			<Label text="Scroll mode - visible pages" />
 			<Switch
 				state="false"
 				tooltip="Toggles the scrollMode property of the carousel"
@@ -31,7 +31,7 @@
 		</lf:SimpleForm>
 		<Title id="carouselTitle"
 			   class="sapUiMediumMarginTop"
-			   text="10 Matching Results"></Title>
+			   text="总共数据：10个"></Title>
 		<Carousel
 			id="carouselSample"
 			height="auto"
