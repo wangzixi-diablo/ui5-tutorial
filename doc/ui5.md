@@ -448,7 +448,7 @@
 
 * [SAP UI5 应用开发教程之一百九十八 - 面向图文与卡片浏览的通道：SAP UI5 转盘走马灯控件 Carousel 使用介绍](https://blog.csdn.net/i042416/article/details/150521208)
 
-* [SAP UI5 应用开发教程之一百九十九 - 使用 SAP UI5 Table 控件显示大型数据集的好助手：FacetFilter](https://blog.csdn.net/i042416/article/details/150521208)
+* [SAP UI5 应用开发教程之一百九十九 - 使用 SAP UI5 Table 控件显示大型数据集的好助手：FacetFilter](https://blog.csdn.net/i042416/article/details/150560323)
 
 ## 说明
 
@@ -543,6 +543,10 @@
 - [问题解答：使用 SAP UI5 将 markdown 文件转换成 PDF](https://blog.csdn.net/i042416/article/details/149440061)
 
 - [问题解答：SAP UI5 开发时，如何避免将敏感数据提交到 Github 上(配置文件法)](https://blog.csdn.net/i042416/article/details/150465298)
+
+- [问题解答：INFO Using local @ui5/cli installation 的真正含义、触发机制与最佳实践](https://blog.csdn.net/i042416/article/details/150560050)
+
+- [问题解答：关于 SAP UI5 Table 控件 Column 属性 minScreenWidth 和 demandPopin 的含义解析](https://blog.csdn.net/i042416/article/details/150560196)
 
 # 使用技巧和故障排查指南
 
