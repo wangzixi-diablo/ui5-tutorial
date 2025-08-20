@@ -20,6 +20,6 @@
 				</FacetFilterList>
 		</FacetFilter>
 
-		<!-- A demo table will be appended here -->
+		<!-- 这里动态插入一个新的 Table -->
 	</VBox>
 </mvc:View>

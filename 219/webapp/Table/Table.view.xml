@@ -29,13 +29,13 @@
 								key="GridSmall"/>
 						</items>
 					</ComboBox>
-					<Label text="Sticky options:" />
+					<Label text="总是显示:" />
 					<CheckBox text="ColumnHeaders"
-						select="onSelect"/>
+						select="onStickySelect"/>
 					<CheckBox text="HeaderToolbar"
-						select="onSelect"/>
+						select="onStickySelect"/>
 					<CheckBox text="InfoToolbar"
-						select="onSelect"/>
+						select="onStickySelect"/>
 					<ToggleButton id="toggleInfoToolbar"
 						text="Hide/Show InfoToolbar"
 						press="onToggleInfoToolbar" />
@@ -82,7 +82,7 @@
 				<cells>
 					<ObjectIdentifier
 						title="{Name}"
-						text="{ProductId}"/>
+						text="{Category}"/>
 					<Text
 						text="{SupplierName}" />
 					<Text

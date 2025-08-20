@@ -25,10 +25,9 @@ sap.ui.define([
 
 				this.getView().setModel(oModel);
 
-				// Append demo table into VBox, making a minor modification
-				// to the first column so that the Category information is shown
 				oComp.setModel(this.getView().getModel());
 				oTable = oComp.getTable();
+				/*下面的代码演示了如何动态给 Table 添加新的 column
 				oBindingInfo = oTable.getBindingInfo("items");
 				oBindingInfo.template.removeCell(0);
 				oBindingInfo.templateShareable = true;
@@ -36,13 +35,12 @@ sap.ui.define([
 					title: "{Name}",
 					text: "{Category}"
 				}));
-				oTable.bindItems(oBindingInfo);
+				oTable.bindItems(oBindingInfo);*/
 				this.byId("idVBox").addItem(oTable);
 			}.bind(this));
 		},
 
 		_applyFilter: function(oFilter) {
-			// Get the table (last thing in the VBox) and apply the filter
 			var aVBoxItems = this.byId("idVBox").getItems(),
 				oTable = aVBoxItems[aVBoxItems.length - 1];
 
@@ -61,7 +59,6 @@ sap.ui.define([
 					aFacetFilterLists[i].getBinding("items").filter(oFilter, FilterType.Application);
 				}
 			}
-
 			this._applyFilter([]);
 		},
 
