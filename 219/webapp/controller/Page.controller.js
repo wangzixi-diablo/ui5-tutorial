@@ -27,15 +27,6 @@ sap.ui.define([
 
 				oComp.setModel(this.getView().getModel());
 				oTable = oComp.getTable();
-				/*下面的代码演示了如何动态给 Table 添加新的 column
-				oBindingInfo = oTable.getBindingInfo("items");
-				oBindingInfo.template.removeCell(0);
-				oBindingInfo.templateShareable = true;
-				oBindingInfo.template.insertCell(new ObjectIdentifier({
-					title: "{Name}",
-					text: "{Category}"
-				}));
-				oTable.bindItems(oBindingInfo);*/
 				this.byId("idVBox").addItem(oTable);
 			}.bind(this));
 		},

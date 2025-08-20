@@ -448,6 +448,8 @@
 
 * [SAP UI5 应用开发教程之一百九十八 - 面向图文与卡片浏览的通道：SAP UI5 转盘走马灯控件 Carousel 使用介绍](https://blog.csdn.net/i042416/article/details/150521208)
 
+* [SAP UI5 应用开发教程之一百九十九 - 使用 SAP UI5 Table 控件显示大型数据集的好助手：FacetFilter](https://blog.csdn.net/i042416/article/details/150521208)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
