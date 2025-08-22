@@ -1,0 +1,39 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Fiori Card Launchpad" class="sapUiContentPadding">
+                    <content>
+                        <VBox class="cardContainer">
+                            <!-- 第一排卡片 -->
+                            <HBox class="cardRow" justifyContent="Center">
+                                <items>
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/0}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/1}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/2}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/3}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/4}" />
+                                </items>
+                            </HBox>
+                            <!-- 第二排卡片 -->
+                            <HBox class="cardRow" justifyContent="Center">
+                                <items>
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/5}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/6}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/7}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/8}" />
+                                    <core:Fragment fragmentName="sap.ui5.walkthrough.view.CardTile" type="XML" binding="{/cards/9}" />
+                                </items>
+                            </HBox>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

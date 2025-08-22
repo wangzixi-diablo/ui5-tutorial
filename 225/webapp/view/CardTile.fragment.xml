@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <GenericTile
+        class="cardTile {= ${flipped} ? 'flipped' : '' }"
+        press="onCardPress"
+        width="200px">
+        <tileContent>
+            <TileContent>
+                <content>
+                    <VBox class="cardContent" alignItems="Center" justifyContent="Center">
+                        <!-- 卡片背面 -->
+                        <VBox class="cardBack" visible="{= !${flipped} }" alignItems="Center" justifyContent="Center">
+                            <core:Icon src="sap-icon://card" size="3rem" color="#0070f2"/>
+                            <Text text="{title}" class="cardTitle"/>
+                        </VBox>
+                        <!-- 卡片正面 -->
+                        <VBox class="cardFront" visible="{flipped}" alignItems="Center" justifyContent="Center">
+                            <Image src="{image}" width="180px" height="120px" densityAware="false"/>
+                        </VBox>
+                    </VBox>
+                </content>
+            </TileContent>
+        </tileContent>
+    </GenericTile>
+</core:FragmentDefinition>
