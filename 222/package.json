@@ -2,7 +2,7 @@
   "name": "sap.m.tutorial.walkthrough.222",
   "version": "1.0.0",
   "author": "Jerry",
-  "description": "SAP UI5 消费 DeepSeek API：以流式(Streaming)方式呈现 markdown 格式的结果",
+  "description": "如何在 SAP UI5 表格控件的单元格中显示图表信息",
   "scripts": {
     "start": "ui5 serve"
   },

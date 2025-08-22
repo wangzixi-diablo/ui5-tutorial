@@ -454,6 +454,10 @@
 
 - [SAP UI5 应用开发教程之二百零一 - SAP UI5 里拖拽功能(Drag and Drop)的实现](https://blog.csdn.net/i042416/article/details/150608309)
 
+- [SAP UI5 应用开发教程之二百零二 - 如何在 SAP UI5 表格控件的单元格中显示图表信息](https://blog.csdn.net/i042416/article/details/150616643)
+
+- [SAP UI5 应用开发教程之二百零三 - SAP UI5 应用如何显示进度条？](https://blog.csdn.net/i042416/article/details/150616867)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。

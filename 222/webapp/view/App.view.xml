@@ -1,6 +1,6 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:micro="sap.suite.ui.microchart" controllerName="sap.ui5.walkthrough.controller.App"
 xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
-	<Panel headerText="MicroCharts inside a sap.m.Table">
+	<Panel headerText="如何在 SAP UI5 表格控件的单元格中显示图表信息">
 		<Table>
 			<columns>
 				<Column demandPopin="true" minScreenWidth="Tablet">
