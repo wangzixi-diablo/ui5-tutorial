@@ -1,0 +1,43 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout">
+    
+            <l:VerticalLayout class="sapUiMediumMargin">
+                <l:content>
+                    <!-- 标题 -->
+                    <Title text="SAP UI5 进度条演示" level="H2" class="sapUiMediumMarginBottom"/>
+                    
+                    <!-- 进度条 -->
+                    <ProgressIndicator
+                        id="progressBar"
+                        percentValue="{/progress}"
+                        displayValue="{/progress}%"
+                        width="400px"
+                        class="sapUiMediumMarginBottom"/>
+                    
+                    <!-- 开始按钮 -->
+                    <Button
+                        id="startButton"
+                        text="{/buttonText}"
+                        type="Emphasized"
+                        enabled="{= !${/isRunning}}"
+                        press="onStartPress"
+                        class="sapUiMediumMarginBottom"/>
+                    
+                    <!-- 重置按钮 -->
+                    <Button
+                        id="resetButton"
+                        text="重置"
+                        type="Default"
+                        enabled="{= !${/isRunning}}"
+                        press="onResetPress"/>
+                    
+                    <!-- 状态文本 -->
+                    <Text
+                        text="{= ${/isRunning} ? '进度条运行中...' : (${/progress} === 100 ? '进度完成！' : '点击开始按钮启动进度条')}"
+                        class="sapUiMediumMarginTop"/>
+                </l:content>
+            </l:VerticalLayout>
+</mvc:View>
