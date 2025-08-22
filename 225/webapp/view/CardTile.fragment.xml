@@ -16,7 +16,13 @@
                         </VBox>
                         <!-- 卡片正面 -->
                         <VBox class="cardFront" visible="{flipped}" alignItems="Center" justifyContent="Center">
-                            <Image src="{image}" width="180px" height="120px" densityAware="false"/>
+                            <Image 
+                                src="{image}" 
+                                width="180px" 
+                                height="120px" 
+                                densityAware="false"
+                                load="onImageLoad"
+                                error="onImageError"/>
                         </VBox>
                     </VBox>
                 </content>

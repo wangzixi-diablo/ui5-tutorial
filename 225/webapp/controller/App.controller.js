@@ -1,7 +1,8 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/model/json/JSONModel"
-], function (Controller,JSONModel) {
+    "sap/ui/model/json/JSONModel",
+    "sap/ui/core/BusyIndicator"
+], function (Controller, JSONModel, BusyIndicator) {
     "use strict";
 
     return Controller.extend("sap.ui5.walkthrough.controller.App", {
@@ -30,6 +31,11 @@ sap.ui.define([
             var sPath = oBindingContext.getPath();
             var bCurrentFlipped = oModel.getProperty(sPath + "/flipped");
             
+            // 如果卡片要翻转到正面（显示图片），则显示busy indicator
+            if (!bCurrentFlipped) {
+                BusyIndicator.show(0);
+            }
+            
             // 切换翻转状态
             oModel.setProperty(sPath + "/flipped", !bCurrentFlipped);
             
@@ -41,6 +47,16 @@ sap.ui.define([
                     oDomRef.classList.remove("flipping");
                 }, 600);
             }
+        },
+
+        onImageLoad: function () {
+            // 图片加载完成后隐藏busy indicator
+            BusyIndicator.hide();
+        },
+
+        onImageError: function () {
+            // 图片加载失败时也隐藏busy indicator
+            BusyIndicator.hide();
         }
     });
 });
