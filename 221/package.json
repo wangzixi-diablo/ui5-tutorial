@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.220",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 里拖拽功能(Drag and Drop)的实现",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

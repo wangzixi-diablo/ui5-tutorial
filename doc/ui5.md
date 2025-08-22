@@ -452,6 +452,8 @@
 
 - [SAP UI5 应用开发教程之二百 - SAP UI5 二维网格容器控件的使用介绍](https://blog.csdn.net/i042416/article/details/150601139)
 
+- [SAP UI5 应用开发教程之二百零一 - SAP UI5 里拖拽功能(Drag and Drop)的实现](https://blog.csdn.net/i042416/article/details/150608309)
+
 ## 说明
 
 笔者曾经在 SAP 官方英文社区和 `汪子熙` 微信公众号上发表过多篇关于 SAP UI5 工作原理和源码解析的文章。
