@@ -17,26 +17,40 @@
                         width="400px"
                         class="sapUiMediumMarginBottom"/>
                     
-                    <!-- 开始按钮 -->
-                    <Button
-                        id="startButton"
-                        text="{/buttonText}"
-                        type="Emphasized"
-                        enabled="{= !${/isRunning}}"
-                        press="onStartPress"
-                        class="sapUiMediumMarginBottom"/>
-                    
-                    <!-- 重置按钮 -->
-                    <Button
-                        id="resetButton"
-                        text="重置"
-                        type="Default"
-                        enabled="{= !${/isRunning}}"
-                        press="onResetPress"/>
+                    <!-- 按钮区域 -->
+                    <l:HorizontalLayout class="sapUiMediumMarginBottom">
+                        <l:content>
+                            <!-- 开始按钮 -->
+                            <Button
+                                id="startButton"
+                                text="{/buttonText}"
+                                type="Emphasized"
+                                enabled="{= !${/isRunning}}"
+                                press="onStartPress"
+                                class="sapUiTinyMarginEnd"/>
+                            
+                            <!-- 暂停按钮 -->
+                            <Button
+                                id="pauseButton"
+                                text="{= ${/isPaused} ? '继续' : '暂停'}"
+                                type="Default"
+                                enabled="{/isRunning}"
+                                press="onPausePress"
+                                class="sapUiTinyMarginEnd"/>
+                            
+                            <!-- 重置按钮 -->
+                            <Button
+                                id="resetButton"
+                                text="重置"
+                                type="Default"
+                                enabled="{= !${/isRunning}}"
+                                press="onResetPress"/>
+                        </l:content>
+                    </l:HorizontalLayout>
                     
                     <!-- 状态文本 -->
                     <Text
-                        text="{= ${/isRunning} ? '进度条运行中...' : (${/progress} === 100 ? '进度完成！' : '点击开始按钮启动进度条')}"
+                        text="{= ${/isRunning} ? (${/isPaused} ? '进度条已暂停' : '进度条运行中...') : (${/progress} === 100 ? '进度完成！' : '点击开始按钮启动进度条')}"
                         class="sapUiMediumMarginTop"/>
                 </l:content>
             </l:VerticalLayout>

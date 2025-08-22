@@ -12,6 +12,7 @@ sap.ui.define([
 			var oModel = new JSONModel({
                 progress: 0,
                 isRunning: false,
+                isPaused: false,
                 buttonText: "开始"
             });
             this.getView().setModel(oModel);
@@ -31,6 +32,21 @@ sap.ui.define([
             MessageToast.show("进度条已开始，每秒增加2%");
         },
 
+        onPausePress: function () {
+            var oModel = this.getView().getModel();
+            var bIsPaused = oModel.getProperty("/isPaused");
+            
+            if (bIsPaused) {
+                // 继续进度条
+                this._resumeProgress();
+                MessageToast.show("进度条已继续");
+            } else {
+                // 暂停进度条
+                this._pauseProgress();
+                MessageToast.show("进度条已暂停");
+            }
+        },
+
         onResetPress: function () {
             this._resetProgress();
             MessageToast.show("进度条已重置");
@@ -41,6 +57,7 @@ sap.ui.define([
             
             // 设置运行状态
             oModel.setProperty("/isRunning", true);
+            oModel.setProperty("/isPaused", false);
             oModel.setProperty("/buttonText", "运行中...");
             
             // 每秒增加2%
@@ -58,6 +75,40 @@ sap.ui.define([
             }.bind(this), 1000); // 1000ms = 1秒
         },
 
+        _pauseProgress: function () {
+            var oModel = this.getView().getModel();
+            
+            // 清除定时器但保持运行状态
+            if (this._intervalId) {
+                clearInterval(this._intervalId);
+                this._intervalId = null;
+            }
+            
+            // 设置暂停状态
+            oModel.setProperty("/isPaused", true);
+        },
+
+        _resumeProgress: function () {
+            var oModel = this.getView().getModel();
+            
+            // 设置继续状态
+            oModel.setProperty("/isPaused", false);
+            
+            // 重新启动定时器
+            this._intervalId = setInterval(function () {
+                var iCurrentProgress = oModel.getProperty("/progress");
+                var iNewProgress = Math.min(iCurrentProgress + 2, 100);
+                
+                oModel.setProperty("/progress", iNewProgress);
+                
+                // 如果达到100%，停止进度条
+                if (iNewProgress >= 100) {
+                    this._stopProgress();
+                    MessageToast.show("进度完成！");
+                }
+            }.bind(this), 1000);
+        },
+
         _stopProgress: function () {
             var oModel = this.getView().getModel();
             
@@ -69,6 +120,7 @@ sap.ui.define([
             
             // 更新状态
             oModel.setProperty("/isRunning", false);
+            oModel.setProperty("/isPaused", false);
             oModel.setProperty("/buttonText", "开始");
         },
 
