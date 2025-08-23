@@ -556,6 +556,8 @@
 
 - [问题解答：关于 SAP UI5 Table 控件 Column 属性 minScreenWidth 和 demandPopin 的含义解析](https://blog.csdn.net/i042416/article/details/150560196)
 
+- [问题解答：如何在 SAP UI5 应用里显示环状进度条？](https://blog.csdn.net/i042416/article/details/150640017)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。
@@ -591,3 +593,5 @@
 - [SAP UI5 解析本地 Excel 文件](https://blog.csdn.net/i042416/article/details/150470213)
 
 - [SAP UI5 响应式树控件 sap.m.Tree 如何显示本地操作系统中的文件夹](https://blog.csdn.net/i042416/article/details/150513983)
+
+- [使用 SAP UI5 实现卡片点击后显示图片的效果](https://blog.csdn.net/i042416/article/details/150640355)
