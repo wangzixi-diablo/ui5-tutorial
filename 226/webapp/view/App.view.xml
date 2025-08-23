@@ -1,0 +1,35 @@
+<mvc:View
+    controllerName="sap.ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    
+            <VBox class="sapUiMediumMargin">
+                <!-- 文件上传区域 -->
+                <Panel headerText="选择Word文件" class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox>
+                            <HBox alignItems="Center" class="sapUiSmallMarginBottom">
+                                <core:HTML content="&lt;input type='file' id='fileInput' accept='.docx,.doc' style='margin-right: 10px;'/&gt;" />
+                                <Button 
+                                    text="解析文件" 
+                                    type="Emphasized" 
+                                    press="onParseFile"
+                                    enabled="{= !${/isLoading} }"/>
+                            </HBox>
+                            <Text text="{/fileName}" visible="{= ${/fileName} !== '' }" class="sapUiSmallMarginTop"/>
+                            <BusyIndicator visible="{/isLoading}" class="sapUiSmallMarginTop"/>
+                        </VBox>
+                    </content>
+                </Panel>
+                
+                <!-- 内容显示区域 -->
+                <Panel headerText="文档内容" class="sapUiResponsiveMargin" visible="{= ${/wordContent} !== '' }">
+                    <content>
+                        <ScrollContainer height="500px" vertical="true">
+                            <core:HTML content="{/wordContent}" class="wordContent"/>
+                        </ScrollContainer>
+                    </content>
+                </Panel>
+            </VBox>
+</mvc:View>

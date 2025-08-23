@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.226",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "实战系列：使用 SAP UI5 解析本地 Word 文件内容并显示在浏览器里",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

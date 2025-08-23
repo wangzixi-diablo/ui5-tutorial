@@ -595,3 +595,5 @@
 - [SAP UI5 响应式树控件 sap.m.Tree 如何显示本地操作系统中的文件夹](https://blog.csdn.net/i042416/article/details/150513983)
 
 - [使用 SAP UI5 实现卡片点击后显示图片的效果](https://blog.csdn.net/i042416/article/details/150640355)
+
+- [使用 SAP UI5 解析本地 Word 文件内容并显示在浏览器里](https://blog.csdn.net/i042416/article/details/150641606)

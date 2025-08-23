@@ -1,0 +1,68 @@
+/* Word内容显示样式 */
+.wordContent {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.wordContent h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+    color: #333;
+}
+
+.wordContent h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0.8em 0 0.4em 0;
+    color: #333;
+}
+
+.wordContent h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0.6em 0 0.3em 0;
+    color: #333;
+}
+
+.wordContent p {
+    margin: 0.5em 0;
+    text-align: justify;
+}
+
+.wordContent strong {
+    font-weight: bold;
+}
+
+.wordContent em {
+    font-style: italic;
+}
+
+.wordContent ul, .wordContent ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+}
+
+.wordContent li {
+    margin: 0.2em 0;
+}
+
+/* 文件输入样式 */
+#fileInput {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .wordContent {
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+}
