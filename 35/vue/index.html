@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Hello World</title>
+  <!-- 引入 Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>城市选择</h1>
+    <select v-model="selectedCity">
+      <option value="成都">成都</option>
+      <option value="重庆">重庆</option>
+      <option value="上海">上海</option>
+    </select>
+    <p>您选择的城市是: {{ selectedCity }}</p>
+    <button @click="showDialog" class="show-button">显示选择</button>
+    
+    <!-- 弹出对话框 -->
+    <div class="modal-overlay" v-if="showModal" @click="closeDialog">
+      <div class="modal-content" @click.stop>
+        <h3>您选择的城市</h3>
+        <p class="modal-city">{{ selectedCity }} (代号: {{ cityCodes[selectedCity] }})</p>
+        
+        <!-- 天气预报表格 -->
+        <div class="forecast-table-container">
+          <table class="forecast-table" v-if="forecastData.length > 0">
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>温度 (°C)</th>
+                <th>天气</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(forecast, index) in forecastData" :key="index">
+                <td>{{ forecast.date }}</td>
+                <td>{{ forecast.daytemp }}</td>
+                <td>{{ forecast.dayweather }}</td>
+              </tr>
+            </tbody>
+          </table>
+          <p v-else>加载天气数据中...</p>
+        </div>
+        
+        <button @click="closeDialog" class="close-button">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入我们的 Vue 实例 -->
+  <script src="app.js"></script>
+</body>
+</html>
