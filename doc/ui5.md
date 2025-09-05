@@ -114,6 +114,8 @@
 
 * [SAP UI5 应用开发教程之三十五 - 如何把本地开发的 SAP UI5 应用部署到 ABAP 服务器上](https://jerry.blog.csdn.net/article/details/122828129)
 
+- [SAP UI5 应用开发教程之三十五(番外篇) - 如何把本地开发好的 Vue 应用部署到 ABAP 服务器上](https://blog.csdn.net/i042416/article/details/151220033)
+
 * [SAP UI5 应用开发教程之三十六 - 使用 Chrome 开发者工具 Elements 标签动态修改 CSS 类](https://jerry.blog.csdn.net/article/details/122973315)
 
 * [SAP UI5 应用开发教程之三十七 - 使用 Chrome 开发者工具 Console 面板进行元素审查](https://blog.csdn.net/i042416/article/details/122997824)
