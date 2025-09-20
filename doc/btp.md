@@ -14,6 +14,10 @@
 
 - [30天入门 SAP BTP 开发系列之四：SAP BTP 控制台里 Global Account 的常规操作介绍](https://blog.csdn.net/i042416/article/details/149076655)
 
+- [30天入门 SAP BTP 开发系列之五：SAP BTP 里 Subaccount 的概念](https://jerry.blog.csdn.net/article/details/151904089?spm=1011.2415.3001.5331)
+
+- [30天入门 SAP BTP 开发系列之六：什么是 SAP BTP Subaccount 的 Region 属性](https://jerry.blog.csdn.net/article/details/151904205?spm=1011.2415.3001.5331)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 除此之外，本教程还包含了大量 SAP BTP 的专题文章，每篇文章独立完整地讲解了一个具体的 SAP BTP 知识点，适合对 SAP BTP 已经有一定基础的朋友阅读。
