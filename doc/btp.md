@@ -18,6 +18,8 @@
 
 - [30天入门 SAP BTP 开发系列之六：什么是 SAP BTP Subaccount 的 Region 属性](https://jerry.blog.csdn.net/article/details/151904205?spm=1011.2415.3001.5331)
 
+- [30天入门 SAP BTP 开发系列之七：动手在 SAP BTP 上开发第一个 ABAP 程序](https://jerry.blog.csdn.net/article/details/151975752?spm=1011.2415.3001.5331)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 除此之外，本教程还包含了大量 SAP BTP 的专题文章，每篇文章独立完整地讲解了一个具体的 SAP BTP 知识点，适合对 SAP BTP 已经有一定基础的朋友阅读。
