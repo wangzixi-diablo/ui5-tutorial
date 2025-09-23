@@ -1,6 +1,6 @@
 # [一套适合 SAP UI5 初学者循序渐进的学习教程](https://blog.csdn.net/i042416/category_11395500.html)
 
-## 本专栏计划的文章数在 `400` 篇左右，到 `2025年9月5日`为止，目前已经更新了 `291` 篇，专栏完成度为 `63.3%`，完成度已经超过`一半`了.
+## 本专栏计划的文章数在 `400` 篇左右，到 `2025年9月23日`为止，目前已经更新了 `293` 篇，专栏完成度为 `63.3%`，完成度已经超过`一半`了.
 
 本套教程是笔者从 `2013` 年接触 `SAP UI5` 至今的实战开发经验的提炼和总结，内容设计`由浅入深`，每篇文章平均写作时间为`4`小时，总共花费的写作时间已经超过`800`小时了。 
 
@@ -89,6 +89,8 @@
 * [SAP UI5 应用开发教程之二十四 - 如何使用 OData 数据模型](https://jerry.blog.csdn.net/article/details/122750501)
 
 * [SAP UI5 应用开发教程之二十四番外篇 - 使用 SAP Fiori Tools 自带的代理服务器解决本地运行的 SAP UI5 应用访问远端服务遇到的跨域问题](https://jerry.blog.csdn.net/article/details/130532351)
+
+* [SAP UI5 应用开发教程之二十四番外篇 - 在 Vue 应用里显示 OData 数据](https://blog.csdn.net/i042416/article/details/152005116)
 
 * [SAP UI5 应用开发教程之二十五 - 使用自开发的代理服务器解决 SAP UI5 应用访问远端 OData 服务的跨域问题](https://jerry.blog.csdn.net/article/details/122766435)
 
