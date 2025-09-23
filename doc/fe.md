@@ -164,6 +164,8 @@ Analytical List Page 的外观：
 
 - [SAP Fiori Elements SmartFilterBar 调试小技巧：如何查看 controlConfigurationSettings 的值](https://blog.csdn.net/i042416/article/details/147850949)
 
+- [本人 SAP UI5 和 Fiori Elements 教程使用的 OData 服务：Northwind](https://blog.csdn.net/i042416/article/details/152005219)
+
 # 问题解答
 
 - [关于 OData 2.0 和 OData 4.0 协议里对于 SAP 自定义注解(Annotations) 处理的区别讲解](https://jerry.blog.csdn.net/article/details/134648448)
