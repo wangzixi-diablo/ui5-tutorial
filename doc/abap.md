@@ -506,6 +506,8 @@ ABAP 不仅代表着 SAP 这家公司在企业级管理软件市场辉煌的过�
 
 - [关于 ABAP 宏语法一些疑问的澄清](https://blog.csdn.net/i042416/article/details/149883338)
 
+- [问题解答：SAP GUI 中 ABAP 透明表字段的 Initial values 复选框，到底控制了什么？](https://blog.csdn.net/i042416/article/details/152260124)
+
 ## 实战案例分享
 
 - [小技巧分享：如何使用动态断点快速找到成对的 ABAP 内存 IMPORT 和 EXPORT 的代码位置](https://blog.csdn.net/i042416/article/details/135207434)

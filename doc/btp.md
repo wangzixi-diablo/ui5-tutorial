@@ -14,11 +14,13 @@
 
 - [30天入门 SAP BTP 开发系列之四：SAP BTP 控制台里 Global Account 的常规操作介绍](https://blog.csdn.net/i042416/article/details/149076655)
 
-- [30天入门 SAP BTP 开发系列之五：SAP BTP 里 Subaccount 的概念](https://jerry.blog.csdn.net/article/details/151904089?spm=1011.2415.3001.5331)
+- [30天入门 SAP BTP 开发系列之五：SAP BTP 里 Subaccount 的概念](https://jerry.blog.csdn.net/article/details/151904089)
 
-- [30天入门 SAP BTP 开发系列之六：什么是 SAP BTP Subaccount 的 Region 属性](https://jerry.blog.csdn.net/article/details/151904205?spm=1011.2415.3001.5331)
+- [30天入门 SAP BTP 开发系列之六：什么是 SAP BTP Subaccount 的 Region 属性](https://jerry.blog.csdn.net/article/details/151904205)
 
-- [30天入门 SAP BTP 开发系列之七：动手在 SAP BTP 上开发第一个 ABAP 程序](https://jerry.blog.csdn.net/article/details/151975752?spm=1011.2415.3001.5331)
+- [30天入门 SAP BTP 开发系列之七：动手在 SAP BTP 上开发第一个 ABAP 程序](https://jerry.blog.csdn.net/article/details/151975752)
+
+- [30天入门 SAP BTP 开发系列之八：动手在 SAP BTP 上开发第一个 ABAP 透明表](https://blog.csdn.net/i042416/article/details/152282035)
 
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
