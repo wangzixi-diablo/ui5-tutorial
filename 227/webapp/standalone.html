@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>CASINO.NES - JSNES 原生示例</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root { --scale: 3; }
+    body {
+      margin: 0;
+      background:#111;
+      font-family: system-ui,Arial,Helvetica,sans-serif;
+      color:#eee;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      min-height:100dvh;
+    }
+    header { padding: 0.75rem 1rem 0.25rem; text-align:center; }
+    h1 { font-size:1.15rem; margin:0 0 .25rem; letter-spacing:.05em; }
+    #screen-wrapper { position:relative; box-shadow:0 0 0 4px #222,0 0 18px #000; }
+    canvas { image-rendering: pixelated; width: calc(256px * var(--scale)); height: calc(240px * var(--scale)); background:#000; display:block; }
+    #overlay { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; pointer-events:none; font-size:1rem; text-shadow:0 2px 4px #000; }
+    #log { font-size:.8rem; white-space:pre-line; max-width:780px; background:#1e1e1e; padding:.75rem 1rem; border-radius:6px; line-height:1.3; }
+    #controls { display:flex; flex-wrap:wrap; gap:.5rem; margin:.75rem 0 1rem; }
+    button { background:#2c2c2c; color:#fff; border:1px solid #444; padding:.55rem .9rem; border-radius:4px; cursor:pointer; font-size:.85rem; }
+    button:hover { background:#3a3a3a; }
+    button:active { background:#555; }
+    a { color:#6fb6ff; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    footer { margin-top:auto; padding:1rem 0 .75rem; font-size:.7rem; opacity:.65; }
+    .warn { color:#ffb347; }
+    .err { color:#ff6666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CASINO.NES 运行示例 (jsnes)</h1>
+    <div>纯原生 HTML + JavaScript，无任何前端框架。</div>
+  </header>
+
+  <div id="screen-wrapper">
+    <canvas id="screen" width="256" height="240"></canvas>
+    <div id="overlay" hidden>加载中…</div>
+  </div>
+
+  <div id="controls">
+    <button id="btn-choose-rom">选择 ROM</button>
+    <input id="rom-input" type="file" accept=".nes" style="display:none" />
+    <button id="btn-start" disabled>启动</button>
+    <button id="btn-reset" disabled>复位</button>
+    <button id="btn-audio" disabled>开启音频</button>
+    <button id="btn-pause" disabled>暂停</button>
+    <button id="btn-scale">放大 ×3</button>
+  </div>
+
+  <div id="log"></div>
+
+  <footer>
+    键位：方向键 = 上下左右 | Z = B | X = A | Enter = START | 右 Shift = SELECT | P = 暂停
+  </footer>
+
+  <!-- jsnes 从 CDN 引入 -->
+  <script src="https://unpkg.com/jsnes/dist/jsnes.min.js"></script>
+  <script>
+    // ================== 基本引用、DOM ==================
+    const logEl = document.getElementById('log');
+    const overlayEl = document.getElementById('overlay');
+    const canvas = document.getElementById('screen');
+    const ctx = canvas.getContext('2d');
+    const imageData = ctx.getImageData(0, 0, 256, 240);
+
+    const btnStart = document.getElementById('btn-start');
+    const btnReset = document.getElementById('btn-reset');
+    const btnAudio = document.getElementById('btn-audio');
+    const btnPause = document.getElementById('btn-pause');
+    const btnScale = document.getElementById('btn-scale');
+
+    function log(msg, cls) {
+      const line = document.createElement('div');
+      if (cls) line.className = cls;
+      line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      logEl.appendChild(line);
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    // ================== NES 初始化 ==================
+    let running = false;
+    let paused = false;
+    let animationId = null;
+    const frameTimes = [];
+
+    const nes = new jsnes.NES({
+      onFrame(frameBuffer) { drawFrame(frameBuffer); },
+      onAudioSample(l, r) { enqueueAudioSample(l, r); },
+      sampleRate: 44100,
+    });
+
+    function drawFrame(frameBuffer) {
+      const data = imageData.data;
+      for (let i = 0; i < frameBuffer.length; i++) {
+        const color = frameBuffer[i];
+        // jsnes 颜色格式: 0xFF000000 | (b << 16) | (g << 8) | r
+        data[i * 4 + 0] = color & 0xFF;        // R
+        data[i * 4 + 1] = (color >> 8) & 0xFF; // G
+        data[i * 4 + 2] = (color >> 16) & 0xFF;// B
+        data[i * 4 + 3] = 0xFF;               // A
+      }
+      ctx.putImageData(imageData, 0, 0);
+    }
+
+    // ================== 渲染循环 ==================
+    function frame() {
+      const t0 = performance.now();
+      nes.frame();
+      const t1 = performance.now();
+      frameTimes.push(t1 - t0);
+      if (frameTimes.length > 60) frameTimes.shift();
+      if (!paused) animationId = requestAnimationFrame(frame);
+    }
+
+    function startLoop() {
+      if (!running) {
+        running = true;
+        paused = false;
+        animationId = requestAnimationFrame(frame);
+      }
+    }
+
+    function stopLoop() {
+      if (animationId) cancelAnimationFrame(animationId);
+      animationId = null;
+    }
+
+    // ================== ROM 加载（本地文件） ==================
+    const btnChooseRom = document.getElementById('btn-choose-rom');
+    const romInput = document.getElementById('rom-input');
+
+    btnChooseRom.addEventListener('click', () => {
+      romInput.click();
+    });
+
+    romInput.addEventListener('change', () => {
+      if (romInput.files && romInput.files[0]) {
+        loadROMFromFile(romInput.files[0]);
+      }
+    });
+
+    async function loadROMFromFile(file) {
+      if (!file.name.toLowerCase().endsWith('.nes')) {
+        log('请选择 .nes 文件', 'warn');
+        return;
+      }
+      overlayEl.hidden = false;
+      overlayEl.textContent = `读取: ${file.name}`;
+      log(`开始读取本地 ROM: ${file.name} (${(file.size/1024).toFixed(1)} KB)`);
+      try {
+        const arrayBuffer = await file.arrayBuffer();
+        const romData = arrayBufferToBinaryString(arrayBuffer);
+        // 如已在运行，先停止
+        if (running) { running = false; stopLoop(); btnStart.textContent = '启动'; }
+        nes.reset();
+        nes.loadROM(romData);
+        btnStart.disabled = false;
+        btnReset.disabled = false;
+        btnAudio.disabled = false;
+        btnPause.disabled = true;
+        overlayEl.textContent = 'ROM 已加载 (点击 启动)';
+        log('ROM 加载完成，可点击 启动');
+      } catch (e) {
+        overlayEl.textContent = '读取失败';
+        log('ROM 读取失败: ' + e.message, 'err');
+      }
+    }
+
+    function arrayBufferToBinaryString(buffer) {
+      const bytes = new Uint8Array(buffer);
+      let binary = '';
+      const chunk = 0x8000; // 分片避免字符串过长导致阻塞
+      for (let i = 0; i < bytes.length; i += chunk) {
+        const sub = bytes.subarray(i, i + chunk);
+        binary += String.fromCharCode.apply(null, sub);
+      }
+      return binary;
+    }
+
+    // ================== 音频 (用户交互后启用) ==================
+    let audioCtx = null;
+    let audioEnabled = false;
+    const AUDIO_BUFFER_SIZE = 2048;
+    let audioL = new Float32Array(AUDIO_BUFFER_SIZE);
+    let audioR = new Float32Array(AUDIO_BUFFER_SIZE);
+    let audioPos = 0;
+
+    function initAudio() {
+      if (audioCtx) return;
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      log('AudioContext 已创建');
+    }
+
+    function enqueueAudioSample(l, r) {
+      if (!audioEnabled || !audioCtx) return;
+      audioL[audioPos] = l;
+      audioR[audioPos] = r;
+      audioPos++;
+      if (audioPos >= AUDIO_BUFFER_SIZE) {
+        const buffer = audioCtx.createBuffer(2, AUDIO_BUFFER_SIZE, audioCtx.sampleRate);
+        buffer.getChannelData(0).set(audioL);
+        buffer.getChannelData(1).set(audioR);
+        const src = audioCtx.createBufferSource();
+        src.buffer = buffer;
+        src.connect(audioCtx.destination);
+        src.start();
+        audioPos = 0;
+      }
+    }
+
+    btnAudio.addEventListener('click', async () => {
+      if (!audioCtx) initAudio();
+      if (audioCtx.state === 'suspended') await audioCtx.resume();
+      audioEnabled = !audioEnabled;
+      btnAudio.textContent = audioEnabled ? '关闭音频' : '开启音频';
+      log(`音频 ${audioEnabled ? '已开启' : '已关闭'}`);
+    });
+
+    // ================== 交互控制 ==================
+    btnStart.addEventListener('click', () => {
+      if (!running) {
+        startLoop();
+        btnStart.textContent = '停止';
+        btnPause.disabled = false;
+        log('渲染循环启动');
+      } else {
+        running = false;
+        stopLoop();
+        btnStart.textContent = '启动';
+        btnPause.disabled = true;
+        log('渲染循环停止');
+      }
+    });
+
+    btnReset.addEventListener('click', () => {
+      nes.reset();
+      log('已复位 (reset)');
+    });
+
+    btnPause.addEventListener('click', () => {
+      if (!running) return;
+      paused = !paused;
+      btnPause.textContent = paused ? '继续' : '暂停';
+      if (!paused) {
+        startLoop();
+        log('继续');
+      } else {
+        stopLoop();
+        log('暂停');
+      }
+    });
+
+    btnScale.addEventListener('click', () => {
+      const current = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--scale'));
+      const next = current === 5 ? 1 : current + 1;
+      document.documentElement.style.setProperty('--scale', next);
+      btnScale.textContent = `放大 ×${next}`;
+    });
+
+    // ================== 键盘映射 ==================
+    const KEY_MAP = {
+      88: jsnes.Controller.BUTTON_A,      // X
+      90: jsnes.Controller.BUTTON_B,      // Z
+      13: jsnes.Controller.BUTTON_START,  // Enter
+      16: jsnes.Controller.BUTTON_SELECT, // Shift (右 Shift 更方便与 Enter 配合)
+      38: jsnes.Controller.BUTTON_UP,
+      40: jsnes.Controller.BUTTON_DOWN,
+      37: jsnes.Controller.BUTTON_LEFT,
+      39: jsnes.Controller.BUTTON_RIGHT,
+    };
+
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'KeyP') { btnPause.click(); return; }
+      const btn = KEY_MAP[e.keyCode];
+      if (btn !== undefined) { e.preventDefault(); nes.buttonDown(1, btn); }
+    });
+    window.addEventListener('keyup', (e) => {
+      const btn = KEY_MAP[e.keyCode];
+      if (btn !== undefined) { e.preventDefault(); nes.buttonUp(1, btn); }
+    });
+
+    // ================== FPS 监控（可选） ==================
+    setInterval(() => {
+      if (!frameTimes.length) return;
+      const avg = frameTimes.reduce((a,b)=>a+b,0) / frameTimes.length;
+      const fps = (1000 / avg).toFixed(1);
+      overlayEl.textContent = paused ? '暂停' : `FPS: ${fps}`;
+      overlayEl.hidden = running ? false : true;
+    }, 1000);
+
+    // ================== 初始提示 ==================
+    (function init() {
+      overlayEl.hidden = false;
+      overlayEl.innerHTML = '请选择本地 <strong>.nes</strong> ROM<br><small>点击“选择 ROM”按钮后再点 启动</small>';
+      log('等待用户选择 ROM (.nes) 文件');
+    })();
+
+    // ================== 退出前清理 ==================
+    window.addEventListener('beforeunload', () => { if (audioCtx) audioCtx.close(); });
+  </script>
+</body>
+</html>

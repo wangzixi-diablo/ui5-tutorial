@@ -22,6 +22,8 @@
 
 - [30天入门 SAP BTP 开发系列之八：动手在 SAP BTP 上开发第一个 ABAP 透明表](https://blog.csdn.net/i042416/article/details/152282035)
 
+- [30天入门 SAP BTP 开发系列之九：自动生成一个 Fiori 应用，显示 ABAP Cloud 里的透明表数据]()
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 除此之外，本教程还包含了大量 SAP BTP 的专题文章，每篇文章独立完整地讲解了一个具体的 SAP BTP 知识点，适合对 SAP BTP 已经有一定基础的朋友阅读。

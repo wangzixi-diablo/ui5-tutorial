@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.227",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "在 SAP UI5 里玩红白机游戏，找回童年感觉",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

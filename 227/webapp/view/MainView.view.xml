@@ -1,0 +1,26 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="sap.ui5.walkthrough.controller.MainView">
+  <VBox alignItems="Center" justifyContent="Center">
+    <Panel headerText="CASINO.NES 运行示例 (jsnes)" width="auto">
+      <Text text="纯原生 HTML + JavaScript，无任何前端框架。"/>
+    </Panel>
+    <VBox id="canvasBox" alignItems="Center" justifyContent="Center">
+      <!-- Canvas will be rendered here -->
+    </VBox>
+    <HBox id="controlsBox" alignItems="Center" justifyContent="Center" wrap="Wrap">
+      <Button text="选择 ROM" press="onChooseRom"/>
+      <Button text="启动" id="btnStart" enabled="false" press="onStart"/>
+      <Button text="复位" id="btnReset" enabled="false" press="onReset"/>
+      <Button text="开启音频" id="btnAudio" enabled="false" press="onAudio"/>
+      <Button text="暂停" id="btnPause" enabled="false" press="onPause"/>
+      <Button text="放大 ×3" id="btnScale" press="onScale"/>
+      <FileUploader id="romUploader" style="display:none" change="onRomChange" accept=".nes"/>
+    </HBox>
+    <Panel headerText="日志" width="auto">
+      <Text id="logText" text="等待用户选择 ROM (.nes) 文件"/>
+    </Panel>
+    <Text text="键位：方向键 = 上下左右 | Z = B | X = A | Enter = START | 右 Shift = SELECT | P = 暂停"/>
+  </VBox>
+</mvc:View>

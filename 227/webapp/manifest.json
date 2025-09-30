@@ -1,0 +1,43 @@
+{
+  "_version": "1.32.0",
+  "sap.app": {
+    "id": "ui5.nes",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "CASINO.NES UI5 示例",
+    "description": "SAP UI5 移植 jsnes 原生示例"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "sap-icon://media-play"
+    }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "ui5.nes.view.MainView",
+      "type": "XML",
+      "id": "mainView"
+    },
+    "dependencies": {
+      "minUI5Version": "1.60.0",
+      "libs": {
+        "sap.m": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "resources": {
+      "js": [
+        {
+          "uri": "https://unpkg.com/jsnes/dist/jsnes.min.js"
+        }
+      ]
+    }
+  }
+}
