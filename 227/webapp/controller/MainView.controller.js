@@ -26,7 +26,6 @@ sap.ui.define([
         onAudioSample: this._enqueueAudioSample.bind(this),
         sampleRate: 44100
       });
-      this._setupCanvas();
       this._setupKeyboard();
       this._log("等待用户选择 ROM (.nes) 文件");
     },
@@ -43,6 +42,10 @@ sap.ui.define([
       canvasBox.appendChild(this._canvas);
       this._ctx = this._canvas.getContext("2d");
       this._imageData = this._ctx.getImageData(0, 0, 256, 240);
+    },
+    onAfterRendering: function() {
+      if (!this._canvas) 
+        this._setupCanvas();
     },
     _setupKeyboard: function() {
       var KEY_MAP = {
@@ -102,7 +105,13 @@ sap.ui.define([
       logText.setText(old + now);
     },
     onChooseRom: function() {
-      this.byId("romUploader").getDomRef().click();
+      var oUploader = this.byId("romUploader");
+      if (oUploader && oUploader.openFileDialog) {
+        oUploader.openFileDialog();
+      } else if (oUploader && oUploader.getDomRef()) { // fallback
+        const input = oUploader.getDomRef().querySelector("input[type='file']");
+        if (input) input.click();
+      }
     },
     onRomChange: function(oEvent) {
       var file = oEvent.getParameter("files")[0];

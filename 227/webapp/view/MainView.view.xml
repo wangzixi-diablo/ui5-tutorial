@@ -1,6 +1,7 @@
 <mvc:View
   xmlns:mvc="sap.ui.core.mvc"
   xmlns="sap.m"
+  xmlns:unified="sap.ui.unified"
   controllerName="sap.ui5.walkthrough.controller.MainView">
   <VBox alignItems="Center" justifyContent="Center">
     <Panel headerText="CASINO.NES 运行示例 (jsnes)" width="auto">
@@ -16,7 +17,7 @@
       <Button text="开启音频" id="btnAudio" enabled="false" press="onAudio"/>
       <Button text="暂停" id="btnPause" enabled="false" press="onPause"/>
       <Button text="放大 ×3" id="btnScale" press="onScale"/>
-      <FileUploader id="romUploader" style="display:none" change="onRomChange" accept=".nes"/>
+  <unified:FileUploader id="romUploader" visible="false" change="onRomChange" fileType="nes"/>
     </HBox>
     <Panel headerText="日志" width="auto">
       <Text id="logText" text="等待用户选择 ROM (.nes) 文件"/>
