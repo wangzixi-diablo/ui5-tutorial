@@ -104,16 +104,28 @@ sap.ui.define([
       var now = `[${new Date().toLocaleTimeString()}] ${msg}\n`;
       logText.setText(old + now);
     },
-    onChooseRom: function() {
+    onChooseRom: function(oEvent) {
+      debugger;
+      
       var oUploader = this.byId("romUploader");
-      if (oUploader && oUploader.openFileDialog) {
-        oUploader.openFileDialog();
-      } else if (oUploader && oUploader.getDomRef()) { // fallback
-        const input = oUploader.getDomRef().querySelector("input[type='file']");
-        if (input) input.click();
+      if (!oUploader) {
+        this._log("未找到 FileUploader 控件", "err");
+        return;
+      }
+      var oDomRef = oUploader.getDomRef();
+      if (!oDomRef) { // 还未渲染
+        this._log("FileUploader 尚未渲染，稍后再试", "warn");
+        return;
+      }
+      var input = oDomRef.querySelector("button");
+      if (input) {
+        input.click();
+      } else {
+        this._log("未找到内部 <input type='file'> 元素", "err");
       }
     },
     onRomChange: function(oEvent) {
+      
       var file = oEvent.getParameter("files")[0];
       if (!file || !file.name.toLowerCase().endsWith(".nes")) {
         this._log("请选择 .nes 文件", "warn");

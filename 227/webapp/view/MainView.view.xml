@@ -17,7 +17,7 @@
       <Button text="开启音频" id="btnAudio" enabled="false" press="onAudio"/>
       <Button text="暂停" id="btnPause" enabled="false" press="onPause"/>
       <Button text="放大 ×3" id="btnScale" press="onScale"/>
-  <unified:FileUploader id="romUploader" visible="false" change="onRomChange" fileType="nes"/>
+  <unified:FileUploader id="romUploader" visible="true" change="onRomChange" fileType="nes"/>
     </HBox>
     <Panel headerText="日志" width="auto">
       <Text id="logText" text="等待用户选择 ROM (.nes) 文件"/>
