@@ -1,0 +1,204 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:micro="sap.suite.ui.microchart" controllerName="sap.ui5.walkthrough.controller.App"
+xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Panel headerText="如何在 SAP UI5 表格控件的单元格中显示图表信息">
+		<Table>
+			<columns>
+				<Column demandPopin="true" minScreenWidth="Tablet">
+					<Text text="Micro Chart Type" />
+				</Column>
+				<Column demandPopin="true" minScreenWidth="Tablet">
+					<Text text="Value(s)" />
+				</Column>
+				<Column demandPopin="true" minScreenWidth="Tablet">
+					<Text text="Chart" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<Text text="RadialMicroChart" />
+						<Text text="45 %" />
+						<FlexBox height="70px" width="70px" renderType="Bare">
+							<layoutData>
+								<FlexItemData maxHeight="70px" />
+							</layoutData>
+							<micro:RadialMicroChart size="Responsive" percentage="45" app:name="radial" press="press" />
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="ComparisonMicroChart" />
+						<Text text="10, 50, -20" />
+						<FlexBox height="100px" width="170px" renderType="Bare">
+							<micro:ComparisonMicroChart scale="M" app:name="comparison" press="press" size="Responsive">
+								<micro:data>
+									<micro:ComparisonMicroChartData title="Americas" value="10" color="Good" />
+									<micro:ComparisonMicroChartData title="EMEA" value="50" color="Good" />
+									<micro:ComparisonMicroChartData title="APAC" value="-20" color="Error" />
+								</micro:data>
+							</micro:ComparisonMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="AreaMicroChart" />
+						<Text text="Many" />
+						<FlexBox height="90px" width="180px" renderType="Bare">
+							<micro:AreaMicroChart size="Responsive" minXValue="0" app:name="area" maxXValue="100" minYValue="0" maxYValue="100" press="press">
+								<micro:firstXLabel>
+									<micro:AreaMicroChartLabel label="June 1" color="Good" />
+								</micro:firstXLabel>
+								<micro:lastXLabel>
+									<micro:AreaMicroChartLabel label="June 30" color="Critical" />
+								</micro:lastXLabel>
+								<micro:firstYLabel>
+									<micro:AreaMicroChartLabel label="0M" color="Good" />
+								</micro:firstYLabel>
+								<micro:lastYLabel>
+									<micro:AreaMicroChartLabel label="80M" color="Critical" />
+								</micro:lastYLabel>
+								<micro:chart>
+									<micro:AreaMicroChartItem>
+										<micro:points>
+											<micro:AreaMicroChartPoint x="0" y="0" />
+											<micro:AreaMicroChartPoint x="30" y="20" />
+											<micro:AreaMicroChartPoint x="60" y="20" />
+											<micro:AreaMicroChartPoint x="100" y="80" />
+										</micro:points>
+									</micro:AreaMicroChartItem>
+								</micro:chart>
+								<micro:target>
+									<micro:AreaMicroChartItem>
+										<micro:points>
+											<micro:AreaMicroChartPoint x="0" y="0" />
+											<micro:AreaMicroChartPoint x="30" y="30" />
+											<micro:AreaMicroChartPoint x="60" y="40" />
+											<micro:AreaMicroChartPoint x="100" y="90" />
+										</micro:points>
+									</micro:AreaMicroChartItem>
+								</micro:target>
+								<micro:maxThreshold>
+									<micro:AreaMicroChartItem color="Good">
+										<micro:points>
+											<micro:AreaMicroChartPoint x="0" y="0" />
+											<micro:AreaMicroChartPoint x="30" y="40" />
+											<micro:AreaMicroChartPoint x="60" y="50" />
+											<micro:AreaMicroChartPoint x="100" y="100" />
+										</micro:points>
+									</micro:AreaMicroChartItem>
+								</micro:maxThreshold>
+								<micro:minThreshold>
+									<micro:AreaMicroChartItem color="Error">
+										<micro:points>
+											<micro:AreaMicroChartPoint x="0" y="0" />
+											<micro:AreaMicroChartPoint x="30" y="20" />
+											<micro:AreaMicroChartPoint x="60" y="30" />
+											<micro:AreaMicroChartPoint x="100" y="70" />
+										</micro:points>
+									</micro:AreaMicroChartItem>
+								</micro:minThreshold>
+							</micro:AreaMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="ColumnMicroChart" />
+						<Text text="5, 13, 9" />
+						<FlexBox height="70px" width="170px" renderType="Bare">
+							<micro:ColumnMicroChart size="Responsive">
+								<micro:columns>
+									<micro:ColumnMicroChartData value="5" color="Error"/>
+									<micro:ColumnMicroChartData value="13" color="Error"/>
+									<micro:ColumnMicroChartData value="9" />
+								</micro:columns>
+							</micro:ColumnMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="DeltaMicroChart" />
+						<Text text="105, 98" />
+						<FlexBox height="80px" width="170px" renderType="Bare">
+							<micro:DeltaMicroChart app:name="delta" press="press" size="Responsive" value1="105" value2="98" title1="May 2014" title2="Apr 2014" displayValue1="105 Mio" displayValue2="98 Mio"
+								deltaDisplayValue="7 Mio" color="Good" />
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="BulletMicroChart" />
+						<Text text="120" />
+						<FlexBox height="70px" width="170px" renderType="Bare">
+							<micro:BulletMicroChart scale="M" targetValue="100" forecastValue="110" app:name="bullet" press="press" size="Responsive">
+								<micro:actual>
+									<micro:BulletMicroChartData value="120" color="Good" />
+								</micro:actual>
+								<micro:thresholds>
+									<micro:BulletMicroChartData value="0" color="Error" />
+									<micro:BulletMicroChartData value="50" color="Critical" />
+									<micro:BulletMicroChartData value="150" color="Critical" />
+									<micro:BulletMicroChartData value="200" color="Error" />
+								</micro:thresholds>
+							</micro:BulletMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="HarveyBallMicroChart" />
+						<Text text="63.5" />
+						<FlexBox height="70px" width="170px" renderType="Bare">
+							<micro:HarveyBallMicroChart size="Responsive" total="100" totalScale="Mrd" showTotal="true" showFractions="true" app:name="harvey ball" press="press">
+								<micro:items>
+									<micro:HarveyBallMicroChartItem fraction="63.5" color="Good" fractionScale="Mrd" />
+								</micro:items>
+							</micro:HarveyBallMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="StackedBarMicroChart" />
+						<Text text="20, 30, 40, 50" />
+						<FlexBox height="70px" width="170px" renderType="Bare">
+							<micro:StackedBarMicroChart size="Responsive" app:name="stacked bar" press="press" precision="0">
+								<micro:bars>
+									<micro:StackedBarMicroChartBar valueColor="Good" value="20"/>
+									<micro:StackedBarMicroChartBar valueColor="Error" value="30"/>
+									<micro:StackedBarMicroChartBar valueColor="Neutral" value="40"/>
+									<micro:StackedBarMicroChartBar valueColor="Critical" value="50"/>
+								</micro:bars>
+							</micro:StackedBarMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+				<ColumnListItem>
+					<cells>
+						<Text text="LineMicroChart" />
+						<Text text="Many" />
+						<FlexBox height="70px" width="170px" renderType="Bare">
+							<micro:LineMicroChart threshold="40" size="Responsive" app:name="line" press="press" leftTopLabel="0M" leftBottomLabel="June 1" rightTopLabel="80M" rightBottomLabel="June 30">
+								<micro:lines>
+									<micro:LineMicroChartLine>
+										<micro:points>
+											<micro:LineMicroChartEmphasizedPoint x="0" y="35" color="Error" show="true"/>
+											<micro:LineMicroChartEmphasizedPoint x="8" y="53"/>
+											<micro:LineMicroChartEmphasizedPoint x="20" y="10"/>
+											<micro:LineMicroChartEmphasizedPoint x="30" y="30"/>
+											<micro:LineMicroChartEmphasizedPoint x="40" y="52"/>
+											<micro:LineMicroChartEmphasizedPoint x="100" y="73" color="Good" show="true"/>
+										</micro:points>
+									</micro:LineMicroChartLine>
+								</micro:lines>
+							</micro:LineMicroChart>
+						</FlexBox>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Panel>
+</mvc:View>

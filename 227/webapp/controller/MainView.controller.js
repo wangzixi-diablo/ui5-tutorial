@@ -39,6 +39,7 @@ sap.ui.define([
       this._canvas.style.width = (256 * this._scale) + "px";
       this._canvas.style.height = (240 * this._scale) + "px";
       canvasBox.appendChild(this._canvas);
+
       this._ctx = this._canvas.getContext("2d");
       this._imageData = this._ctx.getImageData(0, 0, 256, 240);
     },
@@ -48,23 +49,32 @@ sap.ui.define([
     },
     _setupKeyboard: function() {
       var KEY_MAP = {
-        88: window.jsnes.Controller.BUTTON_A,      // X
-        90: window.jsnes.Controller.BUTTON_B,      // Z
+        71: window.jsnes.Controller.BUTTON_A,      // G
+        72: window.jsnes.Controller.BUTTON_B,      // H
         13: window.jsnes.Controller.BUTTON_START,  // Enter
         16: window.jsnes.Controller.BUTTON_SELECT, // Shift
-        38: window.jsnes.Controller.BUTTON_UP,
-        40: window.jsnes.Controller.BUTTON_DOWN,
-        37: window.jsnes.Controller.BUTTON_LEFT,
-        39: window.jsnes.Controller.BUTTON_RIGHT
+        87: window.jsnes.Controller.BUTTON_UP, // W
+        83: window.jsnes.Controller.BUTTON_DOWN, // S
+        65: window.jsnes.Controller.BUTTON_LEFT, // A
+        68: window.jsnes.Controller.BUTTON_RIGHT // D
       };
       window.addEventListener("keydown", (e) => {
-        if (e.code === "KeyP") { this.onPause(); return; }
+        if (e.code === "KeyP") { 
+          this.onPause(); 
+          return; 
+        }
         var btn = KEY_MAP[e.keyCode];
-        if (btn !== undefined) { e.preventDefault(); this._nes.buttonDown(1, btn); }
+        if (btn !== undefined) { 
+          e.preventDefault(); 
+          this._nes.buttonDown(1, btn); 
+        }
       });
       window.addEventListener("keyup", (e) => {
         var btn = KEY_MAP[e.keyCode];
-        if (btn !== undefined) { e.preventDefault(); this._nes.buttonUp(1, btn); }
+        if (btn !== undefined) { 
+          e.preventDefault(); 
+          this._nes.buttonUp(1, btn); 
+        }
       });
     },
     _drawFrame: function(frameBuffer) {
@@ -83,8 +93,10 @@ sap.ui.define([
       this._nes.frame();
       var t1 = performance.now();
       this._frameTimes.push(t1 - t0);
-      if (this._frameTimes.length > 60) this._frameTimes.shift();
-      if (!this._paused) this._animationId = window.requestAnimationFrame(this._frame.bind(this));
+      if (this._frameTimes.length > 60) 
+        this._frameTimes.shift();
+      if (!this._paused) 
+        this._animationId = window.requestAnimationFrame(this._frame.bind(this));
     },
     _startLoop: function() {
       if (!this._running) {
@@ -94,7 +106,8 @@ sap.ui.define([
       }
     },
     _stopLoop: function() {
-      if (this._animationId) window.cancelAnimationFrame(this._animationId);
+      if (this._animationId) 
+        window.cancelAnimationFrame(this._animationId);
       this._animationId = null;
     },
     _log: function(msg, cls) {
@@ -103,16 +116,15 @@ sap.ui.define([
       var now = `[${new Date().toLocaleTimeString()}] ${msg}\n`;
       logText.setText(old + now);
     },
+
     onChooseRom: function(oEvent) {
-      debugger;
-      
       var oUploader = this.byId("romUploader");
       if (!oUploader) {
         this._log("未找到 FileUploader 控件", "err");
         return;
       }
       var oDomRef = oUploader.getDomRef();
-      if (!oDomRef) { // 还未渲染
+      if (!oDomRef) { 
         this._log("FileUploader 尚未渲染，稍后再试", "warn");
         return;
       }
@@ -120,11 +132,11 @@ sap.ui.define([
       if (input) {
         input.click();
       } else {
-        this._log("未找到内部 <input type='file'> 元素", "err");
+        this._log("未找到内部 button 元素", "err");
       }
     },
-    onRomChange: function(oEvent) {
-      
+
+    onRomChange: function(oEvent) {  
       var file = oEvent.getParameter("files")[0];
       if (!file || !file.name.toLowerCase().endsWith(".nes")) {
         this._log("请选择 .nes 文件", "warn");
@@ -135,12 +147,15 @@ sap.ui.define([
       reader.onload = (e) => {
         var arrayBuffer = e.target.result;
         var romData = this._arrayBufferToBinaryString(arrayBuffer);
-        if (this._running) { this._running = false; this._stopLoop(); this.byId("btnStart").setText("启动"); }
+        if (this._running) { 
+          this._running = false; 
+          this._stopLoop(); 
+          this.byId("btnStart").setText("启动"); 
+        }
         this._nes.reset();
         this._nes.loadROM(romData);
         this._romData = romData;
         this.byId("btnStart").setEnabled(true);
-        this.byId("btnReset").setEnabled(true);
         this.byId("btnAudio").setEnabled(true);
         this.byId("btnPause").setEnabled(false);
         this._log("ROM 加载完成，可点击 启动");
@@ -161,7 +176,8 @@ sap.ui.define([
       return binary;
     },
     _initAudio: function() {
-      if (this._audioCtx) return;
+      if (this._audioCtx) 
+        return;
       this._audioCtx = new (window.AudioContext || window.webkitAudioContext)();
       this._audioL = new Float32Array(this._AUDIO_BUFFER_SIZE);
       this._audioR = new Float32Array(this._AUDIO_BUFFER_SIZE);
@@ -204,10 +220,6 @@ sap.ui.define([
         this.byId("btnPause").setEnabled(false);
         this._log("渲染循环停止");
       }
-    },
-    onReset: function() {
-      this._nes.reset();
-      this._log("已复位 (reset)");
     },
     onPause: function() {
       if (!this._running) return;

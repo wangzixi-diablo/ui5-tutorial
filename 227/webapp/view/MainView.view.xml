@@ -4,6 +4,7 @@
   xmlns:unified="sap.ui.unified"
   controllerName="sap.ui5.walkthrough.controller.MainView">
   <VBox alignItems="Center" justifyContent="Center">
+    <Image src="https://sdk.openui5.org/resources/sap/ui/documentation/sdk/images/logo_ui5.png" alt="SAP UI5" width="140px" densityAware="false" decorative="false"/>
     <Panel headerText="SAP UI5 里运行红白机游戏" width="auto">
     </Panel>
     <VBox id="canvasBox" alignItems="Center" justifyContent="Center">
@@ -13,15 +14,14 @@
       <Button text="选择 ROM" press="onChooseRom"/>
         <unified:FileUploader id="romUploader" visible="true" change="onRomChange" fileType="nes"/>
       <Button text="启动" id="btnStart" enabled="false" press="onStart"/>
-      <Button text="复位" id="btnReset" enabled="false" press="onReset"/>
       <Button text="开启音频" id="btnAudio" enabled="false" press="onAudio"/>
       <Button text="暂停" id="btnPause" enabled="false" press="onPause"/>
       <Button text="放大 ×3" id="btnScale" press="onScale"/>
 
     </HBox>
     <Panel headerText="日志" width="auto">
-      <Text id="logText" text="等待用户选择 ROM (.nes) 文件"/>
+      <Text id="logText"/>
     </Panel>
-    <Text text="键位：方向键 = 上下左右 | Z = B | X = A | Enter = START | 右 Shift = SELECT | P = 暂停"/>
+    <Text text="键位：上(W)下(S)左(A)右(D) | G = B | H = A | Enter = START | 右 Shift = SELECT | P = 暂停"/>
   </VBox>
 </mvc:View>
