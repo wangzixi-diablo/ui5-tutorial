@@ -1,6 +1,6 @@
 sap.ui.define(
-  ["sap/ui/core/Control", "sap/ui/thirdparty/d3"],
-  function (Control, d3) {
+  ["sap/ui/core/Control", "sap/ui/thirdparty/d3", "sap/m/MessageToast"],
+  function (Control, d3, MessageToast) {
     "use strict";
     return Control.extend("sap.ui5.walkthrough.control.mymap", {
       metadata: {
@@ -23,7 +23,6 @@ sap.ui.define(
       // oRm: Render manager
 
       renderer: function (oRm, oCtrl) {
-        console.log("in renderer....");
         oRm.write("<div");
         oRm.writeControlData(oCtrl); // writes the Control ID and enables event handling - important!
         oRm.addClass("viz"); // add a CSS class for styles common to all control instances
@@ -33,9 +32,6 @@ sap.ui.define(
       },
 
       onAfterRendering: function () {
-        // in function implementation
-        //    initialize svg tag
-        console.log("in afterRendering...");
         var width = 700, height = 420; // 与 viewBox 对齐
 
         // 防止重复渲染时叠加多个 SVG
@@ -73,8 +69,7 @@ sap.ui.define(
         var projection = d3.geo.equirectangular().scale(1).translate([0, 0]);
         var path = d3.geo.path().projection(projection);
 
-        var tt = this.drawToolTip(this.getId());
-        var self = this;
+  var self = this; // 保留引用供事件回调使用
 
         d3.json(this.getMapDataPath(), function (collection) {
           if (!collection || !collection.features) {
@@ -117,11 +112,11 @@ sap.ui.define(
             .attr("stroke", "#333")
             .attr("stroke-width", 0.4)
             .attr("class", function (d) { return self.styleRegion(d, self); })
-            .on("mouseover", function (d) { self.activateToolTip(tt, d); })
-            .on("mouseout", function () { self.deactivateToolTip(tt); })
-            .on("mousemove", function () {
-              // 仅调试：如果看不到 tooltip 说明 div 未创建或被覆盖
-              tt.style("top", (d3.event.clientY - 105) + "px").style("left", (d3.event.clientX - 25) + "px");
+            .on("mouseover", function (d) {
+              // 使用 MessageToast 显示原 tooltip 内容
+              if (d && d.properties && d.properties.description) {
+                MessageToast.show(d.properties.description, { duration: 2000 });
+              }
             })
             .on("click", function (d) { self.fireRegionClicked(d); });
 
@@ -134,35 +129,7 @@ sap.ui.define(
         });
       },
 
-      drawToolTip: function (container) {
-        var tooltip = d3
-          .select("#" + container)
-          .append("g")
-          .attr("id", "tt-" + container)
-          .style("top", "0px")
-          .style("left", "0px")
-          .style("opacity", -1);
-
-        console.log("typeof drawToolTip: " + typeof tooltip);
-
-        return tooltip;
-      },
-
-      activateToolTip: function (toolTip, d) {
-        // set inner html
-        console.log("tooltip activated!");
-        toolTip
-          .html(function () {
-            return d.properties.description + "Hello, Jerry";
-          })
-          .transition()
-          .duration(500)
-          .style("opacity", 1);
-      },
-
-      deactivateToolTip: function (toolTip) {
-        toolTip.transition().duration(500).style("opacity", -1);
-      },
+      // 原 tooltip 相关函数已移除，改用 SAP UI5 MessageToast 展示提示文本。
 
       styleRegion: function (d, self) {
         console.log("in function styleRegion!");
