@@ -2,7 +2,7 @@
 	controllerName="sap.ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:wt="sap.ui5.walkthrough.control">>
+	xmlns:wt="sap.ui5.walkthrough.control">
 	<Button
 		text="{i18n>showHelloButtonText}"
 		press=".onShowHello"/>

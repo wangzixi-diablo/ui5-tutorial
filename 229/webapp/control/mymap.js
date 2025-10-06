@@ -36,73 +36,101 @@ sap.ui.define(
         // in function implementation
         //    initialize svg tag
         console.log("in afterRendering...");
-        var svg = d3
-          .select("#" + this.getId())
+        var width = 700, height = 420; // 与 viewBox 对齐
+
+        // 防止重复渲染时叠加多个 SVG
+        var root = d3.select("#" + this.getId());
+        root.select("svg").remove();
+
+        var svg = root
           .append("svg")
-          .attr("viewBox", "0,0,700,420")
+          .attr("viewBox", "0 0 " + width + " " + height)
           .attr("width", this.getWidth())
           .attr("height", this.getHeight());
 
-        svg
-          .append("text")
-          .attr("x", 350)
-          .attr("y", 20)
+        // 调试: 添加一个红色边框看看区域
+        svg.append("rect")
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", width)
+          .attr("height", height)
+          .style("fill", "none")
+          .style("stroke", "#f00")
+          .style("stroke-width", 0.3)
+          .style("pointer-events", "none");
+
+        svg.append("text")
+          .attr("x", width / 2)
+          .attr("y", 24)
           .attr("text-anchor", "middle")
           .style("font-size", "20px")
           .style("font-weight", "bold")
           .text(this.getTitle());
 
-        //      initialize g tag
         var g = svg.append("g").attr("id", "g-" + this.getId());
-        // g is an element
 
-        //      initialize projection: different projections for different patterns of maps
-        //The equirectangular, or plate carrée projection, is the simplest possible geographic projection: the identity function.
-        // It is neither equal-area nor conformal, but is sometimes used for raster data. See raster reprojection for an example; the source image uses the equirectangular projection.
-        var projection = d3.geo
-          .equirectangular()
-          .translate([-490, 550])
-          .scale("3000");
-
-        //      load projection into d3 geo.path
+        // 关键：先将投影归一化（scale=1, translate=[0,0]），否则默认 translate(480,250) 会影响 bounds 计算
+        var projection = d3.geo.equirectangular().scale(1).translate([0, 0]);
         var path = d3.geo.path().projection(projection);
 
-        //      initialize tooltip
         var tt = this.drawToolTip(this.getId());
-
         var self = this;
 
-        //      draw based on geoJSON input & attach events
-        //  Creates a request for the JSON file at the specified url with the mime type "application/json".
-        // If a callback is specified, the request is immediately issued with the GET method, and the callback
-        // will be invoked asynchronously when the file is loaded or the request fails; the callback is invoked with two arguments: the error,
-        // if any, and the parsed JSON. The parsed JSON is undefined if an error occurs. If no callback is specified, the returned request can be issued using xhr.get or similar, and handled using xhr.on.
         d3.json(this.getMapDataPath(), function (collection) {
-          g.selectAll("path")
+          if (!collection || !collection.features) {
+            console.warn("Map data empty or invalid");
+            return;
+          }
+
+          // 计算包围盒 (在归一化投影下)
+          var b = path.bounds(collection),
+            dx = b[1][0] - b[0][0],
+            dy = b[1][1] - b[0][1];
+
+          if (dx === 0 || dy === 0) {
+            console.warn("Bounds collapsed, features may be invalid", b);
+          }
+
+          var scale = 0.95 / Math.max(dx / width, dy / height);
+          var translate = [
+            (width - scale * (b[1][0] + b[0][0])) / 2,
+            (height - scale * (b[1][1] + b[0][1])) / 2,
+          ];
+
+          projection.scale(scale).translate(translate);
+
+          console.log("Map fit debug => bounds:", b, "dx:", dx, "dy:", dy, "scale:", scale, "translate:", translate);
+
+          if (scale < 20) {
+            console.warn("Scale 很小( <20 )，地图可能太小看不见，可尝试放大或检查坐标系");
+          }
+
+          // 重新实例化 path（也可以不重新建，这里为了语义清晰）
+          path = d3.geo.path().projection(projection);
+
+          var paths = g.selectAll("path")
             .data(collection.features)
             .enter()
             .append("path")
             .attr("d", path)
-            .attr("class", function (d) {
-              console.log("try to determine class!");
-              return self.styleRegion(d, self);
-            })
-            //.attr("transform", "scale(" + 80 + ")translate(" + -360 + "," + -90 + ")")
-            .on("mouseover", function (d) {
-              self.activateToolTip(tt, d);
-            })
-            .on("mouseout", function (d) {
-              self.deactivateToolTip(tt);
-            })
+            .attr("fill", "#cce5ff")
+            .attr("stroke", "#333")
+            .attr("stroke-width", 0.4)
+            .attr("class", function (d) { return self.styleRegion(d, self); })
+            .on("mouseover", function (d) { self.activateToolTip(tt, d); })
+            .on("mouseout", function () { self.deactivateToolTip(tt); })
             .on("mousemove", function () {
-              tt.style("top", d3.event.clientY - 105 + "px").style(
-                "left",
-                d3.event.clientX - 25 + "px"
-              );
+              // 仅调试：如果看不到 tooltip 说明 div 未创建或被覆盖
+              tt.style("top", (d3.event.clientY - 105) + "px").style("left", (d3.event.clientX - 25) + "px");
             })
-            .on("click", function (d) {
-              self.fireRegionClicked(d);
-            });
+            .on("click", function (d) { self.fireRegionClicked(d); });
+
+          try {
+            var bbox = g.node().getBBox();
+            console.log("Group SVG BBox:", bbox);
+          } catch (e) {
+            console.warn("Unable to compute g.getBBox()", e);
+          }
         });
       },
 
