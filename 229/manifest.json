@@ -1,0 +1,8 @@
+{
+	"sap.app": {
+		"id": "sap.m.tutorial.walkthrough.09",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	}
+}

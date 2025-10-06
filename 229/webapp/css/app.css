@@ -1,0 +1,120 @@
+
+/***** for map*/
+#g-nlp-map path {
+  fill: #aaa;
+  stroke: #fff;
+  stroke-width: 0.1px;
+}
+
+#g-nlp-map path:hover{
+	/*fill: #9cc677;*/
+	stroke: #BBFFEE;
+	stroke-width: 0.5px;
+}
+
+/** frequency **/
+#g-nlp-map .f1{
+	fill: #FF3333;
+}
+
+#g-nlp-map .f2{
+	fill: #FF0000;
+}
+
+#g-nlp-map .f3{
+	fill: #CC0000;
+}
+
+#g-nlp-map .f4{
+	fill: #AA0000;
+}
+
+#g-nlp-map .f5{
+	fill: #880000;
+}
+
+/** positive **/
+
+#g-nlp-map .p1{
+	fill: #99FF99;
+}
+
+#g-nlp-map .p2{
+	fill: #33FF33;
+}
+
+#g-nlp-map .p3{
+	fill: #00DD00;
+}
+
+#g-nlp-map .p4{
+	fill: #00AA00;
+}
+
+#g-nlp-map .p5{
+	fill: #008800;
+}
+
+/** negative **/
+
+#g-nlp-map .n1{
+	fill: #77DDFF;
+}
+
+#g-nlp-map .n2{
+	fill: #00BBFF;
+}
+
+#g-nlp-map .n3{
+	fill: #5599FF;
+}
+
+#g-nlp-map .n4{
+	fill: #0066FF;
+}
+
+#g-nlp-map .n5{
+	fill: #0000FF;
+}
+
+.hidechart{
+   opacity: -1;
+}
+
+#tooltip1 {
+    background: #4F4F4F;
+    border: 1px solid #2C2929;
+    border-radius: 6px;
+    color: #FAFAFA;
+    font-size: 14px;
+    padding: 6px;
+    pointer-events: none;
+    position: absolute;
+    text-align: left;
+    min-height: 15px;
+    min-width: 20px;
+}
+
+#tt-nlp-map {
+	background: #4F4F4F;
+    border: 1px solid #2C2929;
+    border-radius: 6px;
+    color: #FAFAFA;
+    font-size: 14px;
+    padding: 6px;
+    pointer-events: none;
+    position: absolute;
+    text-align: left;
+    min-height: 15px;
+    min-width: 20px;
+}
+/****for map*/
+
+
+/** for tag cloud **/
+
+#g-tagcloud text:hover{
+	cursor: pointer;
+}
+
+/** for tag cloud **/

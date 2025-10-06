@@ -1,0 +1,10 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:wt="sap.ui5.walkthrough.control">>
+	<Button
+		text="{i18n>showHelloButtonText}"
+		press=".onShowHello"/>
+	<wt:mymap id="nlp-map" title="My Map" mapDataPath="file/CHN.json" />
+</mvc:View>
