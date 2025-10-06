@@ -601,3 +601,5 @@
 - [使用 SAP UI5 实现卡片点击后显示图片的效果](https://blog.csdn.net/i042416/article/details/150640355)
 
 - [使用 SAP UI5 解析本地 Word 文件内容并显示在浏览器里](https://blog.csdn.net/i042416/article/details/150641606)
+
+- [在 SAP UI5 应用里重温八零后儿时经典的红白机游戏](https://blog.csdn.net/i042416/article/details/152602507)
