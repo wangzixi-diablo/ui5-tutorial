@@ -10,6 +10,11 @@ sap.ui.define([
       this._paused = false;
       this._audioEnabled = false;
       this._frameTimes = [];
+      // === FPS 节流相关变量，保证模拟器按 60 FPS 运行 ===
+      this._TARGET_FPS = 60;
+      this._FRAME_INTERVAL = 1000 / this._TARGET_FPS; // ~16.67 ms
+      this._lastFrameTime = 0;
+      this._accumulator = 0;
       this._canvas = null;
       this._ctx = null;
       this._imageData = null;
@@ -89,19 +94,37 @@ sap.ui.define([
       this._ctx.putImageData(this._imageData, 0, 0);
     },
     _frame: function() {
-      var t0 = performance.now();
-      this._nes.frame();
-      var t1 = performance.now();
-      this._frameTimes.push(t1 - t0);
-      if (this._frameTimes.length > 60) 
-        this._frameTimes.shift();
-      if (!this._paused) 
+      const now = performance.now();
+      if (!this._lastFrameTime) {
+        this._lastFrameTime = now;
+      }
+      const delta = now - this._lastFrameTime;
+      this._lastFrameTime = now;
+      this._accumulator += delta;
+
+      // 避免 Tab 切回后一次性模拟过多帧造成卡顿
+      const MAX_FRAMES_PER_TICK = 5;
+      let simulated = 0;
+      while (this._accumulator >= this._FRAME_INTERVAL && simulated < MAX_FRAMES_PER_TICK) {
+        const t0 = performance.now();
+        this._nes.frame();
+        const t1 = performance.now();
+        this._frameTimes.push(t1 - t0);
+        if (this._frameTimes.length > 60) this._frameTimes.shift();
+        this._accumulator -= this._FRAME_INTERVAL;
+        simulated++;
+      }
+      if (!this._paused) {
         this._animationId = window.requestAnimationFrame(this._frame.bind(this));
+      }
     },
     _startLoop: function() {
       if (!this._running) {
         this._running = true;
         this._paused = false;
+        // 重置计时，防止暂停后第一帧 delta 过大
+        this._lastFrameTime = 0;
+        this._accumulator = 0;
         this._animationId = window.requestAnimationFrame(this._frame.bind(this));
       }
     },
