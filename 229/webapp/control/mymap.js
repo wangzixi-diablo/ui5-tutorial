@@ -45,6 +45,13 @@ sap.ui.define(
           styleEl.textContent = ".sapMMessageToast{max-width:12rem;min-width:6rem;padding:0.25rem 0.6rem;font-size:0.7rem;line-height:1.15;border-radius:4px;}";
           document.head.appendChild(styleEl);
         }
+        // 选中省份高亮样式
+        if (!document.getElementById("mymap-region-style")) {
+          var regionStyle = document.createElement("style");
+          regionStyle.id = "mymap-region-style";
+          regionStyle.textContent = ".region-selected{stroke:#d00 !important;stroke-width:2.2 !important;}";
+          document.head.appendChild(regionStyle);
+        }
 
         var svg = root
           .append("svg")
@@ -126,7 +133,24 @@ sap.ui.define(
                 MessageToast.show(d.properties.description, { duration: 2000, width: "12rem" });
               }
             })
-            .on("click", function (d) { self.fireRegionClicked(d); });
+            .on("click", function (d) {
+              var el = d3.select(this);
+              var already = el.classed("region-selected");
+              if (already) {
+                el.classed("region-selected", false)
+                  .attr("stroke-width", 0.4)
+                  .attr("stroke", "#333");
+              } else {
+                el.classed("region-selected", true)
+                  .attr("stroke-width", 2.2)
+                  .attr("stroke", "#d00");
+                // 将选中路径置顶，避免被其它路径覆盖
+                if (this.parentNode) {
+                  this.parentNode.appendChild(this);
+                }
+              }
+              self.fireRegionClicked(d);
+            });
 
           try {
             var bbox = g.node().getBBox();
