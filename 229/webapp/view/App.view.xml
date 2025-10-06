@@ -6,5 +6,5 @@
 	<Button
 		text="{i18n>showHelloButtonText}"
 		press=".onShowHello"/>
-	<wt:mymap id="nlp-map" title="自定义地图" mapDataPath="file/CHN.json" />
+	<wt:mymap id="g-nlp-map" title="自定义地图" mapDataPath="file/CHN.json" />
 </mvc:View>
