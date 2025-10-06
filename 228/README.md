@@ -1,0 +1,1 @@
+2014 年的代码，很多 API 都已经 obsolete 了，自定义 control，control 需要异步加载，然而目前的 index.js 创建 view 是 eager 方式，有 gap，还不如基于 32 从头来过。
