@@ -38,6 +38,14 @@ sap.ui.define(
         var root = d3.select("#" + this.getId());
         root.select("svg").remove();
 
+        // 注入一次性样式，缩小全局 MessageToast 尺寸（约原来 1/2）
+        if (!document.getElementById("mt-custom-small")) {
+          var styleEl = document.createElement("style");
+          styleEl.id = "mt-custom-small";
+          styleEl.textContent = ".sapMMessageToast{max-width:12rem;min-width:6rem;padding:0.25rem 0.6rem;font-size:0.7rem;line-height:1.15;border-radius:4px;}";
+          document.head.appendChild(styleEl);
+        }
+
         var svg = root
           .append("svg")
           .attr("viewBox", "0 0 " + width + " " + height)
@@ -113,9 +121,9 @@ sap.ui.define(
             .attr("stroke-width", 0.4)
             .attr("class", function (d) { return self.styleRegion(d, self); })
             .on("mouseover", function (d) {
-              // 使用 MessageToast 显示原 tooltip 内容
+              // 使用 MessageToast 显示原 tooltip 内容 + 自定义宽度
               if (d && d.properties && d.properties.description) {
-                MessageToast.show(d.properties.description, { duration: 2000 });
+                MessageToast.show(d.properties.description, { duration: 2000, width: "12rem" });
               }
             })
             .on("click", function (d) { self.fireRegionClicked(d); });
