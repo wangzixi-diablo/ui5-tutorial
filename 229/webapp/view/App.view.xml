@@ -4,7 +4,7 @@
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:wt="sap.ui5.walkthrough.control">
 	<Button
-		text="{i18n>showHelloButtonText}"
-		press=".onShowHello"/>
-	<wt:mymap id="g-nlp-map" title="自定义地图" mapDataPath="file/CHN.json" />
+		text="金额统计"
+		press=".onSummary"/>
+	<wt:mymap id="nlp-map" title="自定义地图" mapDataPath="file/CHN.json" />
 </mvc:View>

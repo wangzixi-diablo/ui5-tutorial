@@ -29,7 +29,6 @@ sap.ui.define(
       },
 
       onAfterRendering: function () {
-        this.setStyleCalculated(true);
         var width = 700,
           height = 420; // 与 viewBox 对齐
 

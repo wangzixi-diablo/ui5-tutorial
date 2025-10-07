@@ -4,11 +4,18 @@ sap.ui.define([
  ], function (Controller, MessageToast) {
 	"use strict";
 	return Controller.extend("sap.ui5.walkthrough.controller.App", {
-	   onShowHello : function () {
-		  var oBundle = this.getView().getModel("i18n").getResourceBundle();
-		  var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-		  var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-		  MessageToast.show(sMsg);
+	   onSummary : function () {
+		// 获取自定义地图控件（假设在 App.view.xml 中 id="nlp-map"）
+		var oMap = this.byId("nlp-map");
+		if (!oMap) {
+			MessageToast.show("未找到地图控件 nlp-map");
+			return;
+		}
+		var bCurrent = oMap.getStyleCalculated();
+		var bNext = !bCurrent;
+		oMap.setStyleCalculated(bNext);
+		// 触发控件重新渲染（invalidate 会让 UI5 在本轮渲染周期重绘该控件）
+		oMap.invalidate();
 	   }
 	});
  });
