@@ -2,9 +2,29 @@
 	controllerName="sap.ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:wt="sap.ui5.walkthrough.control">
-	<Button
-		text="金额统计"
-		press=".onSummary"/>
+	xmlns:wt="sap.ui5.walkthrough.control"
+	xmlns:core="sap.ui.core">
+	<HBox alignItems="Center" justifyContent="Start" renderType="Div" width="100%" class="legendBar">
+		<Button text="金额统计" press=".onSummary"/>
+		<!-- 图例：使用彩色方块 + 数值区间，不显示颜色代码 -->
+		<HBox alignItems="Center" justifyContent="Start" renderType="Div" class="legendItems" width="100%">
+			<HBox alignItems="Center" class="legendItem" renderType="Div">
+				<core:HTML content="&lt;span class='legendBox legend-f1'>&lt;/span>"/>
+				<Text text="0 - 250" wrapping="false" class="sapUiTinyMarginBegin"/>
+			</HBox>
+			<HBox alignItems="Center" class="legendItem" renderType="Div">
+				<core:HTML content="&lt;span class='legendBox legend-f2'>&lt;/span>"/>
+				<Text text="250 - 500" wrapping="false" class="sapUiTinyMarginBegin"/>
+			</HBox>
+			<HBox alignItems="Center" class="legendItem" renderType="Div">
+				<core:HTML content="&lt;span class='legendBox legend-f3'>&lt;/span>"/>
+				<Text text="500 - 750" wrapping="false" class="sapUiTinyMarginBegin"/>
+			</HBox>
+			<HBox alignItems="Center" class="legendItem" renderType="Div">
+				<core:HTML content="&lt;span class='legendBox legend-f4'>&lt;/span>"/>
+				<Text text="> 750" wrapping="false" class="sapUiTinyMarginBegin"/>
+			</HBox>
+		</HBox>
+	</HBox>
 	<wt:mymap id="nlp-map" title="自定义地图" mapDataPath="file/CHN.json" />
 </mvc:View>

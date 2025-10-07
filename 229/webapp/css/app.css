@@ -114,3 +114,13 @@
 }
 
 /** for tag cloud **/
+
+/* legend styles for map value ranges */
+.legendBar { gap: 0.75rem; }
+.legendItems { gap: 1.25rem; flex-wrap: wrap; }
+.legendItem { gap: 0.35rem; }
+.legendBox { display:inline-block; width:1rem; height:1rem; border:1px solid #666; box-sizing:border-box; }
+.legend-f1 { background:#e599b5; }
+.legend-f2 { background:#8be6ae; }
+.legend-f3 { background:#d6dac9; }
+.legend-f4 { background:#AA0000; }
