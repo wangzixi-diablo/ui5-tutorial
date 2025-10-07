@@ -10,10 +10,7 @@ sap.ui.define(
           width: { type: "sap.ui.core.CSSSize", defaultValue: "100%" }, //900
           height: { type: "sap.ui.core.CSSSize", defaultValue: "420" }, //390
           mapDataPath: "string",
-          jerryProperty1: "string",
-          jerryProperty2: "number",
-          jerryProperty3: "boolean",
-          maptype: { type: "string", defaultValue: "f" }, // f for frequency, p for postive, n for negative
+          styleCalculated: { type: "boolean", defaultValue: false }
         },
         events: {
           regionClicked: {},
@@ -32,7 +29,9 @@ sap.ui.define(
       },
 
       onAfterRendering: function () {
-        var width = 700, height = 420; // 与 viewBox 对齐
+        this.setStyleCalculated(true);
+        var width = 700,
+          height = 420; // 与 viewBox 对齐
 
         // 防止重复渲染时叠加多个 SVG
         var root = d3.select("#" + this.getId());
@@ -42,14 +41,16 @@ sap.ui.define(
         if (!document.getElementById("mt-custom-small")) {
           var styleEl = document.createElement("style");
           styleEl.id = "mt-custom-small";
-          styleEl.textContent = ".sapMMessageToast{max-width:12rem;min-width:6rem;padding:0.25rem 0.6rem;font-size:0.7rem;line-height:1.15;border-radius:4px;}";
+          styleEl.textContent =
+            ".sapMMessageToast{max-width:12rem;min-width:6rem;padding:0.25rem 0.6rem;font-size:0.7rem;line-height:1.15;border-radius:4px;}";
           document.head.appendChild(styleEl);
         }
         // 选中省份高亮样式
         if (!document.getElementById("mymap-region-style")) {
           var regionStyle = document.createElement("style");
           regionStyle.id = "mymap-region-style";
-          regionStyle.textContent = ".region-selected{stroke:#d00 !important;stroke-width:2.2 !important;}";
+          regionStyle.textContent =
+            ".region-selected{stroke:#d00 !important;stroke-width:2.2 !important;}";
           document.head.appendChild(regionStyle);
         }
 
@@ -60,7 +61,8 @@ sap.ui.define(
           .attr("height", this.getHeight());
 
         // 调试: 添加一个红色边框看看区域
-        svg.append("rect")
+        svg
+          .append("rect")
           .attr("x", 0)
           .attr("y", 0)
           .attr("width", width)
@@ -70,7 +72,8 @@ sap.ui.define(
           .style("stroke-width", 0.3)
           .style("pointer-events", "none");
 
-        svg.append("text")
+        svg
+          .append("text")
           .attr("x", width / 2)
           .attr("y", 24)
           .attr("text-anchor", "middle")
@@ -84,7 +87,7 @@ sap.ui.define(
         var projection = d3.geo.equirectangular().scale(1).translate([0, 0]);
         var path = d3.geo.path().projection(projection);
 
-  var self = this; // 保留引用供事件回调使用
+        var self = this; // 保留引用供事件回调使用
 
         d3.json(this.getMapDataPath(), function (collection) {
           if (!collection || !collection.features) {
@@ -109,16 +112,30 @@ sap.ui.define(
 
           projection.scale(scale).translate(translate);
 
-          console.log("Map fit debug => bounds:", b, "dx:", dx, "dy:", dy, "scale:", scale, "translate:", translate);
+          console.log(
+            "Map fit debug => bounds:",
+            b,
+            "dx:",
+            dx,
+            "dy:",
+            dy,
+            "scale:",
+            scale,
+            "translate:",
+            translate
+          );
 
           if (scale < 20) {
-            console.warn("Scale 很小( <20 )，地图可能太小看不见，可尝试放大或检查坐标系");
+            console.warn(
+              "Scale 很小( <20 )，地图可能太小看不见，可尝试放大或检查坐标系"
+            );
           }
 
           // 重新实例化 path（也可以不重新建，这里为了语义清晰）
           path = d3.geo.path().projection(projection);
 
-          var paths = g.selectAll("path")
+          var paths = g
+            .selectAll("path")
             .data(collection.features)
             .enter()
             .append("path")
@@ -126,11 +143,16 @@ sap.ui.define(
             .attr("fill", "#cce5ff")
             .attr("stroke", "#333")
             .attr("stroke-width", 0.4)
-            .attr("class", function (d) { return self.styleRegion(d, self); })
+            .attr("class", function (d) {
+              return self.styleRegion(d, self);
+            })
             .on("mouseover", function (d) {
               // 使用 MessageToast 显示原 tooltip 内容 + 自定义宽度
               if (d && d.properties && d.properties.description) {
-                MessageToast.show(d.properties.description, { duration: 2000, width: "12rem" });
+                MessageToast.show(d.properties.description, {
+                  duration: 2000,
+                  width: "12rem",
+                });
               }
             })
             .on("click", function (d) {
@@ -165,23 +187,24 @@ sap.ui.define(
 
       styleRegion: function (d, self) {
         console.log("in function styleRegion!", d);
+        if(this.getStyleCalculated() !== true) {
+          return; 
+        }
         var style,
           aJregion = self.getModel().getData();
 
-        
-        for (var i = 0; i < aJregion.length; i++){
+        for (var i = 0; i < aJregion.length; i++) {
           if (d.properties.name == aJregion[i].name) {
-            if( aJregion[i].data <= 250 ){
+            if (aJregion[i].data <= 250) {
               style = "f1";
               break;
-            } else if( aJregion[i].data > 250 && aJregion[i].data <= 500 ){
+            } else if (aJregion[i].data > 250 && aJregion[i].data <= 500) {
               style = "f2";
               break;
-            } else if( aJregion[i].data > 500 && aJregion[i].data <= 750 ){
+            } else if (aJregion[i].data > 500 && aJregion[i].data <= 750) {
               style = "f3";
               break;
-            }
-            else {
+            } else {
               style = "f4";
               break;
             }
@@ -190,6 +213,20 @@ sap.ui.define(
         console.log("style: " + style);
         return style;
       },
+
+      /**
+       * 公有方法：设置 styleCalculated 属性值。
+       * @param {boolean} bValue 新的布尔值
+       * @returns {this} 便于链式调用
+       */
+      setStyleCalculated: function (bValue) {
+        // 规范化为布尔
+        bValue = !!bValue;
+        // 使用 setProperty 以触发标准的属性处理；第三个参数 true 表示不触发重新渲染（若需要可改为 false）
+        this.setProperty("styleCalculated", bValue, true);
+        console.log("styleCalculated set to", bValue);
+        return this;
+      }
     });
   }
 );
