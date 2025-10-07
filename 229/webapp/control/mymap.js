@@ -164,33 +164,30 @@ sap.ui.define(
       // 原 tooltip 相关函数已移除，改用 SAP UI5 MessageToast 展示提示文本。
 
       styleRegion: function (d, self) {
-        console.log("in function styleRegion!");
+        console.log("in function styleRegion!", d);
         var style,
-          aJregion = self.getModel().getData().result;
+          aJregion = self.getModel().getData();
 
-        for (var sRegionKey in aJregion) {
-          if (d.properties.name == aJregion[sRegionKey].LOCATION) {
-            switch (self.getMaptype()) {
-              case "f": {
-                style = "f" + aJregion[sRegionKey].GRADE_TOTAL;
-                break;
-              }
-              case "p": {
-                style = "p" + aJregion[sRegionKey].GRADE_POSITIVE;
-                break;
-              }
-              case "n": {
-                style = "n" + aJregion[sRegionKey].GRADE_NEGATIVE;
-                break;
-              }
+        
+        for (var i = 0; i < aJregion.length; i++){
+          if (d.properties.name == aJregion[i].name) {
+            if( aJregion[i].data <= 250 ){
+              style = "f1";
+              break;
+            } else if( aJregion[i].data > 250 && aJregion[i].data <= 500 ){
+              style = "f2";
+              break;
+            } else if( aJregion[i].data > 500 && aJregion[i].data <= 750 ){
+              style = "f3";
+              break;
             }
-            break;
-          } else {
-            continue;
+            else {
+              style = "f4";
+              break;
+            }
           }
         }
         console.log("style: " + style);
-        style = "f4";
         return style;
       },
     });

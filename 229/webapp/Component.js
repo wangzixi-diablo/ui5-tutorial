@@ -15,13 +15,16 @@ sap.ui.define([
       },
       init : function () {
          UIComponent.prototype.init.apply(this, arguments);
-         var oData = {
-            recipient : {
-               name : "SAP UI5 初学者教程之九 - 创建第一个 Component"
-            }
-         };
-         var oModel = new JSONModel(oData);
-         this.setModel(oModel);
+         // 从 file/data.json 读取数据并作为默认模型
+         var oModel = new JSONModel();
+         var sDataUrl = sap.ui.require.toUrl("sap/ui5/walkthrough/file/data.json");
+         oModel.loadData(sDataUrl);
+         this.setModel(oModel); // 先挂载，数据加载完成后会自动更新绑定
+         // 可选：监听加载完成/失败（需要时可解开注释）
+         // oModel.attachRequestCompleted(function(oEvent){
+         //   if(oEvent.getParameter("success")){ console.log("data.json loaded"); }
+         // });
+         // oModel.attachRequestFailed(function(){ console.error("Failed to load data.json"); });
 
          var i18nModel = new ResourceModel({
             bundleName: "sap.ui5.walkthrough.i18n.i18n"

@@ -13,24 +13,20 @@
 }
 
 /** frequency **/
-#g-nlp-map .f1{
+.f1{
 	fill: #FF3333;
 }
 
-#g-nlp-map .f2{
+.f2{
 	fill: #FF0000;
 }
 
-#g-nlp-map .f3{
+.f3{
 	fill: #CC0000;
 }
 
 .f4{
 	fill: #AA0000;
-}
-
-#g-nlp-map .f5{
-	fill: #880000;
 }
 
 /** positive **/
