@@ -7,8 +7,8 @@ sap.ui.define(
         properties: {
           id: "string",
           title: "string",
-          width: { type: "sap.ui.core.CSSSize", defaultValue: "100%" }, //900
-          height: { type: "sap.ui.core.CSSSize", defaultValue: "420" }, //390
+          width: { type: "sap.ui.core.CSSSize", defaultValue: "100%" },  
+          height: { type: "sap.ui.core.CSSSize", defaultValue: "420" },  
           mapDataPath: "string",
           styleCalculated: { type: "boolean", defaultValue: false }
         },
@@ -16,8 +16,6 @@ sap.ui.define(
           regionClicked: {},
         },
       }, // end of metadata,
-
-      // oRm: Render manager
 
       renderer: function (oRm, oCtrl) {
         oRm.write("<div");
@@ -182,8 +180,6 @@ sap.ui.define(
         });
       },
 
-      // 原 tooltip 相关函数已移除，改用 SAP UI5 MessageToast 展示提示文本。
-
       styleRegion: function (d, self) {
         console.log("in function styleRegion!", d);
         if(this.getStyleCalculated() !== true) {
@@ -212,12 +208,6 @@ sap.ui.define(
         console.log("style: " + style);
         return style;
       },
-
-      /**
-       * 公有方法：设置 styleCalculated 属性值。
-       * @param {boolean} bValue 新的布尔值
-       * @returns {this} 便于链式调用
-       */
       setStyleCalculated: function (bValue) {
         // 规范化为布尔
         bValue = !!bValue;

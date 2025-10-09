@@ -6,7 +6,6 @@
 	xmlns:core="sap.ui.core">
 	<HBox alignItems="Center" justifyContent="Start" renderType="Div" width="100%" class="legendBar">
 		<Button text="金额统计" press=".onSummary"/>
-		<!-- 图例：使用彩色方块 + 数值区间，不显示颜色代码 -->
 		<HBox alignItems="Center" justifyContent="Start" renderType="Div" class="legendItems" width="100%">
 			<HBox alignItems="Center" class="legendItem" renderType="Div">
 				<core:HTML content="&lt;span class='legendBox legend-f1'>&lt;/span>"/>

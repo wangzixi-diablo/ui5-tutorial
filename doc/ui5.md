@@ -603,3 +603,5 @@
 - [使用 SAP UI5 解析本地 Word 文件内容并显示在浏览器里](https://blog.csdn.net/i042416/article/details/150641606)
 
 - [在 SAP UI5 应用里重温八零后儿时经典的红白机游戏](https://blog.csdn.net/i042416/article/details/152602507)
+
+- [使用 SAP UI5 实现国内 SAP 项目前端的一个高频需求：在中国地图上动态展示各省份业务数据](https://jerry.blog.csdn.net/article/details/152727378?spm=1011.2415.3001.5331)
