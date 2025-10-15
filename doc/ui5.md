@@ -274,7 +274,7 @@
 
 * [SAP UI5 应用开发教程之一百一十 - SAP UI5 FileUploader 控件深入介绍 - 为什么需要一个隐藏的 iframe](https://blog.csdn.net/i042416/article/details/126024207)
 
-* [SAP UI5 应用开发教程之一百一十一 - SAP UI5 FileUploader 控件实现本地文件上传，接收服务器端的响应时遇到跨域访问错误](https://blog.csdn.net/i042416/article/details/126024207)
+* [SAP UI5 应用开发教程之一百一十一 - SAP UI5 FileUploader 控件实现本地文件上传，接收服务器端的响应时遇到跨域访问错误](https://jerry.blog.csdn.net/article/details/126028656)
 
 * [SAP UI5 应用开发教程之一百一十二 - 使用自开发的代理服务器解决 SAP UI5 FileUploader 上传文件时遇到的跨域访问错误](https://blog.csdn.net/i042416/article/details/126034853)
 
