@@ -50,3 +50,4 @@
 
 - DEMO_CDS_SESSION_VARIABLES
 - [session variable](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_f1_session_variable.htm)
+- [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abenddic_cds_entities.htm)
