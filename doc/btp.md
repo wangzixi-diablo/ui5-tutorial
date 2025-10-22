@@ -133,3 +133,7 @@
 - [SAP BTP CloudFoundry 环境上的 Java 应用的 Application container](https://jerry.blog.csdn.net/article/details/123600118?spm=1011.2415.3001.5331)
 
 - [SAP BTP 平台 CloudFoundry 环境下的 Application Pattern](https://jerry.blog.csdn.net/article/details/123602989?spm=1011.2415.3001.5331)
+
+# 参考文献
+
+- [SAP Graph](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/working-with-sap-graph)

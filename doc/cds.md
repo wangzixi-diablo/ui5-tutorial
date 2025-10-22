@@ -42,7 +42,8 @@
 
 - [SAP 官网](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html)
 - [CDS View Annotation 大全](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations.htm)
-- [User guideline](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide)
+- [ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide)
+- [ABAP CDS Development User Guide](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/4ed1f2e06e391014adc9fffe4e204223.html)
 
 ![doc](https://i-blog.csdnimg.cn/direct/208dce59e8044f8ab0fe1a1470534d6e.jpeg#pic_center)
 
@@ -51,3 +52,7 @@
 - DEMO_CDS_SESSION_VARIABLES
 - [session variable](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_f1_session_variable.htm)
 - [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abenddic_cds_entities.htm)
+- [左侧有导航条](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm?file=abenddic_cds_views.htm)
+
+- demo_cds_annotation_array
+- demo_cds_semantics_annotation
