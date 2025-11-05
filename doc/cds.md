@@ -56,3 +56,4 @@
 
 - demo_cds_annotation_array
 - demo_cds_semantics_annotation
+- DEMO_SHOW_DDL_SOURCE
