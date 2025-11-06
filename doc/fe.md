@@ -67,7 +67,7 @@ Fiori Elements 开发技术相对 SAP 其他历史悠久，发展成熟的开发
 
 - [25. 如何在 SAP Fiori Elements List Report 里表格行项目被选中时，打印被选中的行项目数据](https://blog.csdn.net/i042416/article/details/147404086)
 
-- [26. 如何给 SAP Fiori Elements List Report 应用的 Filter 字段动态填充默认值]()
+- [26. 如何给 SAP Fiori Elements List Report 应用的 Filter 字段动态填充默认值](https://blog.csdn.net/i042416/article/details/154479005)
 
 - 正在写作中
 
