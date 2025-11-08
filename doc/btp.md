@@ -24,8 +24,15 @@
 
 - [30天入门 SAP BTP 开发系列之九：自动生成一个 Fiori 应用，显示 ABAP Cloud 里的透明表数据](https://blog.csdn.net/i042416/article/details/152360598)
 
-- [30天入门 SAP BTP 开发系列之十: 保姆级教 - 如何在 SAP BTP 上使用 SAP Build Code 创建第一个 Node.js 应用](https://jerry.blog.csdn.net/article/details/152944070?spm=1011.2415.3001.5331)
+- [30天入门 SAP BTP 开发系列之十: 保姆级教程 - 如何在 SAP BTP 上使用 SAP Build Code 创建第一个 Node.js 应用](https://jerry.blog.csdn.net/article/details/152944070?spm=1011.2415.3001.5331)
 
+- [30天入门 SAP BTP 开发系列之十一: 保姆级教程 - 如何将 SAP BTP 上的应用源代码同步到自己的 Github 仓库里](https://jerry.blog.csdn.net/article/details/154538608?spm=1011.2415.3001.5331)
+
+- [30天入门 SAP BTP 开发系列之十二：学习 Cloud Foundry 环境，为应用部署奠定理论基础](https://blog.csdn.net/i042416/article/details/154562265)
+
+- [30天入门 SAP BTP 开发系列之十三：如何将 Github 仓库里的代码导入到 SAP Business Application Studio 中](https://blog.csdn.net/i042416/article/details/154573486)
+
+- [30天入门 SAP BTP 开发系列之十二：学习 Cloud Foundry 环境，为应用部署奠定理论基础]
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 除此之外，本教程还包含了大量 SAP BTP 的专题文章，每篇文章独立完整地讲解了一个具体的 SAP BTP 知识点，适合对 SAP BTP 已经有一定基础的朋友阅读。
@@ -133,6 +140,8 @@
 - [SAP BTP CloudFoundry 环境上的 Java 应用的 Application container](https://jerry.blog.csdn.net/article/details/123600118?spm=1011.2415.3001.5331)
 
 - [SAP BTP 平台 CloudFoundry 环境下的 Application Pattern](https://jerry.blog.csdn.net/article/details/123602989?spm=1011.2415.3001.5331)
+
+- [在 SAP BTP 上：用 SAP Build Code，还是用 SAP Business Application Studio？](https://blog.csdn.net/i042416/article/details/154564727)
 
 # 参考文献
 
