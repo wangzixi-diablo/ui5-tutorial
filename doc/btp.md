@@ -34,10 +34,11 @@
 
 - [30天入门 SAP BTP 开发系列之十四: 将 SAP Business Application Studio 里开发好的 Node.js 应用部署到 Cloud Foundry 环境中](https://blog.csdn.net/i042416/article/details/154645023)
 
+- [30天入门 SAP BTP 开发系列之十五：如何在 SAP BTP Cloud Foundry 环境的 Node.js 应用里消费用户自定义变量](https://blog.csdn.net/i042416/article/details/154648137)
 
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
-- []()
+- [更多文章持续写作中...]()
 
 除此之外，本教程还包含了大量 SAP BTP 的专题文章，每篇文章独立完整地讲解了一个具体的 SAP BTP 知识点，适合对 SAP BTP 已经有一定基础的朋友阅读。
 
