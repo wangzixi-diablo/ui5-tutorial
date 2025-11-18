@@ -36,6 +36,10 @@
 
 - [30天入门 SAP BTP 开发系列之十五：如何在 SAP BTP Cloud Foundry 环境的 Node.js 应用里消费用户自定义变量](https://blog.csdn.net/i042416/article/details/154648137)
 
+- [30天入门 SAP BTP 开发系列之十六: 动手在 SAP BTP Cloud Foundry 开发和部署 SAP UI5 应用的前置条件 - 订阅 SAP Build Work Zone Standard Version](https://blog.csdn.net/i042416/article/details/154954188)
+
+- [30天入门 SAP BTP 开发系列之十七:如何给 SAP BTP Subaccount 启用基于 OpenID Connect 的 Cloud Identity Services 认证服务](https://blog.csdn.net/i042416/article/details/154987672)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 - [更多文章持续写作中...]()
