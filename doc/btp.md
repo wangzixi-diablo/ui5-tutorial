@@ -1,4 +1,4 @@
-版本号 1.0.5, 最后修改时间：2025-11-11 10:25
+版本号 1.0.6, 最后修改时间：2025-11-18 00:00
 
 # 教程目录
 
@@ -38,7 +38,9 @@
 
 - [30天入门 SAP BTP 开发系列之十六: 动手在 SAP BTP Cloud Foundry 开发和部署 SAP UI5 应用的前置条件 - 订阅 SAP Build Work Zone Standard Version](https://blog.csdn.net/i042416/article/details/154954188)
 
-- [30天入门 SAP BTP 开发系列之十七:如何给 SAP BTP Subaccount 启用基于 OpenID Connect 的 Cloud Identity Services 认证服务](https://blog.csdn.net/i042416/article/details/154987672)
+- [30天入门 SAP BTP 开发系列之十七：如何给 SAP BTP Subaccount 启用基于 OpenID Connect 的 Cloud Identity Services 认证服务](https://blog.csdn.net/i042416/article/details/154987672)
+
+- [30天入门 SAP BTP 开发系列之十八：保姆级教程 - 如何部署 SAP UI5 到 SAP BTP Cloud Foundry 环境](https://blog.csdn.net/i042416/article/details/155037144)
 
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
