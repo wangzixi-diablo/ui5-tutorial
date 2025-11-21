@@ -42,6 +42,8 @@
 
 - [30天入门 SAP BTP 开发系列之十八：保姆级教程 - 如何部署 SAP UI5 到 SAP BTP Cloud Foundry 环境](https://blog.csdn.net/i042416/article/details/155037144)
 
+- [30天入门 SAP BTP 开发系列之十九：如何给 SAP UI5 应用增添登录认证的功能](https://blog.csdn.net/i042416/article/details/155103786)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 - [更多文章持续写作中...]()
