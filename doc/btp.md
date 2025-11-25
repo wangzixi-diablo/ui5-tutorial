@@ -48,6 +48,8 @@
 
 - [30天入门 SAP BTP 开发系列之二十一：如何手动创建可以访问某 SAP UI5 应用的用户](https://blog.csdn.net/i042416/article/details/155238826)
 
+- [30天入门 SAP BTP 开发系列之二十二：部署在 Cloud Foundry 环境上的 SAP UI5 应用 url 格式分析](https://blog.csdn.net/i042416/article/details/155246034)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 - [更多文章持续写作中...]()
