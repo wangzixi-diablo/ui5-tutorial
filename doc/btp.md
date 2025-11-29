@@ -52,6 +52,8 @@
 
 - [30天入门 SAP BTP 开发系列之二十三：HTML5 Applications Repository Service 专题讲解](https://blog.csdn.net/i042416/article/details/155268386)
 
+- [30天入门 SAP BTP 开发系列之二十四：部署在 Cloud Foundry 上的 HTML5 应用如何消费外部 API](https://blog.csdn.net/i042416/article/details/155363038)
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 - [更多文章持续写作中...]()
