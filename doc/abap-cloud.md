@@ -4,4 +4,6 @@
 
 - [SAP BTP ABAP 环境里的 Lock object](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/lock-objects)
 
-- [Tutorial](https://learning.sap.com/learning-journeys/learn-the-basics-of-abap-programming-on-sap-btp/building-an-abap-restful-application)
+- [Tutorial](https://learning.sap.com/learning-journeys/
+
+- [Github 上的 ABAP 小工具](https://github.com/js1972/KnowlegeRepository/tree/master/ABAP/SmallApp)

@@ -1,4 +1,4 @@
-版本号 1.0.6, 最后修改时间：2025-11-18 00:00
+版本号 1.0.7, 最后修改时间：2025-12-01 23:00
 
 # 教程目录
 
@@ -53,6 +53,8 @@
 - [30天入门 SAP BTP 开发系列之二十三：HTML5 Applications Repository Service 专题讲解](https://blog.csdn.net/i042416/article/details/155268386)
 
 - [30天入门 SAP BTP 开发系列之二十四：部署在 Cloud Foundry 上的 HTML5 应用如何消费外部 API](https://blog.csdn.net/i042416/article/details/155363038)
+
+- [30天入门 SAP BTP 开发系列之二十五：xs-app.json 路由片段逐行拆解-用 html5-apps-repo-rt 承载 HTML5 应用](https://jerry.blog.csdn.net/article/details/155412479)
 
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
