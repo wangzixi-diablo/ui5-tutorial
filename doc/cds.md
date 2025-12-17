@@ -1,6 +1,6 @@
 # 本教程文章目录
 
-* [ABAP CDS View 从入门到精通教程第一篇：ABAP CDS View 在 SAP 技术体系中的重要地位](https://jerry.blog.csdn.net/article/details/146240384)
+* [ABAP CDS View 从入门到精通教程第一篇：ABAP CDS View 在 SAP 技术体系中的重要地位](https://blog.csdn.net/i042416/article/details/156014478)
 
 * [SAP ABAP 四种传统的数据库视图类型介绍之一：Database View](https://blog.csdn.net/i042416/article/details/146492667)
 
@@ -53,7 +53,7 @@
 - [session variable](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_f1_session_variable.htm)
 - [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abenddic_cds_entities.htm)
 - [左侧有导航条](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm?file=abenddic_cds_views.htm)
-
+- [向导](https://help.sap.com/docs/SAP_NETWEAVER_750/cc0c305d2fab47bd808adcad3ca7ee9d/d57438669aae4d0083ce767b9505ca48.html?version=7.5.17)
 - demo_cds_annotation_array
 - demo_cds_semantics_annotation
 - DEMO_SHOW_DDL_SOURCE

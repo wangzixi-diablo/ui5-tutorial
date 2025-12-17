@@ -6,6 +6,8 @@
 
 第一部分内容，包含 SAP BTP 使用的系统介绍，由浅入深的操作步骤。这部分内容是串行的，如果大家之前从未接触过 SAP BTP，没有什么基础，建议大家按照下列目录罗列出来的顺序，<font color='red' size="3pt">依次学习</font>，中间不要跳过某篇文章。
 
+每篇文章包含的例子都是笔者到<font color='red' size="3pt">系统中实际操作和成功运行之后</font>的`手动截图`。
+
 - [30天入门 SAP BTP 开发系列之一：SAP 开发顾问为什么要学习 SAP BTP 开发？能带来哪些收获？](https://blog.csdn.net/i042416/article/details/149053482)
 
 - [30天入门 SAP BTP 开发系列之二：了解 SAP BTP Region 的概念，包含账号申请的详细步骤](https://blog.csdn.net/i042416/article/details/149053513)
