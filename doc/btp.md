@@ -58,6 +58,8 @@
 
 - [30天入门 SAP BTP 开发系列之二十五：xs-app.json 路由片段逐行拆解-用 html5-apps-repo-rt 承载 HTML5 应用](https://jerry.blog.csdn.net/article/details/155412479)
 
+- [30天入门 SAP BTP 开发系列之二十五]()
+
 ![](https://i-blog.csdnimg.cn/direct/6ccee5dac49345a689b7a6726dc94ec8.png)
 
 - [更多文章持续写作中...]()
@@ -173,3 +175,5 @@
 # 参考文献
 
 - [SAP Graph](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/working-with-sap-graph)
+
+- [Add SAP Fiori Elements UIs](https://developers.sap.com/tutorials/add-fiori-elements-uis.html)

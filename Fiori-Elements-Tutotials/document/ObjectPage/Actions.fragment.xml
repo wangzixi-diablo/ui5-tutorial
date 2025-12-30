@@ -1,0 +1,143 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:uxap="sap.uxap"
+	xmlns:fesr="http://schemas.sap.com/sapui5/extension/sap.ui.core.FESR/1"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{
+	AH: 'sap/suite/ui/generic/template/js/AnnotationHelper',
+	AHModel: 'sap/ui/model/odata/AnnotationHelper',
+	AHActionButtons: 'sap/suite/ui/generic/template/ObjectPage/annotationHelpers/AnnotationHelperActionButtons'}">
+
+	<template:if test="{= !${parameter>/manifest/sap.ui.generic.app/pages/0/component/settings/treeTable}}">
+		<!-- Edit button -->
+		<template:if test="{parts: [{path: 'entitySet>Org.OData.Capabilities.V1.UpdateRestrictions'}, {path: 'entitySet>'}, {path: 'parameter>/treeNode/page/navigation/edit/target'}, {path: 'parameter>/treeNodeAncestors'}, {path: 'parameter>/isDraftEnabled'}], formatter: 'AHActionButtons.isEditButtonRequired'}">
+			<core:InvisibleText id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'EditText'})}"
+				text="{parts: [{value: 'i18n>EDIT_BUTTON_DESCRIPTION'}, {path: 'entityType>com.sap.vocabularies.UI.v1.HeaderInfo/Title/Value'}], formatter: 'AH.setAriaText'}"/>
+			<template:with path="parameter>/templateSpecific/pageLevelActions/commandExecution/Edit" var="editAction">
+				<uxap:ObjectPageHeaderActionButton id="{editAction>id}"
+					text="{editAction>text}"
+					type="{editAction>type}"
+					hideText="false"
+					enabled="{ui>/enabled}"
+					press="{editAction>press}"
+					ariaDescribedBy="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'EditText'})}"
+					fesr:press="fe:edit"
+					importance="High"
+					visible="{= ${editAction>visible} || ${parts: [{path: 'entitySet>Org.OData.Capabilities.V1.UpdateRestrictions'}, {path: 'entitySet>'}, {path: 'appSettings>/'}, {path: 'parameter>/treeNode'}, {path: 'parameter>/treeNodeAncestors'}], formatter: 'AHActionButtons.getEditActionButtonVisibility'} }">
+					<template:if test="${editAction>isStandardAction}">
+						<uxap:customData>
+							<core:CustomData key="CrossNavigation" value="{parameter>/treeNode/page/navigation/edit/target}"/>
+						</uxap:customData>
+					</template:if>
+				</uxap:ObjectPageHeaderActionButton>
+			</template:with>
+		</template:if>
+
+		<!-- Delete button -->
+		<template:if test="{parts: [{path: 'entitySet>Org.OData.Capabilities.V1.DeleteRestrictions'}, {path: 'entitySet>'}, {value: 'Deletable'}], formatter: 'AH.areBooleanRestrictionsValidAndPossible'}">
+			<template:with path="parameter>/templateSpecific/pageLevelActions/commandExecution/Delete" var="deleteAction">
+				<uxap:ObjectPageHeaderActionButton id="{deleteAction>id}"
+					text="{deleteAction>text}"
+					enabled="{ui>/enabled}"
+					hideText="false"
+					press="{deleteAction>press}"
+					importance="Medium"
+					type="Default"
+					fesr:press="fe:delete"
+					ariaHasPopup="{deleteAction>ariaHasPopup}"
+					visible="{= ${deleteAction>visible} || ${parts: [{path: 'entitySet>Org.OData.Capabilities.V1.DeleteRestrictions'}, {path: 'entitySet>'}, {path: 'appSettings>/'}, {path: 'parameter>/treeNode'}], formatter: 'AHActionButtons.getDeleteActionButtonVisibility'} }" />
+			</template:with>
+		</template:if>
+	</template:if>
+
+	<!-- dataFieldForActions annotated with isCopyAction -->
+	<template:if test="{path: 'entityType>com.sap.vocabularies.UI.v1.Identification', formatter: 'AH.checkCopyActionValidity'}">
+		<template:if test="{= ${path: 'parameter>/treeNode/level'} === 1}">
+			<template:repeat list="{entityType>com.sap.vocabularies.UI.v1.Identification}" var="dataField">
+        		<template:if test="{= ${dataField>RecordType} === 'com.sap.vocabularies.UI.v1.DataFieldForAction' &amp;&amp; ${dataField>Determining/Bool} !== 'true' &amp;&amp; ${dataField>com.sap.vocabularies.UI.v1.IsCopyAction/Bool} === 'true'}">
+                	<template:then>
+						<template:with path="dataField>Action"	helper="AHModel.gotoFunctionImport"	var="action">
+							<template:with path="parameter>/variables" helper="AH.getNewVariable" var="actionId">
+								<template:if test="{= ${actionId>}.set('action::' + ${path: 'dataField>', formatter: 'AH.getStableIdPartFromDataField'}) }"/>
+								<uxap:ObjectPageHeaderActionButton
+									id="{actionId>value}"
+									text="{= ${path: 'dataField>Label'} ? ${path: 'dataField>Label', formatter: 'AHModel.format'} : '{i18n>COPY}'}"
+									hideText="false"
+									press="{parts: [{path: 'dataField>'}, {path: 'actionId>value'}], formatter: 'AHActionButtons.getCallAction'}"
+									type="Default"
+									fesr:press="fe:copy"
+									visible="{parts: [{path: 'action>sap:applicable-path'}, {path: 'entitySet>entityType'}, {path: 'dataField>'}, {path: 'parameter>/isDraftEnabled'}], formatter: 'AHActionButtons.getDatafieldForActionVisibility'}"
+									enabled="{ui>/enabled}"
+									importance="Medium" />
+							</template:with>
+						</template:with>
+               		</template:then>
+        		</template:if>
+    		</template:repeat>
+		</template:if>
+	</template:if>
+
+	<!-- Display Active and Continue Editing buttons -->
+	<template:if test="{= ${appSettings>/objectPageHeaderType} === 'Static' &amp;&amp; ${parameter>/treeNode/level} === 1 &amp;&amp; ${parameter>/isDraftEnabled} &amp;&amp; !${parameter>/manifest/sap.ui.generic.app/pages/0/component/settings/treeTable} }">
+		<uxap:ObjectPageHeaderActionButton
+			id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'DisplayActiveVersion'})}" text="{i18n>DISPLAY_ACTIVE_VERSION}"
+			visible="{= ${HasActiveEntity} &amp;&amp; !${IsActiveEntity} }"
+			type="Default" hideText="false" importance="Medium" enabled="{ui>/enabled}"
+			press="._templateEventHandlers.onEditAndActiveToggle">
+		</uxap:ObjectPageHeaderActionButton>
+		<uxap:ObjectPageHeaderActionButton
+			id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'ContinueEditing'})}" text="{i18n>CONTINUE_EDITING}"
+			visible="{= ${HasDraftEntity} &amp;&amp; ${IsActiveEntity} &amp;&amp; ${DraftAdministrativeData/DraftIsCreatedByMe} }"
+			type="Default" hideText="false" importance="Medium" enabled="{ui>/enabled}"
+			press="._templateEventHandlers.onEditAndActiveToggle">
+		</uxap:ObjectPageHeaderActionButton>
+	</template:if>
+
+	<!-- add the non-determining dataFieldForActions with importance High -->
+	<template:repeat list="{entityType>com.sap.vocabularies.UI.v1.Identification}" var="dataField">
+		<template:if test="{= ${dataField>RecordType} === 'com.sap.vocabularies.UI.v1.DataFieldForAction' &amp;&amp; ${dataField>Determining/Bool} !== 'true' &amp;&amp; ${dataField>com.sap.vocabularies.UI.v1.Importance/EnumMember} === 'com.sap.vocabularies.UI.v1.ImportanceType/High' &amp;&amp; ${dataField>com.sap.vocabularies.UI.v1.IsCopyAction/Bool} !== 'true' }">
+			<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.DataFieldForActionNonDetermining" type="XML"/>
+		</template:if>
+	</template:repeat>
+
+	<!-- add the non-determining dataFieldForActions with importance less then High -->
+	<template:repeat list="{entityType>com.sap.vocabularies.UI.v1.Identification}" var="dataField">
+		<template:if test="{= ${dataField>RecordType} === 'com.sap.vocabularies.UI.v1.DataFieldForAction' &amp;&amp; ${dataField>Determining/Bool} !== 'true' &amp;&amp; ${dataField>com.sap.vocabularies.UI.v1.Importance/EnumMember} !== 'com.sap.vocabularies.UI.v1.ImportanceType/High' &amp;&amp; ${dataField>com.sap.vocabularies.UI.v1.IsCopyAction/Bool} !== 'true' }">
+			<core:Fragment fragmentName="sap.suite.ui.generic.template.ObjectPage.view.fragments.DataFieldForActionNonDetermining" type="XML"/>
+		</template:if>
+	</template:repeat>
+
+	<!-- Custom Action Breakout -->
+	<template:repeat list="{parameter>/templateSpecific/pageLevelActions/extensionActions}" var="customAction">
+		<template:if test="{= ${customAction>determining} !== true}">
+			<uxap:ObjectPageHeaderActionButton id="{customAction>id}"
+				text="{customAction>text}"
+				press="{customAction>press}"
+				enabled="{ui>/enabled}"
+				visible="{path: 'customAction>applicablePath', formatter: 'AHActionButtons.getActionControlBreakoutVisibility'}"
+				hideText="false"
+				importance="Medium"
+				type="Default">
+			</uxap:ObjectPageHeaderActionButton>
+		</template:if>
+	</template:repeat>
+
+	<template:if test="{parameter>/settings/showRelatedApps}">
+		<uxap:ObjectPageHeaderActionButton id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'RelatedApps'}) }"
+			text="{i18n>RELATED_APPS}"
+			hideText="false"
+			importance="Medium"
+			type="Default"
+			ariaHasPopup="Dialog"
+			fesr:press="fe:relatedApps"
+			press="._templateEventHandlers.onRelatedApps"
+			visible="{_templPrivGlobal>/generic/crossAppNavSupport}"/>
+	</template:if>
+
+	<MenuButton id="{:= ${parameter>/stableId}.getStableId({type: 'ObjectPageAction', subType: 'Share'}) }"
+		text=""
+		icon="sap-icon://action"
+		enabled="{ui>/enabled}"
+		type="Transparent"
+		fesr:press="fe:share"
+		tooltip="{i18n>SHARE} (Shift+Ctrl+S)"
+		visible="{parts: [{path: 'appSettings>/flexibleColumnLayout'}, {path: 'parameter>/treeNode/level'}], formatter: 'AH.getShareButtonVisibility'}"/>
+</core:FragmentDefinition>
