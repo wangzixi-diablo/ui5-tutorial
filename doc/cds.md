@@ -54,6 +54,7 @@
 - [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abenddic_cds_entities.htm)
 - [左侧有导航条](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm?file=abenddic_cds_views.htm)
 - [向导](https://help.sap.com/docs/SAP_NETWEAVER_750/cc0c305d2fab47bd808adcad3ca7ee9d/d57438669aae4d0083ce767b9505ca48.html?version=7.5.17)
+- [SAP S/4HANA 里的 CDS view 介绍](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8/8573b810511948c8a99c0672abc159aa.html)
 - demo_cds_annotation_array
 - demo_cds_semantics_annotation
 - DEMO_SHOW_DDL_SOURCE

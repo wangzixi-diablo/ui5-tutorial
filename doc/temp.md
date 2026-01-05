@@ -1,2 +1,2 @@
-jerryfiorielement08::sap.suite.ui.generic.template.ObjectPage.view.Details::SEPMRA_C_PD_Product
-jerryfiorielement08::sap.suite.ui.generic.template.ObjectPage.view.Details::SEPMRA_C_PD_Product--edit
+
+用 SELECT FROM @itab 把内表当成可查询的数据源：语义更强，代码更瘦，但别忽略性能账单
