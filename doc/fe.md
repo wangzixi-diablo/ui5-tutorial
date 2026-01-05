@@ -176,6 +176,12 @@ Analytical List Page 的外观：
 
 - [SAP UI5 开发里命令行 ui5 serve 和 npx fiori run 有什么区别？](https://jerry.blog.csdn.net/article/details/130475423)
 
+- [Fiori Elements 项目文件夹里 ui5.yaml 文件内容的逐行解释](https://blog.csdn.net/i042416/article/details/156604755)
+
+- [关于 Fiori Elements 项目 ui5.yaml 文件中 customMiddleware 的详细配置解答](https://blog.csdn.net/i042416/article/details/156613558)
+
+- [如何将 Fiori Elements Object Page Header 工具栏里按钮用 JavaScript 代码设置成禁用状态](https://blog.csdn.net/i042416/article/details/156613646)
+
 # 参考文献
 
 - [How To Use SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/20de9506339949c7bd16b789e8352f26)

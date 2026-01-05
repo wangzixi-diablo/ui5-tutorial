@@ -1,2 +1,2 @@
 
-用 SELECT FROM @itab 把内表当成可查询的数据源：语义更强，代码更瘦，但别忽略性能账单
+SAML2 service not accessible 与 No RelayState mapping found 导致 HTTP 404 的定位与修复全流程
