@@ -182,6 +182,8 @@ Analytical List Page 的外观：
 
 - [如何将 Fiori Elements Object Page Header 工具栏里按钮用 JavaScript 代码设置成禁用状态](https://blog.csdn.net/i042416/article/details/156613646)
 
+- [SAP Gateway Demo 系统 ES5 停用之后的解决办法](https://blog.csdn.net/i042416/article/details/156643072)
+
 # 参考文献
 
 - [How To Use SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/20de9506339949c7bd16b789e8352f26)
