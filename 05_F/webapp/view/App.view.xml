@@ -5,4 +5,7 @@
 	<Button
 		text="Open SAP.com(Tab)"
 		press=".onOpenSap"/>
+	<Button
+		text="Open Baidu.com (Popup)"
+		press=".onOpenBaiduPopup"/>
 </mvc:View>
