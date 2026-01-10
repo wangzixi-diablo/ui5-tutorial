@@ -11,3 +11,4 @@ resources/
 .bat
 *.bat
 settings.js
+doc/temp.md
