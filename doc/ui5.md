@@ -562,6 +562,8 @@
 
 - [问题解答：如何在 SAP UI5 应用里显示环状进度条？](https://blog.csdn.net/i042416/article/details/150640017)
 
+- [问题解答：SAP UI5 概念辨析 之 namespace，library 和 module 的理解](https://blog.csdn.net/i042416/article/details/156806507)
+
 # 使用技巧和故障排查指南
 
 本区域列出了笔者进行 SAP UI5 开发过程中日积月累搜集到的一些开发小技巧和故障排查指南。

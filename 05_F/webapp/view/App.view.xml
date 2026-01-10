@@ -3,10 +3,6 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Button
-		text="Say Hello"
-		press=".onShowHello"/>
-    
-	<Button
-		text="Open SAP.com"
+		text="Open SAP.com(Tab)"
 		press=".onOpenSap"/>
 </mvc:View>
