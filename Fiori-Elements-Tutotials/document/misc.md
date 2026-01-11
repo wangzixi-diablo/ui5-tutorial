@@ -23,3 +23,7 @@ The following types of vocabulary-based annotations are available:
 - Ex-place: These are composed of an Annotation Provider Class (APC) outside the metadata document. The APC is bound to the service using a registration in transaction /IWBEP/REG_VOCAN.
 
 These annotations are available using a query to the SAP Gateway catalog service, /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/. Entity Set: ‚Annotations‘.
+
+# 2026-1-11
+
+ES5 停用了，只能用 QM7，AG3 无法 add service，说是 original 系统已经有了。但 QM7 已经默认添加好了。直接用。

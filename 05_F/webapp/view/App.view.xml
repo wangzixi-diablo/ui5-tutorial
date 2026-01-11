@@ -8,4 +8,7 @@
 	<Button
 		text="Open Baidu.com (Popup)"
 		press=".onOpenBaiduPopup"/>
+	<Button
+		text="Route to Baidu (Same Tab)"
+		press=".onRouteToBaidu"/>
 </mvc:View>

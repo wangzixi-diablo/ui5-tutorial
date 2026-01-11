@@ -26,6 +26,12 @@ sap.ui.define([
 			} catch (e) {
 				// Ignore if the browser prevents access
 			}
+		},
+
+		// Redirect current page to Baidu (same tab navigation)
+		onRouteToBaidu: function () {
+			// Using URLHelper without second parameter or with false will navigate in the same tab
+			Library.URLHelper.redirect("https://www.baidu.com", false);
 		}
 	});
 });
