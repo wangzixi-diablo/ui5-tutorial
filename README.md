@@ -1,4 +1,4 @@
-18年深耕企业管理软件领域，精通 ABAP, Java, Javascript, Typescript, 精通 UI5, Fiori, Fiori Element, Angular, Kubernetes, SAP HANA, SAP BTP. 
+19年深耕企业管理软件领域，精通 ABAP, Java, Javascript, Typescript, 精通 UI5, Fiori, Fiori Element, Angular, Kubernetes, SAP HANA, SAP BTP. 
 
 具有通过阅读 Github 上各种优秀的开源框架和工具源代码的习惯。
 

@@ -58,3 +58,7 @@
 - demo_cds_annotation_array
 - demo_cds_semantics_annotation
 - DEMO_SHOW_DDL_SOURCE
+
+- [define basic view](https://learning.sap.com/courses/building-data-models-with-the-abap-dictionary-and-abap-core-data-services/defining-a-basic-cds-view_b94f4075-778b-4311-b28b-f9f46b870c5e)
+
+- [Exploring ABAP Core Data Services](https://learning.sap.com/courses/building-data-models-with-the-abap-dictionary-and-abap-core-data-services/exploring-abap-core-data-services_f6b58d1f-ca51-461b-8355-aef95aa3864e)
